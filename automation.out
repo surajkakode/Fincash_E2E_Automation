@@ -141,3 +141,67 @@
 2017-12-04 16:03:13 INFO  TC002_VerifyLoginWithValidCredential:30 - Actual Title :Dashboard | Fincash.com
 2017-12-04 16:03:13 INFO  TC002_VerifyLoginWithValidCredential:33 - Actual Title :Dashboard | Fincash.com Expected is : Dashboard | Fincash.com
 2017-12-04 16:03:13 INFO  TC002_VerifyLoginWithValidCredential:35 - ================ Finished verifyLoginWithValidCredential Test 
+2017-12-04 16:27:13 INFO  TestBase:40 - Creating the object of null
+2017-12-04 16:27:16 INFO  TestBase:49 - Navigating to : https://api.fincash.com
+2017-12-04 16:27:18 INFO  TC001_VerifyLoginWithInvalidCredential:25 - ================ Starting verifyLoginWithInValidCredential Test 
+2017-12-04 16:27:18 INFO  Homepage:40 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (8760afc1fdbd0bb52bf83c08a5614bfe)] -> xpath: //span[text()='LOG IN']]
+2017-12-04 16:27:19 INFO  Homepage:43 - Entered Email = suraj.kakode@fincash.com and object is : [[ChromeDriver: chrome on XP (8760afc1fdbd0bb52bf83c08a5614bfe)] -> css selector: input[placeholder='Email Id']]
+2017-12-04 16:27:19 INFO  Homepage:46 - Entered password = kakode922 and object is : [[ChromeDriver: chrome on XP (8760afc1fdbd0bb52bf83c08a5614bfe)] -> css selector: input[type=password][placeholder='Password']]
+2017-12-04 16:27:19 INFO  Homepage:49 - Submitted form and object is :  [[ChromeDriver: chrome on XP (8760afc1fdbd0bb52bf83c08a5614bfe)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2017-12-04 16:27:24 INFO  TC001_VerifyLoginWithInvalidCredential:33 - ================ Finished verifyLoginWithInValidCredential Test 
+2017-12-04 16:27:24 INFO  TC002_VerifyLoginWithValidCredential:25 - ================ Starting verifyLoginWithValidCredential Test 
+2017-12-04 16:27:24 INFO  Homepage:40 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (8f1fc46f0ef57ff2e160ceb69b0e993c)] -> xpath: //span[text()='LOG IN']]
+2017-12-04 16:27:25 INFO  Homepage:43 - Entered Email = suraj.kakode@fincash.com and object is : [[ChromeDriver: chrome on XP (8f1fc46f0ef57ff2e160ceb69b0e993c)] -> css selector: input[placeholder='Email Id']]
+2017-12-04 16:27:26 INFO  Homepage:46 - Entered password = kakode92 and object is : [[ChromeDriver: chrome on XP (8f1fc46f0ef57ff2e160ceb69b0e993c)] -> css selector: input[type=password][placeholder='Password']]
+2017-12-04 16:27:26 INFO  Homepage:49 - Submitted form and object is :  [[ChromeDriver: chrome on XP (8f1fc46f0ef57ff2e160ceb69b0e993c)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2017-12-04 16:27:31 INFO  TC002_VerifyLoginWithValidCredential:30 - Actual Title :Dashboard | Fincash.com
+2017-12-04 16:27:31 INFO  TC002_VerifyLoginWithValidCredential:33 - Actual Title :Dashboard | Fincash.com Expected is : Dashboard | Fincash.com
+2017-12-04 16:27:31 INFO  TC002_VerifyLoginWithValidCredential:35 - ================ Finished verifyLoginWithValidCredential Test 
+2017-12-04 17:26:24 INFO  TestBase:40 - Creating the object of null
+2017-12-04 17:26:27 INFO  TestBase:49 - Navigating to : https://api.fincash.com
+2017-12-04 17:26:29 INFO  TC001_VerifyLoginWithInvalidCredential:25 - ================ Starting verifyLoginWithInValidCredential Test 
+2017-12-04 17:26:30 INFO  Homepage:40 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (3422c8379149cf542b92f6a9ac8a947a)] -> xpath: //span[text()='LOG IN']]
+2017-12-04 17:26:31 INFO  Homepage:43 - Entered Email = suraj.kakode@fincash.com and object is : [[ChromeDriver: chrome on XP (3422c8379149cf542b92f6a9ac8a947a)] -> css selector: input[placeholder='Email Id']]
+2017-12-04 17:26:31 INFO  Homepage:46 - Entered password = kakode922 and object is : [[ChromeDriver: chrome on XP (3422c8379149cf542b92f6a9ac8a947a)] -> css selector: input[type=password][placeholder='Password']]
+2017-12-04 17:26:31 INFO  Homepage:49 - Submitted form and object is :  [[ChromeDriver: chrome on XP (3422c8379149cf542b92f6a9ac8a947a)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2017-12-04 17:26:36 INFO  TC001_VerifyLoginWithInvalidCredential:33 - ================ Finished verifyLoginWithInValidCredential Test 
+2017-12-04 17:26:36 INFO  TC002_VerifyLoginWithValidCredential:25 - ================ Starting verifyLoginWithValidCredential Test 
+2017-12-04 17:26:36 INFO  Homepage:40 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (e3eac3b047ad36230dfc737c5a204619)] -> xpath: //span[text()='LOG IN']]
+2017-12-04 17:26:37 INFO  Homepage:43 - Entered Email = suraj.kakode@fincash.com and object is : [[ChromeDriver: chrome on XP (e3eac3b047ad36230dfc737c5a204619)] -> css selector: input[placeholder='Email Id']]
+2017-12-04 17:26:37 INFO  Homepage:46 - Entered password = kakode92 and object is : [[ChromeDriver: chrome on XP (e3eac3b047ad36230dfc737c5a204619)] -> css selector: input[type=password][placeholder='Password']]
+2017-12-04 17:26:37 INFO  Homepage:49 - Submitted form and object is :  [[ChromeDriver: chrome on XP (e3eac3b047ad36230dfc737c5a204619)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2017-12-04 17:26:42 INFO  TC002_VerifyLoginWithValidCredential:30 - Actual Title :Dashboard | Fincash.com
+2017-12-04 17:26:42 INFO  TC002_VerifyLoginWithValidCredential:33 - Actual Title :Dashboard | Fincash.com Expected is : Dashboard | Fincash.com
+2017-12-04 17:26:42 INFO  TC002_VerifyLoginWithValidCredential:35 - ================ Finished verifyLoginWithValidCredential Test 
+2017-12-04 17:44:05 INFO  TestBase:40 - Creating the object of null
+2017-12-04 17:44:09 INFO  TestBase:49 - Navigating to : https://api.fincash.com
+2017-12-04 17:44:11 INFO  TC001_VerifyLoginWithInvalidCredential:25 - ================ Starting verifyLoginWithInValidCredential Test 
+2017-12-04 17:44:11 INFO  Homepage:40 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (f30128f9462f821ecef82092d7ba11a3)] -> xpath: //span[text()='LOG IN']]
+2017-12-04 17:44:12 INFO  Homepage:43 - Entered Email = suraj.kakode@fincash.com and object is : [[ChromeDriver: chrome on XP (f30128f9462f821ecef82092d7ba11a3)] -> css selector: input[placeholder='Email Id']]
+2017-12-04 17:44:12 INFO  Homepage:46 - Entered password = kakode922 and object is : [[ChromeDriver: chrome on XP (f30128f9462f821ecef82092d7ba11a3)] -> css selector: input[type=password][placeholder='Password']]
+2017-12-04 17:44:12 INFO  Homepage:49 - Submitted form and object is :  [[ChromeDriver: chrome on XP (f30128f9462f821ecef82092d7ba11a3)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2017-12-04 17:44:17 INFO  TC001_VerifyLoginWithInvalidCredential:33 - ================ Finished verifyLoginWithInValidCredential Test 
+2017-12-04 17:44:17 INFO  TC002_VerifyLoginWithValidCredential:25 - ================ Starting verifyLoginWithValidCredential Test 
+2017-12-04 17:44:17 INFO  Homepage:40 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (9e7aced6623bd52d2049a82c8b645612)] -> xpath: //span[text()='LOG IN']]
+2017-12-04 17:44:18 INFO  Homepage:43 - Entered Email = suraj.kakode@fincash.com and object is : [[ChromeDriver: chrome on XP (9e7aced6623bd52d2049a82c8b645612)] -> css selector: input[placeholder='Email Id']]
+2017-12-04 17:44:18 INFO  Homepage:46 - Entered password = kakode92 and object is : [[ChromeDriver: chrome on XP (9e7aced6623bd52d2049a82c8b645612)] -> css selector: input[type=password][placeholder='Password']]
+2017-12-04 17:44:18 INFO  Homepage:49 - Submitted form and object is :  [[ChromeDriver: chrome on XP (9e7aced6623bd52d2049a82c8b645612)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2017-12-04 17:44:23 INFO  TC002_VerifyLoginWithValidCredential:30 - Actual Title :Dashboard | Fincash.com
+2017-12-04 17:44:23 INFO  TC002_VerifyLoginWithValidCredential:33 - Actual Title :Dashboard | Fincash.com Expected is : Dashboard | Fincash.com
+2017-12-04 17:44:23 INFO  TC002_VerifyLoginWithValidCredential:35 - ================ Finished verifyLoginWithValidCredential Test 
+2017-12-04 18:43:37 INFO  TestBase:40 - Creating the object of null
+2017-12-04 18:43:40 INFO  TestBase:49 - Navigating to : https://api.fincash.com
+2017-12-04 18:43:43 INFO  TC001_VerifyLoginWithInvalidCredential:25 - ================ Starting verifyLoginWithInValidCredential Test 
+2017-12-04 18:43:43 INFO  Homepage:40 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (fae2dc05c6f7882f5fd64a753798a734)] -> xpath: //span[text()='LOG IN']]
+2017-12-04 18:43:44 INFO  Homepage:43 - Entered Email = suraj.kakode@fincash.com and object is : [[ChromeDriver: chrome on XP (fae2dc05c6f7882f5fd64a753798a734)] -> css selector: input[placeholder='Email Id']]
+2017-12-04 18:43:44 INFO  Homepage:46 - Entered password = kakode922 and object is : [[ChromeDriver: chrome on XP (fae2dc05c6f7882f5fd64a753798a734)] -> css selector: input[type=password][placeholder='Password']]
+2017-12-04 18:43:44 INFO  Homepage:49 - Submitted form and object is :  [[ChromeDriver: chrome on XP (fae2dc05c6f7882f5fd64a753798a734)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2017-12-04 18:43:49 INFO  TC001_VerifyLoginWithInvalidCredential:33 - ================ Finished verifyLoginWithInValidCredential Test 
+2017-12-04 18:43:49 INFO  TC002_VerifyLoginWithValidCredential:25 - ================ Starting verifyLoginWithValidCredential Test 
+2017-12-04 18:43:49 INFO  Homepage:40 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (9e7695a2b099dfb8809343c1886ba559)] -> xpath: //span[text()='LOG IN']]
+2017-12-04 18:43:50 INFO  Homepage:43 - Entered Email = suraj.kakode@fincash.com and object is : [[ChromeDriver: chrome on XP (9e7695a2b099dfb8809343c1886ba559)] -> css selector: input[placeholder='Email Id']]
+2017-12-04 18:43:50 INFO  Homepage:46 - Entered password = kakode92 and object is : [[ChromeDriver: chrome on XP (9e7695a2b099dfb8809343c1886ba559)] -> css selector: input[type=password][placeholder='Password']]
+2017-12-04 18:43:50 INFO  Homepage:49 - Submitted form and object is :  [[ChromeDriver: chrome on XP (9e7695a2b099dfb8809343c1886ba559)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2017-12-04 18:43:56 INFO  TC002_VerifyLoginWithValidCredential:30 - Actual Title :Dashboard | Fincash.com
+2017-12-04 18:43:56 INFO  TC002_VerifyLoginWithValidCredential:33 - Actual Title :Dashboard | Fincash.com Expected is : Dashboard | Fincash.com
+2017-12-04 18:43:56 INFO  TC002_VerifyLoginWithValidCredential:35 - ================ Finished verifyLoginWithValidCredential Test 
