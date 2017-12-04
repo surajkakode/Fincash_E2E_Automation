@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
+  <test name="Fincash_E2E_Automation(failed)">
+    <classes>
+      <class name="login.TC002_VerifyLoginWithValidCredential">
+        <methods>
+          <include name="endTest"/>
+          <include name="setup"/>
+          <include name="verifyLoginWithInValidCredential"/>
+        </methods>
+      </class> <!-- login.TC002_VerifyLoginWithValidCredential -->
+    </classes>
+  </test> <!-- Fincash_E2E_Automation(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
