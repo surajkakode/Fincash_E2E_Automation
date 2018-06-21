@@ -20,18 +20,14 @@ public class TC002_VerifyLoginWithValidCredential extends TestBase{
         init();
     }
     @Test
-    public void verifyLoginWithInValidCredential() throws InterruptedException {
+    public void verifyLoginWithValidCredential() throws InterruptedException {
 
         log.info("================ Starting verifyLoginWithValidCredential Test ");
         homepage = new Homepage(driver);
         homepage.loginToApplication("suraj.kakode@fincash.com","kakode92");
         Thread.sleep(5000);
-        String actualTitle = driver.getTitle();
-        log.info("Actual Title :"+ driver.getTitle());
-        String ExpectedTitle = "Dashboard | Fincash.com";
-        //boolean result = homepage.isLoggedIn();
-        log.info("Actual Title :"+ actualTitle + " Expected is : "+ ExpectedTitle);
-        Assert.assertEquals(actualTitle,ExpectedTitle);
+        Assert.assertEquals(homepage.isLoginSuccess(),true);
+        getScreenShot("SuccessLogin");
         log.info("================ Finished verifyLoginWithValidCredential Test ");
     }
 

@@ -205,3 +205,1616 @@
 2017-12-04 18:43:56 INFO  TC002_VerifyLoginWithValidCredential:30 - Actual Title :Dashboard | Fincash.com
 2017-12-04 18:43:56 INFO  TC002_VerifyLoginWithValidCredential:33 - Actual Title :Dashboard | Fincash.com Expected is : Dashboard | Fincash.com
 2017-12-04 18:43:56 INFO  TC002_VerifyLoginWithValidCredential:35 - ================ Finished verifyLoginWithValidCredential Test 
+2018-04-03 14:31:23 INFO  TestBase:40 - Creating the object of null
+2018-04-03 14:31:26 INFO  TestBase:49 - Navigating to : https://api.fincash.com
+2018-04-03 14:31:30 INFO  TC001_VerifyLoginWithInvalidCredential:25 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-04-03 14:31:31 INFO  Homepage:40 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (2840b87aa182f4765807af37eec391a9)] -> xpath: //span[text()='LOG IN']]
+2018-04-03 14:31:31 INFO  TC002_VerifyLoginWithValidCredential:25 - ================ Starting verifyLoginWithValidCredential Test 
+2018-04-03 14:31:31 INFO  Homepage:40 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (6f66f8b8f28aef4bbf519a49bcf6bf01)] -> xpath: //span[text()='LOG IN']]
+2018-06-09 18:36:07 INFO  TestBase:40 - Creating the object of null
+2018-06-09 18:36:11 INFO  TestBase:49 - Navigating to : https://api.fincash.com
+2018-06-09 18:36:15 INFO  TestBase:40 - Creating the object of null
+2018-06-09 18:36:18 INFO  TestBase:49 - Navigating to : https://api.fincash.com
+2018-06-09 18:36:22 INFO  RoughWork:15 - This class is for rough work--- Logger
+2018-06-09 18:36:22 INFO  TC001_VerifyLoginWithInvalidCredential:26 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-06-09 18:36:22 INFO  Homepage:40 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (75096bb03a33498c5fa9fa66a32ad1a6)] -> xpath: //span[text()='LOG IN']]
+2018-06-09 18:36:22 INFO  TC002_VerifyLoginWithValidCredential:25 - ================ Starting verifyLoginWithValidCredential Test 
+2018-06-09 18:36:22 INFO  Homepage:40 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (204996eeda1c97ca872530080a730b82)] -> xpath: //span[text()='LOG IN']]
+2018-06-11 16:12:34 INFO  TC001_VerifyLoginWithInvalidCredential:26 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-06-11 16:12:34 INFO  Homepage:41 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (c89ad57372f55e54f13916f15dfe0288)] -> xpath: //span[text()='LOG IN']]
+2018-06-11 16:17:03 INFO  TC001_VerifyLoginWithInvalidCredential:26 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-06-11 16:24:25 INFO  Homepage:41 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (6a4abff6354022b5097b0d5f71a7a376)] -> xpath: //span[text()='LOG IN']]
+2018-06-11 16:26:05 INFO  TC001_VerifyLoginWithInvalidCredential:26 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-06-11 16:30:48 INFO  Homepage:41 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (721ac6a5abe98e31c39f57f3b8467fd8)] -> xpath: //span[text()='LOG IN']]
+2018-06-11 16:37:58 INFO  TC001_VerifyLoginWithInvalidCredential:26 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-06-11 16:38:05 INFO  Homepage:41 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (70a22e612daa379b995e6263a56de286)] -> xpath: //span[text()='LOG IN']]
+2018-06-11 16:38:15 INFO  TC001_VerifyLoginWithInvalidCredential:26 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-06-11 16:38:15 INFO  Homepage:41 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (725c2ea890438e00128217ba70bfd14f)] -> xpath: //span[text()='LOG IN']]
+2018-06-11 16:49:09 INFO  TC001_VerifyLoginWithInvalidCredential:26 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-06-11 16:49:09 INFO  Homepage:41 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (e5431d5017275bec748d25450c33a8f6)] -> xpath: //span[text()='LOG IN']]
+2018-06-11 16:49:10 INFO  Homepage:44 - Entered Email = suraj.kakode@fincash.com and object is : [[ChromeDriver: chrome on XP (e5431d5017275bec748d25450c33a8f6)] -> css selector: input[placeholder='Email Id']]
+2018-06-11 16:49:10 INFO  Homepage:47 - Entered password = kakode922 and object is : [[ChromeDriver: chrome on XP (e5431d5017275bec748d25450c33a8f6)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-11 16:49:10 INFO  Homepage:50 - Submitted form and object is :  [[ChromeDriver: chrome on XP (e5431d5017275bec748d25450c33a8f6)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-11 16:49:15 INFO  TC001_VerifyLoginWithInvalidCredential:34 - ================ Finished verifyLoginWithInValidCredential Test 
+2018-06-11 16:50:12 INFO  TC001_VerifyLoginWithInvalidCredential:26 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-06-11 16:50:12 INFO  Homepage:41 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (613cc1a0e690b0429c893cb56ca56cd2)] -> xpath: //span[text()='LOG IN']]
+2018-06-11 16:50:12 INFO  Homepage:44 - Entered Email = suraj.kakode@fincash.com and object is : [[ChromeDriver: chrome on XP (613cc1a0e690b0429c893cb56ca56cd2)] -> css selector: input[placeholder='Email Id']]
+2018-06-11 16:50:13 INFO  Homepage:47 - Entered password = kakode922 and object is : [[ChromeDriver: chrome on XP (613cc1a0e690b0429c893cb56ca56cd2)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-11 16:50:13 INFO  Homepage:50 - Submitted form and object is :  [[ChromeDriver: chrome on XP (613cc1a0e690b0429c893cb56ca56cd2)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-11 16:50:18 INFO  TC001_VerifyLoginWithInvalidCredential:34 - ================ Finished verifyLoginWithInValidCredential Test 
+2018-06-11 16:50:47 INFO  TC001_VerifyLoginWithInvalidCredential:26 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-06-11 16:50:47 INFO  Homepage:41 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (74c911c3fcc7a05b9953a197979bba50)] -> xpath: //span[text()='LOG IN']]
+2018-06-11 16:51:17 INFO  Homepage:44 - Entered Email = suraj.kakode@fincash.com and object is : [[ChromeDriver: chrome on XP (74c911c3fcc7a05b9953a197979bba50)] -> css selector: input[placeholder='Email Id']]
+2018-06-11 16:52:28 INFO  Homepage:47 - Entered password = kakode922 and object is : [[ChromeDriver: chrome on XP (74c911c3fcc7a05b9953a197979bba50)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-11 16:54:20 INFO  Homepage:50 - Submitted form and object is :  Proxy element for: DefaultElementLocator 'By.xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]'
+2018-06-11 17:14:49 INFO  TC001_VerifyLoginWithInvalidCredential:26 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-06-11 17:14:50 INFO  Homepage:40 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (9cc7f08968f28fbc44682d21582cd5a8)] -> xpath: //span[text()='LOG IN']]
+2018-06-11 17:14:50 INFO  Homepage:43 - Entered Email = suraj.kakode@fincash.com and object is : [[ChromeDriver: chrome on XP (9cc7f08968f28fbc44682d21582cd5a8)] -> css selector: input[placeholder='Email Id']]
+2018-06-11 17:14:50 INFO  Homepage:46 - Entered password = kakode922 and object is : [[ChromeDriver: chrome on XP (9cc7f08968f28fbc44682d21582cd5a8)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-11 17:14:50 INFO  Homepage:49 - Submitted form and object is :  [[ChromeDriver: chrome on XP (9cc7f08968f28fbc44682d21582cd5a8)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-11 17:16:47 INFO  TC001_VerifyLoginWithInvalidCredential:26 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-06-11 17:16:47 INFO  Homepage:40 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (b8b07ffbc8fc5a0f9bf4d89685acff46)] -> xpath: //span[text()='LOG IN']]
+2018-06-11 17:16:47 INFO  Homepage:43 - Entered Email = suraj.kakode@fincash.com and object is : [[ChromeDriver: chrome on XP (b8b07ffbc8fc5a0f9bf4d89685acff46)] -> css selector: input[placeholder='Email Id']]
+2018-06-11 17:16:47 INFO  Homepage:46 - Entered password = kakode922 and object is : [[ChromeDriver: chrome on XP (b8b07ffbc8fc5a0f9bf4d89685acff46)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-11 17:16:47 INFO  Homepage:49 - Submitted form and object is :  [[ChromeDriver: chrome on XP (b8b07ffbc8fc5a0f9bf4d89685acff46)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-11 17:21:08 INFO  TC001_VerifyLoginWithInvalidCredential:26 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-06-11 17:21:08 INFO  Homepage:40 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (2dc06aaabed7ddedcc6b83b45e2cbfd4)] -> xpath: //span[text()='LOG IN']]
+2018-06-11 17:21:08 INFO  Homepage:43 - Entered Email = suraj.kakode@fincash.com and object is : [[ChromeDriver: chrome on XP (2dc06aaabed7ddedcc6b83b45e2cbfd4)] -> css selector: input[placeholder='Email Id']]
+2018-06-11 17:21:08 INFO  Homepage:46 - Entered password = kakode922 and object is : [[ChromeDriver: chrome on XP (2dc06aaabed7ddedcc6b83b45e2cbfd4)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-11 17:21:08 INFO  Homepage:49 - Submitted form and object is :  [[ChromeDriver: chrome on XP (2dc06aaabed7ddedcc6b83b45e2cbfd4)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-11 17:21:13 INFO  TC001_VerifyLoginWithInvalidCredential:32 - ================ Finished verifyLoginWithInValidCredential Test 
+2018-06-11 17:40:57 INFO  TestBase:40 - Creating the object of null
+2018-06-11 17:41:01 INFO  TestBase:49 - Navigating to : https://api.fincash.com
+2018-06-11 17:41:05 INFO  TC001_VerifyLoginWithInvalidCredential:26 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-06-11 17:41:05 INFO  Homepage:40 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (e5971084cdd595d2321f3bbdc53ca1f0)] -> xpath: //span[text()='LOG IN']]
+2018-06-11 17:41:06 INFO  Homepage:49 - Entered Email = suraj.kakode@fincash.com and object is : [[ChromeDriver: chrome on XP (e5971084cdd595d2321f3bbdc53ca1f0)] -> css selector: input[placeholder='Email Id']]
+2018-06-11 17:41:06 INFO  Homepage:52 - Entered password = kakode922 and object is : [[ChromeDriver: chrome on XP (e5971084cdd595d2321f3bbdc53ca1f0)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-11 17:41:06 INFO  Homepage:55 - Submitted form and object is :  [[ChromeDriver: chrome on XP (e5971084cdd595d2321f3bbdc53ca1f0)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-11 17:41:11 INFO  TC001_VerifyLoginWithInvalidCredential:32 - ================ Finished verifyLoginWithInValidCredential Test 
+2018-06-11 17:41:11 INFO  TC002_VerifyLoginWithValidCredential:25 - ================ Starting verifyLoginWithValidCredential Test 
+2018-06-11 17:41:11 INFO  Homepage:40 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (5a2af19a7232f53b754f386264684067)] -> xpath: //span[text()='LOG IN']]
+2018-06-11 17:41:11 INFO  Homepage:49 - Entered Email = suraj.kakode@fincash.com and object is : [[ChromeDriver: chrome on XP (5a2af19a7232f53b754f386264684067)] -> css selector: input[placeholder='Email Id']]
+2018-06-11 17:41:12 INFO  Homepage:52 - Entered password = kakode92 and object is : [[ChromeDriver: chrome on XP (5a2af19a7232f53b754f386264684067)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-11 17:41:12 INFO  Homepage:55 - Submitted form and object is :  [[ChromeDriver: chrome on XP (5a2af19a7232f53b754f386264684067)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-11 17:46:07 INFO  TC001_VerifyLoginWithInvalidCredential:26 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-06-11 17:46:07 INFO  Homepage:40 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (b7c265eba92c7208012a3e386bbaaff1)] -> xpath: //span[text()='LOG IN']]
+2018-06-11 17:47:04 INFO  TC001_VerifyLoginWithInvalidCredential:26 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-06-11 17:47:05 INFO  Homepage:40 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (5977fcd908085263431a9288f75c36d3)] -> xpath: //span[text()='LOG IN']]
+2018-06-11 17:47:49 INFO  TestBase:40 - Creating the object of null
+2018-06-11 17:47:52 INFO  TestBase:49 - Navigating to : https://api.fincash.com
+2018-06-11 17:47:56 INFO  TC001_VerifyLoginWithInvalidCredential:26 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-06-11 17:47:57 INFO  Homepage:40 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (9180d4a421e5f13d6c73dc447b5852e4)] -> xpath: //span[text()='LOG IN']]
+2018-06-11 17:47:57 INFO  Homepage:49 - Entered Email = suraj.kakode@fincash.com and object is : [[ChromeDriver: chrome on XP (9180d4a421e5f13d6c73dc447b5852e4)] -> css selector: input[placeholder='Email Id']]
+2018-06-11 17:47:57 INFO  Homepage:52 - Entered password = kakode922 and object is : [[ChromeDriver: chrome on XP (9180d4a421e5f13d6c73dc447b5852e4)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-11 17:47:57 INFO  Homepage:55 - Submitted form and object is :  [[ChromeDriver: chrome on XP (9180d4a421e5f13d6c73dc447b5852e4)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-11 17:48:02 INFO  TC001_VerifyLoginWithInvalidCredential:32 - ================ Finished verifyLoginWithInValidCredential Test 
+2018-06-11 17:48:02 INFO  TC002_VerifyLoginWithValidCredential:25 - ================ Starting verifyLoginWithValidCredential Test 
+2018-06-11 17:48:02 INFO  Homepage:40 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (fb62378ab94f3031f5b9fcf7996dac76)] -> xpath: //span[text()='LOG IN']]
+2018-06-11 17:48:03 INFO  Homepage:49 - Entered Email = suraj.kakode@fincash.com and object is : [[ChromeDriver: chrome on XP (fb62378ab94f3031f5b9fcf7996dac76)] -> css selector: input[placeholder='Email Id']]
+2018-06-11 17:48:03 INFO  Homepage:52 - Entered password = kakode92 and object is : [[ChromeDriver: chrome on XP (fb62378ab94f3031f5b9fcf7996dac76)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-11 17:48:03 INFO  Homepage:55 - Submitted form and object is :  [[ChromeDriver: chrome on XP (fb62378ab94f3031f5b9fcf7996dac76)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-11 17:49:40 INFO  TC001_VerifyLoginWithInvalidCredential:26 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-06-11 17:49:40 INFO  Homepage:40 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (fd860f2767ce5cc4d09fb99e35a4867d)] -> xpath: //span[text()='LOG IN']]
+2018-06-11 17:52:07 INFO  TC001_VerifyLoginWithInvalidCredential:26 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-06-11 17:52:08 INFO  Homepage:40 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (955f6313be113db92fc98140e2cce5d7)] -> xpath: //span[text()='LOG IN']]
+2018-06-11 17:52:25 INFO  TC001_VerifyLoginWithInvalidCredential:26 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-06-11 17:52:25 INFO  Homepage:40 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (579be3f30b0b81515f6799ea1b8db02e)] -> xpath: //span[text()='LOG IN']]
+2018-06-11 17:52:25 INFO  Homepage:49 - Entered Email = suraj.kakode@fincash.com and object is : [[ChromeDriver: chrome on XP (579be3f30b0b81515f6799ea1b8db02e)] -> css selector: input[placeholder='Email Id']]
+2018-06-11 17:52:25 INFO  Homepage:52 - Entered password = kakode922 and object is : [[ChromeDriver: chrome on XP (579be3f30b0b81515f6799ea1b8db02e)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-11 17:52:26 INFO  Homepage:55 - Submitted form and object is :  [[ChromeDriver: chrome on XP (579be3f30b0b81515f6799ea1b8db02e)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-11 17:52:31 INFO  TC001_VerifyLoginWithInvalidCredential:32 - ================ Finished verifyLoginWithInValidCredential Test 
+2018-06-11 18:21:46 INFO  TC001_VerifyLoginWithInvalidCredential:26 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-06-11 18:21:47 INFO  Homepage:40 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (db843c9f28bc3edc3ad4ab8330cd9d08)] -> xpath: //span[text()='LOG IN']]
+2018-06-11 18:22:07 INFO  TC001_VerifyLoginWithInvalidCredential:26 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-06-11 18:22:07 INFO  Homepage:40 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (f173d47a3ae3e30322973139f0197a43)] -> xpath: //span[text()='LOG IN']]
+2018-06-11 18:23:46 INFO  Homepage:49 - Entered Email = suraj.kakode@fincash.com and object is : [[ChromeDriver: chrome on XP (f173d47a3ae3e30322973139f0197a43)] -> css selector: input[placeholder='Email Id']]
+2018-06-11 18:23:46 INFO  Homepage:52 - Entered password = kakode922 and object is : [[ChromeDriver: chrome on XP (f173d47a3ae3e30322973139f0197a43)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-11 18:23:47 INFO  Homepage:55 - Submitted form and object is :  [[ChromeDriver: chrome on XP (f173d47a3ae3e30322973139f0197a43)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-11 18:23:53 INFO  TC001_VerifyLoginWithInvalidCredential:32 - ================ Finished verifyLoginWithInValidCredential Test 
+2018-06-11 18:24:44 INFO  TC001_VerifyLoginWithInvalidCredential:26 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-06-11 18:24:44 INFO  Homepage:40 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (833dbcda59c2e6de3693b559c8932317)] -> xpath: //span[text()='LOG IN']]
+2018-06-11 18:24:50 INFO  Homepage:46 - Entered Email = suraj.kakode@fincash.com and object is : [[ChromeDriver: chrome on XP (833dbcda59c2e6de3693b559c8932317)] -> css selector: input[placeholder='Email Id']]
+2018-06-11 18:24:50 INFO  Homepage:49 - Entered password = kakode922 and object is : [[ChromeDriver: chrome on XP (833dbcda59c2e6de3693b559c8932317)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-11 18:24:50 INFO  Homepage:52 - Submitted form and object is :  [[ChromeDriver: chrome on XP (833dbcda59c2e6de3693b559c8932317)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-11 18:24:55 INFO  TC001_VerifyLoginWithInvalidCredential:32 - ================ Finished verifyLoginWithInValidCredential Test 
+2018-06-11 18:27:36 INFO  TestBase:40 - Creating the object of null
+2018-06-11 18:27:39 INFO  TestBase:49 - Navigating to : https://api.fincash.com
+2018-06-11 18:27:44 INFO  TC001_VerifyLoginWithInvalidCredential:26 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-06-11 18:27:44 INFO  Homepage:40 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (f9b3ea6d8a80dc24c243b2e97599460d)] -> xpath: //span[text()='LOG IN']]
+2018-06-11 18:27:49 INFO  Homepage:46 - Entered Email = suraj.kakode@fincash.com and object is : [[ChromeDriver: chrome on XP (f9b3ea6d8a80dc24c243b2e97599460d)] -> css selector: input[placeholder='Email Id']]
+2018-06-11 18:27:49 INFO  Homepage:49 - Entered password = kakode922 and object is : [[ChromeDriver: chrome on XP (f9b3ea6d8a80dc24c243b2e97599460d)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-11 18:27:49 INFO  Homepage:52 - Submitted form and object is :  [[ChromeDriver: chrome on XP (f9b3ea6d8a80dc24c243b2e97599460d)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-11 18:27:54 INFO  TC001_VerifyLoginWithInvalidCredential:32 - ================ Finished verifyLoginWithInValidCredential Test 
+2018-06-11 18:27:54 INFO  TC002_VerifyLoginWithValidCredential:25 - ================ Starting verifyLoginWithValidCredential Test 
+2018-06-11 18:27:54 INFO  Homepage:40 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (84ddae8923790c54befa61244d13d35f)] -> xpath: //span[text()='LOG IN']]
+2018-06-11 18:28:00 INFO  Homepage:46 - Entered Email = suraj.kakode@fincash.com and object is : [[ChromeDriver: chrome on XP (84ddae8923790c54befa61244d13d35f)] -> css selector: input[placeholder='Email Id']]
+2018-06-11 18:28:00 INFO  Homepage:49 - Entered password = kakode92 and object is : [[ChromeDriver: chrome on XP (84ddae8923790c54befa61244d13d35f)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-11 18:28:00 INFO  Homepage:52 - Submitted form and object is :  [[ChromeDriver: chrome on XP (84ddae8923790c54befa61244d13d35f)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-11 18:48:29 INFO  TC001_VerifyLoginWithInvalidCredential:26 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-06-11 18:48:30 INFO  Homepage:41 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (b7ae7d6a1dda60fb996a2be56b25d3a3)] -> xpath: //span[text()='LOG IN']]
+2018-06-11 18:51:01 INFO  TC001_VerifyLoginWithInvalidCredential:26 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-06-11 18:51:02 INFO  Homepage:41 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (eeea97a00200e2fbbed479ea6cd21d92)] -> xpath: //span[text()='LOG IN']]
+2018-06-11 18:52:15 INFO  TC001_VerifyLoginWithInvalidCredential:26 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-06-11 18:52:15 INFO  Homepage:41 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (9a09e0f2ae98c6091da386118b052dbe)] -> xpath: //span[text()='LOG IN']]
+2018-06-11 18:53:39 INFO  TC001_VerifyLoginWithInvalidCredential:26 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-06-11 18:53:39 INFO  Homepage:41 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (3ac6f32ed4c71d8256c7233e4f50f795)] -> xpath: //span[text()='LOG IN']]
+2018-06-11 19:05:14 INFO  TC001_VerifyLoginWithInvalidCredential:26 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-06-11 19:05:15 INFO  Homepage:42 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (50c15d9a30e18d938af1176f959c9004)] -> xpath: //span[text()='LOG IN']]
+2018-06-11 19:07:18 INFO  TC001_VerifyLoginWithInvalidCredential:26 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-06-11 19:07:18 INFO  Homepage:42 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (9662a143ee26b4815dd00e1aacfadb52)] -> xpath: //span[text()='LOG IN']]
+2018-06-11 19:12:26 INFO  TC001_VerifyLoginWithInvalidCredential:26 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-06-11 19:12:26 INFO  Homepage:42 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (6a70b88aec36a88c1c7898a73898bcc6)] -> xpath: //span[text()='LOG IN']]
+2018-06-11 19:16:09 INFO  TC001_VerifyLoginWithInvalidCredential:26 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-06-11 19:16:10 INFO  Homepage:42 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (926eecfe06490f9a91136f0d24316a96)] -> xpath: //span[text()='LOG IN']]
+2018-06-11 19:16:24 INFO  Homepage:46 - Entered Email = suraj.kakode@fincash.com and object is : [[ChromeDriver: chrome on XP (926eecfe06490f9a91136f0d24316a96)] -> css selector: input[placeholder='Email Id']]
+2018-06-11 19:16:25 INFO  Homepage:49 - Entered password = kakode922 and object is : [[ChromeDriver: chrome on XP (926eecfe06490f9a91136f0d24316a96)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-11 19:16:27 INFO  Homepage:52 - Submitted form and object is :  [[ChromeDriver: chrome on XP (926eecfe06490f9a91136f0d24316a96)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-11 19:16:35 INFO  TC001_VerifyLoginWithInvalidCredential:32 - ================ Finished verifyLoginWithInValidCredential Test 
+2018-06-11 19:16:51 INFO  TC001_VerifyLoginWithInvalidCredential:26 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-06-11 19:16:51 INFO  Homepage:42 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (c1a6627f699bc7c6429e687c5076c7a5)] -> xpath: //span[text()='LOG IN']]
+2018-06-11 19:16:52 INFO  Homepage:46 - Entered Email = suraj.kakode@fincash.com and object is : [[ChromeDriver: chrome on XP (c1a6627f699bc7c6429e687c5076c7a5)] -> css selector: input[placeholder='Email Id']]
+2018-06-11 19:16:52 INFO  Homepage:49 - Entered password = kakode922 and object is : [[ChromeDriver: chrome on XP (c1a6627f699bc7c6429e687c5076c7a5)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-11 19:16:52 INFO  Homepage:52 - Submitted form and object is :  [[ChromeDriver: chrome on XP (c1a6627f699bc7c6429e687c5076c7a5)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-11 19:16:57 INFO  TC001_VerifyLoginWithInvalidCredential:32 - ================ Finished verifyLoginWithInValidCredential Test 
+2018-06-12 11:15:44 INFO  TC001_VerifyLoginWithInvalidCredential:26 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-06-12 11:15:44 INFO  Homepage:42 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (516558f2bfb96c23c43ba7d00b1f1bc7)] -> xpath: //span[text()='LOG IN']]
+2018-06-12 11:15:44 INFO  Homepage:46 - Entered Email = suraj.kakode@fincash.com and object is : [[ChromeDriver: chrome on XP (516558f2bfb96c23c43ba7d00b1f1bc7)] -> css selector: input[placeholder='Email Id']]
+2018-06-12 11:15:44 INFO  Homepage:49 - Entered password = kakode922 and object is : [[ChromeDriver: chrome on XP (516558f2bfb96c23c43ba7d00b1f1bc7)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-12 11:15:45 INFO  Homepage:52 - Submitted form and object is :  [[ChromeDriver: chrome on XP (516558f2bfb96c23c43ba7d00b1f1bc7)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-12 11:15:50 INFO  TC001_VerifyLoginWithInvalidCredential:32 - ================ Finished verifyLoginWithInValidCredential Test 
+2018-06-12 11:20:40 INFO  TestBase:43 - Creating the object of null
+2018-06-12 11:20:43 INFO  TestBase:52 - Navigating to : https://api.fincash.com
+2018-06-12 11:20:47 INFO  TC001_VerifyLoginWithInvalidCredential:26 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-06-12 11:20:48 INFO  Homepage:42 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (6272a389b4ee19f78ad6304ec23c10de)] -> xpath: //span[text()='LOG IN']]
+2018-06-12 11:20:48 INFO  Homepage:46 - Entered Email = suraj.kakode@fincash.com and object is : [[ChromeDriver: chrome on XP (6272a389b4ee19f78ad6304ec23c10de)] -> css selector: input[placeholder='Email Id']]
+2018-06-12 11:20:48 INFO  Homepage:49 - Entered password = kakode922 and object is : [[ChromeDriver: chrome on XP (6272a389b4ee19f78ad6304ec23c10de)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-12 11:20:48 INFO  Homepage:52 - Submitted form and object is :  [[ChromeDriver: chrome on XP (6272a389b4ee19f78ad6304ec23c10de)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-12 11:20:53 INFO  TC001_VerifyLoginWithInvalidCredential:32 - ================ Finished verifyLoginWithInValidCredential Test 
+2018-06-12 11:20:53 INFO  TC002_VerifyLoginWithValidCredential:25 - ================ Starting verifyLoginWithValidCredential Test 
+2018-06-12 11:20:53 INFO  Homepage:42 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (7d21eabac711a8df2891325508974816)] -> xpath: //span[text()='LOG IN']]
+2018-06-12 11:20:54 INFO  Homepage:46 - Entered Email = suraj.kakode@fincash.com and object is : [[ChromeDriver: chrome on XP (7d21eabac711a8df2891325508974816)] -> css selector: input[placeholder='Email Id']]
+2018-06-12 11:20:54 INFO  Homepage:49 - Entered password = kakode92 and object is : [[ChromeDriver: chrome on XP (7d21eabac711a8df2891325508974816)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-12 11:20:54 INFO  Homepage:52 - Submitted form and object is :  [[ChromeDriver: chrome on XP (7d21eabac711a8df2891325508974816)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-12 11:22:03 INFO  TC001_VerifyLoginWithInvalidCredential:26 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-06-12 11:22:03 INFO  Homepage:42 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (4ef3e50ff56db18e1e60a3bd8c1ef1e3)] -> xpath: //span[text()='LOG IN']]
+2018-06-12 11:22:03 INFO  Homepage:46 - Entered Email = suraj.kakode@fincash.com and object is : [[ChromeDriver: chrome on XP (4ef3e50ff56db18e1e60a3bd8c1ef1e3)] -> css selector: input[placeholder='Email Id']]
+2018-06-12 11:22:04 INFO  Homepage:49 - Entered password = kakode922 and object is : [[ChromeDriver: chrome on XP (4ef3e50ff56db18e1e60a3bd8c1ef1e3)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-12 11:22:04 INFO  Homepage:52 - Submitted form and object is :  [[ChromeDriver: chrome on XP (4ef3e50ff56db18e1e60a3bd8c1ef1e3)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-12 11:22:09 INFO  TC001_VerifyLoginWithInvalidCredential:32 - ================ Finished verifyLoginWithInValidCredential Test 
+2018-06-12 11:22:45 INFO  TC002_VerifyLoginWithValidCredential:25 - ================ Starting verifyLoginWithValidCredential Test 
+2018-06-12 11:22:45 INFO  Homepage:42 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (f075fd51ac12e1cbe7ee46a3bd73cd7a)] -> xpath: //span[text()='LOG IN']]
+2018-06-12 11:22:46 INFO  Homepage:46 - Entered Email = suraj.kakode@fincash.com and object is : [[ChromeDriver: chrome on XP (f075fd51ac12e1cbe7ee46a3bd73cd7a)] -> css selector: input[placeholder='Email Id']]
+2018-06-12 11:22:46 INFO  Homepage:49 - Entered password = kakode92 and object is : [[ChromeDriver: chrome on XP (f075fd51ac12e1cbe7ee46a3bd73cd7a)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-12 11:22:46 INFO  Homepage:52 - Submitted form and object is :  [[ChromeDriver: chrome on XP (f075fd51ac12e1cbe7ee46a3bd73cd7a)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-12 11:24:43 INFO  TC002_VerifyLoginWithValidCredential:25 - ================ Starting verifyLoginWithValidCredential Test 
+2018-06-12 11:24:43 INFO  Homepage:42 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (932a24fa9931b4590b4cb97d5391737e)] -> xpath: //span[text()='LOG IN']]
+2018-06-12 11:25:32 INFO  Homepage:46 - Entered Email = suraj.kakode@fincash.com and object is : [[ChromeDriver: chrome on XP (932a24fa9931b4590b4cb97d5391737e)] -> css selector: input[placeholder='Email Id']]
+2018-06-12 11:25:46 INFO  Homepage:49 - Entered password = kakode92 and object is : [[ChromeDriver: chrome on XP (932a24fa9931b4590b4cb97d5391737e)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-12 11:26:33 INFO  Homepage:52 - Submitted form and object is :  Proxy element for: DefaultElementLocator 'By.xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]'
+2018-06-12 11:30:59 INFO  TC002_VerifyLoginWithValidCredential:25 - ================ Starting verifyLoginWithValidCredential Test 
+2018-06-12 11:31:00 INFO  Homepage:42 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (2cae81f5500c0b9c8404ee3076c01b85)] -> xpath: //span[text()='LOG IN']]
+2018-06-12 11:31:33 INFO  TC002_VerifyLoginWithValidCredential:25 - ================ Starting verifyLoginWithValidCredential Test 
+2018-06-12 11:31:33 INFO  Homepage:42 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (3a2dd5a032e4d630141dc4b17282dbb4)] -> xpath: //span[text()='LOG IN']]
+2018-06-12 11:38:40 INFO  TC002_VerifyLoginWithValidCredential:25 - ================ Starting verifyLoginWithValidCredential Test 
+2018-06-12 11:38:40 INFO  Homepage:42 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (aa890c8332e04c441c1a3aa9feea1c23)] -> xpath: //span[text()='LOG IN']]
+2018-06-12 11:39:59 INFO  TC002_VerifyLoginWithValidCredential:25 - ================ Starting verifyLoginWithValidCredential Test 
+2018-06-12 11:40:47 INFO  Homepage:42 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (4fa96e565c05b90d4866764b086c6882)] -> xpath: //span[text()='LOG IN']]
+2018-06-12 11:41:38 INFO  Homepage:46 - Entered Email = suraj.kakode@fincash.com and object is : [[ChromeDriver: chrome on XP (4fa96e565c05b90d4866764b086c6882)] -> css selector: input[placeholder='Email Id']]
+2018-06-12 11:41:47 INFO  Homepage:49 - Entered password = kakode92 and object is : [[ChromeDriver: chrome on XP (4fa96e565c05b90d4866764b086c6882)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-12 11:42:30 INFO  Homepage:52 - Submitted form and object is :  Proxy element for: DefaultElementLocator 'By.xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]'
+2018-06-12 11:48:14 INFO  TC002_VerifyLoginWithValidCredential:25 - ================ Starting verifyLoginWithValidCredential Test 
+2018-06-12 11:48:48 INFO  Homepage:42 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (36382f7eb5b04ea04bcb6ff542ef7234)] -> xpath: //span[text()='LOG IN']]
+2018-06-12 11:48:54 INFO  Homepage:46 - Entered Email = suraj.kakode@fincash.com and object is : [[ChromeDriver: chrome on XP (36382f7eb5b04ea04bcb6ff542ef7234)] -> css selector: input[placeholder='Email Id']]
+2018-06-12 11:48:55 INFO  Homepage:49 - Entered password = kakode92 and object is : [[ChromeDriver: chrome on XP (36382f7eb5b04ea04bcb6ff542ef7234)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-12 11:49:31 INFO  Homepage:52 - Submitted form and object is :  Proxy element for: DefaultElementLocator 'By.xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]'
+2018-06-12 12:05:07 INFO  TC002_VerifyLoginWithValidCredential:25 - ================ Starting verifyLoginWithValidCredential Test 
+2018-06-12 12:05:07 INFO  Homepage:42 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (5b3ebe98ed4c24dd1e418ce43ee471e7)] -> xpath: //span[text()='LOG IN']]
+2018-06-12 12:10:05 INFO  TC002_VerifyLoginWithValidCredential:25 - ================ Starting verifyLoginWithValidCredential Test 
+2018-06-12 12:10:06 INFO  Homepage:42 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (a2cd6286bcaf7acae6f3a5786cd9577e)] -> xpath: //span[text()='LOG IN']]
+2018-06-12 12:10:06 INFO  Homepage:46 - Entered Email = suraj.kakode@fincash.com and object is : [[ChromeDriver: chrome on XP (a2cd6286bcaf7acae6f3a5786cd9577e)] -> css selector: input[placeholder='Email Id']]
+2018-06-12 12:10:06 INFO  Homepage:49 - Entered password = kakode92 and object is : [[ChromeDriver: chrome on XP (a2cd6286bcaf7acae6f3a5786cd9577e)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-12 12:10:06 INFO  Homepage:52 - Submitted form and object is :  [[ChromeDriver: chrome on XP (a2cd6286bcaf7acae6f3a5786cd9577e)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-12 12:10:11 INFO  TC002_VerifyLoginWithValidCredential:30 - ================ Finished verifyLoginWithValidCredential Test 
+2018-06-12 12:11:32 INFO  TestBase:43 - Creating the object of null
+2018-06-12 12:11:36 INFO  TestBase:52 - Navigating to : https://api.fincash.com
+2018-06-12 12:11:40 INFO  TC001_VerifyLoginWithInvalidCredential:26 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-06-12 12:11:40 INFO  Homepage:42 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (7df565a408c3c184e29141d086460f03)] -> xpath: //span[text()='LOG IN']]
+2018-06-12 12:11:40 INFO  Homepage:46 - Entered Email = suraj.kakode@fincash.com and object is : [[ChromeDriver: chrome on XP (7df565a408c3c184e29141d086460f03)] -> css selector: input[placeholder='Email Id']]
+2018-06-12 12:11:40 INFO  Homepage:49 - Entered password = kakode922 and object is : [[ChromeDriver: chrome on XP (7df565a408c3c184e29141d086460f03)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-12 12:11:41 INFO  Homepage:52 - Submitted form and object is :  [[ChromeDriver: chrome on XP (7df565a408c3c184e29141d086460f03)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-12 12:11:46 INFO  TC001_VerifyLoginWithInvalidCredential:32 - ================ Finished verifyLoginWithInValidCredential Test 
+2018-06-12 12:11:46 INFO  TC002_VerifyLoginWithValidCredential:25 - ================ Starting verifyLoginWithValidCredential Test 
+2018-06-12 12:11:46 INFO  Homepage:42 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (97fe650483bba55fca94d388598b6e01)] -> xpath: //span[text()='LOG IN']]
+2018-06-12 12:11:46 INFO  Homepage:46 - Entered Email = suraj.kakode@fincash.com and object is : [[ChromeDriver: chrome on XP (97fe650483bba55fca94d388598b6e01)] -> css selector: input[placeholder='Email Id']]
+2018-06-12 12:11:46 INFO  Homepage:49 - Entered password = kakode92 and object is : [[ChromeDriver: chrome on XP (97fe650483bba55fca94d388598b6e01)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-12 12:11:46 INFO  Homepage:52 - Submitted form and object is :  [[ChromeDriver: chrome on XP (97fe650483bba55fca94d388598b6e01)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-12 12:16:07 INFO  TC001_VerifyLoginWithInvalidCredential:26 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-06-12 12:16:07 INFO  Homepage:42 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (ac7973ac0cac605bfaf79576d939bbb9)] -> xpath: //span[text()='LOG IN']]
+2018-06-12 12:16:07 INFO  TC001_VerifyLoginWithInvalidCredential:38 - ================ Starting verifyLoginWithValidCredential Test 
+2018-06-12 12:16:07 INFO  Homepage:42 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (ac7973ac0cac605bfaf79576d939bbb9)] -> xpath: //span[text()='LOG IN']]
+2018-06-12 12:16:08 INFO  Homepage:46 - Entered Email = suraj.kakode@fincash.com and object is : [[ChromeDriver: chrome on XP (ac7973ac0cac605bfaf79576d939bbb9)] -> css selector: input[placeholder='Email Id']]
+2018-06-12 12:16:08 INFO  Homepage:49 - Entered password = kakode92 and object is : [[ChromeDriver: chrome on XP (ac7973ac0cac605bfaf79576d939bbb9)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-12 12:16:08 INFO  Homepage:52 - Submitted form and object is :  [[ChromeDriver: chrome on XP (ac7973ac0cac605bfaf79576d939bbb9)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-12 12:16:13 INFO  TC001_VerifyLoginWithInvalidCredential:43 - ================ Finished verifyLoginWithValidCredential Test 
+2018-06-12 12:39:52 INFO  TC001_VerifyLoginWithInvalidCredential:26 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-06-12 12:39:53 INFO  Homepage:42 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (9532fd23a99b5832e88cf85feb1ce249)] -> xpath: //span[text()='LOG IN']]
+2018-06-12 12:39:58 INFO  Homepage:46 - Entered Email = suraj.kakode@fincash.com and object is : [[ChromeDriver: chrome on XP (9532fd23a99b5832e88cf85feb1ce249)] -> css selector: input[placeholder='Email Id']]
+2018-06-12 12:39:58 INFO  Homepage:49 - Entered password = kakode922 and object is : [[ChromeDriver: chrome on XP (9532fd23a99b5832e88cf85feb1ce249)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-12 12:39:58 INFO  Homepage:52 - Submitted form and object is :  [[ChromeDriver: chrome on XP (9532fd23a99b5832e88cf85feb1ce249)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-12 12:40:03 INFO  TC001_VerifyLoginWithInvalidCredential:32 - ================ Finished verifyLoginWithInValidCredential Test 
+2018-06-12 12:40:03 INFO  TC001_VerifyLoginWithInvalidCredential:38 - ================ Starting verifyLoginWithValidCredential Test 
+2018-06-12 12:40:03 INFO  Homepage:42 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (9532fd23a99b5832e88cf85feb1ce249)] -> xpath: //span[text()='LOG IN']]
+2018-06-12 12:40:09 INFO  Homepage:46 - Entered Email = suraj.kakode@fincash.com and object is : [[ChromeDriver: chrome on XP (9532fd23a99b5832e88cf85feb1ce249)] -> css selector: input[placeholder='Email Id']]
+2018-06-12 12:40:09 INFO  Homepage:49 - Entered password = kakode92 and object is : [[ChromeDriver: chrome on XP (9532fd23a99b5832e88cf85feb1ce249)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-12 12:40:09 INFO  Homepage:52 - Submitted form and object is :  [[ChromeDriver: chrome on XP (9532fd23a99b5832e88cf85feb1ce249)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-12 12:42:49 INFO  TC001_VerifyLoginWithInvalidCredential:26 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-06-12 12:42:49 INFO  Homepage:42 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (5b11b4877eabdde6b342c81712d07388)] -> xpath: //span[text()='LOG IN']]
+2018-06-12 12:42:55 INFO  Homepage:48 - Entered Email = suraj.kakode@fincash.com and object is : [[ChromeDriver: chrome on XP (5b11b4877eabdde6b342c81712d07388)] -> css selector: input[placeholder='Email Id']]
+2018-06-12 12:42:55 INFO  Homepage:52 - Entered password = kakode922 and object is : [[ChromeDriver: chrome on XP (5b11b4877eabdde6b342c81712d07388)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-12 12:42:55 INFO  Homepage:55 - Submitted form and object is :  [[ChromeDriver: chrome on XP (5b11b4877eabdde6b342c81712d07388)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-12 12:43:00 INFO  TC001_VerifyLoginWithInvalidCredential:32 - ================ Finished verifyLoginWithInValidCredential Test 
+2018-06-12 12:43:00 INFO  TC001_VerifyLoginWithInvalidCredential:38 - ================ Starting verifyLoginWithValidCredential Test 
+2018-06-12 12:43:00 INFO  Homepage:42 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (5b11b4877eabdde6b342c81712d07388)] -> xpath: //span[text()='LOG IN']]
+2018-06-12 12:43:05 INFO  Homepage:48 - Entered Email = suraj.kakode@fincash.com and object is : [[ChromeDriver: chrome on XP (5b11b4877eabdde6b342c81712d07388)] -> css selector: input[placeholder='Email Id']]
+2018-06-12 12:43:05 INFO  Homepage:52 - Entered password = kakode92 and object is : [[ChromeDriver: chrome on XP (5b11b4877eabdde6b342c81712d07388)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-12 12:43:05 INFO  Homepage:55 - Submitted form and object is :  [[ChromeDriver: chrome on XP (5b11b4877eabdde6b342c81712d07388)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-12 12:43:10 INFO  TC001_VerifyLoginWithInvalidCredential:43 - ================ Finished verifyLoginWithValidCredential Test 
+2018-06-12 13:07:20 INFO  TC001_VerifyLoginWithInvalidCredential:26 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-06-12 13:07:20 INFO  Homepage:42 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (fe77ea1fcd037530e9306e2016e86bfa)] -> xpath: //span[text()='LOG IN']]
+2018-06-12 13:13:35 INFO  TC001_VerifyLoginWithInvalidCredential:26 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-06-12 13:13:35 INFO  Homepage:42 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (e995f32d805bfe7367a4c5ea42c9e630)] -> xpath: //span[text()='LOG IN']]
+2018-06-12 13:13:36 INFO  Homepage:47 - Entered Email = suraj.kakode@fincash.com and object is : [[ChromeDriver: chrome on XP (e995f32d805bfe7367a4c5ea42c9e630)] -> css selector: input[placeholder='Email Id']]
+2018-06-12 13:13:36 INFO  Homepage:51 - Entered password = kakode922 and object is : [[ChromeDriver: chrome on XP (e995f32d805bfe7367a4c5ea42c9e630)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-12 13:13:36 INFO  Homepage:54 - Submitted form and object is :  [[ChromeDriver: chrome on XP (e995f32d805bfe7367a4c5ea42c9e630)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-12 13:13:41 INFO  TC001_VerifyLoginWithInvalidCredential:32 - ================ Finished verifyLoginWithInValidCredential Test 
+2018-06-12 13:13:41 INFO  TC001_VerifyLoginWithInvalidCredential:38 - ================ Starting verifyLoginWithValidCredential Test 
+2018-06-12 13:13:41 INFO  Homepage:42 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (e995f32d805bfe7367a4c5ea42c9e630)] -> xpath: //span[text()='LOG IN']]
+2018-06-12 13:13:42 INFO  Homepage:47 - Entered Email = suraj.kakode@fincash.com and object is : [[ChromeDriver: chrome on XP (e995f32d805bfe7367a4c5ea42c9e630)] -> css selector: input[placeholder='Email Id']]
+2018-06-12 13:13:42 INFO  Homepage:51 - Entered password = kakode92 and object is : [[ChromeDriver: chrome on XP (e995f32d805bfe7367a4c5ea42c9e630)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-12 13:13:42 INFO  Homepage:54 - Submitted form and object is :  [[ChromeDriver: chrome on XP (e995f32d805bfe7367a4c5ea42c9e630)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-12 13:13:47 INFO  TC001_VerifyLoginWithInvalidCredential:43 - ================ Finished verifyLoginWithValidCredential Test 
+2018-06-12 13:38:05 INFO  TestBase:43 - Creating the object of null
+2018-06-12 13:38:08 INFO  TestBase:52 - Navigating to : https://api.fincash.com
+2018-06-12 13:38:12 INFO  TC001_VerifyLoginWithInvalidCredential:26 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-06-12 13:38:12 INFO  Homepage:42 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (7efecb3df33304a01e5b94a841898fac)] -> xpath: //span[text()='LOG IN']]
+2018-06-12 13:38:12 INFO  TC002_VerifyLoginWithValidCredential:25 - ================ Starting verifyLoginWithValidCredential Test 
+2018-06-12 13:38:13 INFO  Homepage:42 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (48293cbb3c3c56b63ccc2f146345f7bf)] -> xpath: //span[text()='LOG IN']]
+2018-06-12 13:38:13 INFO  Homepage:47 - Entered Email = suraj.kakode@fincash.com and object is : [[ChromeDriver: chrome on XP (48293cbb3c3c56b63ccc2f146345f7bf)] -> css selector: input[placeholder='Email Id']]
+2018-06-12 13:38:14 INFO  Homepage:51 - Entered password = kakode92 and object is : [[ChromeDriver: chrome on XP (48293cbb3c3c56b63ccc2f146345f7bf)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-12 13:38:14 INFO  Homepage:54 - Submitted form and object is :  [[ChromeDriver: chrome on XP (48293cbb3c3c56b63ccc2f146345f7bf)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-12 13:38:19 INFO  TC002_VerifyLoginWithValidCredential:30 - ================ Finished verifyLoginWithValidCredential Test 
+2018-06-12 13:42:20 INFO  TestBase:43 - Creating the object of null
+2018-06-12 13:42:23 INFO  TestBase:52 - Navigating to : https://api.fincash.com
+2018-06-12 13:42:25 INFO  TC001_VerifyLoginWithInvalidCredential:26 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-06-12 13:42:25 INFO  Homepage:42 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (7c56e4143393056327bb0693aaf7a223)] -> xpath: //span[text()='LOG IN']]
+2018-06-12 13:42:26 INFO  Homepage:47 - Entered Email = suraj.kakode@fincash.com and object is : [[ChromeDriver: chrome on XP (7c56e4143393056327bb0693aaf7a223)] -> css selector: input[placeholder='Email Id']]
+2018-06-12 13:42:26 INFO  Homepage:51 - Entered password = kakode922 and object is : [[ChromeDriver: chrome on XP (7c56e4143393056327bb0693aaf7a223)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-12 13:42:26 INFO  Homepage:54 - Submitted form and object is :  [[ChromeDriver: chrome on XP (7c56e4143393056327bb0693aaf7a223)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-12 13:42:31 INFO  TC001_VerifyLoginWithInvalidCredential:32 - ================ Finished verifyLoginWithInValidCredential Test 
+2018-06-12 13:42:31 INFO  TC002_VerifyLoginWithValidCredential:25 - ================ Starting verifyLoginWithValidCredential Test 
+2018-06-12 13:42:31 INFO  Homepage:42 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (0f2bcd479ee659c9b7818277c8bb6051)] -> xpath: //span[text()='LOG IN']]
+2018-06-12 16:42:10 INFO  TC001_VerifyLoginWithInvalidCredential:26 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-06-12 16:42:10 INFO  Homepage:42 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (cf2443a400912ad712759c84ae6ee644)] -> xpath: //span[text()='LOG IN']]
+2018-06-12 16:42:12 INFO  Homepage:47 - Entered Email = suraj.kakode@fincash.com and object is : [[ChromeDriver: chrome on XP (cf2443a400912ad712759c84ae6ee644)] -> css selector: input[placeholder='Email Id']]
+2018-06-12 16:42:12 INFO  Homepage:51 - Entered password = kakode922 and object is : [[ChromeDriver: chrome on XP (cf2443a400912ad712759c84ae6ee644)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-12 16:42:12 INFO  Homepage:54 - Submitted form and object is :  [[ChromeDriver: chrome on XP (cf2443a400912ad712759c84ae6ee644)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-12 16:42:17 INFO  TC001_VerifyLoginWithInvalidCredential:32 - ================ Finished verifyLoginWithInValidCredential Test 
+2018-06-12 16:42:17 INFO  TC001_VerifyLoginWithInvalidCredential:38 - ================ Starting verifyLoginWithValidCredential Test 
+2018-06-12 16:42:17 INFO  Homepage:42 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (cf2443a400912ad712759c84ae6ee644)] -> xpath: //span[text()='LOG IN']]
+2018-06-12 16:42:17 INFO  Homepage:47 - Entered Email = suraj.kakode@fincash.com and object is : [[ChromeDriver: chrome on XP (cf2443a400912ad712759c84ae6ee644)] -> css selector: input[placeholder='Email Id']]
+2018-06-12 16:42:17 INFO  Homepage:51 - Entered password = kakode92 and object is : [[ChromeDriver: chrome on XP (cf2443a400912ad712759c84ae6ee644)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-12 16:42:18 INFO  Homepage:54 - Submitted form and object is :  [[ChromeDriver: chrome on XP (cf2443a400912ad712759c84ae6ee644)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-12 16:42:23 INFO  TC001_VerifyLoginWithInvalidCredential:43 - ================ Finished verifyLoginWithValidCredential Test 
+2018-06-12 16:44:50 INFO  TC001_VerifyLoginWithInvalidCredential:26 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-06-12 16:44:50 INFO  Homepage:42 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (0b80102660ae1954556cfba3c4075cdf)] -> xpath: //span[text()='LOG IN']]
+2018-06-12 16:44:50 INFO  Homepage:47 - Entered Email = suraj.kakode@fincash.com and object is : [[ChromeDriver: chrome on XP (0b80102660ae1954556cfba3c4075cdf)] -> css selector: input[placeholder='Email Id']]
+2018-06-12 16:44:50 INFO  Homepage:51 - Entered password = kakode922 and object is : [[ChromeDriver: chrome on XP (0b80102660ae1954556cfba3c4075cdf)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-12 16:44:51 INFO  Homepage:54 - Submitted form and object is :  [[ChromeDriver: chrome on XP (0b80102660ae1954556cfba3c4075cdf)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-12 16:44:56 INFO  TC001_VerifyLoginWithInvalidCredential:32 - ================ Finished verifyLoginWithInValidCredential Test 
+2018-06-12 16:44:56 INFO  TC001_VerifyLoginWithInvalidCredential:38 - ================ Starting verifyLoginWithValidCredential Test 
+2018-06-12 16:44:56 INFO  Homepage:42 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (0b80102660ae1954556cfba3c4075cdf)] -> xpath: //span[text()='LOG IN']]
+2018-06-12 16:44:56 INFO  Homepage:47 - Entered Email = suraj.kakode@fincash.com and object is : [[ChromeDriver: chrome on XP (0b80102660ae1954556cfba3c4075cdf)] -> css selector: input[placeholder='Email Id']]
+2018-06-12 16:44:56 INFO  Homepage:51 - Entered password = kakode92 and object is : [[ChromeDriver: chrome on XP (0b80102660ae1954556cfba3c4075cdf)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-12 16:44:56 INFO  Homepage:54 - Submitted form and object is :  [[ChromeDriver: chrome on XP (0b80102660ae1954556cfba3c4075cdf)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-12 16:45:01 INFO  TC001_VerifyLoginWithInvalidCredential:43 - ================ Finished verifyLoginWithValidCredential Test 
+2018-06-12 16:54:02 INFO  TC001_VerifyLoginWithInvalidCredential:26 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-06-12 16:54:02 INFO  Homepage:42 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (ca93697c-98e1-4091-9036-b014248678d8)] -> xpath: //span[text()='LOG IN']]
+2018-06-12 16:54:02 INFO  Homepage:47 - Entered Email = suraj.kakode@fincash.com and object is : [[FirefoxDriver: firefox on XP (ca93697c-98e1-4091-9036-b014248678d8)] -> css selector: input[placeholder='Email Id']]
+2018-06-12 16:54:03 INFO  Homepage:51 - Entered password = kakode922 and object is : [[FirefoxDriver: firefox on XP (ca93697c-98e1-4091-9036-b014248678d8)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-12 16:54:03 INFO  Homepage:54 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (ca93697c-98e1-4091-9036-b014248678d8)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-12 16:54:08 INFO  TC001_VerifyLoginWithInvalidCredential:32 - ================ Finished verifyLoginWithInValidCredential Test 
+2018-06-12 16:54:08 INFO  TC001_VerifyLoginWithInvalidCredential:38 - ================ Starting verifyLoginWithValidCredential Test 
+2018-06-12 16:54:08 INFO  Homepage:42 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (ca93697c-98e1-4091-9036-b014248678d8)] -> xpath: //span[text()='LOG IN']]
+2018-06-12 16:54:08 INFO  Homepage:47 - Entered Email = suraj.kakode@fincash.com and object is : [[FirefoxDriver: firefox on XP (ca93697c-98e1-4091-9036-b014248678d8)] -> css selector: input[placeholder='Email Id']]
+2018-06-12 16:54:08 INFO  Homepage:51 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (ca93697c-98e1-4091-9036-b014248678d8)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-12 16:54:09 INFO  Homepage:54 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (ca93697c-98e1-4091-9036-b014248678d8)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-12 16:54:14 INFO  TC001_VerifyLoginWithInvalidCredential:43 - ================ Finished verifyLoginWithValidCredential Test 
+2018-06-12 16:54:58 INFO  TestBase:43 - Creating the object of null
+2018-06-12 16:55:02 INFO  TestBase:58 - Navigating to : https://api.fincash.com
+2018-06-12 16:55:08 INFO  TC001_VerifyLoginWithInvalidCredential:26 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-06-12 16:55:09 INFO  Homepage:42 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (8b10a1b2-e6ad-49be-a86d-ac852edde064)] -> xpath: //span[text()='LOG IN']]
+2018-06-12 16:55:09 INFO  Homepage:47 - Entered Email = suraj.kakode@fincash.com and object is : [[FirefoxDriver: firefox on XP (8b10a1b2-e6ad-49be-a86d-ac852edde064)] -> css selector: input[placeholder='Email Id']]
+2018-06-12 16:55:09 INFO  Homepage:51 - Entered password = kakode922 and object is : [[FirefoxDriver: firefox on XP (8b10a1b2-e6ad-49be-a86d-ac852edde064)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-12 16:55:09 INFO  Homepage:54 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (8b10a1b2-e6ad-49be-a86d-ac852edde064)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-12 16:55:14 INFO  TC001_VerifyLoginWithInvalidCredential:32 - ================ Finished verifyLoginWithInValidCredential Test 
+2018-06-12 16:55:14 INFO  TC001_VerifyLoginWithInvalidCredential:38 - ================ Starting verifyLoginWithValidCredential Test 
+2018-06-12 16:55:14 INFO  Homepage:42 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (8b10a1b2-e6ad-49be-a86d-ac852edde064)] -> xpath: //span[text()='LOG IN']]
+2018-06-12 16:55:15 INFO  Homepage:47 - Entered Email = suraj.kakode@fincash.com and object is : [[FirefoxDriver: firefox on XP (8b10a1b2-e6ad-49be-a86d-ac852edde064)] -> css selector: input[placeholder='Email Id']]
+2018-06-12 16:55:15 INFO  Homepage:51 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (8b10a1b2-e6ad-49be-a86d-ac852edde064)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-12 16:55:15 INFO  Homepage:54 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (8b10a1b2-e6ad-49be-a86d-ac852edde064)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-12 16:55:20 INFO  TC001_VerifyLoginWithInvalidCredential:43 - ================ Finished verifyLoginWithValidCredential Test 
+2018-06-12 16:55:20 INFO  TC002_VerifyLoginWithValidCredential:25 - ================ Starting verifyLoginWithValidCredential Test 
+2018-06-12 16:55:21 INFO  Homepage:42 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (06d0dbf1-d290-4018-aa2d-d933eff47f3f)] -> xpath: //span[text()='LOG IN']]
+2018-06-12 16:55:21 INFO  Homepage:47 - Entered Email = suraj.kakode@fincash.com and object is : [[FirefoxDriver: firefox on XP (06d0dbf1-d290-4018-aa2d-d933eff47f3f)] -> css selector: input[placeholder='Email Id']]
+2018-06-12 16:55:21 INFO  Homepage:51 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (06d0dbf1-d290-4018-aa2d-d933eff47f3f)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-12 16:55:21 INFO  Homepage:54 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (06d0dbf1-d290-4018-aa2d-d933eff47f3f)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-12 16:55:26 INFO  TC002_VerifyLoginWithValidCredential:30 - ================ Finished verifyLoginWithValidCredential Test 
+2018-06-12 17:28:54 INFO  TestBase:45 - Creating the object of null
+2018-06-12 17:28:56 INFO  TestBase:60 - Navigating to : https://api.fincash.com
+2018-06-12 17:29:02 INFO  TC001_VerifyLoginWithInvalidCredential:26 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-06-12 17:29:03 INFO  Homepage:42 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (bd7071d0-bbed-48dc-bcc2-e7c5d959b791)] -> xpath: //span[text()='LOG IN']]
+2018-06-12 17:29:03 INFO  Homepage:47 - Entered Email = suraj.kakode@fincash.com and object is : [[FirefoxDriver: firefox on XP (bd7071d0-bbed-48dc-bcc2-e7c5d959b791)] -> css selector: input[placeholder='Email Id']]
+2018-06-12 17:29:03 INFO  Homepage:51 - Entered password = kakode922 and object is : [[FirefoxDriver: firefox on XP (bd7071d0-bbed-48dc-bcc2-e7c5d959b791)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-12 17:29:03 INFO  Homepage:54 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (bd7071d0-bbed-48dc-bcc2-e7c5d959b791)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-12 17:29:08 INFO  TC001_VerifyLoginWithInvalidCredential:33 - ================ Finished verifyLoginWithInValidCredential Test 
+2018-06-12 17:29:08 INFO  TC001_VerifyLoginWithInvalidCredential:39 - ================ Starting verifyLoginWithValidCredential Test 
+2018-06-12 17:29:09 INFO  Homepage:42 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (bd7071d0-bbed-48dc-bcc2-e7c5d959b791)] -> xpath: //span[text()='LOG IN']]
+2018-06-12 17:29:09 INFO  Homepage:47 - Entered Email = suraj.kakode@fincash.com and object is : [[FirefoxDriver: firefox on XP (bd7071d0-bbed-48dc-bcc2-e7c5d959b791)] -> css selector: input[placeholder='Email Id']]
+2018-06-12 17:29:09 INFO  Homepage:51 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (bd7071d0-bbed-48dc-bcc2-e7c5d959b791)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-12 17:29:09 INFO  Homepage:54 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (bd7071d0-bbed-48dc-bcc2-e7c5d959b791)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-12 17:29:14 INFO  TC001_VerifyLoginWithInvalidCredential:45 - ================ Finished verifyLoginWithValidCredential Test 
+2018-06-12 17:29:14 INFO  TC002_VerifyLoginWithValidCredential:25 - ================ Starting verifyLoginWithValidCredential Test 
+2018-06-12 17:29:15 INFO  Homepage:42 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (bbe7f05b-248c-48aa-bba2-e6a0238f983c)] -> xpath: //span[text()='LOG IN']]
+2018-06-12 17:29:15 INFO  Homepage:47 - Entered Email = suraj.kakode@fincash.com and object is : [[FirefoxDriver: firefox on XP (bbe7f05b-248c-48aa-bba2-e6a0238f983c)] -> css selector: input[placeholder='Email Id']]
+2018-06-12 17:29:15 INFO  Homepage:51 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (bbe7f05b-248c-48aa-bba2-e6a0238f983c)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-12 17:29:16 INFO  Homepage:54 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (bbe7f05b-248c-48aa-bba2-e6a0238f983c)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-12 17:29:21 INFO  TC002_VerifyLoginWithValidCredential:31 - ================ Finished verifyLoginWithValidCredential Test 
+2018-06-12 17:42:28 INFO  TestBase:46 - Creating the object of null
+2018-06-12 17:42:31 INFO  TestBase:61 - Navigating to : https://api.fincash.com
+2018-06-12 17:42:37 INFO  TC001_VerifyLoginWithInvalidCredential:26 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-06-12 17:42:37 INFO  Homepage:42 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (6263bfb0-abfb-4517-90fb-e37ecd39506d)] -> xpath: //span[text()='LOG IN']]
+2018-06-12 17:42:37 INFO  Homepage:47 - Entered Email = suraj.kakode@fincash.com and object is : [[FirefoxDriver: firefox on XP (6263bfb0-abfb-4517-90fb-e37ecd39506d)] -> css selector: input[placeholder='Email Id']]
+2018-06-12 17:42:38 INFO  Homepage:51 - Entered password = kakode922 and object is : [[FirefoxDriver: firefox on XP (6263bfb0-abfb-4517-90fb-e37ecd39506d)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-12 17:42:38 INFO  Homepage:54 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (6263bfb0-abfb-4517-90fb-e37ecd39506d)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-12 17:42:43 INFO  TC001_VerifyLoginWithInvalidCredential:33 - ================ Finished verifyLoginWithInValidCredential Test 
+2018-06-12 17:42:43 INFO  TC001_VerifyLoginWithInvalidCredential:39 - ================ Starting verifyLoginWithValidCredential Test 
+2018-06-12 17:42:43 INFO  Homepage:42 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (6263bfb0-abfb-4517-90fb-e37ecd39506d)] -> xpath: //span[text()='LOG IN']]
+2018-06-12 17:42:43 INFO  Homepage:47 - Entered Email = suraj.kakode@fincash.com and object is : [[FirefoxDriver: firefox on XP (6263bfb0-abfb-4517-90fb-e37ecd39506d)] -> css selector: input[placeholder='Email Id']]
+2018-06-12 17:42:43 INFO  Homepage:51 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (6263bfb0-abfb-4517-90fb-e37ecd39506d)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-12 17:42:44 INFO  Homepage:54 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (6263bfb0-abfb-4517-90fb-e37ecd39506d)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-12 17:42:49 INFO  TC001_VerifyLoginWithInvalidCredential:45 - ================ Finished verifyLoginWithValidCredential Test 
+2018-06-12 17:42:49 INFO  TC002_VerifyLoginWithValidCredential:25 - ================ Starting verifyLoginWithValidCredential Test 
+2018-06-12 17:42:49 INFO  Homepage:42 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (3509e564-95ff-455d-baf6-25cad502fced)] -> xpath: //span[text()='LOG IN']]
+2018-06-12 17:42:50 INFO  Homepage:47 - Entered Email = suraj.kakode@fincash.com and object is : [[FirefoxDriver: firefox on XP (3509e564-95ff-455d-baf6-25cad502fced)] -> css selector: input[placeholder='Email Id']]
+2018-06-12 17:42:50 INFO  Homepage:51 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (3509e564-95ff-455d-baf6-25cad502fced)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-12 17:42:50 INFO  Homepage:54 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (3509e564-95ff-455d-baf6-25cad502fced)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-12 17:42:55 INFO  TC002_VerifyLoginWithValidCredential:31 - ================ Finished verifyLoginWithValidCredential Test 
+2018-06-12 18:28:37 INFO  TestBase:46 - Creating the object of null
+2018-06-12 18:28:39 INFO  TestBase:61 - Navigating to : https://api.fincash.com
+2018-06-12 18:28:45 INFO  TC001_VerifyLoginWithInvalidCredential:26 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-06-12 18:28:46 INFO  Homepage:42 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (1ad87c99-65ce-4aa3-b63f-e2fc17f4e3ca)] -> xpath: //span[text()='LOG IN']]
+2018-06-12 18:28:46 INFO  Homepage:47 - Entered Email = suraj.kakode@fincash.com and object is : [[FirefoxDriver: firefox on XP (1ad87c99-65ce-4aa3-b63f-e2fc17f4e3ca)] -> css selector: input[placeholder='Email Id']]
+2018-06-12 18:28:46 INFO  Homepage:51 - Entered password = kakode922 and object is : [[FirefoxDriver: firefox on XP (1ad87c99-65ce-4aa3-b63f-e2fc17f4e3ca)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-12 18:28:47 INFO  Homepage:54 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (1ad87c99-65ce-4aa3-b63f-e2fc17f4e3ca)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-12 18:28:52 INFO  TC001_VerifyLoginWithInvalidCredential:33 - ================ Finished verifyLoginWithInValidCredential Test 
+2018-06-12 18:28:52 INFO  TC001_VerifyLoginWithInvalidCredential:39 - ================ Starting verifyLoginWithValidCredential Test 
+2018-06-12 18:28:52 INFO  Homepage:42 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (1ad87c99-65ce-4aa3-b63f-e2fc17f4e3ca)] -> xpath: //span[text()='LOG IN']]
+2018-06-12 18:28:52 INFO  Homepage:47 - Entered Email = suraj.kakode@fincash.com and object is : [[FirefoxDriver: firefox on XP (1ad87c99-65ce-4aa3-b63f-e2fc17f4e3ca)] -> css selector: input[placeholder='Email Id']]
+2018-06-12 18:28:52 INFO  Homepage:51 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (1ad87c99-65ce-4aa3-b63f-e2fc17f4e3ca)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-12 18:28:53 INFO  Homepage:54 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (1ad87c99-65ce-4aa3-b63f-e2fc17f4e3ca)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-12 18:28:58 INFO  TC001_VerifyLoginWithInvalidCredential:45 - ================ Finished verifyLoginWithValidCredential Test 
+2018-06-12 18:28:58 INFO  TC002_VerifyLoginWithValidCredential:25 - ================ Starting verifyLoginWithValidCredential Test 
+2018-06-12 18:28:58 INFO  Homepage:42 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (b9f717ce-345e-4c59-b406-97083019f0a2)] -> xpath: //span[text()='LOG IN']]
+2018-06-12 18:31:08 INFO  Homepage:47 - Entered Email = suraj.kakode@fincash.com and object is : [[FirefoxDriver: firefox on XP (b9f717ce-345e-4c59-b406-97083019f0a2)] -> css selector: input[placeholder='Email Id']]
+2018-06-12 18:31:08 INFO  Homepage:51 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (b9f717ce-345e-4c59-b406-97083019f0a2)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-12 18:31:08 INFO  Homepage:54 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (b9f717ce-345e-4c59-b406-97083019f0a2)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-12 18:31:13 INFO  TC002_VerifyLoginWithValidCredential:31 - ================ Finished verifyLoginWithValidCredential Test 
+2018-06-14 17:21:13 INFO  TestBase:46 - Creating the object of null
+2018-06-14 17:21:16 INFO  TestBase:61 - Navigating to : https://api.fincash.com
+2018-06-14 17:21:21 INFO  TestBase:46 - Creating the object of null
+2018-06-14 17:21:25 INFO  TestBase:61 - Navigating to : https://api.fincash.com
+2018-06-14 17:21:31 INFO  TC001_VerifyLoginWithInvalidCredential:26 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-06-14 17:21:31 INFO  Homepage:42 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (e2b914dd-23f8-4d35-9547-9d3f9f31f35c)] -> xpath: //span[text()='LOG IN']]
+2018-06-14 17:21:32 INFO  Homepage:47 - Entered Email = suraj.kakode@fincaswh.com and object is : [[FirefoxDriver: firefox on XP (e2b914dd-23f8-4d35-9547-9d3f9f31f35c)] -> css selector: input[placeholder='Email Id']]
+2018-06-14 17:21:32 INFO  Homepage:51 - Entered password = kakode922 and object is : [[FirefoxDriver: firefox on XP (e2b914dd-23f8-4d35-9547-9d3f9f31f35c)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-14 17:21:32 INFO  Homepage:54 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (e2b914dd-23f8-4d35-9547-9d3f9f31f35c)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-14 17:21:37 INFO  TC001_VerifyLoginWithInvalidCredential:33 - ================ Finished verifyLoginWithInValidCredential Test 
+2018-06-14 17:21:37 INFO  TC001_VerifyLoginWithInvalidCredential:39 - ================ Starting verifyLoginWithValidCredential Test 
+2018-06-14 17:21:37 INFO  Homepage:42 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (e2b914dd-23f8-4d35-9547-9d3f9f31f35c)] -> xpath: //span[text()='LOG IN']]
+2018-06-14 17:21:37 INFO  Homepage:47 - Entered Email = suraj.kakode@fincash.com and object is : [[FirefoxDriver: firefox on XP (e2b914dd-23f8-4d35-9547-9d3f9f31f35c)] -> css selector: input[placeholder='Email Id']]
+2018-06-14 17:21:38 INFO  Homepage:51 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (e2b914dd-23f8-4d35-9547-9d3f9f31f35c)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-14 17:21:38 INFO  Homepage:54 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (e2b914dd-23f8-4d35-9547-9d3f9f31f35c)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-14 17:21:43 INFO  TC001_VerifyLoginWithInvalidCredential:45 - ================ Finished verifyLoginWithValidCredential Test 
+2018-06-14 17:21:43 INFO  TC002_VerifyLoginWithValidCredential:25 - ================ Starting verifyLoginWithValidCredential Test 
+2018-06-14 17:21:43 INFO  Homepage:42 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (dcbdb4fd-d349-4a17-a3de-1dd77538e7b5)] -> xpath: //span[text()='LOG IN']]
+2018-06-14 17:21:44 INFO  Homepage:47 - Entered Email = suraj.kakode@fincash.com and object is : [[FirefoxDriver: firefox on XP (dcbdb4fd-d349-4a17-a3de-1dd77538e7b5)] -> css selector: input[placeholder='Email Id']]
+2018-06-14 17:21:44 INFO  Homepage:51 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (dcbdb4fd-d349-4a17-a3de-1dd77538e7b5)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-14 17:21:44 INFO  Homepage:54 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (dcbdb4fd-d349-4a17-a3de-1dd77538e7b5)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-14 17:21:49 INFO  TC002_VerifyLoginWithValidCredential:31 - ================ Finished verifyLoginWithValidCredential Test 
+2018-06-14 17:42:08 INFO  TC003_FooterlinkTest:24 - Starting clickOnFooter Test
+2018-06-14 17:42:38 INFO  TC003_FooterlinkTest:27 - Starting clickOnFooter Test
+2018-06-14 17:44:16 INFO  TC003_FooterlinkTest:24 - Starting clickOnFooter Test
+2018-06-14 17:44:54 INFO  TC003_FooterlinkTest:24 - Starting clickOnFooter Test
+2018-06-14 17:47:08 INFO  TC003_FooterlinkTest:24 - Starting clickOnFooter Test
+2018-06-14 17:48:46 INFO  TC003_FooterlinkTest:24 - Starting clickOnFooter Test
+2018-06-14 17:49:16 INFO  TC003_FooterlinkTest:27 - Ending clickOnFooter Test
+2018-06-14 17:51:35 INFO  TC003_FooterlinkTest:24 - Starting clickOnFooter Test
+2018-06-14 17:52:10 INFO  TC003_FooterlinkTest:27 - Ending clickOnFooter Test
+2018-06-14 17:54:21 INFO  TC003_FooterlinkTest:24 - Starting clickOnFooter Test
+2018-06-14 17:54:21 INFO  Footer:42 - In the loop. The value of i is 1 and j is 1
+2018-06-14 17:54:56 INFO  Footer:49 - Exception caught incremaneting i: 1
+2018-06-14 17:54:56 INFO  TC003_FooterlinkTest:27 - Ending clickOnFooter Test
+2018-06-14 17:59:00 INFO  TC003_FooterlinkTest:24 - Starting clickOnFooter Test
+2018-06-14 17:59:00 INFO  Footer:42 - In the loop. The value of i is 1 and j is 1
+2018-06-14 18:00:53 INFO  TC003_FooterlinkTest:24 - Starting clickOnFooter Test
+2018-06-14 18:00:53 INFO  Footer:42 - In the loop. The value of i is 1 and j is 1
+2018-06-14 18:00:53 INFO  Footer:42 - In the loop. The value of i is 1 and j is 2
+2018-06-14 18:00:53 INFO  Footer:42 - In the loop. The value of i is 1 and j is 3
+2018-06-14 18:00:54 INFO  Footer:42 - In the loop. The value of i is 1 and j is 4
+2018-06-14 18:00:54 INFO  Footer:42 - In the loop. The value of i is 1 and j is 5
+2018-06-14 18:00:54 INFO  Footer:42 - In the loop. The value of i is 1 and j is 6
+2018-06-14 18:00:54 INFO  Footer:42 - In the loop. The value of i is 1 and j is 7
+2018-06-14 18:00:54 INFO  Footer:42 - In the loop. The value of i is 1 and j is 8
+2018-06-14 18:00:55 INFO  Footer:42 - In the loop. The value of i is 1 and j is 9
+2018-06-14 18:00:55 INFO  Footer:42 - In the loop. The value of i is 2 and j is 1
+2018-06-14 18:00:55 INFO  Footer:42 - In the loop. The value of i is 2 and j is 2
+2018-06-14 18:00:55 INFO  Footer:42 - In the loop. The value of i is 2 and j is 3
+2018-06-14 18:00:56 INFO  Footer:42 - In the loop. The value of i is 2 and j is 4
+2018-06-14 18:00:56 INFO  Footer:42 - In the loop. The value of i is 2 and j is 5
+2018-06-14 18:00:56 INFO  Footer:42 - In the loop. The value of i is 2 and j is 6
+2018-06-14 18:00:56 INFO  Footer:42 - In the loop. The value of i is 2 and j is 7
+2018-06-14 18:00:57 INFO  Footer:42 - In the loop. The value of i is 2 and j is 8
+2018-06-14 18:00:57 INFO  Footer:42 - In the loop. The value of i is 2 and j is 9
+2018-06-14 18:00:57 INFO  Footer:42 - In the loop. The value of i is 3 and j is 1
+2018-06-14 18:00:57 INFO  Footer:42 - In the loop. The value of i is 3 and j is 2
+2018-06-14 18:00:57 INFO  Footer:42 - In the loop. The value of i is 3 and j is 3
+2018-06-14 18:00:58 INFO  Footer:42 - In the loop. The value of i is 3 and j is 4
+2018-06-14 18:00:58 INFO  Footer:42 - In the loop. The value of i is 3 and j is 5
+2018-06-14 18:00:58 INFO  Footer:42 - In the loop. The value of i is 3 and j is 6
+2018-06-14 18:00:58 INFO  Footer:42 - In the loop. The value of i is 3 and j is 7
+2018-06-14 18:00:59 INFO  Footer:42 - In the loop. The value of i is 3 and j is 8
+2018-06-14 18:00:59 INFO  Footer:42 - In the loop. The value of i is 3 and j is 9
+2018-06-14 18:00:59 INFO  Footer:42 - In the loop. The value of i is 4 and j is 1
+2018-06-14 18:00:59 INFO  Footer:42 - In the loop. The value of i is 4 and j is 2
+2018-06-14 18:01:00 INFO  Footer:42 - In the loop. The value of i is 4 and j is 3
+2018-06-14 18:01:00 INFO  Footer:42 - In the loop. The value of i is 4 and j is 4
+2018-06-14 18:01:00 INFO  Footer:42 - In the loop. The value of i is 4 and j is 5
+2018-06-14 18:01:00 INFO  Footer:42 - In the loop. The value of i is 4 and j is 6
+2018-06-14 18:01:00 INFO  Footer:42 - In the loop. The value of i is 4 and j is 7
+2018-06-14 18:01:01 INFO  Footer:42 - In the loop. The value of i is 4 and j is 8
+2018-06-14 18:01:01 INFO  Footer:42 - In the loop. The value of i is 4 and j is 9
+2018-06-14 18:01:01 INFO  Footer:42 - In the loop. The value of i is 5 and j is 1
+2018-06-14 18:01:01 INFO  Footer:42 - In the loop. The value of i is 5 and j is 2
+2018-06-14 18:01:02 INFO  Footer:42 - In the loop. The value of i is 5 and j is 3
+2018-06-14 18:01:02 INFO  Footer:42 - In the loop. The value of i is 5 and j is 4
+2018-06-14 18:01:02 INFO  Footer:42 - In the loop. The value of i is 5 and j is 5
+2018-06-14 18:01:02 INFO  Footer:42 - In the loop. The value of i is 5 and j is 6
+2018-06-14 18:01:03 INFO  Footer:42 - In the loop. The value of i is 5 and j is 7
+2018-06-14 18:01:03 INFO  Footer:42 - In the loop. The value of i is 5 and j is 8
+2018-06-14 18:01:03 INFO  Footer:42 - In the loop. The value of i is 5 and j is 9
+2018-06-14 18:01:03 INFO  TC003_FooterlinkTest:27 - Ending clickOnFooter Test
+2018-06-14 18:02:20 INFO  TC003_FooterlinkTest:23 - Starting clickOnFooter Test
+2018-06-14 18:02:20 INFO  Footer:42 - In the loop. The value of i is 1 and j is 1
+2018-06-14 18:02:25 INFO  Footer:42 - In the loop. The value of i is 1 and j is 2
+2018-06-14 18:02:31 INFO  Footer:42 - In the loop. The value of i is 1 and j is 3
+2018-06-14 18:02:36 INFO  Footer:42 - In the loop. The value of i is 1 and j is 4
+2018-06-14 18:02:41 INFO  Footer:42 - In the loop. The value of i is 1 and j is 5
+2018-06-14 18:02:46 INFO  Footer:42 - In the loop. The value of i is 1 and j is 6
+2018-06-14 18:02:52 INFO  Footer:42 - In the loop. The value of i is 1 and j is 7
+2018-06-14 18:02:57 INFO  Footer:42 - In the loop. The value of i is 1 and j is 8
+2018-06-14 18:03:02 INFO  Footer:42 - In the loop. The value of i is 1 and j is 9
+2018-06-14 18:03:07 INFO  Footer:42 - In the loop. The value of i is 2 and j is 1
+2018-06-14 18:03:13 INFO  Footer:42 - In the loop. The value of i is 2 and j is 2
+2018-06-14 18:03:18 INFO  Footer:42 - In the loop. The value of i is 2 and j is 3
+2018-06-14 18:03:23 INFO  Footer:42 - In the loop. The value of i is 2 and j is 4
+2018-06-14 18:03:28 INFO  Footer:42 - In the loop. The value of i is 2 and j is 5
+2018-06-14 18:03:33 INFO  Footer:42 - In the loop. The value of i is 2 and j is 6
+2018-06-14 18:03:39 INFO  Footer:42 - In the loop. The value of i is 2 and j is 7
+2018-06-14 18:03:44 INFO  Footer:42 - In the loop. The value of i is 2 and j is 8
+2018-06-14 18:03:49 INFO  Footer:42 - In the loop. The value of i is 2 and j is 9
+2018-06-14 18:03:54 INFO  Footer:42 - In the loop. The value of i is 3 and j is 1
+2018-06-14 18:04:00 INFO  Footer:42 - In the loop. The value of i is 3 and j is 2
+2018-06-14 18:04:05 INFO  Footer:42 - In the loop. The value of i is 3 and j is 3
+2018-06-14 18:04:10 INFO  Footer:42 - In the loop. The value of i is 3 and j is 4
+2018-06-14 18:04:15 INFO  Footer:42 - In the loop. The value of i is 3 and j is 5
+2018-06-14 18:04:21 INFO  Footer:42 - In the loop. The value of i is 3 and j is 6
+2018-06-14 18:04:26 INFO  Footer:42 - In the loop. The value of i is 3 and j is 7
+2018-06-14 18:04:31 INFO  Footer:42 - In the loop. The value of i is 3 and j is 8
+2018-06-14 18:04:36 INFO  Footer:42 - In the loop. The value of i is 3 and j is 9
+2018-06-14 18:04:42 INFO  Footer:42 - In the loop. The value of i is 4 and j is 1
+2018-06-14 18:04:47 INFO  Footer:42 - In the loop. The value of i is 4 and j is 2
+2018-06-14 18:04:52 INFO  Footer:42 - In the loop. The value of i is 4 and j is 3
+2018-06-14 18:04:57 INFO  Footer:42 - In the loop. The value of i is 4 and j is 4
+2018-06-14 18:05:02 INFO  Footer:42 - In the loop. The value of i is 4 and j is 5
+2018-06-14 18:05:08 INFO  Footer:42 - In the loop. The value of i is 4 and j is 6
+2018-06-14 18:05:13 INFO  Footer:42 - In the loop. The value of i is 4 and j is 7
+2018-06-14 18:05:18 INFO  Footer:42 - In the loop. The value of i is 4 and j is 8
+2018-06-14 18:05:23 INFO  Footer:42 - In the loop. The value of i is 4 and j is 9
+2018-06-14 18:05:29 INFO  Footer:42 - In the loop. The value of i is 5 and j is 1
+2018-06-14 18:05:34 INFO  Footer:42 - In the loop. The value of i is 5 and j is 2
+2018-06-14 18:05:39 INFO  Footer:42 - In the loop. The value of i is 5 and j is 3
+2018-06-14 18:05:44 INFO  Footer:42 - In the loop. The value of i is 5 and j is 4
+2018-06-14 18:05:50 INFO  Footer:42 - In the loop. The value of i is 5 and j is 5
+2018-06-14 18:05:55 INFO  Footer:42 - In the loop. The value of i is 5 and j is 6
+2018-06-14 18:06:00 INFO  Footer:42 - In the loop. The value of i is 5 and j is 7
+2018-06-14 18:06:05 INFO  Footer:42 - In the loop. The value of i is 5 and j is 8
+2018-06-14 18:06:10 INFO  Footer:42 - In the loop. The value of i is 5 and j is 9
+2018-06-14 18:06:16 INFO  TC003_FooterlinkTest:26 - Ending clickOnFooter Test
+2018-06-14 18:32:31 INFO  TC003_FooterlinkTest:? - Ending clickOnFooter Test
+2018-06-14 18:32:33 INFO  TC003_FooterlinkTest:? - Ending clickOnFooter Test
+2018-06-14 18:33:29 INFO  TC003_FooterlinkTest:23 - Starting clickOnFooter Test
+2018-06-14 18:33:29 INFO  Footer:42 - In the loop. The value of i is 1 and j is 1
+2018-06-14 18:33:29 INFO  Footer:44 - clicking 
+2018-06-14 18:33:35 INFO  Footer:42 - In the loop. The value of i is 1 and j is 2
+2018-06-14 18:33:35 INFO  Footer:44 - clicking 
+2018-06-14 18:33:40 INFO  Footer:42 - In the loop. The value of i is 1 and j is 3
+2018-06-14 18:33:40 INFO  Footer:44 - clicking 
+2018-06-14 18:33:45 INFO  Footer:42 - In the loop. The value of i is 1 and j is 4
+2018-06-14 18:33:45 INFO  Footer:44 - clicking 
+2018-06-14 18:33:50 INFO  Footer:42 - In the loop. The value of i is 1 and j is 5
+2018-06-14 18:33:50 INFO  Footer:44 - clicking 
+2018-06-14 18:33:56 INFO  Footer:42 - In the loop. The value of i is 1 and j is 6
+2018-06-14 18:33:56 INFO  Footer:44 - clicking 
+2018-06-14 18:34:01 INFO  Footer:42 - In the loop. The value of i is 1 and j is 7
+2018-06-14 18:34:01 INFO  Footer:44 - clicking 
+2018-06-14 18:34:06 INFO  Footer:42 - In the loop. The value of i is 1 and j is 8
+2018-06-14 18:34:06 INFO  Footer:44 - clicking 
+2018-06-14 18:34:11 INFO  Footer:42 - In the loop. The value of i is 1 and j is 9
+2018-06-14 18:34:11 INFO  Footer:44 - clicking 
+2018-06-14 18:34:17 INFO  Footer:42 - In the loop. The value of i is 2 and j is 1
+2018-06-14 18:34:17 INFO  Footer:44 - clicking 
+2018-06-14 18:34:22 INFO  Footer:42 - In the loop. The value of i is 2 and j is 2
+2018-06-14 18:34:22 INFO  Footer:44 - clicking 
+2018-06-14 18:34:27 INFO  Footer:42 - In the loop. The value of i is 2 and j is 3
+2018-06-14 18:34:27 INFO  Footer:44 - clicking 
+2018-06-14 18:34:32 INFO  Footer:42 - In the loop. The value of i is 2 and j is 4
+2018-06-14 18:34:32 INFO  Footer:44 - clicking 
+2018-06-14 18:34:37 INFO  Footer:42 - In the loop. The value of i is 2 and j is 5
+2018-06-14 18:34:37 INFO  Footer:44 - clicking 
+2018-06-14 18:34:43 INFO  Footer:42 - In the loop. The value of i is 2 and j is 6
+2018-06-14 18:34:43 INFO  Footer:44 - clicking 
+2018-06-14 18:34:49 INFO  Footer:42 - In the loop. The value of i is 2 and j is 7
+2018-06-14 18:34:49 INFO  Footer:44 - clicking 
+2018-06-14 18:34:55 INFO  Footer:42 - In the loop. The value of i is 2 and j is 8
+2018-06-14 18:34:55 INFO  Footer:44 - clicking 
+2018-06-14 18:35:00 INFO  Footer:42 - In the loop. The value of i is 2 and j is 9
+2018-06-14 18:35:00 INFO  Footer:44 - clicking 
+2018-06-14 18:35:06 INFO  Footer:42 - In the loop. The value of i is 3 and j is 1
+2018-06-14 18:35:06 INFO  Footer:44 - clicking 
+2018-06-14 18:35:11 INFO  Footer:42 - In the loop. The value of i is 3 and j is 2
+2018-06-14 18:35:11 INFO  Footer:44 - clicking 
+2018-06-14 18:35:16 INFO  Footer:42 - In the loop. The value of i is 3 and j is 3
+2018-06-14 18:35:16 INFO  Footer:44 - clicking 
+2018-06-14 18:35:22 INFO  Footer:42 - In the loop. The value of i is 3 and j is 4
+2018-06-14 18:35:22 INFO  Footer:44 - clicking 
+2018-06-14 18:36:01 INFO  TC003_FooterlinkTest:23 - Starting clickOnFooter Test
+2018-06-14 18:36:12 INFO  Footer:42 - In the loop. The value of i is 1 and j is 1
+2018-06-14 18:36:16 INFO  Footer:44 - clicking 
+2018-06-14 18:37:26 INFO  Footer:47 - Navigating back
+2018-06-14 18:37:58 INFO  Footer:42 - In the loop. The value of i is 1 and j is 2
+2018-06-14 18:38:04 INFO  Footer:44 - clicking 
+2018-06-14 18:40:20 INFO  TC003_FooterlinkTest:23 - Starting clickOnFooter Test
+2018-06-14 18:40:21 INFO  Footer:39 - In the loop. The value of i is 1 and j is 1
+2018-06-14 18:40:21 INFO  Footer:41 - clicking 
+2018-06-14 18:40:26 INFO  Footer:44 - Navigating back
+2018-06-14 18:40:26 INFO  Footer:39 - In the loop. The value of i is 1 and j is 2
+2018-06-14 18:40:26 INFO  Footer:41 - clicking 
+2018-06-14 18:40:31 INFO  Footer:44 - Navigating back
+2018-06-14 18:40:31 INFO  Footer:39 - In the loop. The value of i is 1 and j is 3
+2018-06-14 18:40:31 INFO  Footer:41 - clicking 
+2018-06-14 18:40:36 INFO  Footer:44 - Navigating back
+2018-06-14 18:40:36 INFO  Footer:39 - In the loop. The value of i is 1 and j is 4
+2018-06-14 18:40:36 INFO  Footer:41 - clicking 
+2018-06-14 18:40:41 INFO  Footer:44 - Navigating back
+2018-06-14 18:40:41 INFO  Footer:39 - In the loop. The value of i is 1 and j is 5
+2018-06-14 18:40:41 INFO  Footer:41 - clicking 
+2018-06-14 18:40:47 INFO  Footer:44 - Navigating back
+2018-06-14 18:40:47 INFO  Footer:39 - In the loop. The value of i is 1 and j is 6
+2018-06-14 18:40:47 INFO  Footer:41 - clicking 
+2018-06-14 18:40:52 INFO  Footer:44 - Navigating back
+2018-06-14 18:40:52 INFO  Footer:39 - In the loop. The value of i is 1 and j is 7
+2018-06-14 18:40:52 INFO  Footer:41 - clicking 
+2018-06-14 18:40:57 INFO  Footer:44 - Navigating back
+2018-06-14 18:40:57 INFO  Footer:39 - In the loop. The value of i is 1 and j is 8
+2018-06-14 18:40:57 INFO  Footer:41 - clicking 
+2018-06-14 18:41:02 INFO  Footer:44 - Navigating back
+2018-06-14 18:41:02 INFO  Footer:39 - In the loop. The value of i is 1 and j is 9
+2018-06-14 18:41:02 INFO  Footer:41 - clicking 
+2018-06-14 18:41:08 INFO  Footer:44 - Navigating back
+2018-06-14 18:41:08 INFO  Footer:39 - In the loop. The value of i is 2 and j is 1
+2018-06-14 18:41:08 INFO  Footer:41 - clicking 
+2018-06-14 18:41:13 INFO  Footer:44 - Navigating back
+2018-06-14 18:41:13 INFO  Footer:39 - In the loop. The value of i is 2 and j is 2
+2018-06-14 18:41:13 INFO  Footer:41 - clicking 
+2018-06-14 18:41:18 INFO  Footer:44 - Navigating back
+2018-06-14 18:41:18 INFO  Footer:39 - In the loop. The value of i is 2 and j is 3
+2018-06-14 18:41:18 INFO  Footer:41 - clicking 
+2018-06-14 18:43:14 INFO  TC003_FooterlinkTest:23 - Starting clickOnFooter Test
+2018-06-14 18:43:24 INFO  Footer:39 - In the loop. The value of i is 1 and j is 1
+2018-06-14 18:43:26 INFO  Footer:41 - clicking 
+2018-06-14 19:06:16 INFO  TC003_FooterlinkTest:23 - Starting clickOnFooter Test
+2018-06-14 19:06:16 INFO  Footer:39 - In the loop. The value of i is 1 and j is 1
+2018-06-14 19:06:16 INFO  Footer:41 - clicking 
+2018-06-14 19:06:22 INFO  Footer:44 - Navigating back
+2018-06-14 19:06:22 INFO  Footer:39 - In the loop. The value of i is 1 and j is 2
+2018-06-14 19:06:22 INFO  Footer:41 - clicking 
+2018-06-14 19:06:27 INFO  Footer:44 - Navigating back
+2018-06-14 19:06:27 INFO  Footer:39 - In the loop. The value of i is 1 and j is 3
+2018-06-14 19:06:27 INFO  Footer:41 - clicking 
+2018-06-14 19:06:32 INFO  Footer:44 - Navigating back
+2018-06-14 19:06:32 INFO  Footer:39 - In the loop. The value of i is 1 and j is 4
+2018-06-14 19:06:32 INFO  Footer:41 - clicking 
+2018-06-14 19:06:38 INFO  Footer:44 - Navigating back
+2018-06-14 19:06:38 INFO  Footer:39 - In the loop. The value of i is 1 and j is 5
+2018-06-14 19:06:38 INFO  Footer:41 - clicking 
+2018-06-14 19:06:43 INFO  Footer:44 - Navigating back
+2018-06-14 19:06:43 INFO  Footer:39 - In the loop. The value of i is 1 and j is 6
+2018-06-14 19:06:43 INFO  Footer:41 - clicking 
+2018-06-14 19:06:48 INFO  Footer:44 - Navigating back
+2018-06-14 19:06:48 INFO  Footer:39 - In the loop. The value of i is 1 and j is 7
+2018-06-14 19:06:48 INFO  Footer:41 - clicking 
+2018-06-14 19:06:53 INFO  Footer:44 - Navigating back
+2018-06-14 19:06:53 INFO  Footer:39 - In the loop. The value of i is 1 and j is 8
+2018-06-14 19:06:53 INFO  Footer:41 - clicking 
+2018-06-14 19:06:58 INFO  Footer:44 - Navigating back
+2018-06-14 19:06:58 INFO  Footer:39 - In the loop. The value of i is 1 and j is 9
+2018-06-14 19:06:58 INFO  Footer:41 - clicking 
+2018-06-14 19:07:04 INFO  Footer:44 - Navigating back
+2018-06-14 19:07:04 INFO  Footer:39 - In the loop. The value of i is 2 and j is 1
+2018-06-14 19:07:04 INFO  Footer:41 - clicking 
+2018-06-14 19:07:09 INFO  Footer:44 - Navigating back
+2018-06-14 19:07:09 INFO  Footer:39 - In the loop. The value of i is 2 and j is 2
+2018-06-14 19:07:09 INFO  Footer:41 - clicking 
+2018-06-14 19:07:14 INFO  Footer:44 - Navigating back
+2018-06-14 19:07:14 INFO  Footer:39 - In the loop. The value of i is 2 and j is 3
+2018-06-14 19:07:14 INFO  Footer:41 - clicking 
+2018-06-14 19:07:19 INFO  Footer:44 - Navigating back
+2018-06-14 19:07:19 INFO  Footer:39 - In the loop. The value of i is 2 and j is 4
+2018-06-14 19:07:19 INFO  Footer:41 - clicking 
+2018-06-14 19:07:25 INFO  Footer:44 - Navigating back
+2018-06-14 19:07:25 INFO  Footer:39 - In the loop. The value of i is 2 and j is 5
+2018-06-14 19:07:25 INFO  Footer:41 - clicking 
+2018-06-14 19:07:30 INFO  Footer:44 - Navigating back
+2018-06-14 19:07:30 INFO  Footer:39 - In the loop. The value of i is 2 and j is 6
+2018-06-14 19:07:30 INFO  Footer:41 - clicking 
+2018-06-14 19:07:35 INFO  Footer:44 - Navigating back
+2018-06-14 19:07:35 INFO  Footer:39 - In the loop. The value of i is 2 and j is 7
+2018-06-14 19:07:35 INFO  Footer:41 - clicking 
+2018-06-14 19:11:09 INFO  TC003_FooterlinkTest:23 - Starting clickOnFooter Test
+2018-06-14 19:11:09 INFO  Footer:39 - In the loop. The value of i is 1 and j is 1
+2018-06-14 19:11:09 INFO  Footer:41 - clicking 
+2018-06-14 19:11:14 INFO  Footer:44 - Navigating back
+2018-06-14 19:11:14 INFO  Footer:39 - In the loop. The value of i is 1 and j is 2
+2018-06-14 19:11:14 INFO  Footer:41 - clicking 
+2018-06-14 19:11:20 INFO  Footer:44 - Navigating back
+2018-06-14 19:11:20 INFO  Footer:39 - In the loop. The value of i is 1 and j is 3
+2018-06-14 19:11:20 INFO  Footer:41 - clicking 
+2018-06-14 19:11:25 INFO  Footer:44 - Navigating back
+2018-06-14 19:11:25 INFO  Footer:39 - In the loop. The value of i is 1 and j is 4
+2018-06-14 19:11:25 INFO  Footer:41 - clicking 
+2018-06-14 19:11:30 INFO  Footer:44 - Navigating back
+2018-06-14 19:11:30 INFO  Footer:39 - In the loop. The value of i is 1 and j is 5
+2018-06-14 19:11:30 INFO  Footer:41 - clicking 
+2018-06-14 19:11:35 INFO  Footer:44 - Navigating back
+2018-06-14 19:11:35 INFO  Footer:39 - In the loop. The value of i is 1 and j is 6
+2018-06-14 19:11:35 INFO  Footer:41 - clicking 
+2018-06-14 19:11:40 INFO  Footer:44 - Navigating back
+2018-06-14 19:11:40 INFO  Footer:39 - In the loop. The value of i is 1 and j is 7
+2018-06-14 19:11:40 INFO  Footer:41 - clicking 
+2018-06-14 19:11:46 INFO  Footer:44 - Navigating back
+2018-06-14 19:11:46 INFO  Footer:39 - In the loop. The value of i is 1 and j is 8
+2018-06-14 19:11:46 INFO  Footer:41 - clicking 
+2018-06-14 19:11:51 INFO  Footer:44 - Navigating back
+2018-06-14 19:11:51 INFO  Footer:39 - In the loop. The value of i is 1 and j is 9
+2018-06-14 19:11:51 INFO  Footer:41 - clicking 
+2018-06-14 19:11:56 INFO  Footer:44 - Navigating back
+2018-06-14 19:11:56 INFO  Footer:39 - In the loop. The value of i is 2 and j is 1
+2018-06-14 19:11:56 INFO  Footer:41 - clicking 
+2018-06-14 19:12:01 INFO  Footer:44 - Navigating back
+2018-06-14 19:12:01 INFO  Footer:39 - In the loop. The value of i is 2 and j is 2
+2018-06-14 19:12:01 INFO  Footer:41 - clicking 
+2018-06-14 19:12:07 INFO  Footer:44 - Navigating back
+2018-06-14 19:12:07 INFO  Footer:39 - In the loop. The value of i is 2 and j is 3
+2018-06-14 19:12:07 INFO  Footer:41 - clicking 
+2018-06-14 19:12:12 INFO  Footer:44 - Navigating back
+2018-06-14 19:12:12 INFO  Footer:39 - In the loop. The value of i is 2 and j is 4
+2018-06-14 19:12:12 INFO  Footer:41 - clicking 
+2018-06-14 19:12:17 INFO  Footer:44 - Navigating back
+2018-06-14 19:12:17 INFO  Footer:39 - In the loop. The value of i is 2 and j is 5
+2018-06-14 19:12:17 INFO  Footer:41 - clicking 
+2018-06-14 19:12:22 INFO  Footer:44 - Navigating back
+2018-06-14 19:12:22 INFO  Footer:39 - In the loop. The value of i is 2 and j is 6
+2018-06-14 19:12:22 INFO  Footer:41 - clicking 
+2018-06-14 19:12:28 INFO  Footer:44 - Navigating back
+2018-06-14 19:12:28 INFO  Footer:39 - In the loop. The value of i is 2 and j is 7
+2018-06-14 19:12:28 INFO  Footer:41 - clicking 
+2018-06-14 19:12:33 INFO  Footer:44 - Navigating back
+2018-06-14 19:12:33 INFO  Footer:39 - In the loop. The value of i is 2 and j is 8
+2018-06-14 19:12:33 INFO  Footer:41 - clicking 
+2018-06-14 19:12:38 INFO  Footer:44 - Navigating back
+2018-06-14 19:12:38 INFO  Footer:39 - In the loop. The value of i is 2 and j is 9
+2018-06-14 19:12:38 INFO  Footer:41 - clicking 
+2018-06-14 19:12:43 INFO  Footer:44 - Navigating back
+2018-06-14 19:12:43 INFO  Footer:39 - In the loop. The value of i is 3 and j is 1
+2018-06-14 19:12:43 INFO  Footer:41 - clicking 
+2018-06-14 19:12:49 INFO  Footer:44 - Navigating back
+2018-06-14 19:12:49 INFO  Footer:39 - In the loop. The value of i is 3 and j is 2
+2018-06-14 19:12:49 INFO  Footer:41 - clicking 
+2018-06-14 19:12:54 INFO  Footer:44 - Navigating back
+2018-06-14 19:12:54 INFO  Footer:39 - In the loop. The value of i is 3 and j is 3
+2018-06-14 19:12:54 INFO  Footer:41 - clicking 
+2018-06-14 19:12:59 INFO  Footer:44 - Navigating back
+2018-06-14 19:12:59 INFO  Footer:39 - In the loop. The value of i is 3 and j is 4
+2018-06-14 19:12:59 INFO  Footer:41 - clicking 
+2018-06-14 19:13:04 INFO  Footer:44 - Navigating back
+2018-06-14 19:13:04 INFO  Footer:39 - In the loop. The value of i is 3 and j is 5
+2018-06-14 19:13:04 INFO  Footer:41 - clicking 
+2018-06-14 19:13:10 INFO  Footer:44 - Navigating back
+2018-06-14 19:13:10 INFO  Footer:39 - In the loop. The value of i is 3 and j is 6
+2018-06-14 19:13:10 INFO  Footer:41 - clicking 
+2018-06-14 19:13:15 INFO  Footer:44 - Navigating back
+2018-06-14 19:13:15 INFO  Footer:39 - In the loop. The value of i is 3 and j is 7
+2018-06-14 19:13:15 INFO  Footer:41 - clicking 
+2018-06-14 19:13:20 INFO  Footer:44 - Navigating back
+2018-06-14 19:13:20 INFO  Footer:39 - In the loop. The value of i is 3 and j is 8
+2018-06-14 19:13:20 INFO  Footer:41 - clicking 
+2018-06-14 19:13:25 INFO  Footer:44 - Navigating back
+2018-06-14 19:13:25 INFO  Footer:39 - In the loop. The value of i is 3 and j is 9
+2018-06-14 19:13:25 INFO  Footer:41 - clicking 
+2018-06-14 19:13:30 INFO  Footer:44 - Navigating back
+2018-06-14 19:13:30 INFO  Footer:39 - In the loop. The value of i is 4 and j is 1
+2018-06-14 19:13:30 INFO  Footer:41 - clicking 
+2018-06-14 19:13:36 INFO  Footer:44 - Navigating back
+2018-06-14 19:13:36 INFO  Footer:39 - In the loop. The value of i is 4 and j is 2
+2018-06-14 19:13:36 INFO  Footer:41 - clicking 
+2018-06-14 19:13:41 INFO  Footer:44 - Navigating back
+2018-06-14 19:13:41 INFO  Footer:39 - In the loop. The value of i is 4 and j is 3
+2018-06-14 19:13:41 INFO  Footer:41 - clicking 
+2018-06-14 19:13:46 INFO  Footer:44 - Navigating back
+2018-06-14 19:13:46 INFO  Footer:39 - In the loop. The value of i is 4 and j is 4
+2018-06-14 19:13:46 INFO  Footer:41 - clicking 
+2018-06-14 19:13:51 INFO  Footer:44 - Navigating back
+2018-06-14 19:13:51 INFO  Footer:39 - In the loop. The value of i is 4 and j is 5
+2018-06-14 19:13:51 INFO  Footer:41 - clicking 
+2018-06-14 19:13:57 INFO  Footer:44 - Navigating back
+2018-06-14 19:13:57 INFO  Footer:39 - In the loop. The value of i is 4 and j is 6
+2018-06-14 19:13:57 INFO  Footer:41 - clicking 
+2018-06-14 19:14:02 INFO  Footer:44 - Navigating back
+2018-06-14 19:14:02 INFO  Footer:39 - In the loop. The value of i is 4 and j is 7
+2018-06-14 19:14:02 INFO  Footer:41 - clicking 
+2018-06-14 19:14:07 INFO  Footer:44 - Navigating back
+2018-06-14 19:14:07 INFO  Footer:39 - In the loop. The value of i is 4 and j is 8
+2018-06-14 19:14:07 INFO  Footer:41 - clicking 
+2018-06-14 19:14:12 INFO  Footer:44 - Navigating back
+2018-06-14 19:14:12 INFO  Footer:39 - In the loop. The value of i is 4 and j is 9
+2018-06-14 19:14:12 INFO  Footer:41 - clicking 
+2018-06-14 19:14:18 INFO  Footer:44 - Navigating back
+2018-06-14 19:14:18 INFO  Footer:39 - In the loop. The value of i is 5 and j is 1
+2018-06-14 19:14:18 INFO  Footer:41 - clicking 
+2018-06-14 19:14:23 INFO  Footer:44 - Navigating back
+2018-06-14 19:14:23 INFO  Footer:39 - In the loop. The value of i is 5 and j is 2
+2018-06-14 19:14:23 INFO  Footer:41 - clicking 
+2018-06-14 19:14:28 INFO  Footer:44 - Navigating back
+2018-06-14 19:14:28 INFO  Footer:39 - In the loop. The value of i is 5 and j is 3
+2018-06-14 19:14:28 INFO  Footer:41 - clicking 
+2018-06-14 19:14:33 INFO  Footer:44 - Navigating back
+2018-06-14 19:14:33 INFO  Footer:39 - In the loop. The value of i is 5 and j is 4
+2018-06-14 19:14:33 INFO  Footer:41 - clicking 
+2018-06-14 19:14:39 INFO  Footer:44 - Navigating back
+2018-06-14 19:14:39 INFO  Footer:39 - In the loop. The value of i is 5 and j is 5
+2018-06-14 19:14:39 INFO  Footer:41 - clicking 
+2018-06-14 19:14:44 INFO  Footer:44 - Navigating back
+2018-06-14 19:14:44 INFO  Footer:39 - In the loop. The value of i is 5 and j is 6
+2018-06-14 19:14:44 INFO  Footer:41 - clicking 
+2018-06-14 19:14:49 INFO  Footer:44 - Navigating back
+2018-06-14 19:14:49 INFO  Footer:39 - In the loop. The value of i is 5 and j is 7
+2018-06-14 19:14:49 INFO  Footer:41 - clicking 
+2018-06-14 19:14:54 INFO  Footer:44 - Navigating back
+2018-06-14 19:14:54 INFO  Footer:39 - In the loop. The value of i is 5 and j is 8
+2018-06-14 19:14:54 INFO  Footer:41 - clicking 
+2018-06-14 19:14:59 INFO  Footer:44 - Navigating back
+2018-06-14 19:14:59 INFO  Footer:39 - In the loop. The value of i is 5 and j is 9
+2018-06-14 19:14:59 INFO  Footer:41 - clicking 
+2018-06-14 19:15:05 INFO  Footer:44 - Navigating back
+2018-06-14 19:15:05 INFO  TC003_FooterlinkTest:26 - Ending clickOnFooter Test
+2018-06-19 12:04:14 INFO  TC003_FooterlinkTest:23 - Starting clickOnFooter Test
+2018-06-19 12:04:14 INFO  Footer:39 - In the loop. The value of i is 1 and j is 1
+2018-06-19 12:04:14 INFO  Footer:41 - clicking 
+2018-06-19 12:04:19 INFO  Footer:44 - Navigating back
+2018-06-19 12:04:19 INFO  Footer:39 - In the loop. The value of i is 1 and j is 2
+2018-06-19 12:04:19 INFO  Footer:41 - clicking 
+2018-06-19 12:04:24 INFO  Footer:44 - Navigating back
+2018-06-19 12:04:24 INFO  Footer:39 - In the loop. The value of i is 1 and j is 3
+2018-06-19 12:04:24 INFO  Footer:41 - clicking 
+2018-06-19 12:05:03 INFO  TC001_VerifyLoginWithInvalidCredential:26 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-06-19 12:05:04 INFO  Homepage:42 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (92b75e60-f6ca-47f9-8f00-5e6d79d64b94)] -> xpath: //span[text()='LOG IN']]
+2018-06-19 12:05:04 INFO  Homepage:47 - Entered Email = suraj.kakode@fincaswh.com and object is : [[FirefoxDriver: firefox on XP (92b75e60-f6ca-47f9-8f00-5e6d79d64b94)] -> css selector: input[placeholder='Email Id']]
+2018-06-19 12:05:04 INFO  Homepage:51 - Entered password = kakode922 and object is : [[FirefoxDriver: firefox on XP (92b75e60-f6ca-47f9-8f00-5e6d79d64b94)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-19 12:05:04 INFO  Homepage:54 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (92b75e60-f6ca-47f9-8f00-5e6d79d64b94)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-19 12:05:09 INFO  TC001_VerifyLoginWithInvalidCredential:33 - ================ Finished verifyLoginWithInValidCredential Test 
+2018-06-19 12:05:09 INFO  TC001_VerifyLoginWithInvalidCredential:39 - ================ Starting verifyLoginWithValidCredential Test 
+2018-06-19 12:05:10 INFO  Homepage:42 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (92b75e60-f6ca-47f9-8f00-5e6d79d64b94)] -> xpath: //span[text()='LOG IN']]
+2018-06-19 12:05:10 INFO  Homepage:47 - Entered Email = suraj.kakode@fincash.com and object is : [[FirefoxDriver: firefox on XP (92b75e60-f6ca-47f9-8f00-5e6d79d64b94)] -> css selector: input[placeholder='Email Id']]
+2018-06-19 12:05:10 INFO  Homepage:51 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (92b75e60-f6ca-47f9-8f00-5e6d79d64b94)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-19 12:05:10 INFO  Homepage:54 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (92b75e60-f6ca-47f9-8f00-5e6d79d64b94)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-19 12:05:15 INFO  TC001_VerifyLoginWithInvalidCredential:45 - ================ Finished verifyLoginWithValidCredential Test 
+2018-06-19 12:58:30 INFO  TC003_FooterlinkTest:23 - Starting clickOnFooter Test
+2018-06-19 12:58:30 INFO  Footer:39 - In the loop. The value of i is 1 and j is 1
+2018-06-19 12:58:30 INFO  Footer:41 - clicking 
+2018-06-19 12:58:35 INFO  Footer:44 - Navigating back
+2018-06-19 12:58:35 INFO  Footer:39 - In the loop. The value of i is 1 and j is 2
+2018-06-19 12:58:35 INFO  Footer:41 - clicking 
+2018-06-19 12:58:41 INFO  Footer:44 - Navigating back
+2018-06-19 12:58:41 INFO  Footer:39 - In the loop. The value of i is 1 and j is 3
+2018-06-19 12:58:41 INFO  Footer:41 - clicking 
+2018-06-19 12:58:46 INFO  Footer:44 - Navigating back
+2018-06-19 12:58:46 INFO  Footer:39 - In the loop. The value of i is 1 and j is 4
+2018-06-19 12:58:46 INFO  Footer:41 - clicking 
+2018-06-19 12:58:51 INFO  Footer:44 - Navigating back
+2018-06-19 12:58:51 INFO  Footer:39 - In the loop. The value of i is 1 and j is 5
+2018-06-19 12:58:51 INFO  Footer:41 - clicking 
+2018-06-19 12:58:56 INFO  Footer:44 - Navigating back
+2018-06-19 12:58:56 INFO  Footer:39 - In the loop. The value of i is 1 and j is 6
+2018-06-19 12:58:56 INFO  Footer:41 - clicking 
+2018-06-19 12:59:02 INFO  Footer:44 - Navigating back
+2018-06-19 12:59:02 INFO  Footer:39 - In the loop. The value of i is 1 and j is 7
+2018-06-19 12:59:02 INFO  Footer:41 - clicking 
+2018-06-19 12:59:07 INFO  Footer:44 - Navigating back
+2018-06-19 12:59:07 INFO  Footer:39 - In the loop. The value of i is 1 and j is 8
+2018-06-19 12:59:07 INFO  Footer:41 - clicking 
+2018-06-19 12:59:12 INFO  Footer:44 - Navigating back
+2018-06-19 12:59:12 INFO  Footer:39 - In the loop. The value of i is 1 and j is 9
+2018-06-19 12:59:12 INFO  Footer:41 - clicking 
+2018-06-19 12:59:17 INFO  Footer:44 - Navigating back
+2018-06-19 12:59:17 INFO  Footer:39 - In the loop. The value of i is 2 and j is 1
+2018-06-19 12:59:17 INFO  Footer:41 - clicking 
+2018-06-19 12:59:23 INFO  Footer:44 - Navigating back
+2018-06-19 12:59:23 INFO  Footer:39 - In the loop. The value of i is 2 and j is 2
+2018-06-19 12:59:23 INFO  Footer:41 - clicking 
+2018-06-19 12:59:28 INFO  Footer:44 - Navigating back
+2018-06-19 12:59:28 INFO  Footer:39 - In the loop. The value of i is 2 and j is 3
+2018-06-19 12:59:28 INFO  Footer:41 - clicking 
+2018-06-19 12:59:33 INFO  Footer:44 - Navigating back
+2018-06-19 12:59:33 INFO  Footer:39 - In the loop. The value of i is 2 and j is 4
+2018-06-19 12:59:33 INFO  Footer:41 - clicking 
+2018-06-19 12:59:38 INFO  Footer:44 - Navigating back
+2018-06-19 12:59:38 INFO  Footer:39 - In the loop. The value of i is 2 and j is 5
+2018-06-19 12:59:38 INFO  Footer:41 - clicking 
+2018-06-19 12:59:44 INFO  Footer:44 - Navigating back
+2018-06-19 12:59:44 INFO  Footer:39 - In the loop. The value of i is 2 and j is 6
+2018-06-19 12:59:44 INFO  Footer:41 - clicking 
+2018-06-19 12:59:49 INFO  Footer:44 - Navigating back
+2018-06-19 12:59:49 INFO  Footer:39 - In the loop. The value of i is 2 and j is 7
+2018-06-19 12:59:49 INFO  Footer:41 - clicking 
+2018-06-19 12:59:54 INFO  Footer:44 - Navigating back
+2018-06-19 12:59:54 INFO  Footer:39 - In the loop. The value of i is 2 and j is 8
+2018-06-19 12:59:54 INFO  Footer:41 - clicking 
+2018-06-19 14:52:40 INFO  TC003_FooterlinkTest:23 - Starting clickOnFooter Test
+2018-06-19 14:52:40 INFO  Footer:39 - clicking on Saving Plus
+2018-06-19 14:52:40 INFO  Footer:41 - Navigating back
+2018-06-19 14:52:40 INFO  Footer:44 - clicking on Smart SIP
+2018-06-19 14:52:40 INFO  Footer:46 - Navigating back
+2018-06-19 14:52:41 INFO  Footer:49 - clicking on Tax saver
+2018-06-19 14:52:41 INFO  Footer:51 - Navigating back
+2018-06-19 14:52:41 INFO  Footer:54 - clicking on explore Funds
+2018-06-19 14:52:42 INFO  Footer:56 - Navigating back
+2018-06-19 14:52:42 INFO  TC003_FooterlinkTest:26 - Ending clickOnFooter Test
+2018-06-19 15:31:15 INFO  TC003_FooterlinkTest:23 - Starting clickOnFooter Test
+2018-06-19 15:31:16 INFO  Footer:66 - Fincash: Investing made easy with SmartSIP, TaxSaver, SavingsPlus
+2018-06-19 15:31:16 INFO  Footer:66 - Systematic Investment Plan | SmartSIP | SIP Calculator | Best SIP Plan
+2018-06-19 15:31:17 INFO  Footer:66 - Tax Saving Mutual Funds | TaxSaver | ELSS Funds | Tax Calculator
+2018-06-19 15:31:18 INFO  Footer:66 - 
+2018-06-19 15:31:58 INFO  Footer:66 - Top 5 Best Performing Mutual Funds for 2018 - 2019 | Fincash.com
+2018-06-19 15:32:01 INFO  Footer:66 - Top 5 best performing Liquid Mutual Funds 2018 - 2019 - Fincash.com
+2018-06-19 15:32:04 INFO  Footer:66 - Top 10 Best performing SIPs for 2018 - 2019 | Systematic Investment Plan
+2018-06-19 15:32:07 INFO  Footer:66 - Top 10 Best Performing Balanced Mutual Funds 2018 - 2019 | Fincash.com
+2018-06-19 15:32:09 INFO  Footer:66 - Top 10 Best performing Tax Saving (ELSS) Mutual Funds for 2018 - 2019
+2018-06-19 15:32:13 INFO  Footer:66 - Top 10 Best Performing Equity Mutual Funds 2018 - 2019 | Fincash.com
+2018-06-19 15:32:16 INFO  Footer:66 - Top 10 Best performing Large Cap Funds for 2018 - 2019 | Fincash.com
+2018-06-19 15:32:19 INFO  Footer:66 - Top 5 Best Performing Ultra Short Term Mutual Funds 2018 - 2019
+2018-06-19 15:32:22 INFO  Footer:66 - Top 5 Best Performing Index Mutual Funds for 2018 - 2019 | Fincash.com
+2018-06-19 15:32:25 INFO  Footer:66 - Fincash: Investing made easy with SmartSIP, TaxSaver, SavingsPlus
+2018-06-19 15:32:25 INFO  Footer:66 - Fincash: Investing made easy with SmartSIP, TaxSaver, SavingsPlus
+2018-06-19 15:32:25 INFO  Footer:66 - SIP Calculator | Calculate SIP returns
+2018-06-19 15:32:26 INFO  Footer:66 - SIP Calculator | Calculate SIP Investment for Retirement Planning
+2018-06-19 15:32:27 INFO  Footer:66 - SIP Calculator | Calculate SIP Investment for Higher Education
+2018-06-19 15:32:27 INFO  Footer:66 - SIP Calculator | Calculate SIP Investment for Marriage
+2018-06-19 15:32:28 INFO  Footer:66 - SIP Calculator | Calculate SIP Investment for Buy a House
+2018-06-19 15:32:28 INFO  Footer:66 - SIP Calculator | Calculate SIP Investment for Buy a Vehicle
+2018-06-19 15:32:29 INFO  Footer:66 - SIP Calculator | Calculate SIP Investment for Other Goal
+2018-06-19 15:32:30 INFO  Footer:66 - Building Trust | Fincash.com
+2018-06-19 15:32:30 INFO  Footer:66 - Why Us | Fincash.com
+2018-06-19 15:32:31 INFO  Footer:66 - Fincash: Investing made easy with SmartSIP, TaxSaver, SavingsPlus
+2018-06-19 15:32:32 INFO  Footer:66 - Fincash: Investing made easy with SmartSIP, TaxSaver, SavingsPlus
+2018-06-19 15:32:33 INFO  Footer:66 - Media Center | Fincash.com
+2018-06-19 15:32:33 INFO  Footer:66 - Fincash: Investing made easy with SmartSIP, TaxSaver, SavingsPlus
+2018-06-19 15:33:03 INFO  TC003_FooterlinkTest:26 - Ending clickOnFooter Test
+2018-06-19 15:45:21 INFO  TC003_FooterlinkTest:23 - Starting clickOnFooter Test
+2018-06-19 15:45:27 INFO  Footer:66 - Mutual Fund Basics Archives - Resource Centre
+2018-06-19 15:45:31 INFO  Footer:66 - Mutual Fund Financial Planning Archives - Resource Centre
+2018-06-19 15:45:34 INFO  Footer:66 - Mutual Fund SIP Archives - Resource Centre
+2018-06-19 15:45:37 INFO  Footer:66 - Mutual Fund Taxation Archives - Resource Centre
+2018-06-19 15:45:40 INFO  Footer:66 - Mutual Fund Retirement Archives - Resource Centre
+2018-06-19 15:45:43 INFO  Footer:66 - Mutual Fund Gold Archives - Resource Centre
+2018-06-19 15:45:46 INFO  Footer:66 - Mutual Fund Asset Management Companies Archives - Resource Centre
+2018-06-19 15:46:18 INFO  Footer:66 - Fincash: Investing made easy with SmartSIP, TaxSaver, SavingsPlus
+2018-06-19 15:46:18 INFO  Footer:66 - Lumpsum Calculator | Mutual Fund Return Calculator
+2018-06-19 15:46:19 INFO  Footer:66 - SIP Calculator | Calculate SIP returns
+2018-06-19 15:46:19 INFO  Footer:66 - SIP Calculator | Calculate SIP Investment for Retirement Planning
+2018-06-19 15:46:20 INFO  Footer:66 - SIP Calculator | Calculate SIP Investment for Higher Education
+2018-06-19 15:46:21 INFO  Footer:66 - SIP Calculator | Calculate SIP Investment for Marriage
+2018-06-19 15:46:21 INFO  Footer:66 - SIP Calculator | Calculate SIP Investment for Buy a House
+2018-06-19 15:46:22 INFO  Footer:66 - SIP Calculator | Calculate SIP Investment for Buy a Vehicle
+2018-06-19 15:46:22 INFO  Footer:66 - SIP Calculator | Calculate SIP Investment for Other Goal
+2018-06-19 15:46:23 INFO  Footer:66 - Building Trust | Fincash.com
+2018-06-19 15:46:24 INFO  Footer:66 - Fincash: Investing made easy with SmartSIP, TaxSaver, SavingsPlus
+2018-06-19 15:46:25 INFO  Footer:66 - About Us | Fincash.com
+2018-06-19 15:46:25 INFO  Footer:66 - Our Partners | Fincash.com
+2018-06-19 15:46:26 INFO  Footer:66 - Media Center | Fincash.com
+2018-06-19 15:46:27 INFO  Footer:66 - Fincash: Investing made easy with SmartSIP, TaxSaver, SavingsPlus
+2018-06-19 15:46:57 INFO  TC003_FooterlinkTest:26 - Ending clickOnFooter Test
+2018-06-19 15:48:22 INFO  TC003_FooterlinkTest:23 - Starting clickOnFooter Test
+2018-06-19 15:48:23 INFO  Footer:66 - Fincash: Investing made easy with SmartSIP, TaxSaver, SavingsPlus
+2018-06-19 15:48:23 INFO  Footer:66 - Systematic Investment Plan | SmartSIP | SIP Calculator | Best SIP Plan
+2018-06-19 15:48:24 INFO  Footer:66 - Fincash: Investing made easy with SmartSIP, TaxSaver, SavingsPlus
+2018-06-19 15:48:24 INFO  Footer:66 - 
+2018-06-19 15:48:59 INFO  Footer:66 - Mutual Fund Basics Archives - Resource Centre
+2018-06-19 15:49:02 INFO  Footer:66 - Mutual Fund Financial Planning Archives - Resource Centre
+2018-06-19 15:49:05 INFO  Footer:66 - Mutual Fund SIP Archives - Resource Centre
+2018-06-19 15:49:08 INFO  Footer:66 - Mutual Fund Taxation Archives - Resource Centre
+2018-06-19 15:49:11 INFO  Footer:66 - Mutual Fund Retirement Archives - Resource Centre
+2018-06-19 15:49:14 INFO  Footer:66 - Mutual Fund Gold Archives - Resource Centre
+2018-06-19 15:49:17 INFO  Footer:66 - Mutual Fund Asset Management Companies Archives - Resource Centre
+2018-06-19 15:49:50 INFO  Footer:66 - Top 5 Best Performing Mutual Funds for 2018 - 2019 | Fincash.com
+2018-06-19 15:49:54 INFO  Footer:66 - Top 5 best performing Liquid Mutual Funds 2018 - 2019 - Fincash.com
+2018-06-19 15:49:57 INFO  Footer:66 - Top 10 Best performing SIPs for 2018 - 2019 | Systematic Investment Plan
+2018-06-19 15:50:00 INFO  Footer:66 - Top 10 Best Performing Balanced Mutual Funds 2018 - 2019 | Fincash.com
+2018-06-19 15:50:03 INFO  Footer:66 - Top 10 Best performing Tax Saving (ELSS) Mutual Funds for 2018 - 2019
+2018-06-19 15:50:07 INFO  Footer:66 - Top 10 Best Performing Equity Mutual Funds 2018 - 2019 | Fincash.com
+2018-06-19 15:50:09 INFO  Footer:66 - Top 10 Best performing Large Cap Funds for 2018 - 2019 | Fincash.com
+2018-06-19 15:50:12 INFO  Footer:66 - Top 5 Best Performing Ultra Short Term Mutual Funds 2018 - 2019
+2018-06-19 15:50:15 INFO  Footer:66 - Top 5 Best Performing Index Mutual Funds for 2018 - 2019 | Fincash.com
+2018-06-19 15:50:17 INFO  Footer:66 - Fincash: Investing made easy with SmartSIP, TaxSaver, SavingsPlus
+2018-06-19 15:50:18 INFO  Footer:66 - Lumpsum Calculator | Mutual Fund Return Calculator
+2018-06-19 15:50:19 INFO  Footer:66 - SIP Calculator | Calculate SIP returns
+2018-06-19 15:50:19 INFO  Footer:66 - SIP Calculator | Calculate SIP Investment for Retirement Planning
+2018-06-19 15:50:20 INFO  Footer:66 - SIP Calculator | Calculate SIP Investment for Higher Education
+2018-06-19 15:50:20 INFO  Footer:66 - SIP Calculator | Calculate SIP Investment for Marriage
+2018-06-19 15:50:21 INFO  Footer:66 - SIP Calculator | Calculate SIP Investment for Buy a House
+2018-06-19 15:50:22 INFO  Footer:66 - SIP Calculator | Calculate SIP Investment for Buy a Vehicle
+2018-06-19 15:50:22 INFO  Footer:66 - SIP Calculator | Calculate SIP Investment for Other Goal
+2018-06-19 15:50:23 INFO  Footer:66 - Building Trust | Fincash.com
+2018-06-19 15:50:24 INFO  Footer:66 - Why Us | Fincash.com
+2018-06-19 15:50:24 INFO  Footer:66 - About Us | Fincash.com
+2018-06-19 15:50:25 INFO  Footer:66 - Our Partners | Fincash.com
+2018-06-19 15:50:26 INFO  Footer:66 - Media Center | Fincash.com
+2018-06-19 15:50:27 INFO  Footer:66 - Fincash: Investing made easy with SmartSIP, TaxSaver, SavingsPlus
+2018-06-19 15:50:57 INFO  TC003_FooterlinkTest:26 - Ending clickOnFooter Test
+2018-06-19 16:11:30 INFO  TC003_FooterlinkTest:23 - Starting clickOnFooter Test
+2018-06-19 16:11:30 INFO  Footer:66 - Fincash: Investing made easy with SmartSIP, TaxSaver, SavingsPlus
+2018-06-19 16:11:31 INFO  Footer:66 - Systematic Investment Plan | SmartSIP | SIP Calculator | Best SIP Plan
+2018-06-19 16:11:32 INFO  Footer:66 - Tax Saving Mutual Funds | TaxSaver | ELSS Funds | Tax Calculator
+2018-06-19 16:11:33 INFO  Footer:66 - Fincash: Investing made easy with SmartSIP, TaxSaver, SavingsPlus
+2018-06-19 16:12:12 INFO  Footer:66 - Mutual Fund Basics Archives - Resource Centre
+2018-06-19 16:12:17 INFO  Footer:66 - Mutual Fund Financial Planning Archives - Resource Centre
+2018-06-19 16:12:20 INFO  Footer:66 - Mutual Fund SIP Archives - Resource Centre
+2018-06-19 16:12:25 INFO  Footer:66 - Mutual Fund Taxation Archives - Resource Centre
+2018-06-19 16:12:30 INFO  Footer:66 - Mutual Fund Retirement Archives - Resource Centre
+2018-06-19 16:12:34 INFO  Footer:66 - Mutual Fund Gold Archives - Resource Centre
+2018-06-19 16:12:37 INFO  Footer:66 - Mutual Fund Asset Management Companies Archives - Resource Centre
+2018-06-19 16:13:14 INFO  Footer:66 - Top 5 Best Performing Mutual Funds for 2018 - 2019 | Fincash.com
+2018-06-19 16:13:17 INFO  Footer:66 - Top 5 best performing Liquid Mutual Funds 2018 - 2019 - Fincash.com
+2018-06-19 16:13:21 INFO  Footer:66 - Top 10 Best performing SIPs for 2018 - 2019 | Systematic Investment Plan
+2018-06-19 16:13:26 INFO  Footer:66 - Top 10 Best Performing Balanced Mutual Funds 2018 - 2019 | Fincash.com
+2018-06-19 16:13:29 INFO  Footer:66 - Top 10 Best performing Tax Saving (ELSS) Mutual Funds for 2018 - 2019
+2018-06-19 16:13:33 INFO  Footer:66 - Top 10 Best Performing Equity Mutual Funds 2018 - 2019 | Fincash.com
+2018-06-19 16:13:37 INFO  Footer:66 - Top 10 Best performing Large Cap Funds for 2018 - 2019 | Fincash.com
+2018-06-19 16:13:40 INFO  Footer:66 - Top 5 Best Performing Ultra Short Term Mutual Funds 2018 - 2019
+2018-06-19 16:13:44 INFO  Footer:66 - Top 5 Best Performing Index Mutual Funds for 2018 - 2019 | Fincash.com
+2018-06-19 16:13:46 INFO  Footer:66 - 
+2018-06-19 16:13:47 INFO  Footer:66 - Lumpsum Calculator | Mutual Fund Return Calculator
+2018-06-19 16:13:48 INFO  Footer:66 - SIP Calculator | Calculate SIP returns
+2018-06-19 16:13:48 INFO  Footer:66 - SIP Calculator | Calculate SIP Investment for Retirement Planning
+2018-06-19 16:13:49 INFO  Footer:66 - 
+2018-06-19 16:13:50 INFO  Footer:66 - 
+2018-06-19 16:13:50 INFO  Footer:66 - 
+2018-06-19 16:13:51 INFO  Footer:66 - 
+2018-06-19 16:13:51 INFO  Footer:66 - SIP Calculator | Calculate SIP Investment for Other Goal
+2018-06-19 16:13:51 INFO  Footer:66 - Building Trust | Fincash.com
+2018-06-19 16:13:52 INFO  Footer:66 - Why Us | Fincash.com
+2018-06-19 16:13:52 INFO  Footer:66 - About Us | Fincash.com
+2018-06-19 16:13:53 INFO  Footer:66 - Our Partners | Fincash.com
+2018-06-19 16:13:53 INFO  Footer:66 - Media Center | Fincash.com
+2018-06-19 16:13:53 INFO  Footer:66 - 
+2018-06-19 16:14:24 INFO  TC003_FooterlinkTest:26 - Ending clickOnFooter Test
+2018-06-19 17:20:30 INFO  TC003_FooterlinkTest:23 - Starting clickOnFooter Test
+2018-06-19 17:20:30 INFO  TC003_FooterlinkTest:26 - Ending clickOnFooter Test
+2018-06-19 18:06:29 INFO  TC003_FooterlinkTest:23 - Starting clickOnFooter Test
+2018-06-19 18:06:29 INFO  TC003_FooterlinkTest:26 - Ending clickOnFooter Test
+2018-06-19 18:07:40 INFO  TC003_FooterlinkTest:23 - Starting clickOnFooter Test
+2018-06-19 18:07:40 INFO  TC003_FooterlinkTest:26 - Ending clickOnFooter Test
+2018-06-19 18:08:23 INFO  TC003_FooterlinkTest:23 - Starting clickOnFooter Test
+2018-06-19 18:14:42 INFO  TC003_FooterlinkTest:23 - Starting clickOnFooter Test
+2018-06-19 18:15:38 INFO  Footer:68 - 
+2018-06-19 18:16:29 INFO  TC003_FooterlinkTest:23 - Starting clickOnFooter Test
+2018-06-19 18:16:29 INFO  Footer:68 - 
+2018-06-19 18:16:30 INFO  Footer:68 - Systematic Investment Plan | SmartSIP | SIP Calculator | Best SIP Plan
+2018-06-19 18:16:30 INFO  Footer:68 - Tax Saving Mutual Funds | TaxSaver | ELSS Funds | Tax Calculator
+2018-06-19 18:16:31 INFO  Footer:68 - 
+2018-06-19 18:17:09 INFO  Footer:68 - Mutual Fund Basics Archives - Resource Centre
+2018-06-19 18:17:12 INFO  Footer:68 - Mutual Fund Financial Planning Archives - Resource Centre
+2018-06-19 18:17:16 INFO  Footer:68 - Mutual Fund SIP Archives - Resource Centre
+2018-06-19 18:17:19 INFO  Footer:68 - Mutual Fund Taxation Archives - Resource Centre
+2018-06-19 18:17:22 INFO  Footer:68 - Mutual Fund Retirement Archives - Resource Centre
+2018-06-19 18:17:26 INFO  Footer:68 - Mutual Fund Gold Archives - Resource Centre
+2018-06-19 18:17:29 INFO  Footer:68 - Mutual Fund Asset Management Companies Archives - Resource Centre
+2018-06-19 18:18:02 INFO  Footer:68 - Top 5 Best Performing Mutual Funds for 2018 - 2019 | Fincash.com
+2018-06-19 18:18:07 INFO  Footer:68 - Top 5 best performing Liquid Mutual Funds 2018 - 2019 - Fincash.com
+2018-06-19 18:18:11 INFO  Footer:68 - Top 10 Best performing SIPs for 2018 - 2019 | Systematic Investment Plan
+2018-06-19 18:18:14 INFO  Footer:68 - Top 10 Best Performing Balanced Mutual Funds 2018 - 2019 | Fincash.com
+2018-06-19 18:18:17 INFO  Footer:68 - Top 10 Best performing Tax Saving (ELSS) Mutual Funds for 2018 - 2019
+2018-06-19 18:18:21 INFO  Footer:68 - Top 10 Best Performing Equity Mutual Funds 2018 - 2019 | Fincash.com
+2018-06-19 18:18:25 INFO  Footer:68 - Top 10 Best performing Large Cap Funds for 2018 - 2019 | Fincash.com
+2018-06-19 18:18:29 INFO  Footer:68 - Top 5 Best Performing Ultra Short Term Mutual Funds 2018 - 2019
+2018-06-19 18:18:32 INFO  Footer:68 - Top 5 Best Performing Index Mutual Funds for 2018 - 2019 | Fincash.com
+2018-06-19 18:18:35 INFO  Footer:68 - Income Tax Calculator | Save Tax Under Section 80C via ELSS Funds
+2018-06-19 18:18:36 INFO  Footer:68 - Lumpsum Calculator | Mutual Fund Return Calculator
+2018-06-19 18:18:36 INFO  Footer:68 - SIP Calculator | Calculate SIP returns
+2018-06-19 18:18:37 INFO  Footer:68 - SIP Calculator | Calculate SIP Investment for Retirement Planning
+2018-06-19 18:18:38 INFO  Footer:68 - SIP Calculator | Calculate SIP Investment for Higher Education
+2018-06-19 18:18:38 INFO  Footer:68 - SIP Calculator | Calculate SIP Investment for Marriage
+2018-06-19 18:18:39 INFO  Footer:68 - SIP Calculator | Calculate SIP Investment for Buy a House
+2018-06-19 18:18:39 INFO  Footer:68 - SIP Calculator | Calculate SIP Investment for Buy a Vehicle
+2018-06-19 18:18:40 INFO  Footer:68 - SIP Calculator | Calculate SIP Investment for Other Goal
+2018-06-19 18:18:40 INFO  Footer:68 - 
+2018-06-19 18:18:40 INFO  Footer:68 - 
+2018-06-19 18:18:41 INFO  Footer:68 - 
+2018-06-19 18:18:41 INFO  Footer:68 - 
+2018-06-19 18:18:41 INFO  Footer:68 - 
+2018-06-19 18:18:41 INFO  Footer:68 - 
+2018-06-19 18:19:11 INFO  TC003_FooterlinkTest:26 - Ending clickOnFooter Test
+2018-06-19 18:21:09 INFO  TC003_FooterlinkTest:26 - Ending clickOnFooter Test
+2018-06-19 18:21:30 INFO  TC003_FooterlinkTest:23 - Starting clickOnFooter Test
+2018-06-19 18:21:31 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:21:31 INFO  Footer:68 - 
+2018-06-19 18:21:31 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:21:31 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:21:31 INFO  Footer:68 - Systematic Investment Plan | SmartSIP | SIP Calculator | Best SIP Plan
+2018-06-19 18:21:31 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:21:32 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:21:32 INFO  Footer:68 - Tax Saving Mutual Funds | TaxSaver | ELSS Funds | Tax Calculator
+2018-06-19 18:21:32 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:21:32 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:21:32 INFO  Footer:68 - 
+2018-06-19 18:21:32 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:22:11 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:22:11 INFO  Footer:68 - Mutual Fund Basics Archives - Resource Centre
+2018-06-19 18:22:13 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:22:14 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:22:14 INFO  Footer:68 - Mutual Fund Financial Planning Archives - Resource Centre
+2018-06-19 18:22:16 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:22:18 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:22:18 INFO  Footer:68 - Mutual Fund SIP Archives - Resource Centre
+2018-06-19 18:22:20 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:22:21 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:22:21 INFO  Footer:68 - Mutual Fund Taxation Archives - Resource Centre
+2018-06-19 18:22:23 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:22:24 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:22:24 INFO  Footer:68 - Mutual Fund Retirement Archives - Resource Centre
+2018-06-19 18:22:26 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:22:28 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:22:28 INFO  Footer:68 - Mutual Fund Gold Archives - Resource Centre
+2018-06-19 18:22:30 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:22:31 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:22:31 INFO  Footer:68 - Mutual Fund Asset Management Companies Archives - Resource Centre
+2018-06-19 18:22:33 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:23:05 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:23:05 INFO  Footer:68 - Top 5 Best Performing Mutual Funds for 2018 - 2019 | Fincash.com
+2018-06-19 18:23:07 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:23:11 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:23:11 INFO  Footer:68 - Top 5 best performing Liquid Mutual Funds 2018 - 2019 - Fincash.com
+2018-06-19 18:23:13 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:23:14 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:23:14 INFO  Footer:68 - Top 10 Best performing SIPs for 2018 - 2019 | Systematic Investment Plan
+2018-06-19 18:23:16 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:23:18 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:23:18 INFO  Footer:68 - Top 10 Best Performing Balanced Mutual Funds 2018 - 2019 | Fincash.com
+2018-06-19 18:23:19 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:23:20 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:23:20 INFO  Footer:68 - Top 10 Best performing Tax Saving (ELSS) Mutual Funds for 2018 - 2019
+2018-06-19 18:23:22 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:23:28 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:23:28 INFO  Footer:68 - Top 10 Best Performing Equity Mutual Funds 2018 - 2019 | Fincash.com
+2018-06-19 18:23:29 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:23:31 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:23:31 INFO  Footer:68 - Top 10 Best performing Large Cap Funds for 2018 - 2019 | Fincash.com
+2018-06-19 18:23:32 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:23:35 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:23:35 INFO  Footer:68 - Top 5 Best Performing Ultra Short Term Mutual Funds 2018 - 2019
+2018-06-19 18:23:36 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:23:39 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:23:39 INFO  Footer:68 - Top 5 Best Performing Index Mutual Funds for 2018 - 2019 | Fincash.com
+2018-06-19 18:23:40 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:23:41 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:23:41 INFO  Footer:68 - 
+2018-06-19 18:23:41 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:23:41 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:23:41 INFO  Footer:68 - 
+2018-06-19 18:23:41 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:23:41 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:23:41 INFO  Footer:68 - 
+2018-06-19 18:23:41 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:23:42 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:23:42 INFO  Footer:68 - 
+2018-06-19 18:23:42 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:23:42 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:23:42 INFO  Footer:68 - 
+2018-06-19 18:23:42 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:23:42 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:23:42 INFO  Footer:68 - 
+2018-06-19 18:23:42 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:23:42 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:23:42 INFO  Footer:68 - 
+2018-06-19 18:23:42 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:23:43 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:23:43 INFO  Footer:68 - 
+2018-06-19 18:23:43 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:23:43 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:23:43 INFO  Footer:68 - 
+2018-06-19 18:23:43 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:23:44 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:23:44 INFO  Footer:68 - 
+2018-06-19 18:23:44 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:23:44 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:23:44 INFO  Footer:68 - 
+2018-06-19 18:23:44 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:23:44 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:23:44 INFO  Footer:68 - 
+2018-06-19 18:23:44 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:23:44 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:23:44 INFO  Footer:68 - 
+2018-06-19 18:23:44 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:23:45 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:23:45 INFO  Footer:68 - 
+2018-06-19 18:23:45 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:23:45 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:23:45 INFO  Footer:68 - 
+2018-06-19 18:23:45 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 18:24:15 INFO  TC003_FooterlinkTest:26 - Ending clickOnFooter Test
+2018-06-19 19:04:00 INFO  TC003_FooterlinkTest:23 - Starting clickOnFooter Test
+2018-06-19 19:04:00 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:04:00 INFO  Footer:68 - Fincash: Investing made easy with SmartSIP, TaxSaver, SavingsPlus
+2018-06-19 19:04:00 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:04:01 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:04:01 INFO  Footer:68 - Systematic Investment Plan | SmartSIP | SIP Calculator | Best SIP Plan
+2018-06-19 19:04:01 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:04:02 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:04:02 INFO  Footer:68 - Tax Saving Mutual Funds | TaxSaver | ELSS Funds | Tax Calculator
+2018-06-19 19:04:02 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:04:03 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:04:03 INFO  Footer:68 - 
+2018-06-19 19:04:03 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:04:38 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:04:38 INFO  Footer:68 - Mutual Fund Basics Archives - Resource Centre
+2018-06-19 19:04:40 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:04:42 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:04:42 INFO  Footer:68 - Mutual Fund Financial Planning Archives - Resource Centre
+2018-06-19 19:04:44 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:04:46 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:04:46 INFO  Footer:68 - Mutual Fund SIP Archives - Resource Centre
+2018-06-19 19:04:47 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:04:49 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:04:49 INFO  Footer:68 - Mutual Fund Taxation Archives - Resource Centre
+2018-06-19 19:04:51 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:04:52 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:04:52 INFO  Footer:68 - Mutual Fund Retirement Archives - Resource Centre
+2018-06-19 19:04:54 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:04:56 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:04:56 INFO  Footer:68 - Mutual Fund Gold Archives - Resource Centre
+2018-06-19 19:04:57 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:04:59 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:04:59 INFO  Footer:68 - Mutual Fund Asset Management Companies Archives - Resource Centre
+2018-06-19 19:05:01 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:05:33 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:05:33 INFO  Footer:68 - Top 5 Best Performing Mutual Funds for 2018 - 2019 | Fincash.com
+2018-06-19 19:05:35 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:05:38 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:05:38 INFO  Footer:68 - Top 5 best performing Liquid Mutual Funds 2018 - 2019 - Fincash.com
+2018-06-19 19:05:40 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:05:42 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:05:42 INFO  Footer:68 - Top 10 Best performing SIPs for 2018 - 2019 | Systematic Investment Plan
+2018-06-19 19:05:43 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:05:45 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:05:45 INFO  Footer:68 - Top 10 Best Performing Balanced Mutual Funds 2018 - 2019 | Fincash.com
+2018-06-19 19:05:47 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:05:49 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:05:49 INFO  Footer:68 - Top 10 Best performing Tax Saving (ELSS) Mutual Funds for 2018 - 2019
+2018-06-19 19:05:50 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:05:52 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:05:52 INFO  Footer:68 - Top 10 Best Performing Equity Mutual Funds 2018 - 2019 | Fincash.com
+2018-06-19 19:05:54 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:05:55 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:05:55 INFO  Footer:68 - Top 10 Best performing Large Cap Funds for 2018 - 2019 | Fincash.com
+2018-06-19 19:05:57 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:05:59 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:05:59 INFO  Footer:68 - Top 5 Best Performing Ultra Short Term Mutual Funds 2018 - 2019
+2018-06-19 19:06:01 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:06:02 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:06:02 INFO  Footer:68 - Top 5 Best Performing Index Mutual Funds for 2018 - 2019 | Fincash.com
+2018-06-19 19:06:04 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:06:05 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:06:05 INFO  Footer:68 - Income Tax Calculator | Save Tax Under Section 80C via ELSS Funds
+2018-06-19 19:06:05 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:06:06 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:06:06 INFO  Footer:68 - Lumpsum Calculator | Mutual Fund Return Calculator
+2018-06-19 19:06:06 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:06:06 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:06:06 INFO  Footer:68 - SIP Calculator | Calculate SIP returns
+2018-06-19 19:06:07 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:06:08 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:06:08 INFO  Footer:68 - Fincash: Investing made easy with SmartSIP, TaxSaver, SavingsPlus
+2018-06-19 19:06:08 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:06:08 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:06:08 INFO  Footer:68 - Fincash: Investing made easy with SmartSIP, TaxSaver, SavingsPlus
+2018-06-19 19:06:09 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:06:09 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:06:09 INFO  Footer:68 - SIP Calculator | Calculate SIP Investment for Marriage
+2018-06-19 19:06:09 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:06:10 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:06:10 INFO  Footer:68 - SIP Calculator | Calculate SIP Investment for Buy a House
+2018-06-19 19:06:10 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:06:11 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:06:11 INFO  Footer:68 - SIP Calculator | Calculate SIP Investment for Buy a Vehicle
+2018-06-19 19:06:11 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:06:11 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:06:11 INFO  Footer:68 - SIP Calculator | Calculate SIP Investment for Other Goal
+2018-06-19 19:06:12 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:06:12 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:06:12 INFO  Footer:68 - Building Trust | Fincash.com
+2018-06-19 19:06:12 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:06:13 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:06:13 INFO  Footer:68 - Why Us | Fincash.com
+2018-06-19 19:06:13 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:06:14 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:06:14 INFO  Footer:68 - About Us | Fincash.com
+2018-06-19 19:06:14 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:06:15 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:06:15 INFO  Footer:68 - Our Partners | Fincash.com
+2018-06-19 19:06:15 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:06:16 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:06:16 INFO  Footer:68 - Media Center | Fincash.com
+2018-06-19 19:06:16 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:06:17 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:06:17 INFO  Footer:68 - Fincash: Investing made easy with SmartSIP, TaxSaver, SavingsPlus
+2018-06-19 19:06:17 INFO  TestBase:97 - Page Is loaded.
+2018-06-19 19:06:47 INFO  TC003_FooterlinkTest:26 - Ending clickOnFooter Test
+2018-06-20 18:04:00 INFO  TC004_VerifySignUpwithValidCredential:24 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-06-20 18:04:01 INFO  Homepage:45 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (ffdf6b06-65a5-400f-9ceb-f1e8e9bb9b9d)] -> xpath: //span[text()='SIGN UP']]
+2018-06-20 18:04:01 INFO  TestBase:97 - Page Is loaded.
+2018-06-20 18:04:01 INFO  Homepage:50 - Entered Email = suraj.kakode@fincash.com and object is : [[FirefoxDriver: firefox on XP (ffdf6b06-65a5-400f-9ceb-f1e8e9bb9b9d)] -> xpath: //input[@placeholder='Email Id']]
+2018-06-20 18:04:01 INFO  Homepage:54 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (ffdf6b06-65a5-400f-9ceb-f1e8e9bb9b9d)] -> xpath: //input[@type='password' and @placeholder='Password']]
+2018-06-20 18:04:01 INFO  Homepage:58 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (ffdf6b06-65a5-400f-9ceb-f1e8e9bb9b9d)] -> xpath: //input[@type='password' and @placeholder='Confirm Password']]
+2018-06-20 18:04:02 INFO  Homepage:61 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (ffdf6b06-65a5-400f-9ceb-f1e8e9bb9b9d)] -> xpath: //button[@type='submit']/span/span]
+2018-06-20 18:04:07 INFO  TestBase:97 - Page Is loaded.
+2018-06-20 18:04:07 INFO  TC004_VerifySignUpwithValidCredential:31 - ================ Finished verifyLoginWithInValidCredential Test 
+2018-06-20 18:04:07 INFO  TC004_VerifySignUpwithValidCredential:37 - ================ Starting verifyLoginWithValidCredential Test 
+2018-06-20 18:04:07 INFO  Homepage:45 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (ffdf6b06-65a5-400f-9ceb-f1e8e9bb9b9d)] -> xpath: //span[text()='SIGN UP']]
+2018-06-20 18:04:07 INFO  TestBase:97 - Page Is loaded.
+2018-06-20 18:04:07 INFO  Homepage:50 - Entered Email = suraj.kakode615@fincash.com and object is : [[FirefoxDriver: firefox on XP (ffdf6b06-65a5-400f-9ceb-f1e8e9bb9b9d)] -> xpath: //input[@placeholder='Email Id']]
+2018-06-20 18:04:07 INFO  Homepage:54 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (ffdf6b06-65a5-400f-9ceb-f1e8e9bb9b9d)] -> xpath: //input[@type='password' and @placeholder='Password']]
+2018-06-20 18:04:07 INFO  Homepage:58 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (ffdf6b06-65a5-400f-9ceb-f1e8e9bb9b9d)] -> xpath: //input[@type='password' and @placeholder='Confirm Password']]
+2018-06-20 18:04:08 INFO  Homepage:61 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (ffdf6b06-65a5-400f-9ceb-f1e8e9bb9b9d)] -> xpath: //button[@type='submit']/span/span]
+2018-06-20 18:04:13 INFO  TestBase:97 - Page Is loaded.
+2018-06-20 18:07:47 INFO  TC004_VerifySignUpwithValidCredential:24 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-06-20 18:07:47 INFO  SignUp:45 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (b439546c-a8b9-4ad9-8031-cbcf39baf55a)] -> xpath: //span[text()='SIGN UP']]
+2018-06-20 18:07:47 INFO  TestBase:97 - Page Is loaded.
+2018-06-20 18:07:48 INFO  SignUp:50 - Entered Email = suraj.kakode@fincash.com and object is : [[FirefoxDriver: firefox on XP (b439546c-a8b9-4ad9-8031-cbcf39baf55a)] -> xpath: //input[@placeholder='Email Id']]
+2018-06-20 18:07:48 INFO  SignUp:54 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (b439546c-a8b9-4ad9-8031-cbcf39baf55a)] -> xpath: //input[@type='password' and @placeholder='Password']]
+2018-06-20 18:07:48 INFO  SignUp:58 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (b439546c-a8b9-4ad9-8031-cbcf39baf55a)] -> xpath: //input[@type='password' and @placeholder='Confirm Password']]
+2018-06-20 18:07:48 INFO  SignUp:61 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (b439546c-a8b9-4ad9-8031-cbcf39baf55a)] -> xpath: //button[@type='submit']/span/span]
+2018-06-20 18:07:53 INFO  TestBase:97 - Page Is loaded.
+2018-06-20 18:07:53 INFO  TC004_VerifySignUpwithValidCredential:31 - ================ Finished verifyLoginWithInValidCredential Test 
+2018-06-20 18:07:53 INFO  TC004_VerifySignUpwithValidCredential:37 - ================ Starting verifyLoginWithValidCredential Test 
+2018-06-20 18:07:54 INFO  SignUp:45 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (b439546c-a8b9-4ad9-8031-cbcf39baf55a)] -> xpath: //span[text()='SIGN UP']]
+2018-06-20 18:07:54 INFO  TestBase:97 - Page Is loaded.
+2018-06-20 18:07:54 INFO  SignUp:50 - Entered Email = suraj.kakode616@fincash.com and object is : [[FirefoxDriver: firefox on XP (b439546c-a8b9-4ad9-8031-cbcf39baf55a)] -> xpath: //input[@placeholder='Email Id']]
+2018-06-20 18:07:54 INFO  SignUp:54 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (b439546c-a8b9-4ad9-8031-cbcf39baf55a)] -> xpath: //input[@type='password' and @placeholder='Password']]
+2018-06-20 18:07:54 INFO  SignUp:58 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (b439546c-a8b9-4ad9-8031-cbcf39baf55a)] -> xpath: //input[@type='password' and @placeholder='Confirm Password']]
+2018-06-20 18:07:54 INFO  SignUp:61 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (b439546c-a8b9-4ad9-8031-cbcf39baf55a)] -> xpath: //button[@type='submit']/span/span]
+2018-06-20 18:07:59 INFO  TestBase:97 - Page Is loaded.
+2018-06-20 18:07:59 INFO  TC004_VerifySignUpwithValidCredential:43 - ================ Finished verifyLoginWithValidCredential Test 
+2018-06-20 18:16:37 INFO  TC004_VerifySignUpwithValidCredential:39 - ================ Starting nullCredential Test 
+2018-06-20 18:16:38 INFO  SignUp:45 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (afd5d935-b94b-40dd-b8dc-03c0e9564ef7)] -> xpath: //span[text()='SIGN UP']]
+2018-06-20 18:16:38 INFO  TestBase:97 - Page Is loaded.
+2018-06-20 18:16:38 INFO  SignUp:50 - Entered Email =   and object is : [[FirefoxDriver: firefox on XP (afd5d935-b94b-40dd-b8dc-03c0e9564ef7)] -> xpath: //input[@placeholder='Email Id']]
+2018-06-20 18:16:38 INFO  SignUp:54 - Entered password =   and object is : [[FirefoxDriver: firefox on XP (afd5d935-b94b-40dd-b8dc-03c0e9564ef7)] -> xpath: //input[@type='password' and @placeholder='Password']]
+2018-06-20 18:16:38 INFO  SignUp:58 - Entered password =   and object is : [[FirefoxDriver: firefox on XP (afd5d935-b94b-40dd-b8dc-03c0e9564ef7)] -> xpath: //input[@type='password' and @placeholder='Confirm Password']]
+2018-06-20 18:16:38 INFO  SignUp:61 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (afd5d935-b94b-40dd-b8dc-03c0e9564ef7)] -> xpath: //button[@type='submit']/span/span]
+2018-06-20 18:16:43 INFO  TestBase:97 - Page Is loaded.
+2018-06-20 18:16:43 INFO  TC004_VerifySignUpwithValidCredential:45 - ================ Finished nullCredential Test 
+2018-06-20 18:16:43 INFO  TC004_VerifySignUpwithValidCredential:52 - ================ Starting passwordMismach Test 
+2018-06-20 18:16:44 INFO  SignUp:45 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (afd5d935-b94b-40dd-b8dc-03c0e9564ef7)] -> xpath: //span[text()='SIGN UP']]
+2018-06-20 18:16:44 INFO  TestBase:97 - Page Is loaded.
+2018-06-20 18:16:44 INFO  SignUp:50 - Entered Email = suraj.kakode1001@fincash.com and object is : [[FirefoxDriver: firefox on XP (afd5d935-b94b-40dd-b8dc-03c0e9564ef7)] -> xpath: //input[@placeholder='Email Id']]
+2018-06-20 18:16:44 INFO  SignUp:54 - Entered password = 123456789 and object is : [[FirefoxDriver: firefox on XP (afd5d935-b94b-40dd-b8dc-03c0e9564ef7)] -> xpath: //input[@type='password' and @placeholder='Password']]
+2018-06-20 18:16:44 INFO  SignUp:58 - Entered password = 123456789 and object is : [[FirefoxDriver: firefox on XP (afd5d935-b94b-40dd-b8dc-03c0e9564ef7)] -> xpath: //input[@type='password' and @placeholder='Confirm Password']]
+2018-06-20 18:16:44 INFO  SignUp:61 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (afd5d935-b94b-40dd-b8dc-03c0e9564ef7)] -> xpath: //button[@type='submit']/span/span]
+2018-06-20 18:16:49 INFO  TestBase:97 - Page Is loaded.
+2018-06-20 18:16:49 INFO  TC004_VerifySignUpwithValidCredential:58 - ================ Finished passwordMismach Test 
+2018-06-20 18:16:49 INFO  TC004_VerifySignUpwithValidCredential:24 - ================ Starting verifySignUpWithInValidCredential Test 
+2018-06-20 18:16:50 INFO  SignUp:45 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (afd5d935-b94b-40dd-b8dc-03c0e9564ef7)] -> xpath: //span[text()='SIGN UP']]
+2018-06-20 18:16:50 INFO  TestBase:97 - Page Is loaded.
+2018-06-20 18:16:50 INFO  SignUp:50 - Entered Email = suraj.kakode@fincash.com and object is : [[FirefoxDriver: firefox on XP (afd5d935-b94b-40dd-b8dc-03c0e9564ef7)] -> xpath: //input[@placeholder='Email Id']]
+2018-06-20 18:16:50 INFO  SignUp:54 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (afd5d935-b94b-40dd-b8dc-03c0e9564ef7)] -> xpath: //input[@type='password' and @placeholder='Password']]
+2018-06-20 18:16:50 INFO  SignUp:58 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (afd5d935-b94b-40dd-b8dc-03c0e9564ef7)] -> xpath: //input[@type='password' and @placeholder='Confirm Password']]
+2018-06-20 18:16:50 INFO  SignUp:61 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (afd5d935-b94b-40dd-b8dc-03c0e9564ef7)] -> xpath: //button[@type='submit']/span/span]
+2018-06-20 18:16:55 INFO  TestBase:97 - Page Is loaded.
+2018-06-20 18:16:55 INFO  TC004_VerifySignUpwithValidCredential:31 - ================ Finished verifySignUpWithInValidCredential Test 
+2018-06-20 18:16:55 INFO  TC004_VerifySignUpwithValidCredential:65 - ================ Starting verifySignUpWithValidCredential Test 
+2018-06-20 18:16:56 INFO  SignUp:45 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (afd5d935-b94b-40dd-b8dc-03c0e9564ef7)] -> xpath: //span[text()='SIGN UP']]
+2018-06-20 18:16:56 INFO  TestBase:97 - Page Is loaded.
+2018-06-20 18:16:56 INFO  SignUp:50 - Entered Email = suraj.kakode616@fincash.com and object is : [[FirefoxDriver: firefox on XP (afd5d935-b94b-40dd-b8dc-03c0e9564ef7)] -> xpath: //input[@placeholder='Email Id']]
+2018-06-20 18:16:56 INFO  SignUp:54 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (afd5d935-b94b-40dd-b8dc-03c0e9564ef7)] -> xpath: //input[@type='password' and @placeholder='Password']]
+2018-06-20 18:16:56 INFO  SignUp:58 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (afd5d935-b94b-40dd-b8dc-03c0e9564ef7)] -> xpath: //input[@type='password' and @placeholder='Confirm Password']]
+2018-06-20 18:16:56 INFO  SignUp:61 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (afd5d935-b94b-40dd-b8dc-03c0e9564ef7)] -> xpath: //button[@type='submit']/span/span]
+2018-06-20 18:17:01 INFO  TestBase:97 - Page Is loaded.
+2018-06-20 18:21:14 INFO  TestBase:44 - Creating the object of FirefoxDriver: firefox on XP (98171f20-1372-420f-9923-2db5c6083027)
+2018-06-20 18:21:16 INFO  TestBase:60 - Navigating to : https://api.fincash.com
+2018-06-20 18:21:22 INFO  TC001_VerifyLoginWithInvalidCredential:27 - ================ Starting nullCredential Test 
+2018-06-20 18:21:23 INFO  Homepage:42 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (00e2a901-307b-4ccd-978b-798a57b31da6)] -> xpath: //span[text()='LOG IN']]
+2018-06-20 18:21:23 INFO  Homepage:47 - Entered Email =  and object is : [[FirefoxDriver: firefox on XP (00e2a901-307b-4ccd-978b-798a57b31da6)] -> css selector: input[placeholder='Email Id']]
+2018-06-20 18:21:23 INFO  Homepage:51 - Entered password =  and object is : [[FirefoxDriver: firefox on XP (00e2a901-307b-4ccd-978b-798a57b31da6)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-20 18:21:23 INFO  Homepage:54 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (00e2a901-307b-4ccd-978b-798a57b31da6)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-20 18:21:28 INFO  TC001_VerifyLoginWithInvalidCredential:34 - ================ Finished nullCredential Test 
+2018-06-20 18:21:28 INFO  TC001_VerifyLoginWithInvalidCredential:39 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-06-20 18:21:28 INFO  Homepage:42 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (00e2a901-307b-4ccd-978b-798a57b31da6)] -> xpath: //span[text()='LOG IN']]
+2018-06-20 18:21:29 INFO  Homepage:47 - Entered Email = suraj.kakode@fincaswh.com and object is : [[FirefoxDriver: firefox on XP (00e2a901-307b-4ccd-978b-798a57b31da6)] -> css selector: input[placeholder='Email Id']]
+2018-06-20 18:21:29 INFO  Homepage:51 - Entered password = kakode922 and object is : [[FirefoxDriver: firefox on XP (00e2a901-307b-4ccd-978b-798a57b31da6)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-20 18:21:29 INFO  Homepage:54 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (00e2a901-307b-4ccd-978b-798a57b31da6)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-20 18:21:34 INFO  TC001_VerifyLoginWithInvalidCredential:46 - ================ Finished verifyLoginWithInValidCredential Test 
+2018-06-20 18:21:34 INFO  TC001_VerifyLoginWithInvalidCredential:52 - ================ Starting verifyLoginWithValidCredential Test 
+2018-06-20 18:21:34 INFO  Homepage:42 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (00e2a901-307b-4ccd-978b-798a57b31da6)] -> xpath: //span[text()='LOG IN']]
+2018-06-20 18:21:35 INFO  Homepage:47 - Entered Email = suraj.kakode@fincash.com and object is : [[FirefoxDriver: firefox on XP (00e2a901-307b-4ccd-978b-798a57b31da6)] -> css selector: input[placeholder='Email Id']]
+2018-06-20 18:21:35 INFO  Homepage:51 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (00e2a901-307b-4ccd-978b-798a57b31da6)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-20 18:21:35 INFO  Homepage:54 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (00e2a901-307b-4ccd-978b-798a57b31da6)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-20 18:21:40 INFO  TC001_VerifyLoginWithInvalidCredential:58 - ================ Finished verifyLoginWithValidCredential Test 
+2018-06-20 18:21:40 INFO  TC004_VerifySignUpwithValidCredential:39 - ================ Starting nullCredential Test 
+2018-06-20 18:22:10 INFO  TC004_VerifySignUpwithValidCredential:52 - ================ Starting passwordMismach Test 
+2018-06-20 18:22:40 INFO  TC004_VerifySignUpwithValidCredential:24 - ================ Starting verifySignUpWithInValidCredential Test 
+2018-06-20 18:23:10 INFO  TC004_VerifySignUpwithValidCredential:65 - ================ Starting verifySignUpWithValidCredential Test 
+2018-06-20 18:25:00 INFO  TestBase:44 - Creating the object of FirefoxDriver: firefox on XP (a367cebe-ec05-49bf-a970-f0a2e3fe1143)
+2018-06-20 18:25:04 INFO  TestBase:60 - Navigating to : https://api.fincash.com
+2018-06-20 18:25:09 INFO  TC001_VerifyLoginWithInvalidCredential:27 - ================ Starting nullCredential Test 
+2018-06-20 18:25:09 INFO  Homepage:42 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (40abc701-6278-4d24-b85c-302aa7f0837c)] -> xpath: //span[text()='LOG IN']]
+2018-06-20 18:25:10 INFO  Homepage:47 - Entered Email =  and object is : [[FirefoxDriver: firefox on XP (40abc701-6278-4d24-b85c-302aa7f0837c)] -> css selector: input[placeholder='Email Id']]
+2018-06-20 18:25:10 INFO  Homepage:51 - Entered password =  and object is : [[FirefoxDriver: firefox on XP (40abc701-6278-4d24-b85c-302aa7f0837c)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-20 18:25:10 INFO  Homepage:54 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (40abc701-6278-4d24-b85c-302aa7f0837c)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-20 18:25:15 INFO  TC001_VerifyLoginWithInvalidCredential:34 - ================ Finished nullCredential Test 
+2018-06-20 18:25:15 INFO  TC001_VerifyLoginWithInvalidCredential:39 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-06-20 18:25:15 INFO  Homepage:42 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (40abc701-6278-4d24-b85c-302aa7f0837c)] -> xpath: //span[text()='LOG IN']]
+2018-06-20 18:25:16 INFO  Homepage:47 - Entered Email = suraj.kakode@fincaswh.com and object is : [[FirefoxDriver: firefox on XP (40abc701-6278-4d24-b85c-302aa7f0837c)] -> css selector: input[placeholder='Email Id']]
+2018-06-20 18:25:16 INFO  Homepage:51 - Entered password = kakode922 and object is : [[FirefoxDriver: firefox on XP (40abc701-6278-4d24-b85c-302aa7f0837c)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-20 18:25:16 INFO  Homepage:54 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (40abc701-6278-4d24-b85c-302aa7f0837c)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-20 18:25:21 INFO  TC001_VerifyLoginWithInvalidCredential:46 - ================ Finished verifyLoginWithInValidCredential Test 
+2018-06-20 18:25:21 INFO  TC001_VerifyLoginWithInvalidCredential:52 - ================ Starting verifyLoginWithValidCredential Test 
+2018-06-20 18:25:21 INFO  Homepage:42 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (40abc701-6278-4d24-b85c-302aa7f0837c)] -> xpath: //span[text()='LOG IN']]
+2018-06-20 18:25:21 INFO  Homepage:47 - Entered Email = suraj.kakode@fincash.com and object is : [[FirefoxDriver: firefox on XP (40abc701-6278-4d24-b85c-302aa7f0837c)] -> css selector: input[placeholder='Email Id']]
+2018-06-20 18:25:21 INFO  Homepage:51 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (40abc701-6278-4d24-b85c-302aa7f0837c)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-20 18:25:22 INFO  Homepage:54 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (40abc701-6278-4d24-b85c-302aa7f0837c)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-20 18:25:27 INFO  TC001_VerifyLoginWithInvalidCredential:58 - ================ Finished verifyLoginWithValidCredential Test 
+2018-06-20 18:25:27 INFO  TC004_VerifySignUpwithValidCredential:39 - ================ Starting nullCredential Test 
+2018-06-20 18:25:57 INFO  TC004_VerifySignUpwithValidCredential:52 - ================ Starting passwordMismach Test 
+2018-06-20 18:26:27 INFO  TC004_VerifySignUpwithValidCredential:24 - ================ Starting verifySignUpWithInValidCredential Test 
+2018-06-20 18:26:55 INFO  TC004_VerifySignUpwithValidCredential:65 - ================ Starting verifySignUpWithValidCredential Test 
+2018-06-20 18:27:41 INFO  TC001_VerifyLoginWithInvalidCredential:27 - ================ Starting nullCredential Test 
+2018-06-20 18:27:42 INFO  Homepage:42 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (03102cd2-4efd-40de-bbdc-08a3b3a1696c)] -> xpath: //span[text()='LOG IN']]
+2018-06-20 18:27:42 INFO  Homepage:47 - Entered Email =  and object is : [[FirefoxDriver: firefox on XP (03102cd2-4efd-40de-bbdc-08a3b3a1696c)] -> css selector: input[placeholder='Email Id']]
+2018-06-20 18:27:42 INFO  Homepage:51 - Entered password =  and object is : [[FirefoxDriver: firefox on XP (03102cd2-4efd-40de-bbdc-08a3b3a1696c)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-20 18:27:42 INFO  Homepage:54 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (03102cd2-4efd-40de-bbdc-08a3b3a1696c)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-20 18:27:47 INFO  TC001_VerifyLoginWithInvalidCredential:34 - ================ Finished nullCredential Test 
+2018-06-20 18:27:47 INFO  TC001_VerifyLoginWithInvalidCredential:39 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-06-20 18:27:48 INFO  Homepage:42 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (03102cd2-4efd-40de-bbdc-08a3b3a1696c)] -> xpath: //span[text()='LOG IN']]
+2018-06-20 18:27:48 INFO  Homepage:47 - Entered Email = suraj.kakode@fincaswh.com and object is : [[FirefoxDriver: firefox on XP (03102cd2-4efd-40de-bbdc-08a3b3a1696c)] -> css selector: input[placeholder='Email Id']]
+2018-06-20 18:27:48 INFO  Homepage:51 - Entered password = kakode922 and object is : [[FirefoxDriver: firefox on XP (03102cd2-4efd-40de-bbdc-08a3b3a1696c)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-20 18:27:48 INFO  Homepage:54 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (03102cd2-4efd-40de-bbdc-08a3b3a1696c)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-20 18:27:53 INFO  TC001_VerifyLoginWithInvalidCredential:46 - ================ Finished verifyLoginWithInValidCredential Test 
+2018-06-20 18:27:53 INFO  TC001_VerifyLoginWithInvalidCredential:52 - ================ Starting verifyLoginWithValidCredential Test 
+2018-06-20 18:27:54 INFO  Homepage:42 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (03102cd2-4efd-40de-bbdc-08a3b3a1696c)] -> xpath: //span[text()='LOG IN']]
+2018-06-20 18:27:54 INFO  Homepage:47 - Entered Email = suraj.kakode@fincash.com and object is : [[FirefoxDriver: firefox on XP (03102cd2-4efd-40de-bbdc-08a3b3a1696c)] -> css selector: input[placeholder='Email Id']]
+2018-06-20 18:27:54 INFO  Homepage:51 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (03102cd2-4efd-40de-bbdc-08a3b3a1696c)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-20 18:27:54 INFO  Homepage:54 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (03102cd2-4efd-40de-bbdc-08a3b3a1696c)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-20 18:27:59 INFO  TC001_VerifyLoginWithInvalidCredential:58 - ================ Finished verifyLoginWithValidCredential Test 
+2018-06-20 18:28:44 INFO  TC004_VerifySignUpwithValidCredential:39 - ================ Starting nullCredential Test 
+2018-06-20 18:28:45 INFO  SignUp:45 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (9d7898ad-155b-4942-a964-9a29d6fb83c0)] -> xpath: //span[text()='SIGN UP']]
+2018-06-20 18:28:45 INFO  TestBase:97 - Page Is loaded.
+2018-06-20 18:28:45 INFO  SignUp:50 - Entered Email =   and object is : [[FirefoxDriver: firefox on XP (9d7898ad-155b-4942-a964-9a29d6fb83c0)] -> xpath: //input[@placeholder='Email Id']]
+2018-06-20 18:28:45 INFO  SignUp:54 - Entered password =   and object is : [[FirefoxDriver: firefox on XP (9d7898ad-155b-4942-a964-9a29d6fb83c0)] -> xpath: //input[@type='password' and @placeholder='Password']]
+2018-06-20 18:28:45 INFO  SignUp:58 - Entered password =   and object is : [[FirefoxDriver: firefox on XP (9d7898ad-155b-4942-a964-9a29d6fb83c0)] -> xpath: //input[@type='password' and @placeholder='Confirm Password']]
+2018-06-20 18:28:45 INFO  SignUp:61 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (9d7898ad-155b-4942-a964-9a29d6fb83c0)] -> xpath: //button[@type='submit']/span/span]
+2018-06-20 18:28:50 INFO  TestBase:97 - Page Is loaded.
+2018-06-20 18:28:50 INFO  TC004_VerifySignUpwithValidCredential:45 - ================ Finished nullCredential Test 
+2018-06-20 18:28:50 INFO  TC004_VerifySignUpwithValidCredential:52 - ================ Starting passwordMismach Test 
+2018-06-20 18:28:51 INFO  SignUp:45 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (9d7898ad-155b-4942-a964-9a29d6fb83c0)] -> xpath: //span[text()='SIGN UP']]
+2018-06-20 18:28:51 INFO  TestBase:97 - Page Is loaded.
+2018-06-20 18:28:51 INFO  SignUp:50 - Entered Email = suraj.kakode1001@fincash.com and object is : [[FirefoxDriver: firefox on XP (9d7898ad-155b-4942-a964-9a29d6fb83c0)] -> xpath: //input[@placeholder='Email Id']]
+2018-06-20 18:28:51 INFO  SignUp:54 - Entered password = 123456789 and object is : [[FirefoxDriver: firefox on XP (9d7898ad-155b-4942-a964-9a29d6fb83c0)] -> xpath: //input[@type='password' and @placeholder='Password']]
+2018-06-20 18:28:51 INFO  SignUp:58 - Entered password = 123456789 and object is : [[FirefoxDriver: firefox on XP (9d7898ad-155b-4942-a964-9a29d6fb83c0)] -> xpath: //input[@type='password' and @placeholder='Confirm Password']]
+2018-06-20 18:28:51 INFO  SignUp:61 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (9d7898ad-155b-4942-a964-9a29d6fb83c0)] -> xpath: //button[@type='submit']/span/span]
+2018-06-20 18:28:56 INFO  TestBase:97 - Page Is loaded.
+2018-06-20 18:28:56 INFO  TC004_VerifySignUpwithValidCredential:58 - ================ Finished passwordMismach Test 
+2018-06-20 18:28:56 INFO  TC004_VerifySignUpwithValidCredential:24 - ================ Starting verifySignUpWithInValidCredential Test 
+2018-06-20 18:28:57 INFO  SignUp:45 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (9d7898ad-155b-4942-a964-9a29d6fb83c0)] -> xpath: //span[text()='SIGN UP']]
+2018-06-20 18:28:57 INFO  TestBase:97 - Page Is loaded.
+2018-06-20 18:28:57 INFO  SignUp:50 - Entered Email = suraj.kakode@fincash.com and object is : [[FirefoxDriver: firefox on XP (9d7898ad-155b-4942-a964-9a29d6fb83c0)] -> xpath: //input[@placeholder='Email Id']]
+2018-06-20 18:28:57 INFO  SignUp:54 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (9d7898ad-155b-4942-a964-9a29d6fb83c0)] -> xpath: //input[@type='password' and @placeholder='Password']]
+2018-06-20 18:28:57 INFO  SignUp:58 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (9d7898ad-155b-4942-a964-9a29d6fb83c0)] -> xpath: //input[@type='password' and @placeholder='Confirm Password']]
+2018-06-20 18:28:57 INFO  SignUp:61 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (9d7898ad-155b-4942-a964-9a29d6fb83c0)] -> xpath: //button[@type='submit']/span/span]
+2018-06-20 18:29:02 INFO  TestBase:97 - Page Is loaded.
+2018-06-20 18:29:02 INFO  TC004_VerifySignUpwithValidCredential:31 - ================ Finished verifySignUpWithInValidCredential Test 
+2018-06-20 18:29:02 INFO  TC004_VerifySignUpwithValidCredential:65 - ================ Starting verifySignUpWithValidCredential Test 
+2018-06-20 18:29:03 INFO  SignUp:45 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (9d7898ad-155b-4942-a964-9a29d6fb83c0)] -> xpath: //span[text()='SIGN UP']]
+2018-06-20 18:29:03 INFO  TestBase:97 - Page Is loaded.
+2018-06-20 18:29:03 INFO  SignUp:50 - Entered Email = suraj.kakode616@fincash.com and object is : [[FirefoxDriver: firefox on XP (9d7898ad-155b-4942-a964-9a29d6fb83c0)] -> xpath: //input[@placeholder='Email Id']]
+2018-06-20 18:29:03 INFO  SignUp:54 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (9d7898ad-155b-4942-a964-9a29d6fb83c0)] -> xpath: //input[@type='password' and @placeholder='Password']]
+2018-06-20 18:29:03 INFO  SignUp:58 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (9d7898ad-155b-4942-a964-9a29d6fb83c0)] -> xpath: //input[@type='password' and @placeholder='Confirm Password']]
+2018-06-20 18:29:03 INFO  SignUp:61 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (9d7898ad-155b-4942-a964-9a29d6fb83c0)] -> xpath: //button[@type='submit']/span/span]
+2018-06-20 18:29:08 INFO  TestBase:97 - Page Is loaded.
+2018-06-20 19:46:04 INFO  SignUp:45 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (14d2fe16-9569-4b3b-a9cb-457b40fffc73)] -> xpath: //span[text()='SIGN UP']]
+2018-06-20 19:46:04 INFO  TestBase:97 - Page Is loaded.
+2018-06-20 19:46:05 INFO  SignUp:50 - Entered Email = suraj.kakode620@fincash.com and object is : [[FirefoxDriver: firefox on XP (14d2fe16-9569-4b3b-a9cb-457b40fffc73)] -> xpath: //input[@placeholder='Email Id']]
+2018-06-20 19:46:05 INFO  SignUp:54 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (14d2fe16-9569-4b3b-a9cb-457b40fffc73)] -> xpath: //input[@type='password' and @placeholder='Password']]
+2018-06-20 19:46:05 INFO  SignUp:58 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (14d2fe16-9569-4b3b-a9cb-457b40fffc73)] -> xpath: //input[@type='password' and @placeholder='Confirm Password']]
+2018-06-20 19:46:05 INFO  SignUp:61 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (14d2fe16-9569-4b3b-a9cb-457b40fffc73)] -> xpath: //button[@type='submit']/span/span]
+2018-06-20 19:49:06 INFO  SignUp:45 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (35c7c362-7dd3-4631-8d87-f014ec9b3d90)] -> xpath: //span[text()='SIGN UP']]
+2018-06-20 19:49:06 INFO  TestBase:97 - Page Is loaded.
+2018-06-20 19:49:06 INFO  SignUp:50 - Entered Email = suraj.kakode620@fincash.com and object is : [[FirefoxDriver: firefox on XP (35c7c362-7dd3-4631-8d87-f014ec9b3d90)] -> xpath: //input[@placeholder='Email Id']]
+2018-06-20 19:49:06 INFO  SignUp:54 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (35c7c362-7dd3-4631-8d87-f014ec9b3d90)] -> xpath: //input[@type='password' and @placeholder='Password']]
+2018-06-20 19:49:06 INFO  SignUp:58 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (35c7c362-7dd3-4631-8d87-f014ec9b3d90)] -> xpath: //input[@type='password' and @placeholder='Confirm Password']]
+2018-06-20 19:49:06 INFO  SignUp:61 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (35c7c362-7dd3-4631-8d87-f014ec9b3d90)] -> xpath: //button[@type='submit']/span/span]
+2018-06-20 19:49:06 INFO  TestBase:97 - Page Is loaded.
+2018-06-20 19:52:24 INFO  SignUp:45 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (f61d8e4c-f66d-48c3-b7c4-7996997c27b1)] -> xpath: //span[text()='SIGN UP']]
+2018-06-20 19:52:32 INFO  TestBase:97 - Page Is loaded.
+2018-06-20 19:52:38 INFO  SignUp:50 - Entered Email = suraj.kakode620@fincash.com and object is : [[FirefoxDriver: firefox on XP (f61d8e4c-f66d-48c3-b7c4-7996997c27b1)] -> xpath: //input[@placeholder='Email Id']]
+2018-06-20 19:52:42 INFO  SignUp:54 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (f61d8e4c-f66d-48c3-b7c4-7996997c27b1)] -> xpath: //input[@type='password' and @placeholder='Password']]
+2018-06-20 19:52:55 INFO  SignUp:58 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (f61d8e4c-f66d-48c3-b7c4-7996997c27b1)] -> xpath: //input[@type='password' and @placeholder='Confirm Password']]
+2018-06-20 19:54:04 INFO  SignUp:61 - Submitted form and object is :  Proxy element for: DefaultElementLocator 'By.xpath: //button[@type='submit']/span/span'
+2018-06-20 19:55:03 INFO  TestBase:97 - Page Is loaded.
+2018-06-20 20:01:53 INFO  SignUp:45 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (01b7af6e-05e8-4b7d-afa2-3555bc76ca4b)] -> xpath: //span[text()='SIGN UP']]
+2018-06-20 20:01:53 INFO  TestBase:97 - Page Is loaded.
+2018-06-20 20:01:53 INFO  SignUp:50 - Entered Email = suraj.kakode621@fincash.com and object is : [[FirefoxDriver: firefox on XP (01b7af6e-05e8-4b7d-afa2-3555bc76ca4b)] -> xpath: //input[@placeholder='Email Id']]
+2018-06-20 20:01:54 INFO  SignUp:54 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (01b7af6e-05e8-4b7d-afa2-3555bc76ca4b)] -> xpath: //input[@type='password' and @placeholder='Password']]
+2018-06-20 20:01:54 INFO  SignUp:58 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (01b7af6e-05e8-4b7d-afa2-3555bc76ca4b)] -> xpath: //input[@type='password' and @placeholder='Confirm Password']]
+2018-06-20 20:01:54 INFO  SignUp:61 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (01b7af6e-05e8-4b7d-afa2-3555bc76ca4b)] -> xpath: //button[@type='submit']/span/span]
+2018-06-20 20:01:54 INFO  TestBase:97 - Page Is loaded.
+2018-06-20 20:03:12 INFO  TestBase:97 - Page Is loaded.
+2018-06-20 20:03:12 INFO  SignUp:45 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (7b1f3004-c7c8-4c3b-8a0b-5265bc18af76)] -> xpath: //span[text()='SIGN UP']]
+2018-06-20 20:03:12 INFO  TestBase:97 - Page Is loaded.
+2018-06-20 20:03:12 INFO  SignUp:50 - Entered Email = suraj.kakode621@fincash.com and object is : [[FirefoxDriver: firefox on XP (7b1f3004-c7c8-4c3b-8a0b-5265bc18af76)] -> xpath: //input[@placeholder='Email Id']]
+2018-06-20 20:03:13 INFO  SignUp:54 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (7b1f3004-c7c8-4c3b-8a0b-5265bc18af76)] -> xpath: //input[@type='password' and @placeholder='Password']]
+2018-06-20 20:03:13 INFO  SignUp:58 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (7b1f3004-c7c8-4c3b-8a0b-5265bc18af76)] -> xpath: //input[@type='password' and @placeholder='Confirm Password']]
+2018-06-20 20:03:13 INFO  SignUp:61 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (7b1f3004-c7c8-4c3b-8a0b-5265bc18af76)] -> xpath: //button[@type='submit']/span/span]
+2018-06-20 20:03:13 INFO  TestBase:97 - Page Is loaded.
+2018-06-20 20:04:12 INFO  SignUp:45 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (59ee5ec3-3186-4dec-a02e-54f1c27ce43b)] -> xpath: //span[text()='SIGN UP']]
+2018-06-20 20:04:12 INFO  TestBase:97 - Page Is loaded.
+2018-06-20 20:04:13 INFO  SignUp:50 - Entered Email = suraj.kakode621@fincash.com and object is : [[FirefoxDriver: firefox on XP (59ee5ec3-3186-4dec-a02e-54f1c27ce43b)] -> xpath: //input[@placeholder='Email Id']]
+2018-06-20 20:04:13 INFO  SignUp:54 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (59ee5ec3-3186-4dec-a02e-54f1c27ce43b)] -> xpath: //input[@type='password' and @placeholder='Password']]
+2018-06-20 20:04:13 INFO  SignUp:58 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (59ee5ec3-3186-4dec-a02e-54f1c27ce43b)] -> xpath: //input[@type='password' and @placeholder='Confirm Password']]
+2018-06-20 20:04:13 INFO  SignUp:61 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (59ee5ec3-3186-4dec-a02e-54f1c27ce43b)] -> xpath: //button[@type='submit']/span/span]
+2018-06-20 20:04:13 INFO  TestBase:97 - Page Is loaded.
+2018-06-20 20:05:22 INFO  SignUp:45 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (c0a6619b-125d-4d5e-83a8-b904232e419a)] -> xpath: //span[text()='SIGN UP']]
+2018-06-20 20:05:22 INFO  TestBase:97 - Page Is loaded.
+2018-06-20 20:05:23 INFO  SignUp:50 - Entered Email = suraj.kakode620@fincash.com and object is : [[FirefoxDriver: firefox on XP (c0a6619b-125d-4d5e-83a8-b904232e419a)] -> xpath: //input[@placeholder='Email Id']]
+2018-06-20 20:05:23 INFO  SignUp:54 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (c0a6619b-125d-4d5e-83a8-b904232e419a)] -> xpath: //input[@type='password' and @placeholder='Password']]
+2018-06-20 20:05:23 INFO  SignUp:58 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (c0a6619b-125d-4d5e-83a8-b904232e419a)] -> xpath: //input[@type='password' and @placeholder='Confirm Password']]
+2018-06-20 20:05:23 INFO  SignUp:61 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (c0a6619b-125d-4d5e-83a8-b904232e419a)] -> xpath: //button[@type='submit']/span/span]
+2018-06-20 20:05:23 INFO  TestBase:97 - Page Is loaded.
+2018-06-20 20:08:20 INFO  SignUp:45 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (a1a16f54-f386-45ac-8846-63f9e2fbee73)] -> xpath: //span[text()='SIGN UP']]
+2018-06-20 20:08:20 INFO  TestBase:97 - Page Is loaded.
+2018-06-20 20:08:20 INFO  SignUp:50 - Entered Email = suraj.kakode621@fincash.com and object is : [[FirefoxDriver: firefox on XP (a1a16f54-f386-45ac-8846-63f9e2fbee73)] -> xpath: //input[@placeholder='Email Id']]
+2018-06-20 20:08:20 INFO  SignUp:54 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (a1a16f54-f386-45ac-8846-63f9e2fbee73)] -> xpath: //input[@type='password' and @placeholder='Password']]
+2018-06-20 20:08:20 INFO  SignUp:58 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (a1a16f54-f386-45ac-8846-63f9e2fbee73)] -> xpath: //input[@type='password' and @placeholder='Confirm Password']]
+2018-06-20 20:08:21 INFO  SignUp:61 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (a1a16f54-f386-45ac-8846-63f9e2fbee73)] -> xpath: //button[@type='submit']/span/span]
+2018-06-20 20:08:21 INFO  TestBase:97 - Page Is loaded.
+2018-06-21 12:16:11 INFO  SignUp:45 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (cdd92ea7-577d-4954-9ab7-f68f87a58956)] -> xpath: //span[text()='SIGN UP']]
+2018-06-21 12:16:11 INFO  TestBase:97 - Page Is loaded.
+2018-06-21 12:16:11 INFO  SignUp:50 - Entered Email = suraj.kakode621@fincash.com and object is : [[FirefoxDriver: firefox on XP (cdd92ea7-577d-4954-9ab7-f68f87a58956)] -> xpath: //input[@placeholder='Email Id']]
+2018-06-21 12:16:11 INFO  SignUp:54 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (cdd92ea7-577d-4954-9ab7-f68f87a58956)] -> xpath: //input[@type='password' and @placeholder='Password']]
+2018-06-21 12:16:11 INFO  SignUp:58 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (cdd92ea7-577d-4954-9ab7-f68f87a58956)] -> xpath: //input[@type='password' and @placeholder='Confirm Password']]
+2018-06-21 12:16:12 INFO  SignUp:61 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (cdd92ea7-577d-4954-9ab7-f68f87a58956)] -> xpath: //button[@type='submit']/span/span]
+2018-06-21 12:16:12 INFO  TestBase:97 - Page Is loaded.
+2018-06-21 12:21:47 INFO  SignUp:45 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (18101a83-69d1-478e-b024-8c8fbee6d9a4)] -> xpath: //span[text()='SIGN UP']]
+2018-06-21 12:21:47 INFO  TestBase:97 - Page Is loaded.
+2018-06-21 12:21:48 INFO  SignUp:50 - Entered Email = suraj.kakode622@fincash.com and object is : [[FirefoxDriver: firefox on XP (18101a83-69d1-478e-b024-8c8fbee6d9a4)] -> xpath: //input[@placeholder='Email Id']]
+2018-06-21 12:21:48 INFO  SignUp:54 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (18101a83-69d1-478e-b024-8c8fbee6d9a4)] -> xpath: //input[@type='password' and @placeholder='Password']]
+2018-06-21 12:21:48 INFO  SignUp:58 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (18101a83-69d1-478e-b024-8c8fbee6d9a4)] -> xpath: //input[@type='password' and @placeholder='Confirm Password']]
+2018-06-21 12:21:48 INFO  SignUp:61 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (18101a83-69d1-478e-b024-8c8fbee6d9a4)] -> xpath: //button[@type='submit']/span/span]
+2018-06-21 12:21:48 INFO  TestBase:97 - Page Is loaded.
+2018-06-21 12:25:12 INFO  SignUp:45 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (2be7fc69-dc59-4788-a597-b97fe49be1c3)] -> xpath: //span[text()='SIGN UP']]
+2018-06-21 12:25:12 INFO  TestBase:97 - Page Is loaded.
+2018-06-21 12:25:13 INFO  SignUp:50 - Entered Email = suraj.kakode622@fincash.com and object is : [[FirefoxDriver: firefox on XP (2be7fc69-dc59-4788-a597-b97fe49be1c3)] -> xpath: //input[@placeholder='Email Id']]
+2018-06-21 12:25:13 INFO  SignUp:54 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (2be7fc69-dc59-4788-a597-b97fe49be1c3)] -> xpath: //input[@type='password' and @placeholder='Password']]
+2018-06-21 12:25:13 INFO  SignUp:58 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (2be7fc69-dc59-4788-a597-b97fe49be1c3)] -> xpath: //input[@type='password' and @placeholder='Confirm Password']]
+2018-06-21 12:25:13 INFO  TestBase:97 - Page Is loaded.
+2018-06-21 12:25:13 INFO  SignUp:62 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (2be7fc69-dc59-4788-a597-b97fe49be1c3)] -> xpath: //button[@type='submit']/span/span]
+2018-06-21 12:25:13 INFO  TestBase:97 - Page Is loaded.
+2018-06-21 12:27:56 INFO  SignUp:45 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (3fb87db3-d4a2-4842-8373-4a321058cbaa)] -> xpath: //span[text()='SIGN UP']]
+2018-06-21 12:27:56 INFO  TestBase:97 - Page Is loaded.
+2018-06-21 12:27:56 INFO  SignUp:50 - Entered Email = suraj.kakode622@fincash.com and object is : [[FirefoxDriver: firefox on XP (3fb87db3-d4a2-4842-8373-4a321058cbaa)] -> xpath: //input[@placeholder='Email Id']]
+2018-06-21 12:27:56 INFO  SignUp:54 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (3fb87db3-d4a2-4842-8373-4a321058cbaa)] -> xpath: //input[@type='password' and @placeholder='Password']]
+2018-06-21 12:27:56 INFO  SignUp:58 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (3fb87db3-d4a2-4842-8373-4a321058cbaa)] -> xpath: //input[@type='password' and @placeholder='Confirm Password']]
+2018-06-21 12:27:56 INFO  TestBase:97 - Page Is loaded.
+2018-06-21 12:27:57 INFO  SignUp:62 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (3fb87db3-d4a2-4842-8373-4a321058cbaa)] -> xpath: //button[@type='submit']/span/span]
+2018-06-21 12:48:23 INFO  SignUp:45 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (d3da58e8-9549-4c66-aa66-1084a076219c)] -> xpath: //span[text()='SIGN UP']]
+2018-06-21 12:48:23 INFO  TestBase:97 - Page Is loaded.
+2018-06-21 12:48:23 INFO  SignUp:50 - Entered Email = suraj.kakode622@fincash.com and object is : [[FirefoxDriver: firefox on XP (d3da58e8-9549-4c66-aa66-1084a076219c)] -> xpath: //input[@placeholder='Email Id']]
+2018-06-21 12:48:23 INFO  SignUp:54 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (d3da58e8-9549-4c66-aa66-1084a076219c)] -> xpath: //input[@type='password' and @placeholder='Password']]
+2018-06-21 12:48:23 INFO  SignUp:58 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (d3da58e8-9549-4c66-aa66-1084a076219c)] -> xpath: //input[@type='password' and @placeholder='Confirm Password']]
+2018-06-21 12:48:23 INFO  TestBase:97 - Page Is loaded.
+2018-06-21 12:48:24 INFO  SignUp:63 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (d3da58e8-9549-4c66-aa66-1084a076219c)] -> xpath: //button[@type='submit']/span/span]
+2018-06-21 13:04:34 INFO  Homepage:42 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (fe45b49f-2c2e-4242-bc5a-0919d3534567)] -> xpath: //span[text()='LOG IN']]
+2018-06-21 13:04:34 INFO  Homepage:47 - Entered Email = suraj.kakode622@fincash.com and object is : [[FirefoxDriver: firefox on XP (fe45b49f-2c2e-4242-bc5a-0919d3534567)] -> css selector: input[placeholder='Email Id']]
+2018-06-21 13:04:34 INFO  Homepage:51 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (fe45b49f-2c2e-4242-bc5a-0919d3534567)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-21 13:04:34 INFO  Homepage:54 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (fe45b49f-2c2e-4242-bc5a-0919d3534567)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-21 13:04:40 INFO  KYC:38 - mobile number filled with8892430032
+2018-06-21 13:17:30 INFO  Homepage:42 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (17cb47e2-321a-4291-8e4c-91f0017e09d2)] -> xpath: //span[text()='LOG IN']]
+2018-06-21 13:17:31 INFO  Homepage:47 - Entered Email = suraj.kakode622@fincash.com and object is : [[FirefoxDriver: firefox on XP (17cb47e2-321a-4291-8e4c-91f0017e09d2)] -> css selector: input[placeholder='Email Id']]
+2018-06-21 13:17:31 INFO  Homepage:51 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (17cb47e2-321a-4291-8e4c-91f0017e09d2)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-21 13:17:31 INFO  Homepage:54 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (17cb47e2-321a-4291-8e4c-91f0017e09d2)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-21 13:17:36 INFO  KYC:38 - mobile number filled with8892430031
+2018-06-21 13:21:46 INFO  Homepage:42 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (64043ed8-7219-41a6-8b09-aad8e4a1e32b)] -> xpath: //span[text()='LOG IN']]
+2018-06-21 13:21:47 INFO  Homepage:47 - Entered Email = suraj.kakode622@fincash.com and object is : [[FirefoxDriver: firefox on XP (64043ed8-7219-41a6-8b09-aad8e4a1e32b)] -> css selector: input[placeholder='Email Id']]
+2018-06-21 13:21:47 INFO  Homepage:51 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (64043ed8-7219-41a6-8b09-aad8e4a1e32b)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-21 13:21:47 INFO  Homepage:54 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (64043ed8-7219-41a6-8b09-aad8e4a1e32b)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-21 13:21:52 INFO  KYC:38 - mobile number filled with 8892430031
+2018-06-21 13:21:53 INFO  KYC:41 - clicked on Send OTP button
+2018-06-21 13:27:46 INFO  Homepage:42 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (dc964b9d-0479-4a22-9635-5c475a2c18b9)] -> xpath: //span[text()='LOG IN']]
+2018-06-21 13:27:46 INFO  Homepage:47 - Entered Email = suraj.kakode622@fincash.com and object is : [[FirefoxDriver: firefox on XP (dc964b9d-0479-4a22-9635-5c475a2c18b9)] -> css selector: input[placeholder='Email Id']]
+2018-06-21 13:27:46 INFO  Homepage:51 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (dc964b9d-0479-4a22-9635-5c475a2c18b9)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-21 13:27:46 INFO  Homepage:54 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (dc964b9d-0479-4a22-9635-5c475a2c18b9)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-21 13:27:52 INFO  KYC:39 - mobile number filled with 8892430031
+2018-06-21 13:27:52 INFO  KYC:42 - clicked on Send OTP button
+2018-06-21 13:27:57 INFO  KYC:39 - mobile number filled with 8892430032
+2018-06-21 13:39:33 INFO  Homepage:42 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (99d07ea5-3edf-42a5-9b9d-36d040174181)] -> xpath: //span[text()='LOG IN']]
+2018-06-21 13:39:33 INFO  Homepage:47 - Entered Email = suraj.kakode622@fincash.com and object is : [[FirefoxDriver: firefox on XP (99d07ea5-3edf-42a5-9b9d-36d040174181)] -> css selector: input[placeholder='Email Id']]
+2018-06-21 13:39:33 INFO  Homepage:51 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (99d07ea5-3edf-42a5-9b9d-36d040174181)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-21 13:39:34 INFO  Homepage:54 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (99d07ea5-3edf-42a5-9b9d-36d040174181)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-21 13:39:39 INFO  KYC:39 - mobile number filled with 8892430031
+2018-06-21 13:39:39 INFO  KYC:42 - clicked on Send OTP button
+2018-06-21 13:39:44 INFO  KYC:39 - mobile number filled with 8892430032
+2018-06-21 15:12:18 INFO  Homepage:42 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (0d8a5300-d5bc-4358-ab9e-46728f10b99d)] -> xpath: //span[text()='LOG IN']]
+2018-06-21 15:12:18 INFO  Homepage:47 - Entered Email = suraj.kakode622@fincash.com and object is : [[FirefoxDriver: firefox on XP (0d8a5300-d5bc-4358-ab9e-46728f10b99d)] -> css selector: input[placeholder='Email Id']]
+2018-06-21 15:12:18 INFO  Homepage:51 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (0d8a5300-d5bc-4358-ab9e-46728f10b99d)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-21 15:12:19 INFO  Homepage:54 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (0d8a5300-d5bc-4358-ab9e-46728f10b99d)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-21 15:12:24 INFO  KYC:39 - mobile number filled with 8892430031
+2018-06-21 15:12:24 INFO  KYC:42 - clicked on Send OTP button
+2018-06-21 15:12:29 INFO  KYC:39 - mobile number filled with 8892430032
+2018-06-21 15:18:11 INFO  Homepage:42 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (d1874474-e049-4f7d-bfbf-b85c4d230c9b)] -> xpath: //span[text()='LOG IN']]
+2018-06-21 15:18:11 INFO  Homepage:47 - Entered Email = suraj.kakode622@fincash.com and object is : [[FirefoxDriver: firefox on XP (d1874474-e049-4f7d-bfbf-b85c4d230c9b)] -> css selector: input[placeholder='Email Id']]
+2018-06-21 15:18:11 INFO  Homepage:51 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (d1874474-e049-4f7d-bfbf-b85c4d230c9b)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-21 15:18:11 INFO  Homepage:54 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (d1874474-e049-4f7d-bfbf-b85c4d230c9b)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-21 15:18:16 INFO  KYC:39 - mobile number filled with 8892430031
+2018-06-21 15:18:17 INFO  KYC:42 - clicked on Send OTP button
+2018-06-21 15:18:22 INFO  KYC:39 - mobile number filled with 8892430032
+2018-06-21 15:29:41 INFO  Homepage:42 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (d0c17a6c7df0c25cf72b722160ddbe6b)] -> xpath: //span[text()='LOG IN']]
+2018-06-21 15:29:41 INFO  Homepage:47 - Entered Email = suraj.kakode622@fincash.com and object is : [[ChromeDriver: chrome on XP (d0c17a6c7df0c25cf72b722160ddbe6b)] -> css selector: input[placeholder='Email Id']]
+2018-06-21 15:29:42 INFO  Homepage:51 - Entered password = kakode92 and object is : [[ChromeDriver: chrome on XP (d0c17a6c7df0c25cf72b722160ddbe6b)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-21 15:29:42 INFO  Homepage:54 - Submitted form and object is :  [[ChromeDriver: chrome on XP (d0c17a6c7df0c25cf72b722160ddbe6b)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-21 15:29:47 INFO  KYC:39 - mobile number filled with 8892430031
+2018-06-21 15:29:47 INFO  KYC:42 - clicked on Send OTP button
+2018-06-21 15:29:52 INFO  KYC:39 - mobile number filled with 8892430032
+2018-06-21 15:31:33 INFO  Homepage:42 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (4b9b6adeccb8c39540c99163da3a38ed)] -> xpath: //span[text()='LOG IN']]
+2018-06-21 15:31:34 INFO  Homepage:47 - Entered Email = suraj.kakode622@fincash.com and object is : [[ChromeDriver: chrome on XP (4b9b6adeccb8c39540c99163da3a38ed)] -> css selector: input[placeholder='Email Id']]
+2018-06-21 15:31:34 INFO  Homepage:51 - Entered password = kakode92 and object is : [[ChromeDriver: chrome on XP (4b9b6adeccb8c39540c99163da3a38ed)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-21 15:31:34 INFO  Homepage:54 - Submitted form and object is :  [[ChromeDriver: chrome on XP (4b9b6adeccb8c39540c99163da3a38ed)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-21 15:31:39 INFO  KYC:39 - mobile number filled with 8892430031
+2018-06-21 15:31:40 INFO  KYC:42 - clicked on Send OTP button
+2018-06-21 15:31:45 INFO  KYC:39 - mobile number filled with 8892430032
+2018-06-21 15:34:11 INFO  Homepage:42 - Clicking on login button and object is : [[ChromeDriver: chrome on XP (df6eeca49c7d527c6bf11719f85d658e)] -> xpath: //span[text()='LOG IN']]
+2018-06-21 15:34:12 INFO  Homepage:47 - Entered Email = suraj.kakode622@fincash.com and object is : [[ChromeDriver: chrome on XP (df6eeca49c7d527c6bf11719f85d658e)] -> css selector: input[placeholder='Email Id']]
+2018-06-21 15:34:12 INFO  Homepage:51 - Entered password = kakode92 and object is : [[ChromeDriver: chrome on XP (df6eeca49c7d527c6bf11719f85d658e)] -> css selector: input[type=password][placeholder='Password']]
+2018-06-21 15:34:12 INFO  Homepage:54 - Submitted form and object is :  [[ChromeDriver: chrome on XP (df6eeca49c7d527c6bf11719f85d658e)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-06-21 15:34:17 INFO  KYC:39 - mobile number filled with 8892430031
+2018-06-21 15:34:17 INFO  KYC:42 - clicked on Send OTP button
+2018-06-21 15:34:22 INFO  KYC:51 - inside dismiss
+2018-06-21 15:34:22 INFO  KYC:54 - clicked on No button
+2018-06-21 15:34:22 INFO  KYC:39 - mobile number filled with 8892430032

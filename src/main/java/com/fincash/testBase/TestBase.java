@@ -1,19 +1,32 @@
 package com.fincash.testBase;
 
+
+import com.paulhammant.ngwebdriver.NgWebDriver;
+import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Reporter;
 
-import java.util.Properties;
+
+import java.io.File;
+import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.concurrent.TimeUnit;
+
 
 public class TestBase {
 
     public static final Logger log = Logger.getLogger(TestBase.class.getName());
 
-    public WebDriver driver;
+    public static WebDriver driver;
+    public static NgWebDriver ngWebDriver;
     String browser = "chrome";
     String url = "https://api.fincash.com";
 
@@ -32,23 +45,103 @@ public class TestBase {
         {
             System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+"\\Drivers\\geckodriver.exe");
             log.info("Creating the object of "+ driver);
-            driver = new FirefoxDriver();
+            this.driver = new FirefoxDriver();
+            driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         }
         else if(browser.equalsIgnoreCase("chrome"))
         {
             System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\Drivers\\chromedriver.exe");
             log.info("Creating the object of "+ driver);
-            driver = new ChromeDriver();
+            this.driver = new ChromeDriver();
+            ngWebDriver = new NgWebDriver(driver);
+            ngWebDriver.waitForAngularRequestsToFinish();
+            driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         }
     }
 
     public void getUrl(String url)
     {
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         log.info("Navigating to : "+ url);
         driver.get(url);
-
-
+        ngWebDriver.waitForAngularRequestsToFinish();
     }
+
+    public void waitForElement(WebDriver driver,int timeOutInSeconds, WebElement element)
+    {
+        WebDriverWait wait = new WebDriverWait(driver, timeOutInSeconds);
+        wait.until(ExpectedConditions.elementToBeClickable(element));
+    }
+
+    public void getScreenShot(String name) {
+
+        Calendar calendar = Calendar.getInstance();
+        SimpleDateFormat formater = new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss");
+
+
+        File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+
+        try {
+            String reportDirectory = new File(System.getProperty("user.dir")).getAbsolutePath() + "\\src\\main\\java\\com\\fincash\\screenshots\\";
+            File destFile = new File((String) reportDirectory + name + "_" + formater.format(calendar.getTime()) + ".png");
+            FileUtils.copyFile(scrFile, destFile);
+            // This will help us to link the screen shot in testNG report
+           Reporter.log("<a href='" + destFile.getAbsolutePath() + "'> <img src='" + destFile.getAbsolutePath() + "' height='100' width='100'/> </a>");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+
+    public void checkPageIsReady() {
+
+        JavascriptExecutor js = (JavascriptExecutor)driver;
+
+
+        //Initially bellow given if condition will check ready state of page.
+        if (js.executeScript("return document.readyState").toString().equals("complete")){
+            log.info("Page Is loaded.");
+            return;
+        }
+
+        //This loop will rotate for 25 times to check If page Is ready after every 1 second.
+        //You can replace your value with 25 If you wants to Increase or decrease wait time.
+        for (int i=0; i<25; i++){
+            try {
+                Thread.sleep(1000);
+            }catch (InterruptedException e) {}
+            //To check page ready state.
+            if (js.executeScript("return document.readyState").toString().equals("complete")){
+                break;
+            }
+        }
+    }
+//    public boolean waitForJStoLoad() {
+//
+//        WebDriverWait wait = new WebDriverWait(driver, 30);
+//
+//        // wait for jQuery to load
+//        ExpectedCondition<Boolean> jQueryLoad = new ExpectedCondition<Boolean>() {
+//            @Override
+//            public Boolean apply(WebDriver driver) {
+//                try {
+//                    return ((Long)executeJavaScript("return jQuery.active") == 0);
+//                }
+//                catch (Exception e) {
+//                    return true;
+//                }
+//            }
+//        };
+//
+//        // wait for Javascript to load
+//        ExpectedCondition<Boolean> jsLoad = new ExpectedCondition<Boolean>() {
+//            @Override
+//            public Boolean apply(WebDriver driver) {
+//                return executeJavaScript("return document.readyState")
+//                        .toString().equals("complete");
+//            }
+//        };
+//
+//        return wait.until(jQueryLoad) && wait.until(jsLoad);
+//    }
 }
