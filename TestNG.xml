@@ -4,10 +4,10 @@
 <suite name="Regression Suite">
     <test name="TC001_VerifyLoginWithInvalidCredential">
 
-        <classes>
-            <class name="KYC.TC005_verifyMobileNumber"></class>
 
-        </classes>
+        <packages>
+            <package name="Registration"></package>
+        </packages>
 
 
     </test>

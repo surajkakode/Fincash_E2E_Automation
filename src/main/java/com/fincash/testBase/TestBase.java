@@ -27,8 +27,8 @@ public class TestBase {
 
     public static WebDriver driver;
     public static NgWebDriver ngWebDriver;
-    String browser = "chrome";
-    String url = "https://api.fincash.com";
+    String browser = "firefox";
+    public static String url = "https://api.fincash.com";  //http://10.1.0.103:81/
 
     public void init()
     {
@@ -46,16 +46,17 @@ public class TestBase {
             System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+"\\Drivers\\geckodriver.exe");
             log.info("Creating the object of "+ driver);
             this.driver = new FirefoxDriver();
-            driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+            driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+//            driver.manage().timeouts().pageLoadTimeout(10,TimeUnit.SECONDS);
         }
         else if(browser.equalsIgnoreCase("chrome"))
         {
             System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\Drivers\\chromedriver.exe");
             log.info("Creating the object of "+ driver);
             this.driver = new ChromeDriver();
-            ngWebDriver = new NgWebDriver(driver);
-            ngWebDriver.waitForAngularRequestsToFinish();
-            driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+//            ngWebDriver = new NgWebDriver((JavascriptExecutor) driver);
+//            //ngWebDriver.waitForAngularRequestsToFinish();
+            driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         }
     }
 
@@ -64,13 +65,21 @@ public class TestBase {
         driver.manage().window().maximize();
         log.info("Navigating to : "+ url);
         driver.get(url);
-        ngWebDriver.waitForAngularRequestsToFinish();
+        //ngWebDriver.waitForAngularRequestsToFinish();
     }
 
-    public void waitForElement(WebDriver driver,int timeOutInSeconds, WebElement element)
-    {
-        WebDriverWait wait = new WebDriverWait(driver, timeOutInSeconds);
-        wait.until(ExpectedConditions.elementToBeClickable(element));
+    public static void waitForElement(WebDriver driver) throws InterruptedException {
+
+
+            try {
+                log.info("inside waitForElement");
+                new WebDriverWait(driver,20).until(ExpectedConditions.invisibilityOfElementLocated(By.tagName("mat-progress-spinner")));
+            } catch (Exception e) {
+                log.info("inside catch");
+                e.printStackTrace();
+                Thread.sleep(2000);
+
+            }
     }
 
     public void getScreenShot(String name) {

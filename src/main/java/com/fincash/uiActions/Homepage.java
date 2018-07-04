@@ -6,6 +6,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Homepage extends TestBase{
 
@@ -31,6 +33,9 @@ public class Homepage extends TestBase{
     @FindBy(xpath = "//text()[contains(.,'LOGIN')]/ancestor::button[1]")
     WebElement submitButton;
 
+    @FindBy(xpath = "//div[contains(text(),'Forgot password?')]")
+    WebElement forgotPassword;
+
 //    @FindBy(xpath = "//button[text()='Retry']")
 //    WebElement invalidUser;
 //
@@ -40,7 +45,7 @@ public class Homepage extends TestBase{
     public void loginToApplication(String email, String password) throws InterruptedException {
         loginButton.click();
         log.info("Clicking on login button and object is : " + loginButton.toString());
-        waitForElement(driver,5000,userName);
+        new WebDriverWait(driver,10).until(ExpectedConditions.visibilityOf(forgotPassword));
 
         userName.clear();
         userName.sendKeys(email);

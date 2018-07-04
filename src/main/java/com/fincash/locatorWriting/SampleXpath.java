@@ -13,4 +13,10 @@ public class SampleXpath extends TestBase{
         //button[contains(text(),'Women') and area-expended ='true' ]/following-sibling::ul/child::li/child::a[contains(text(),'"+product+"')]
         driver.findElement(By.xpath("//button[contains(text(),'Women') and area-expended ='true' ]/following-sibling::ul/child::li/child::a[contains(text(),'"+product+"')]")).click();
     }
+
+    /* printing list object
+
+       listObject.forEach(s -> log.info(s.getText()));
+
+     */
 }
