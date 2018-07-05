@@ -100,8 +100,14 @@ public class Registration extends AddressDetails{
     @FindBy(tagName = "mat-radio-button")  //(xpath = "//input[@type='radio']/following-sibling::div")
     List <WebElement> radioButtons;
 
-    @FindBy(xpath = "//mat-checkbox/label/div")
-    List <WebElement> checkBox;
+    @FindBy(xpath = "//mat-checkbox[@id='mat-checkbox-3']/child::label/child::div")
+    WebElement correspondenceAddressCheckBox;     //My correspondence address is same as above at Address Form
+
+    @FindBy(xpath = "//mat-checkbox[@id='mat-checkbox-1']/child::label/child::div")
+    WebElement iAgreeCheckBox;
+
+    @FindBy(xpath = "//mat-checkbox[@id='mat-checkbox-2']/child::label/child::div")
+    WebElement iAgreeCheckBoxMobile;
 
     @FindBy(xpath = "//button[@type='submit']")
     List <WebElement> saveButtons;
@@ -175,6 +181,9 @@ public class Registration extends AddressDetails{
         log.info("Entered "+motherName+" And the object is : "+this.motherName);
 
         this.dateOfBirth.clear();
+        this.dateOfBirth.clear();
+        this.dateOfBirth.sendKeys(dob);
+        this.dateOfBirth.clear();
         this.dateOfBirth.sendKeys(dob);
         log.info("Entered "+dob+" And the object is : "+this.dateOfBirth);
     }
@@ -207,15 +216,38 @@ public class Registration extends AddressDetails{
         this.nomineeName.sendKeys(nomineeName);
         log.info("Entered "+nomineeName+" And the object is : "+this.nomineeName);
     }
-    public void clickOnCheckBox(int no)
+    public void clickOnIAgreeCheckBox()
     {   /*
             for
             My correspondence address is same as above -0
             I agree to the Terms & Conditions and the Privacy Policy (DesktopView)-1
             I agree to the Terms & Conditions and the Privacy Policy (MobileView)-2*/
-        log.info("Check Box "+checkBox.get(no).getText() +" is selected ="+checkBox.get(no).isSelected());
-        checkBox.get(no).click();
-        log.info("Check Box "+checkBox.get(no).getText() +" is selected ="+checkBox.get(no).isSelected());
+        new WebDriverWait(driver,5).until(ExpectedConditions.visibilityOf(iAgreeCheckBox));
+        log.info("Check Box "+iAgreeCheckBox.getText() +" is selected ="+iAgreeCheckBox.isSelected());
+        iAgreeCheckBox.click();
+        log.info("Check Box "+iAgreeCheckBox.getText() +" is selected ="+iAgreeCheckBox.isSelected());
+    }
+    public void clickOnIAgreeCheckBoxMobile()
+    {   /*
+            for
+            My correspondence address is same as above -0
+            I agree to the Terms & Conditions and the Privacy Policy (DesktopView)-1
+            I agree to the Terms & Conditions and the Privacy Policy (MobileView)-2*/
+        new WebDriverWait(driver,5).until(ExpectedConditions.visibilityOf(iAgreeCheckBoxMobile));
+        log.info("Check Box "+iAgreeCheckBoxMobile.getText() +" is selected ="+iAgreeCheckBoxMobile.isSelected());
+        iAgreeCheckBoxMobile.click();
+        log.info("Check Box "+iAgreeCheckBoxMobile.getText() +" is selected ="+iAgreeCheckBoxMobile.isSelected());
+    }
+    public void clickOnCorrespondenceAddressCheckBox()
+    {   /*
+            for
+            My correspondence address is same as above -0
+            I agree to the Terms & Conditions and the Privacy Policy (DesktopView)-1
+            I agree to the Terms & Conditions and the Privacy Policy (MobileView)-2*/
+        new WebDriverWait(driver,5).until(ExpectedConditions.visibilityOf(correspondenceAddressCheckBox));
+        log.info("Check Box "+correspondenceAddressCheckBox.getText() +" is selected ="+correspondenceAddressCheckBox.isSelected());
+        correspondenceAddressCheckBox.click();
+        log.info("Check Box "+correspondenceAddressCheckBox.getText() +" is selected ="+correspondenceAddressCheckBox.isSelected());
     }
     public void clickOnRadioButton(int no) throws InterruptedException {
        /*For Marital Status

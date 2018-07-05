@@ -21,20 +21,20 @@ public class TC006_registration extends TestBase {
         init();
     }
 
-//    @AfterTest
-//    public void endTest()
-//    {
-//        driver.quit();
-//    }
+    @AfterTest
+    public void endTest()
+    {
+        driver.quit();
+    }
 
     @Test(priority = 0)
     public void setRegistration() throws InterruptedException {
         Homepage homepage = new Homepage(driver);
         homepage.loginToApplication("suraj.kakode533@fincash.com","kakode92");
-
         registration = new Registration(driver);
+        registration.navigateToRegistrationPage();
+        registration.openForm(1);
         registration.personalInformationForm("First Middle last","father full name", "mother full name","18/02/1990");
-
         registration.setTaxStatus(1);
         registration.clickOnRadioButton(2);
         registration.clickOnRadioButton(4);

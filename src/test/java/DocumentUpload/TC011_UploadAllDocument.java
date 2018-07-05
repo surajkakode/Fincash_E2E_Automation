@@ -7,6 +7,7 @@ import com.fincash.uiActions.Homepage;
 import com.fincash.uiActions.Registration;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -21,11 +22,11 @@ public class TC011_UploadAllDocument extends TestBase {
         init();
     }
 
-//    @AfterTest
-//    public void endTest()
-//    {
-//        driver.quit();
-//    }
+    @AfterTest
+    public void endTest()
+    {
+        driver.quit();
+    }
 
     @Test(priority = 0)
     public void uploadDocument() throws InterruptedException {
@@ -41,7 +42,7 @@ public class TC011_UploadAllDocument extends TestBase {
         upload.uploadPassport("D:\\Testimonials.JPG");
         upload.uploadSignature("D:\\Testimonials.JPG");
         upload.uploadCheque(1,"D:\\Testimonials.JPG");
-        //upload.proceedButton.click();
+        upload.proceedButton.click();
 
     }
 }

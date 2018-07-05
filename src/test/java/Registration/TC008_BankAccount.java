@@ -29,9 +29,8 @@ public class TC008_BankAccount extends TestBase {
     public void setBankAccount() throws InterruptedException {
         Homepage homepage = new Homepage(driver);
         homepage.loginToApplication("suraj.kakode533@fincash.com","kakode92");
-
         registration = new Registration(driver);
-
+        registration.navigateToRegistrationPage();
         registration.openForm(3);
         registration.bankAccountForm("Account Holder name","987654321098", "987654321098");
         registration.setIfscBankBranch("vashi",1);

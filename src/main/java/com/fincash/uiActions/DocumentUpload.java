@@ -3,6 +3,7 @@ package com.fincash.uiActions;
 import com.fincash.testBase.TestBase;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -82,132 +83,183 @@ public class DocumentUpload {
         Thread.sleep(5000);
         driver.get(TestBase.url+"/registration/upload");
     }
+    public void showElement(WebElement element)
+    {
+        ((JavascriptExecutor)driver).executeScript("arguments[0].setAttribute('style','display: block')", element);
+    }
 
     public void uploadPicture(String path)
     {
-        new WebDriverWait(driver,20).until(ExpectedConditions.visibilityOf(column));
-        log.info("waiting for column");
-        passport_photo.sendKeys(path);
-        log.info("uploading file :" + path);
+        try {
+            new WebDriverWait(driver,20).until(ExpectedConditions.visibilityOf(column));
+            log.info("waiting for column");
+            showElement(passport_photo);
+            passport_photo.sendKeys(path);
+            log.info("uploading file :" + path);
+        } catch (Exception e) {
+            log.error(e, e);
+        }
     }
 
     public void uploadPan(String path)
     {
-        new WebDriverWait(driver,20).until(ExpectedConditions.visibilityOf(column));
-        pan.sendKeys(path);
-        log.info("uploading file :" + path);
+        try {
+            new WebDriverWait(driver,20).until(ExpectedConditions.visibilityOf(column));
+            showElement(pan);
+            pan.sendKeys(path);
+            log.info("uploading file :" + path);
+        } catch (Exception e) {
+            log.error(e, e);
+        }
     }
 
     public void uploadProofOfForeignAddress(int documentNo,String path)
     {
-        new WebDriverWait(driver,20).until(ExpectedConditions.visibilityOf(column));
-
-        proofOfForeignAddressDocBox.click();
-        option.get(documentNo).click();
-        proofOfForeignAddress.sendKeys(path);
-        log.info("uploading file :" + path);
+        try {
+            new WebDriverWait(driver,20).until(ExpectedConditions.visibilityOf(column));
+            proofOfForeignAddressDocBox.click();
+            option.get(documentNo).click();
+            showElement(proofOfForeignAddress);
+            proofOfForeignAddress.sendKeys(path);
+            log.info("uploading file :" + path);
+        } catch (Exception e) {
+            log.error(e, e);
+        }
     }
 
     public void uploadProofOfForeignAddress(int documentNo,String path, String path2)
     {
-        new WebDriverWait(driver,20).until(ExpectedConditions.visibilityOf(column));
-        proofOfForeignAddressDocBox.click();
-        option.get(documentNo).click();
-        proofOfForeignAddress.sendKeys(path);
-        if(proofOfForeignAddress2.isDisplayed()) {
-            proofOfForeignAddress2.sendKeys(path2);
-            log.info("uploading file :" + path);
-        }
-        else
-        {
-            //find icon and click  : code needed
-            proofOfForeignAddress2.sendKeys(path2);
-            log.info("uploading file :" + path);
+        try {
+            new WebDriverWait(driver,20).until(ExpectedConditions.visibilityOf(column));
+            proofOfForeignAddressDocBox.click();
+            option.get(documentNo).click();
+            proofOfForeignAddress.sendKeys(path);
+            if(proofOfForeignAddress2.isDisplayed()) {
+                proofOfForeignAddress2.sendKeys(path2);
+                log.info("uploading file :" + path);
+            }
+            else
+            {
+                //find icon and click  : code needed
+                proofOfForeignAddress2.sendKeys(path2);
+                log.info("uploading file :" + path);
+            }
+        } catch (Exception e) {
+            log.error(e, e);
         }
 
     }
 
     public void uploadProofOfIndianAddress(int documentNo,String path)
     {
-        new WebDriverWait(driver,20).until(ExpectedConditions.visibilityOf(column));
-
-        proofOfIndianAddressDocBox.click();
-        new WebDriverWait(driver,5).until(ExpectedConditions.visibilityOfElementLocated(By.tagName("mat-option")));
-        List <WebElement> option2 = driver.findElements(By.tagName("mat-option"));
-        option2.forEach(s -> log.info(s.getText()));
-        option2.get(documentNo).click();
-        proofOfIndianAddress.sendKeys(path);
-        log.info("uploading file :" + path);
+        try {
+            new WebDriverWait(driver,20).until(ExpectedConditions.visibilityOf(column));
+            proofOfIndianAddressDocBox.click();
+            new WebDriverWait(driver,5).until(ExpectedConditions.visibilityOfElementLocated(By.tagName("mat-option")));
+            List <WebElement> option2 = driver.findElements(By.tagName("mat-option"));
+            option2.forEach(s -> log.info(s.getText()));
+            option2.get(documentNo).click();
+            showElement(proofOfIndianAddress);
+            proofOfIndianAddress.sendKeys(path);
+            log.info("uploading file :" + path);
+        } catch (Exception e) {
+            log.error(e, e);
+        }
     }
 
     public void uploadProofOfIndianAddress(int documentNo,String path, String path2)
     {
-        new WebDriverWait(driver,20).until(ExpectedConditions.visibilityOf(column));
-        proofOfIndianAddressDocBox.click();
-        new WebDriverWait(driver,5).until(ExpectedConditions.visibilityOfElementLocated(By.tagName("mat-option")));
-        List <WebElement> option2 = driver.findElements(By.tagName("mat-option"));
-        option2.get(documentNo).click();
-        proofOfIndianAddress.sendKeys(path);
-        if(proofOfIndianAddress2.isDisplayed())
-            proofOfIndianAddress2.sendKeys(path2);
-        else
-        {
-            //find icon and click  : code needed
-            proofOfIndianAddress2.sendKeys(path2);
+        try {
+            new WebDriverWait(driver,20).until(ExpectedConditions.visibilityOf(column));
+            proofOfIndianAddressDocBox.click();
+            new WebDriverWait(driver,5).until(ExpectedConditions.visibilityOfElementLocated(By.tagName("mat-option")));
+            List <WebElement> option2 = driver.findElements(By.tagName("mat-option"));
+            option2.get(documentNo).click();
+            proofOfIndianAddress.sendKeys(path);
+            if(proofOfIndianAddress2.isDisplayed())
+                proofOfIndianAddress2.sendKeys(path2);
+            else
+            {
+                //find icon and click  : code needed
+                proofOfIndianAddress2.sendKeys(path2);
+            }
+            log.info("uploading file :" + path);
+        } catch (Exception e) {
+            log.error(e, e);
         }
-        log.info("uploading file :" + path);
     }
 
     public void uploadPassport(String path)
     {
-        new WebDriverWait(driver,20).until(ExpectedConditions.visibilityOf(column));
-        passport.sendKeys(path);
-        log.info("uploading file :" + path);
+        try {
+            new WebDriverWait(driver,20).until(ExpectedConditions.visibilityOf(column));
+            showElement(passport);
+            passport.sendKeys(path);
+            log.info("uploading file :" + path);
+        } catch (Exception e) {
+            log.error(e, e);
+        }
     }
 
     public void uploadPassport(String path, String path2)
     {
-        new WebDriverWait(driver,20).until(ExpectedConditions.visibilityOf(column));
-        passport.sendKeys(path);
-        log.info("uploading file :" + path);
-        if(passport2.isDisplayed()) {
-            passport2.sendKeys(path2);
+        try {
+            new WebDriverWait(driver,20).until(ExpectedConditions.visibilityOf(column));
+            passport.sendKeys(path);
             log.info("uploading file :" + path);
-        }
-        else
-        {
-            //find icon and click  : code needed
-            passport2.sendKeys(path2);
-            log.info("uploading file :" + path);
+            if(passport2.isDisplayed()) {
+                passport2.sendKeys(path2);
+                log.info("uploading file :" + path);
+            }
+            else
+            {
+                //find icon and click  : code needed
+                passport2.sendKeys(path2);
+                log.info("uploading file :" + path);
+            }
+        } catch (Exception e) {
+            log.error(e, e);
         }
 
     }
     public void uploadSignature(String path)
     {
-        new WebDriverWait(driver,20).until(ExpectedConditions.visibilityOf(column));
-        signature.sendKeys(path);
-        log.info("uploading file :" + path);
+        try {
+            new WebDriverWait(driver,20).until(ExpectedConditions.visibilityOf(column));
+            showElement(signature);
+            signature.sendKeys(path);
+            log.info("uploading file :" + path);
+        } catch (Exception e) {
+            log.error(e, e);
+        }
     }
 
     public void uploadCheque(int documentNo,String path)
     {
 
-        new WebDriverWait(driver,20).until(ExpectedConditions.visibilityOf(column));
-        WebElement element = driver.findElement(By.xpath("//i[contains(text(),'Image of Cancelled Cheque with your Name on it for a/c no')]"));
-        if(element.isDisplayed())
-        {
-            chequeDocBox.click();
-            option.get(documentNo).click();
-            cheque.sendKeys(path);
-            log.info("uploading file :" + path);
-        }
-        else
-        {
-            chequeSkipSlider.click();
-            chequeDocBox.click();
-            option.get(documentNo).click();
-            cheque.sendKeys(path);
-            log.info("uploading file :" + path);
+        try {
+            new WebDriverWait(driver,20).until(ExpectedConditions.visibilityOf(column));
+            WebElement element = driver.findElement(By.xpath("//i[contains(text(),'Image of Cancelled Cheque with your Name on it for a/c no')]"));
+            if(element.isDisplayed())
+            {
+                chequeDocBox.click();
+                option.get(documentNo).click();
+                showElement(cheque);
+                cheque.sendKeys(path);
+                log.info("uploading file :" + path);
+            }
+            else
+            {
+                chequeSkipSlider.click();
+                chequeDocBox.click();
+                option.get(documentNo).click();
+                showElement(cheque);
+                cheque.sendKeys(path);
+                log.info("uploading file :" + path);
+            }
+        } catch (Exception e) {
+            log.info(e);
+            log.error(e, e);
         }
     }
 

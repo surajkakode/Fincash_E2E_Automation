@@ -30,14 +30,13 @@ public class TC010_Nominee extends TestBase {
     public void setNominee() throws InterruptedException {
         Homepage homepage = new Homepage(driver);
         homepage.loginToApplication("suraj.kakode533@fincash.com","kakode92");
-
         registration = new Registration(driver);
-
+        registration.navigateToRegistrationPage();
         registration.openForm(5);
         registration.setNomineeName("Nominee name");
         registration.setNomineeRelation(2);
         registration.submitFormNo(5);
-        registration.clickOnCheckBox(1);
+        registration.clickOnIAgreeCheckBox();
         registration.proceedToUpload.click();
         log.info("Form submitted : "+registration.isFormSubmitted());
         Assert.assertEquals(registration.isFormSubmitted(),true);

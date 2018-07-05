@@ -1,14 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="Regression Suite">
-    <test name="TC001_VerifyLoginWithInvalidCredential">
-
-
-        <packages>
-            <package name="Registration"></package>
-        </packages>
-
-
+<suite name="Regression Suite"  preserve-order="true" parallel="false" thread-count="1" verbose="10">
+    <test name="test1">
+        <classes>
+            <class name="Registration.TC006_registration"></class>
+        </classes>
+    </test>
+    <test name="test2">
+        <classes>
+            <class name="Registration.TC007_AddressDetails"></class>
+        </classes>
+    </test>
+    <test name="test3">
+        <classes>
+            <class name="Registration.TC008_BankAccount"></class>
+        </classes>
+    </test>
+    <test name="test4">
+        <classes>
+            <class name="Registration.TC009_Fatca"></class>
+        </classes>
+    </test>
+    <test name="test5">
+        <classes>
+            <class name="Registration.TC010_Nominee"></class>
+        </classes>
+    </test>
+    <test name="test6">
+        <classes>
+            <class name="DocumentUpload.TC011_UploadAllDocument"></class>
+        </classes>
     </test>
 </suite>

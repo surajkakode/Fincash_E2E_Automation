@@ -29,9 +29,8 @@ public class TC007_AddressDetails extends TestBase {
     public void setAddressDetails() throws InterruptedException {
         Homepage homepage = new Homepage(driver);
         homepage.loginToApplication("suraj.kakode533@fincash.com","kakode92");
-
         registration = new Registration(driver);
-
+        registration.navigateToRegistrationPage();
         registration.openForm(2);
         registration.setAddressType(2);
         registration.addressDetailsform("address line 1","address line 2", "123456","landmark","city","District");
