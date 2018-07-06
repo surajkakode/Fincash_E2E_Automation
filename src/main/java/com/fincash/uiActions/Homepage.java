@@ -2,6 +2,7 @@ package com.fincash.uiActions;
 
 import com.fincash.testBase.TestBase;
 import org.apache.log4j.Logger;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -45,7 +46,7 @@ public class Homepage extends TestBase{
     public void loginToApplication(String email, String password) throws InterruptedException {
         loginButton.click();
         log.info("Clicking on login button and object is : " + loginButton.toString());
-        new WebDriverWait(driver,10).until(ExpectedConditions.visibilityOf(forgotPassword));
+        new WebDriverWait(driver,10).until(ExpectedConditions.presenceOfElementLocated(By.tagName("app-logintoinvest")));
 
         userName.clear();
         userName.sendKeys(email);

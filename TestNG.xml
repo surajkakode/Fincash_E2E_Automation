@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
+
+
 <suite name="Regression Suite"  preserve-order="true" parallel="false" thread-count="1" verbose="10">
+
+    <listeners>
+        <listener class-name="com.fincash.customListner.Listener"></listener>
+    </listeners>
+
+    <test name="test01">
+        <classes>
+            <class name="login.TC001_VerifyLoginWithInvalidCredential"></class>
+        </classes>
+    </test>
+    <test name="test02">
+        <classes>
+            <class name="signUp.TC004_VerifySignUpwithValidCredential"></class>
+        </classes>
+    </test>
+    <test name="test03">
+        <classes>
+            <class name="KYC.TC005_verifyMobileNumber"></class>
+        </classes>
+    </test>
     <test name="test1">
         <classes>
             <class name="Registration.TC006_registration"></class>

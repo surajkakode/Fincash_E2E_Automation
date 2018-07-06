@@ -97,7 +97,7 @@ public class TC005_verifyMobileNumber extends TestBase{
         Thread.sleep(5000);
         kyc = new KYC(driver);
         try {
-            for (int i=0;i<5;i++)
+            for (int i=0;i<250;i++)
             {
                 kyc.setCountry(i);
             }
@@ -107,10 +107,10 @@ public class TC005_verifyMobileNumber extends TestBase{
     }
 
 
-//    @AfterTest
-//    public void endTest()
-//    {
-//        driver.quit();
-//    }
+    @AfterTest
+    public void endTest()
+    {
+        driver.quit();
+    }
 
 }
