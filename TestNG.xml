@@ -7,8 +7,13 @@
 
     <listeners>
         <listener class-name="com.fincash.customListner.Listener"></listener>
+       <!--
+       <listener class-name="com.fincash.customListner.Retry"></listener>
+        <listener class-name="com.fincash.customListner.RetryListener"></listener>
+        <listener class-name="com.fincash.customListner.WebEventListener"></listener>
+        -->
     </listeners>
-
+    <!--
     <test name="test01">
         <classes>
             <class name="login.TC001_VerifyLoginWithInvalidCredential"></class>
@@ -49,6 +54,8 @@
             <class name="Registration.TC010_Nominee"></class>
         </classes>
     </test>
+
+    -->
     <test name="test6">
         <classes>
             <class name="DocumentUpload.TC011_UploadAllDocument"></class>

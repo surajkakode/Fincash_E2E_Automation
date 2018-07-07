@@ -7,15 +7,12 @@ import com.fincash.uiActions.DocumentUpload;
 import com.fincash.uiActions.Homepage;
 import com.fincash.uiActions.Registration;
 import org.apache.log4j.Logger;
-import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class TC011_UploadAllDocument extends TestBase {
+public class TC001_nullDocument extends TestBase {
     public static final Logger log = Logger.getLogger(TC006_registration.class.getName());
 
     Registration registration;
@@ -39,16 +36,17 @@ public class TC011_UploadAllDocument extends TestBase {
 
         DocumentUpload upload =new DocumentUpload(driver);
         upload.navigateToDocumentUploadPage();
-        upload.uploadPicture("D:\\Testimonials.JPG");
-        upload.uploadPan("D:\\Testimonials.JPG");
-        upload.uploadProofOfForeignAddress(2,"D:\\Testimonials.JPG");
-        upload.uploadProofOfIndianAddress(3,"D:\\Testimonials.JPG");
-        upload.uploadPassport("D:\\Testimonials.JPG");
-        upload.uploadSignature("D:\\Testimonials.JPG");
-        upload.uploadCheque(1,"D:\\Testimonials.JPG");
+        upload.uploadPicture(" ");
+        upload.uploadPan(" ");
+        upload.uploadProofOfForeignAddress(2," ");
+        upload.uploadProofOfIndianAddress(3," ");
+        upload.uploadPassport(" ");
+        upload.uploadSignature(" ");
+        upload.uploadCheque(1,"");
         upload.proceedButton.click();
         Complete complete = new Complete(driver);
-        Assert.assertEquals(complete.isSuccessful(),true);
+        Assert.assertEquals(complete.isSuccessful(),false);
 
     }
 }
+
