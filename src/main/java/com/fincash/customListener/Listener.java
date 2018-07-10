@@ -1,4 +1,4 @@
-package com.fincash.customListner;
+package com.fincash.customListener;
 
 import com.fincash.testBase.TestBase;
 import org.apache.commons.io.FileUtils;
@@ -39,7 +39,7 @@ public class Listener extends TestBase implements ITestListener{
 
             File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
             try {
-                String reportDirectory = new File(System.getProperty("user.dir")).getAbsolutePath() + "/src/main/java/com/test/automation/uiAutomation/";
+                String reportDirectory = new File(System.getProperty("user.dir")).getAbsolutePath() + "\\src\\main\\java\\com\\fincash\\screenshots\\failedScreenshots";
                 File destFile = new File((String) reportDirectory + "/failure_screenshots/" + methodName + "_" + formater.format(calendar.getTime()) + ".png");
 
                 FileUtils.copyFile(scrFile, destFile);
@@ -73,8 +73,8 @@ public class Listener extends TestBase implements ITestListener{
 
             File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
             try {
-                String reportDirectory = new File(System.getProperty("user.dir")).getAbsolutePath() + "/src/main/java/com/test/automation/uiAutomation/";
-                File destFile = new File((String) reportDirectory + "/failure_screenshots/" + methodName + "_" + formater.format(calendar.getTime()) + ".png");
+                String reportDirectory = new File(System.getProperty("user.dir")).getAbsolutePath() + "\\src\\main\\java\\com\\fincash\\screenshots\\successScreenshots";
+                File destFile = new File((String) reportDirectory + "/success_screenshots/" + methodName + "_" + formater.format(calendar.getTime()) + ".png");
 
                 FileUtils.copyFile(scrFile, destFile);
 

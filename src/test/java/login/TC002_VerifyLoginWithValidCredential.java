@@ -27,7 +27,6 @@ public class TC002_VerifyLoginWithValidCredential extends TestBase{
         homepage.loginToApplication("suraj.kakode@fincash.com","kakode92");
         Thread.sleep(5000);
         Assert.assertEquals(homepage.isLoginSuccess(),true);
-        getScreenShot("SuccessLogin");
         log.info("================ Finished verifyLoginWithValidCredential Test ");
     }
 

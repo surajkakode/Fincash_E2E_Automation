@@ -30,7 +30,6 @@ public class TC001_VerifyLoginWithInvalidCredential extends TestBase {
         Thread.sleep(5000);
 
         Assert.assertEquals(homepage.isLoginSuccess(),false);
-        getScreenShot("failedLogin");
         log.info("================ Finished nullCredential Test ");
     }
     @Test
@@ -42,7 +41,6 @@ public class TC001_VerifyLoginWithInvalidCredential extends TestBase {
         Thread.sleep(5000);
 
         Assert.assertEquals(homepage.isLoginSuccess(),false);
-        getScreenShot("failedLogin");
         log.info("================ Finished verifyLoginWithInValidCredential Test ");
     }
 
@@ -51,17 +49,16 @@ public class TC001_VerifyLoginWithInvalidCredential extends TestBase {
 
         log.info("================ Starting verifyLoginWithValidCredential Test ");
         homepage = new Homepage(driver);
-        homepage.loginToApplication("suraj.kakode@fincash.com","kakode92");
+        homepage.loginToApplication("suraj.kakode@fincash.com","kakode92w");
         Thread.sleep(5000);
         Assert.assertEquals(homepage.isLoginSuccess(),true);
-        getScreenShot("sucsessLogin");
         log.info("================ Finished verifyLoginWithValidCredential Test ");
     }
 
-    @AfterTest
-    public void endTest()
-    {
-        driver.quit();
-    }
+//    @AfterTest
+//    public void endTest()
+//    {
+//        driver.quit();
+//    }
 
 }

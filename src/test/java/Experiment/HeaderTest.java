@@ -33,5 +33,13 @@ public class HeaderTest extends TestBase {
 
         homepage.loginToApplication("suraj.kakode533@fincash.com","kakode92");
         header.clickOnLogout();
+        header.SearchFund("sbi blue chip");
+
+        header.clickOnHeaderButton(header.calculators);
+        header.clickOnSubHeaderButton(header.higherEducation);
+
+        header.clickOnProductSolutions(header.smartSIP);
+        Thread.sleep(3000);
+        header.clickOnCalculators(header.higherEducation);
     }
 }

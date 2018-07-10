@@ -6,19 +6,17 @@
 <suite name="Regression Suite"  preserve-order="true" parallel="false" thread-count="1" verbose="10">
 
     <listeners>
-        <listener class-name="com.fincash.customListner.Listener"></listener>
-       <!--
-       <listener class-name="com.fincash.customListner.Retry"></listener>
-        <listener class-name="com.fincash.customListner.RetryListener"></listener>
-        <listener class-name="com.fincash.customListner.WebEventListener"></listener>
-        -->
+        <listener class-name="com.fincash.customListener.Listener"></listener>
+        <listener class-name="com.fincash.customListener.RetryListener"></listener>
+   <!--     <listener class-name="com.fincash.customListener.WebEventListener"></listener>  -->
     </listeners>
-    <!--
+
     <test name="test01">
         <classes>
             <class name="login.TC001_VerifyLoginWithInvalidCredential"></class>
         </classes>
     </test>
+    <!--  -->
     <test name="test02">
         <classes>
             <class name="signUp.TC004_VerifySignUpwithValidCredential"></class>
@@ -55,10 +53,11 @@
         </classes>
     </test>
 
-    -->
+
     <test name="test6">
         <classes>
             <class name="DocumentUpload.TC011_UploadAllDocument"></class>
         </classes>
     </test>
+    <!-- -->
 </suite>

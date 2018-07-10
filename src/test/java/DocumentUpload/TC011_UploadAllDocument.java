@@ -26,11 +26,11 @@ public class TC011_UploadAllDocument extends TestBase {
         init();
     }
 
-    @AfterTest
-    public void endTest()
-    {
-        driver.quit();
-    }
+//    @AfterTest
+//    public void endTest()
+//    {
+//        driver.quit();
+//    }
 
     @Test(priority = 0)
     public void uploadDocument() throws InterruptedException {
