@@ -1,7 +1,8 @@
 package Registration;
 
 import com.fincash.testBase.TestBase;
-import com.fincash.uiActions.Homepage;
+import com.fincash.uiActions.Header;
+import com.fincash.uiActions.LogIn;
 import com.fincash.uiActions.Registration;
 import org.apache.log4j.Logger;
 import org.testng.annotations.AfterTest;
@@ -12,6 +13,7 @@ public class TC007_AddressDetails extends TestBase {
     public static final Logger log = Logger.getLogger(TC006_registration.class.getName());
 
     Registration registration;
+    Header header;
 
     @BeforeTest
     public void setup()
@@ -27,8 +29,10 @@ public class TC007_AddressDetails extends TestBase {
 
     @Test(priority = 0)
     public void setAddressDetails() throws InterruptedException {
-        Homepage homepage = new Homepage(driver);
-        homepage.loginToApplication("suraj.kakode533@fincash.com","kakode92");
+        header = new Header(driver);
+        header.clickOnHeaderButton(header.login);
+        LogIn logIn = new LogIn(driver);
+        logIn.loginToApplication("suraj.kakode533@fincash.com","kakode92");
         registration = new Registration(driver);
         registration.navigateToRegistrationPage();
         registration.openForm(2);

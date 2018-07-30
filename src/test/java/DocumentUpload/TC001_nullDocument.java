@@ -2,19 +2,15 @@ package DocumentUpload;
 
 import Registration.TC006_registration;
 import com.fincash.testBase.TestBase;
-import com.fincash.uiActions.Complete;
-import com.fincash.uiActions.DocumentUpload;
-import com.fincash.uiActions.Homepage;
-import com.fincash.uiActions.Registration;
+import com.fincash.uiActions.*;
 import org.apache.log4j.Logger;
 import org.testng.Assert;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class TC001_nullDocument extends TestBase {
     public static final Logger log = Logger.getLogger(TC006_registration.class.getName());
-
+    Header header;
     Registration registration;
 
     @BeforeTest
@@ -31,8 +27,11 @@ public class TC001_nullDocument extends TestBase {
 
     @Test(priority = 0)
     public void uploadDocument() throws InterruptedException {
-        Homepage homepage = new Homepage(driver);
-        homepage.loginToApplication("suraj.kakode533@fincash.com","kakode92");
+
+        header = new Header(driver);
+        header.clickOnHeaderButton(header.login);
+        LogIn logIn = new LogIn(driver);
+        logIn.loginToApplication("suraj.kakode533@fincash.com","kakode92");
 
         DocumentUpload upload =new DocumentUpload(driver);
         upload.navigateToDocumentUploadPage();

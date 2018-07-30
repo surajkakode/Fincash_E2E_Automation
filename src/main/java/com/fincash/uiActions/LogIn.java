@@ -10,13 +10,13 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class Homepage extends TestBase{
+public class LogIn extends TestBase{
 
-    public static final Logger log = Logger.getLogger(Homepage.class.getName());
+    public static final Logger log = Logger.getLogger(LogIn.class.getName());
     WebDriver driver;
 
 
-    public Homepage(WebDriver driver)
+    public LogIn(WebDriver driver)
     {
         this.driver= driver;
         PageFactory.initElements(driver,this);
@@ -44,8 +44,7 @@ public class Homepage extends TestBase{
 //    WebElement snackbar;
 
     public void loginToApplication(String email, String password) throws InterruptedException {
-        loginButton.click();
-        log.info("Clicking on login button and object is : " + loginButton.toString());
+
         new WebDriverWait(driver,10).until(ExpectedConditions.presenceOfElementLocated(By.tagName("app-logintoinvest")));
 
         userName.clear();

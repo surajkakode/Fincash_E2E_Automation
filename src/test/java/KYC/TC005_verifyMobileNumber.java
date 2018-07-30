@@ -1,22 +1,22 @@
 package KYC;
 
 import com.fincash.testBase.TestBase;
-import com.fincash.uiActions.Homepage;
+import com.fincash.uiActions.Header;
+import com.fincash.uiActions.LogIn;
 import com.fincash.uiActions.KYC;
 import com.fincash.uiActions.SignUp;
 import org.apache.log4j.Logger;
 import org.testng.Assert;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class TC005_verifyMobileNumber extends TestBase{
 
     public static final Logger log= Logger.getLogger(TC005_verifyMobileNumber.class.getName());
-
+    Header header;
     SignUp signUp;
     KYC kyc;
-    Homepage homepage;
+    LogIn logIn;
 
     @BeforeTest
     public void setup()
@@ -28,9 +28,10 @@ public class TC005_verifyMobileNumber extends TestBase{
     public void verifyMobileNumber() throws InterruptedException {
        // signUp = new SignUp(driver);
         //signUp.signUpToApplication("suraj.kakode622@fincash.com","kakode92","kakode92");
-
-        homepage = new Homepage(driver);
-        homepage.loginToApplication("suraj.kakode621@fincash.com","kakode92");
+        header = new Header(driver);
+        header.clickOnHeaderButton(header.login);
+        logIn = new LogIn(driver);
+        logIn.loginToApplication("suraj.kakode621@fincash.com","kakode92");
 
 
         Thread.sleep(5000);
@@ -40,8 +41,8 @@ public class TC005_verifyMobileNumber extends TestBase{
     @Test(priority = 1)
     public void changeMobileNumber() throws InterruptedException {
 
-//        homepage = new Homepage(driver);
-//        homepage.loginToApplication("suraj.kakode621@fincash.com","kakode92");
+//        logIn = new LogIn(driver);
+//        logIn.loginToApplication("suraj.kakode621@fincash.com","kakode92");
 //        Thread.sleep(5000);
 
         kyc = new KYC(driver);
@@ -60,8 +61,8 @@ public class TC005_verifyMobileNumber extends TestBase{
         // signUp = new SignUp(driver);
         //signUp.signUpToApplication("suraj.kakode622@fincash.com","kakode92","kakode92");
 //
-//        homepage = new Homepage(driver);
-//        homepage.loginToApplication("suraj.kakode623@fincash.com","kakode92");
+//        logIn = new LogIn(driver);
+//        logIn.loginToApplication("suraj.kakode623@fincash.com","kakode92");
 //
 //
 //        Thread.sleep(5000);
@@ -92,8 +93,10 @@ public class TC005_verifyMobileNumber extends TestBase{
 
     @Test(priority = 0,enabled = true)
     public void clickOnEachCountry() throws InterruptedException {
-        homepage = new Homepage(driver);
-        homepage.loginToApplication("suraj.kakode621@fincash.com","kakode92");
+        header = new Header(driver);
+        header.clickOnHeaderButton(header.login);
+        logIn = new LogIn(driver);
+        logIn.loginToApplication("suraj.kakode621@fincash.com","kakode92");
         Thread.sleep(5000);
         kyc = new KYC(driver);
         try {

@@ -3,7 +3,7 @@ package Experiment;
 import Registration.TC006_registration;
 import com.fincash.testBase.TestBase;
 import com.fincash.uiActions.Header;
-import com.fincash.uiActions.Homepage;
+import com.fincash.uiActions.LogIn;
 import org.apache.log4j.Logger;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -29,9 +29,9 @@ public class HeaderTest extends TestBase {
     @Test
     public void headeraTest() throws InterruptedException {
         Header header = new Header(driver);
-        Homepage homepage = new Homepage(driver);
+        LogIn logIn = new LogIn(driver);
 
-        homepage.loginToApplication("suraj.kakode533@fincash.com","kakode92");
+        logIn.loginToApplication("suraj.kakode533@fincash.com","kakode92");
         header.clickOnLogout();
         header.SearchFund("sbi blue chip");
 

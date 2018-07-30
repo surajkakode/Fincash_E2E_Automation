@@ -1,10 +1,10 @@
 package login;
 
 import com.fincash.testBase.TestBase;
-import com.fincash.uiActions.Homepage;
+import com.fincash.uiActions.Header;
+import com.fincash.uiActions.LogIn;
 import org.apache.log4j.Logger;
 import org.testng.Assert;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -13,7 +13,8 @@ public class TC001_VerifyLoginWithInvalidCredential extends TestBase {
 
     public static final Logger log = Logger.getLogger(TC001_VerifyLoginWithInvalidCredential.class.getName());
 
-    Homepage homepage;
+    LogIn logIn;
+    Header header;
 
     @BeforeTest
     public void setup()
@@ -25,22 +26,26 @@ public class TC001_VerifyLoginWithInvalidCredential extends TestBase {
     public void nullCredential() throws InterruptedException {
 
         log.info("================ Starting nullCredential Test ");
-        homepage = new Homepage(driver);
-        homepage.loginToApplication("","");
+        header = new Header(driver);
+        header.clickOnHeaderButton(header.login);
+        logIn = new LogIn(driver);
+        logIn.loginToApplication("","");
         Thread.sleep(5000);
 
-        Assert.assertEquals(homepage.isLoginSuccess(),false);
+        Assert.assertEquals(logIn.isLoginSuccess(),false);
         log.info("================ Finished nullCredential Test ");
     }
     @Test
     public void verifyLoginWithInValidCredential() throws InterruptedException {
 
         log.info("================ Starting verifyLoginWithInValidCredential Test ");
-        homepage = new Homepage(driver);
-        homepage.loginToApplication("suraj.kakode@fincaswh.com","kakode922");
+        header = new Header(driver);
+        header.clickOnHeaderButton(header.login);
+        logIn = new LogIn(driver);
+        logIn.loginToApplication("suraj.kakode@fincaswh.com","kakode922");
         Thread.sleep(5000);
 
-        Assert.assertEquals(homepage.isLoginSuccess(),false);
+        Assert.assertEquals(logIn.isLoginSuccess(),false);
         log.info("================ Finished verifyLoginWithInValidCredential Test ");
     }
 
@@ -48,10 +53,12 @@ public class TC001_VerifyLoginWithInvalidCredential extends TestBase {
     public void verifyLoginWithValidCredential() throws InterruptedException {
 
         log.info("================ Starting verifyLoginWithValidCredential Test ");
-        homepage = new Homepage(driver);
-        homepage.loginToApplication("suraj.kakode@fincash.com","kakode92w");
+        header = new Header(driver);
+        header.clickOnHeaderButton(header.login);
+        logIn = new LogIn(driver);
+        logIn.loginToApplication("suraj.kakode@fincash.com","kakode92w");
         Thread.sleep(5000);
-        Assert.assertEquals(homepage.isLoginSuccess(),true);
+        Assert.assertEquals(logIn.isLoginSuccess(),true);
         log.info("================ Finished verifyLoginWithValidCredential Test ");
     }
 
