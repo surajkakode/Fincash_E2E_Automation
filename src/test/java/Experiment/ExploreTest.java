@@ -1,10 +1,7 @@
 package Experiment;
 
 import com.fincash.testBase.TestBase;
-import com.fincash.uiActions.Cart;
-import com.fincash.uiActions.ExploreFunds;
-import com.fincash.uiActions.Header;
-import com.fincash.uiActions.LogIn;
+import com.fincash.uiActions.*;
 import org.apache.log4j.Logger;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -32,7 +29,10 @@ public class ExploreTest extends TestBase {
 //        exploreFunds.clickOnAllAddToCart();
         exploreFunds.clickOnAllAddToCart(9);
         exploreFunds.clickOnAllAddToCart(15);
-        header.clickOnCart();
+        Snackbar snackbar =new Snackbar(driver);
+        snackbar.getSnackbarmessage();
+        snackbar.clickOnButton();
+        //snackbar.clickOnCheckout();
         Cart cart = new Cart(driver);
         cart.clickOnInvestNow();
         LogIn logIn =new LogIn(driver);

@@ -58,7 +58,7 @@ public class Header {
     @FindBy(xpath = "//button[@mattooltip='Report & Order']")
     WebElement quickReportAndOrder;
 
-    @FindBy(xpath = "//button[@mattooltip='Cart']")
+    @FindBy(xpath = "//mat-toolbar//div[@mattooltip='Cart']")
     WebElement cart;
 
     @FindBy(xpath = "//span[contains(text(),'Logout')]")

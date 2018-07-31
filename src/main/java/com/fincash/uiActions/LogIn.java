@@ -25,7 +25,7 @@ public class LogIn extends TestBase{
     @FindBy(xpath = "//span[text()='LOG IN']")
     WebElement loginButton;
 
-    @FindBy(css = "input[placeholder='Email Id']")
+    @FindBy(xpath = "//input[@placeholder='Email Id']")
     WebElement userName;
 
     @FindBy(css = "input[type=password][placeholder='Password']")
@@ -46,7 +46,7 @@ public class LogIn extends TestBase{
     public void loginToApplication(String email, String password) throws InterruptedException {
 
         new WebDriverWait(driver,10).until(ExpectedConditions.presenceOfElementLocated(By.tagName("app-logintoinvest")));
-
+        new WebDriverWait(driver,10).until(ExpectedConditions.elementToBeClickable(userName));
         userName.clear();
         userName.sendKeys(email);
         log.info("Entered Email = " + email + " and object is : " + userName.toString());
