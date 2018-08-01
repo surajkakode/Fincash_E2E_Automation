@@ -3,6 +3,7 @@ package com.fincash.uiActions;
 import com.fincash.testBase.TestBase;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -47,6 +48,9 @@ public class LogIn extends TestBase{
 
         new WebDriverWait(driver,10).until(ExpectedConditions.presenceOfElementLocated(By.tagName("app-logintoinvest")));
         new WebDriverWait(driver,10).until(ExpectedConditions.elementToBeClickable(userName));
+
+        JavascriptExecutor executor = (JavascriptExecutor)driver;
+        executor.executeScript("arguments[0].click();", userName);
         userName.clear();
         userName.sendKeys(email);
         log.info("Entered Email = " + email + " and object is : " + userName.toString());

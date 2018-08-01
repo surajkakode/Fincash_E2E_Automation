@@ -5,6 +5,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class InvestmentDetails {
 
@@ -21,11 +23,21 @@ public class InvestmentDetails {
     @FindBy(xpath = "//input[@type='number']")
     WebElement investmentAmount;
 
+    @FindBy(xpath = "//button[@type='submit']//span[contains(text(),'SUMMARY & CHECKOUT')]")
+    WebElement submitButton;
+
     public void changeInvestmentAmount(String investmentAmount)
     {
         this.investmentAmount.clear();
         this.investmentAmount.sendKeys(investmentAmount);
     }
 
-
+    public void proceed()
+    {
+        new WebDriverWait(driver,10).until(ExpectedConditions.elementToBeClickable(submitButton));
+        new WebDriverWait(driver,10).until(ExpectedConditions.visibilityOf(submitButton));
+        log.info(submitButton.isDisplayed());
+        submitButton.click();
+        log.info("clicked on proceed button");
+    }
 }

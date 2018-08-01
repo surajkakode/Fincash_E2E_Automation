@@ -37,6 +37,14 @@ public class ExploreTest extends TestBase {
         cart.clickOnInvestNow();
         LogIn logIn =new LogIn(driver);
         logIn.loginToApplication("b0pawan@gmail.com","asusW3jus");
+        InvestmentDetails investmentDetails = new InvestmentDetails(driver);
+//        Thread.sleep(5000);
+        investmentDetails.proceed();
+        InvestmentSummary investmentSummary= new InvestmentSummary(driver);
+        investmentSummary.clickOnCheckbox();
+        investmentSummary.clickOnRadio(investmentSummary.neftRtgs);
+        investmentSummary.clickOnProceed();
+        investmentSummary.clickOnProceedDialog();
 
     }
 }
