@@ -70,8 +70,8 @@ public class InvestmentSummary {
 
     public void waitForDialog()
     {
-        new WebDriverWait(driver,10).until(ExpectedConditions.elementToBeClickable(dialog));
-        proceedButtonDialog.click();
+        new WebDriverWait(driver,10).until(ExpectedConditions.visibilityOf(dialog));
+        new WebDriverWait(driver,10).until(ExpectedConditions.elementToBeClickable(proceedButtonDialog));
     }
 
     public void clickOnProceedDialog()

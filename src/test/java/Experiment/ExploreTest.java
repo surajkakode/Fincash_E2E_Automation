@@ -3,6 +3,7 @@ package Experiment;
 import com.fincash.testBase.TestBase;
 import com.fincash.uiActions.*;
 import org.apache.log4j.Logger;
+import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -45,6 +46,12 @@ public class ExploreTest extends TestBase {
         investmentSummary.clickOnRadio(investmentSummary.neftRtgs);
         investmentSummary.clickOnProceed();
         investmentSummary.clickOnProceedDialog();
+        BseStarMf bseStarMf =new BseStarMf(driver);
+        bseStarMf.payUsingNeftRtgs();
+        OrderComplete orderComplete=new OrderComplete(driver);
+        Assert.assertEquals(orderComplete.isSuccess(),true);
+
+        log.info("================ Finished Test ");
 
     }
 }

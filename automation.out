@@ -28103,3 +28103,1686 @@ in Large Cap   arrow_back
 2018-07-10 19:09:21 INFO  Homepage:57 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (9e375d93-465e-4054-b0eb-b279eaf983d7)] -> css selector: input[type=password][placeholder='Password']]
 2018-07-10 19:09:21 INFO  Homepage:60 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (9e375d93-465e-4054-b0eb-b279eaf983d7)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
 2018-07-10 19:09:31 INFO  TestBase:263 - browser closed
+2018-07-10 20:15:02 INFO  TestBase:263 - browser closed
+2018-07-11 19:56:06 INFO  TC001_VerifyLoginWithInvalidCredential:27 - ================ Starting nullCredential Test 
+2018-07-11 19:56:06 INFO  Homepage:48 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (c8fe2287-782f-410e-9370-f79a60c6cb60)] -> xpath: //span[text()='LOG IN']]
+2018-07-11 19:56:06 INFO  Homepage:53 - Entered Email =  and object is : [[FirefoxDriver: firefox on XP (c8fe2287-782f-410e-9370-f79a60c6cb60)] -> css selector: input[placeholder='Email Id']]
+2018-07-11 19:56:07 INFO  Homepage:57 - Entered password =  and object is : [[FirefoxDriver: firefox on XP (c8fe2287-782f-410e-9370-f79a60c6cb60)] -> css selector: input[type=password][placeholder='Password']]
+2018-07-11 19:56:07 INFO  Homepage:60 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (c8fe2287-782f-410e-9370-f79a60c6cb60)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-07-11 19:56:12 INFO  TC001_VerifyLoginWithInvalidCredential:33 - ================ Finished nullCredential Test 
+2018-07-11 19:56:12 INFO  TC001_VerifyLoginWithInvalidCredential:38 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-07-11 19:56:12 INFO  Homepage:48 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (c8fe2287-782f-410e-9370-f79a60c6cb60)] -> xpath: //span[text()='LOG IN']]
+2018-07-11 19:56:12 INFO  Homepage:53 - Entered Email = suraj.kakode@fincaswh.com and object is : [[FirefoxDriver: firefox on XP (c8fe2287-782f-410e-9370-f79a60c6cb60)] -> css selector: input[placeholder='Email Id']]
+2018-07-11 19:56:12 INFO  Homepage:57 - Entered password = kakode922 and object is : [[FirefoxDriver: firefox on XP (c8fe2287-782f-410e-9370-f79a60c6cb60)] -> css selector: input[type=password][placeholder='Password']]
+2018-07-11 19:56:13 INFO  Homepage:60 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (c8fe2287-782f-410e-9370-f79a60c6cb60)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-07-11 19:56:18 INFO  TC001_VerifyLoginWithInvalidCredential:44 - ================ Finished verifyLoginWithInValidCredential Test 
+2018-07-11 19:56:18 INFO  TC001_VerifyLoginWithInvalidCredential:50 - ================ Starting verifyLoginWithValidCredential Test 
+2018-07-11 19:56:18 INFO  Homepage:48 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (c8fe2287-782f-410e-9370-f79a60c6cb60)] -> xpath: //span[text()='LOG IN']]
+2018-07-11 19:56:18 INFO  Homepage:53 - Entered Email = suraj.kakode@fincash.com and object is : [[FirefoxDriver: firefox on XP (c8fe2287-782f-410e-9370-f79a60c6cb60)] -> css selector: input[placeholder='Email Id']]
+2018-07-11 19:56:19 INFO  Homepage:57 - Entered password = kakode92w and object is : [[FirefoxDriver: firefox on XP (c8fe2287-782f-410e-9370-f79a60c6cb60)] -> css selector: input[type=password][placeholder='Password']]
+2018-07-11 19:56:19 INFO  Homepage:60 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (c8fe2287-782f-410e-9370-f79a60c6cb60)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-07-11 19:56:24 INFO  Retry:33 - Retrying test verifyLoginWithValidCredential with status FAILURE for the 1 time(s).
+2018-07-11 19:56:24 INFO  TC001_VerifyLoginWithInvalidCredential:50 - ================ Starting verifyLoginWithValidCredential Test 
+2018-07-11 19:56:24 INFO  Homepage:48 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (c8fe2287-782f-410e-9370-f79a60c6cb60)] -> xpath: //span[text()='LOG IN']]
+2018-07-11 19:56:24 INFO  Homepage:53 - Entered Email = suraj.kakode@fincash.com and object is : [[FirefoxDriver: firefox on XP (c8fe2287-782f-410e-9370-f79a60c6cb60)] -> css selector: input[placeholder='Email Id']]
+2018-07-11 19:56:24 INFO  Homepage:57 - Entered password = kakode92w and object is : [[FirefoxDriver: firefox on XP (c8fe2287-782f-410e-9370-f79a60c6cb60)] -> css selector: input[type=password][placeholder='Password']]
+2018-07-11 19:56:25 INFO  Homepage:60 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (c8fe2287-782f-410e-9370-f79a60c6cb60)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-07-11 19:56:30 INFO  Retry:33 - Retrying test verifyLoginWithValidCredential with status FAILURE for the 2 time(s).
+2018-07-11 19:56:30 INFO  TC001_VerifyLoginWithInvalidCredential:50 - ================ Starting verifyLoginWithValidCredential Test 
+2018-07-11 19:56:30 INFO  Homepage:48 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (c8fe2287-782f-410e-9370-f79a60c6cb60)] -> xpath: //span[text()='LOG IN']]
+2018-07-11 19:56:30 INFO  Homepage:53 - Entered Email = suraj.kakode@fincash.com and object is : [[FirefoxDriver: firefox on XP (c8fe2287-782f-410e-9370-f79a60c6cb60)] -> css selector: input[placeholder='Email Id']]
+2018-07-11 19:56:30 INFO  Homepage:57 - Entered password = kakode92w and object is : [[FirefoxDriver: firefox on XP (c8fe2287-782f-410e-9370-f79a60c6cb60)] -> css selector: input[type=password][placeholder='Password']]
+2018-07-11 19:56:30 INFO  Homepage:60 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (c8fe2287-782f-410e-9370-f79a60c6cb60)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-07-11 19:56:35 INFO  Retry:33 - Retrying test verifyLoginWithValidCredential with status FAILURE for the 3 time(s).
+2018-07-11 19:56:35 INFO  TC001_VerifyLoginWithInvalidCredential:50 - ================ Starting verifyLoginWithValidCredential Test 
+2018-07-11 19:56:36 INFO  Homepage:48 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (c8fe2287-782f-410e-9370-f79a60c6cb60)] -> xpath: //span[text()='LOG IN']]
+2018-07-11 19:56:36 INFO  Homepage:53 - Entered Email = suraj.kakode@fincash.com and object is : [[FirefoxDriver: firefox on XP (c8fe2287-782f-410e-9370-f79a60c6cb60)] -> css selector: input[placeholder='Email Id']]
+2018-07-11 19:56:36 INFO  Homepage:57 - Entered password = kakode92w and object is : [[FirefoxDriver: firefox on XP (c8fe2287-782f-410e-9370-f79a60c6cb60)] -> css selector: input[type=password][placeholder='Password']]
+2018-07-11 19:56:36 INFO  Homepage:60 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (c8fe2287-782f-410e-9370-f79a60c6cb60)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-07-11 19:56:41 INFO  TestBase:263 - browser closed
+2018-07-11 19:56:42 INFO  TestBase:88 - Creating the object of org.openqa.selenium.support.events.EventFiringWebDriver@1ff43be
+2018-07-11 19:56:45 INFO  TestBase:113 - Navigating to : https://api.fincash.com
+2018-07-11 19:56:51 INFO  TC004_VerifySignUpwithValidCredential:38 - ================ Starting nullCredential Test 
+2018-07-11 19:56:51 INFO  SignUp:48 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (9c05bfbf-658b-4ba3-ab45-0e44b8085074)] -> xpath: //span[text()='SIGN UP']]
+2018-07-11 19:56:51 INFO  TestBase:159 - Page Is loaded.
+2018-07-11 19:56:52 INFO  SignUp:54 - Entered Email =   and object is : [[FirefoxDriver: firefox on XP (9c05bfbf-658b-4ba3-ab45-0e44b8085074)] -> xpath: //input[@placeholder='Email Id']]
+2018-07-11 19:56:52 INFO  SignUp:58 - Entered password =   and object is : [[FirefoxDriver: firefox on XP (9c05bfbf-658b-4ba3-ab45-0e44b8085074)] -> xpath: //input[@type='password' and @placeholder='Password']]
+2018-07-11 19:56:52 INFO  SignUp:62 - Entered password =   and object is : [[FirefoxDriver: firefox on XP (9c05bfbf-658b-4ba3-ab45-0e44b8085074)] -> xpath: //input[@type='password' and @placeholder='Confirm Password']]
+2018-07-11 19:56:52 INFO  TestBase:159 - Page Is loaded.
+2018-07-11 19:56:52 INFO  SignUp:67 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (9c05bfbf-658b-4ba3-ab45-0e44b8085074)] -> xpath: //button[@type='submit']/span/span]
+2018-07-11 19:56:57 INFO  TestBase:159 - Page Is loaded.
+2018-07-11 19:56:57 INFO  TC004_VerifySignUpwithValidCredential:43 - ================ Finished nullCredential Test 
+2018-07-11 19:56:57 INFO  TC004_VerifySignUpwithValidCredential:50 - ================ Starting passwordMismach Test 
+2018-07-11 19:56:58 INFO  SignUp:48 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (9c05bfbf-658b-4ba3-ab45-0e44b8085074)] -> xpath: //span[text()='SIGN UP']]
+2018-07-11 19:56:58 INFO  TestBase:159 - Page Is loaded.
+2018-07-11 19:56:58 INFO  SignUp:54 - Entered Email = suraj.kakode1001@fincash.com and object is : [[FirefoxDriver: firefox on XP (9c05bfbf-658b-4ba3-ab45-0e44b8085074)] -> xpath: //input[@placeholder='Email Id']]
+2018-07-11 19:56:58 INFO  SignUp:58 - Entered password = 123456789 and object is : [[FirefoxDriver: firefox on XP (9c05bfbf-658b-4ba3-ab45-0e44b8085074)] -> xpath: //input[@type='password' and @placeholder='Password']]
+2018-07-11 19:56:58 INFO  SignUp:62 - Entered password = 123456789 and object is : [[FirefoxDriver: firefox on XP (9c05bfbf-658b-4ba3-ab45-0e44b8085074)] -> xpath: //input[@type='password' and @placeholder='Confirm Password']]
+2018-07-11 19:56:58 INFO  TestBase:159 - Page Is loaded.
+2018-07-11 19:56:58 INFO  SignUp:67 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (9c05bfbf-658b-4ba3-ab45-0e44b8085074)] -> xpath: //button[@type='submit']/span/span]
+2018-07-11 19:57:03 INFO  TestBase:159 - Page Is loaded.
+2018-07-11 19:57:03 INFO  TC004_VerifySignUpwithValidCredential:55 - ================ Finished passwordMismach Test 
+2018-07-11 19:57:04 INFO  TC004_VerifySignUpwithValidCredential:24 - ================ Starting verifySignUpWithInValidCredential Test 
+2018-07-11 19:57:04 INFO  SignUp:48 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (9c05bfbf-658b-4ba3-ab45-0e44b8085074)] -> xpath: //span[text()='SIGN UP']]
+2018-07-11 19:57:04 INFO  TestBase:159 - Page Is loaded.
+2018-07-11 19:57:04 INFO  SignUp:54 - Entered Email = suraj.kakode@fincash.com and object is : [[FirefoxDriver: firefox on XP (9c05bfbf-658b-4ba3-ab45-0e44b8085074)] -> xpath: //input[@placeholder='Email Id']]
+2018-07-11 19:57:04 INFO  SignUp:58 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (9c05bfbf-658b-4ba3-ab45-0e44b8085074)] -> xpath: //input[@type='password' and @placeholder='Password']]
+2018-07-11 19:57:04 INFO  SignUp:62 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (9c05bfbf-658b-4ba3-ab45-0e44b8085074)] -> xpath: //input[@type='password' and @placeholder='Confirm Password']]
+2018-07-11 19:57:04 INFO  TestBase:159 - Page Is loaded.
+2018-07-11 19:57:05 INFO  SignUp:67 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (9c05bfbf-658b-4ba3-ab45-0e44b8085074)] -> xpath: //button[@type='submit']/span/span]
+2018-07-11 19:57:10 INFO  TestBase:159 - Page Is loaded.
+2018-07-11 19:57:10 INFO  TC004_VerifySignUpwithValidCredential:30 - ================ Finished verifySignUpWithInValidCredential Test 
+2018-07-11 19:57:10 INFO  TC004_VerifySignUpwithValidCredential:62 - ================ Starting verifySignUpWithValidCredential Test 
+2018-07-11 19:57:10 INFO  SignUp:48 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (9c05bfbf-658b-4ba3-ab45-0e44b8085074)] -> xpath: //span[text()='SIGN UP']]
+2018-07-11 19:57:10 INFO  TestBase:159 - Page Is loaded.
+2018-07-11 19:57:10 INFO  SignUp:54 - Entered Email = suraj.kakode616@fincash.com and object is : [[FirefoxDriver: firefox on XP (9c05bfbf-658b-4ba3-ab45-0e44b8085074)] -> xpath: //input[@placeholder='Email Id']]
+2018-07-11 19:57:10 INFO  SignUp:58 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (9c05bfbf-658b-4ba3-ab45-0e44b8085074)] -> xpath: //input[@type='password' and @placeholder='Password']]
+2018-07-11 19:57:10 INFO  SignUp:62 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (9c05bfbf-658b-4ba3-ab45-0e44b8085074)] -> xpath: //input[@type='password' and @placeholder='Confirm Password']]
+2018-07-11 19:57:10 INFO  TestBase:159 - Page Is loaded.
+2018-07-11 19:57:11 INFO  SignUp:67 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (9c05bfbf-658b-4ba3-ab45-0e44b8085074)] -> xpath: //button[@type='submit']/span/span]
+2018-07-11 19:57:16 INFO  TestBase:159 - Page Is loaded.
+2018-07-11 19:57:16 INFO  Retry:33 - Retrying test verifySignUpWithValidCredential with status FAILURE for the 1 time(s).
+2018-07-11 19:57:16 INFO  TC004_VerifySignUpwithValidCredential:62 - ================ Starting verifySignUpWithValidCredential Test 
+2018-07-11 19:57:16 INFO  SignUp:48 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (9c05bfbf-658b-4ba3-ab45-0e44b8085074)] -> xpath: //span[text()='SIGN UP']]
+2018-07-11 19:57:16 INFO  TestBase:159 - Page Is loaded.
+2018-07-11 19:57:16 INFO  SignUp:54 - Entered Email = suraj.kakode616@fincash.com and object is : [[FirefoxDriver: firefox on XP (9c05bfbf-658b-4ba3-ab45-0e44b8085074)] -> xpath: //input[@placeholder='Email Id']]
+2018-07-11 19:57:16 INFO  SignUp:58 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (9c05bfbf-658b-4ba3-ab45-0e44b8085074)] -> xpath: //input[@type='password' and @placeholder='Password']]
+2018-07-11 19:57:16 INFO  SignUp:62 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (9c05bfbf-658b-4ba3-ab45-0e44b8085074)] -> xpath: //input[@type='password' and @placeholder='Confirm Password']]
+2018-07-11 19:57:16 INFO  TestBase:159 - Page Is loaded.
+2018-07-11 19:57:17 INFO  SignUp:67 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (9c05bfbf-658b-4ba3-ab45-0e44b8085074)] -> xpath: //button[@type='submit']/span/span]
+2018-07-11 19:57:22 INFO  TestBase:159 - Page Is loaded.
+2018-07-11 19:57:22 INFO  Retry:33 - Retrying test verifySignUpWithValidCredential with status FAILURE for the 2 time(s).
+2018-07-11 19:57:22 INFO  TC004_VerifySignUpwithValidCredential:62 - ================ Starting verifySignUpWithValidCredential Test 
+2018-07-11 19:57:22 INFO  SignUp:48 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (9c05bfbf-658b-4ba3-ab45-0e44b8085074)] -> xpath: //span[text()='SIGN UP']]
+2018-07-11 19:57:22 INFO  TestBase:159 - Page Is loaded.
+2018-07-11 19:57:22 INFO  SignUp:54 - Entered Email = suraj.kakode616@fincash.com and object is : [[FirefoxDriver: firefox on XP (9c05bfbf-658b-4ba3-ab45-0e44b8085074)] -> xpath: //input[@placeholder='Email Id']]
+2018-07-11 19:57:22 INFO  SignUp:58 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (9c05bfbf-658b-4ba3-ab45-0e44b8085074)] -> xpath: //input[@type='password' and @placeholder='Password']]
+2018-07-11 19:57:22 INFO  SignUp:62 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (9c05bfbf-658b-4ba3-ab45-0e44b8085074)] -> xpath: //input[@type='password' and @placeholder='Confirm Password']]
+2018-07-11 19:57:22 INFO  TestBase:159 - Page Is loaded.
+2018-07-11 19:57:23 INFO  SignUp:67 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (9c05bfbf-658b-4ba3-ab45-0e44b8085074)] -> xpath: //button[@type='submit']/span/span]
+2018-07-16 16:31:42 INFO  TestBase:263 - browser closed
+2018-07-16 16:33:25 INFO  TestBase:263 - browser closed
+2018-07-16 16:39:11 INFO  TestBase:263 - browser closed
+2018-07-16 16:39:48 INFO  TestBase:263 - browser closed
+2018-07-16 16:47:22 INFO  ExploreFunds:39 - List size is : 10 
+2018-07-16 16:47:22 INFO  TestBase:263 - browser closed
+2018-07-16 16:58:46 INFO  ExploreFunds:39 - List size is : 10 
+2018-07-16 16:59:06 INFO  TestBase:263 - browser closed
+2018-07-16 17:03:47 INFO  ExploreFunds:39 - List size is : 10 
+2018-07-16 17:03:48 INFO  TestBase:263 - browser closed
+2018-07-16 17:25:57 INFO  ExploreFunds:39 - List size is : 10 
+2018-07-16 17:25:57 INFO  ExploreFunds:39 - List size is : 10 
+2018-07-16 17:26:09 INFO  TestBase:263 - browser closed
+2018-07-16 17:26:22 INFO  ExploreFunds:39 - List size is : 10 
+2018-07-16 17:26:23 INFO  Homepage:48 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (4a98dd33-959b-44c9-b28e-20a1f4b27014)] -> xpath: //span[text()='LOG IN']]
+2018-07-16 17:26:23 INFO  Homepage:53 - Entered Email = b0pawan@gmail.com and object is : [[FirefoxDriver: firefox on XP (4a98dd33-959b-44c9-b28e-20a1f4b27014)] -> css selector: input[placeholder='Email Id']]
+2018-07-16 17:26:24 INFO  Homepage:57 - Entered password = asusW3jus and object is : [[FirefoxDriver: firefox on XP (4a98dd33-959b-44c9-b28e-20a1f4b27014)] -> css selector: input[type=password][placeholder='Password']]
+2018-07-16 17:26:24 INFO  Homepage:60 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (4a98dd33-959b-44c9-b28e-20a1f4b27014)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-07-16 17:26:24 INFO  TestBase:263 - browser closed
+2018-07-16 17:34:22 INFO  ExploreFunds:39 - List size is : 10 
+2018-07-16 17:34:23 INFO  Homepage:48 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (07f122c4-04e6-40d7-9d4c-d848861bcf6a)] -> xpath: //span[text()='LOG IN']]
+2018-07-16 17:34:23 INFO  Homepage:53 - Entered Email = b0pawan@gmail.com and object is : [[FirefoxDriver: firefox on XP (07f122c4-04e6-40d7-9d4c-d848861bcf6a)] -> css selector: input[placeholder='Email Id']]
+2018-07-16 17:34:23 INFO  Homepage:57 - Entered password = asusW3jus and object is : [[FirefoxDriver: firefox on XP (07f122c4-04e6-40d7-9d4c-d848861bcf6a)] -> css selector: input[type=password][placeholder='Password']]
+2018-07-16 17:34:24 INFO  Homepage:60 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (07f122c4-04e6-40d7-9d4c-d848861bcf6a)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-07-16 17:34:24 INFO  TestBase:263 - browser closed
+2018-07-16 17:40:26 INFO  ExploreFunds:39 - List size is : 10 
+2018-07-16 17:40:27 INFO  Homepage:48 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (426f9d1b-c62d-4b48-88f9-365d9eba525a)] -> xpath: //span[text()='LOG IN']]
+2018-07-16 17:40:28 INFO  Homepage:53 - Entered Email = b0pawan@gmail.com and object is : [[FirefoxDriver: firefox on XP (426f9d1b-c62d-4b48-88f9-365d9eba525a)] -> css selector: input[placeholder='Email Id']]
+2018-07-16 17:40:28 INFO  Homepage:57 - Entered password = asusW3jus and object is : [[FirefoxDriver: firefox on XP (426f9d1b-c62d-4b48-88f9-365d9eba525a)] -> css selector: input[type=password][placeholder='Password']]
+2018-07-16 17:40:28 INFO  Homepage:60 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (426f9d1b-c62d-4b48-88f9-365d9eba525a)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-07-16 17:40:28 INFO  TestBase:263 - browser closed
+2018-07-16 17:48:05 INFO  ExploreFunds:39 - List size is : 10 
+2018-07-16 17:48:07 INFO  Homepage:48 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (89d6edc3-8b71-49c3-9ef8-41212c1685e4)] -> xpath: //span[text()='LOG IN']]
+2018-07-16 17:48:07 INFO  Homepage:53 - Entered Email = b0pawan@gmail.com and object is : [[FirefoxDriver: firefox on XP (89d6edc3-8b71-49c3-9ef8-41212c1685e4)] -> css selector: input[placeholder='Email Id']]
+2018-07-16 17:48:08 INFO  Homepage:57 - Entered password = asusW3jus and object is : [[FirefoxDriver: firefox on XP (89d6edc3-8b71-49c3-9ef8-41212c1685e4)] -> css selector: input[type=password][placeholder='Password']]
+2018-07-16 17:48:08 INFO  Homepage:60 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (89d6edc3-8b71-49c3-9ef8-41212c1685e4)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-07-16 17:48:08 INFO  TestBase:263 - browser closed
+2018-07-16 17:49:57 INFO  ExploreFunds:39 - List size is : 10 
+2018-07-16 17:49:58 INFO  Homepage:48 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (a8c17eab-1587-4965-9a54-8332398fac46)] -> xpath: //span[text()='LOG IN']]
+2018-07-16 17:49:59 INFO  Homepage:53 - Entered Email = b0pawan@gmail.com and object is : [[FirefoxDriver: firefox on XP (a8c17eab-1587-4965-9a54-8332398fac46)] -> css selector: input[placeholder='Email Id']]
+2018-07-16 17:49:59 INFO  Homepage:57 - Entered password = asusW3jus and object is : [[FirefoxDriver: firefox on XP (a8c17eab-1587-4965-9a54-8332398fac46)] -> css selector: input[type=password][placeholder='Password']]
+2018-07-16 17:50:00 INFO  Homepage:60 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (a8c17eab-1587-4965-9a54-8332398fac46)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-07-16 17:50:00 INFO  TestBase:263 - browser closed
+2018-07-16 17:51:20 INFO  ExploreFunds:39 - List size is : 10 
+2018-07-16 17:51:22 INFO  Homepage:48 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (9646dcc3-fbba-4f19-996f-999c8c270ea3)] -> xpath: //span[text()='LOG IN']]
+2018-07-16 17:51:23 INFO  Homepage:53 - Entered Email = b0pawan@gmail.com and object is : [[FirefoxDriver: firefox on XP (9646dcc3-fbba-4f19-996f-999c8c270ea3)] -> css selector: input[placeholder='Email Id']]
+2018-07-16 17:51:23 INFO  Homepage:57 - Entered password = asusW3jus and object is : [[FirefoxDriver: firefox on XP (9646dcc3-fbba-4f19-996f-999c8c270ea3)] -> css selector: input[type=password][placeholder='Password']]
+2018-07-16 17:51:23 INFO  Homepage:60 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (9646dcc3-fbba-4f19-996f-999c8c270ea3)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-07-16 17:51:23 INFO  TestBase:263 - browser closed
+2018-07-16 17:52:58 INFO  ExploreFunds:39 - List size is : 10 
+2018-07-16 17:52:59 INFO  Homepage:48 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (29311735-bd89-4b05-8cd1-a88ddc183c15)] -> xpath: //span[text()='LOG IN']]
+2018-07-16 17:53:01 INFO  Homepage:53 - Entered Email = b0pawan@gmail.com and object is : [[FirefoxDriver: firefox on XP (29311735-bd89-4b05-8cd1-a88ddc183c15)] -> css selector: input[placeholder='Email Id']]
+2018-07-16 17:53:01 INFO  Homepage:57 - Entered password = asusW3jus and object is : [[FirefoxDriver: firefox on XP (29311735-bd89-4b05-8cd1-a88ddc183c15)] -> css selector: input[type=password][placeholder='Password']]
+2018-07-16 17:53:01 INFO  Homepage:60 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (29311735-bd89-4b05-8cd1-a88ddc183c15)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-07-16 17:53:01 INFO  TestBase:263 - browser closed
+2018-07-16 17:53:49 INFO  ExploreFunds:39 - List size is : 10 
+2018-07-16 17:53:50 INFO  Homepage:48 - Clicking on login button and object is : [[FirefoxDriver: firefox on XP (2f3e76a9-a97c-4685-8810-b6d762ad564c)] -> xpath: //span[text()='LOG IN']]
+2018-07-16 17:53:51 INFO  Homepage:53 - Entered Email = b0pawan@gmail.com and object is : [[FirefoxDriver: firefox on XP (2f3e76a9-a97c-4685-8810-b6d762ad564c)] -> css selector: input[placeholder='Email Id']]
+2018-07-16 17:53:51 INFO  Homepage:57 - Entered password = asusW3jus and object is : [[FirefoxDriver: firefox on XP (2f3e76a9-a97c-4685-8810-b6d762ad564c)] -> css selector: input[type=password][placeholder='Password']]
+2018-07-16 17:53:51 INFO  Homepage:60 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (2f3e76a9-a97c-4685-8810-b6d762ad564c)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-07-16 17:53:51 INFO  TestBase:263 - browser closed
+2018-07-16 18:47:45 INFO  TC004_VerifySignUpwithValidCredential:41 - ================ Starting nullCredential Test 
+2018-07-16 18:47:46 INFO  Retry:33 - Retrying test nullCredential with status FAILURE for the 1 time(s).
+2018-07-16 18:47:46 INFO  TC004_VerifySignUpwithValidCredential:41 - ================ Starting nullCredential Test 
+2018-07-16 18:47:46 INFO  Retry:33 - Retrying test nullCredential with status FAILURE for the 2 time(s).
+2018-07-16 18:47:46 INFO  TC004_VerifySignUpwithValidCredential:41 - ================ Starting nullCredential Test 
+2018-07-16 18:47:46 INFO  Retry:33 - Retrying test nullCredential with status FAILURE for the 3 time(s).
+2018-07-16 18:47:46 INFO  TC004_VerifySignUpwithValidCredential:41 - ================ Starting nullCredential Test 
+2018-07-16 18:58:26 INFO  TC001_VerifyLoginWithInvalidCredential:28 - ================ Starting nullCredential Test 
+2018-07-16 18:58:27 INFO  LogIn:52 - Entered Email =  and object is : [[FirefoxDriver: firefox on XP (f18d0a36-ea55-4685-9f5a-42d94146a6d4)] -> css selector: input[placeholder='Email Id']]
+2018-07-16 18:58:27 INFO  LogIn:56 - Entered password =  and object is : [[FirefoxDriver: firefox on XP (f18d0a36-ea55-4685-9f5a-42d94146a6d4)] -> css selector: input[type=password][placeholder='Password']]
+2018-07-16 18:58:27 INFO  LogIn:59 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (f18d0a36-ea55-4685-9f5a-42d94146a6d4)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-07-16 18:58:32 INFO  TC001_VerifyLoginWithInvalidCredential:36 - ================ Finished nullCredential Test 
+2018-07-16 18:58:33 INFO  TC001_VerifyLoginWithInvalidCredential:41 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-07-16 18:58:33 INFO  LogIn:52 - Entered Email = suraj.kakode@fincaswh.com and object is : [[FirefoxDriver: firefox on XP (f18d0a36-ea55-4685-9f5a-42d94146a6d4)] -> css selector: input[placeholder='Email Id']]
+2018-07-16 18:58:33 INFO  LogIn:56 - Entered password = kakode922 and object is : [[FirefoxDriver: firefox on XP (f18d0a36-ea55-4685-9f5a-42d94146a6d4)] -> css selector: input[type=password][placeholder='Password']]
+2018-07-16 18:58:33 INFO  LogIn:59 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (f18d0a36-ea55-4685-9f5a-42d94146a6d4)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-07-16 18:58:38 INFO  TC001_VerifyLoginWithInvalidCredential:49 - ================ Finished verifyLoginWithInValidCredential Test 
+2018-07-16 18:58:39 INFO  TC001_VerifyLoginWithInvalidCredential:55 - ================ Starting verifyLoginWithValidCredential Test 
+2018-07-16 18:58:39 INFO  LogIn:52 - Entered Email = suraj.kakode@fincash.com and object is : [[FirefoxDriver: firefox on XP (f18d0a36-ea55-4685-9f5a-42d94146a6d4)] -> css selector: input[placeholder='Email Id']]
+2018-07-16 18:58:39 INFO  LogIn:56 - Entered password = kakode92w and object is : [[FirefoxDriver: firefox on XP (f18d0a36-ea55-4685-9f5a-42d94146a6d4)] -> css selector: input[type=password][placeholder='Password']]
+2018-07-16 18:58:39 INFO  LogIn:59 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (f18d0a36-ea55-4685-9f5a-42d94146a6d4)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-07-16 18:58:44 INFO  Retry:33 - Retrying test verifyLoginWithValidCredential with status FAILURE for the 1 time(s).
+2018-07-16 18:58:44 INFO  TC001_VerifyLoginWithInvalidCredential:55 - ================ Starting verifyLoginWithValidCredential Test 
+2018-07-16 18:58:45 INFO  LogIn:52 - Entered Email = suraj.kakode@fincash.com and object is : [[FirefoxDriver: firefox on XP (f18d0a36-ea55-4685-9f5a-42d94146a6d4)] -> css selector: input[placeholder='Email Id']]
+2018-07-16 18:58:45 INFO  LogIn:56 - Entered password = kakode92w and object is : [[FirefoxDriver: firefox on XP (f18d0a36-ea55-4685-9f5a-42d94146a6d4)] -> css selector: input[type=password][placeholder='Password']]
+2018-07-16 18:58:45 INFO  LogIn:59 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (f18d0a36-ea55-4685-9f5a-42d94146a6d4)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-07-16 18:58:50 INFO  Retry:33 - Retrying test verifyLoginWithValidCredential with status FAILURE for the 2 time(s).
+2018-07-16 18:58:50 INFO  TC001_VerifyLoginWithInvalidCredential:55 - ================ Starting verifyLoginWithValidCredential Test 
+2018-07-16 18:58:51 INFO  LogIn:52 - Entered Email = suraj.kakode@fincash.com and object is : [[FirefoxDriver: firefox on XP (f18d0a36-ea55-4685-9f5a-42d94146a6d4)] -> css selector: input[placeholder='Email Id']]
+2018-07-16 18:58:51 INFO  LogIn:56 - Entered password = kakode92w and object is : [[FirefoxDriver: firefox on XP (f18d0a36-ea55-4685-9f5a-42d94146a6d4)] -> css selector: input[type=password][placeholder='Password']]
+2018-07-16 18:58:51 INFO  LogIn:59 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (f18d0a36-ea55-4685-9f5a-42d94146a6d4)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-07-16 18:58:56 INFO  Retry:33 - Retrying test verifyLoginWithValidCredential with status FAILURE for the 3 time(s).
+2018-07-16 18:58:56 INFO  TC001_VerifyLoginWithInvalidCredential:55 - ================ Starting verifyLoginWithValidCredential Test 
+2018-07-16 18:58:56 INFO  LogIn:52 - Entered Email = suraj.kakode@fincash.com and object is : [[FirefoxDriver: firefox on XP (f18d0a36-ea55-4685-9f5a-42d94146a6d4)] -> css selector: input[placeholder='Email Id']]
+2018-07-16 18:58:56 INFO  LogIn:56 - Entered password = kakode92w and object is : [[FirefoxDriver: firefox on XP (f18d0a36-ea55-4685-9f5a-42d94146a6d4)] -> css selector: input[type=password][placeholder='Password']]
+2018-07-16 18:58:57 INFO  LogIn:59 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (f18d0a36-ea55-4685-9f5a-42d94146a6d4)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-07-16 18:59:02 INFO  TestBase:263 - browser closed
+2018-07-16 18:59:02 INFO  TestBase:88 - Creating the object of org.openqa.selenium.support.events.EventFiringWebDriver@44c582
+2018-07-16 18:59:05 INFO  TestBase:113 - Navigating to : https://api.fincash.com
+2018-07-16 18:59:08 INFO  TC004_VerifySignUpwithValidCredential:41 - ================ Starting nullCredential Test 
+2018-07-16 18:59:08 INFO  TestBase:159 - Page Is loaded.
+2018-07-16 18:59:08 INFO  SignUp:53 - Entered Email =   and object is : [[FirefoxDriver: firefox on XP (393b2e37-c628-4efe-87a7-0daf2e2aeddb)] -> xpath: //input[@placeholder='Email Id']]
+2018-07-16 18:59:09 INFO  SignUp:57 - Entered password =   and object is : [[FirefoxDriver: firefox on XP (393b2e37-c628-4efe-87a7-0daf2e2aeddb)] -> xpath: //input[@type='password' and @placeholder='Password']]
+2018-07-16 18:59:09 INFO  SignUp:61 - Entered password =   and object is : [[FirefoxDriver: firefox on XP (393b2e37-c628-4efe-87a7-0daf2e2aeddb)] -> xpath: //input[@type='password' and @placeholder='Confirm Password']]
+2018-07-16 18:59:09 INFO  TestBase:159 - Page Is loaded.
+2018-07-16 18:59:09 INFO  SignUp:66 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (393b2e37-c628-4efe-87a7-0daf2e2aeddb)] -> xpath: //button[@type='submit']/span/span]
+2018-07-16 18:59:14 INFO  TestBase:159 - Page Is loaded.
+2018-07-16 18:59:14 INFO  TC004_VerifySignUpwithValidCredential:48 - ================ Finished nullCredential Test 
+2018-07-16 18:59:14 INFO  TC004_VerifySignUpwithValidCredential:55 - ================ Starting passwordMismach Test 
+2018-07-16 18:59:15 INFO  TestBase:159 - Page Is loaded.
+2018-07-16 18:59:15 INFO  SignUp:53 - Entered Email = suraj.kakode1001@fincash.com and object is : [[FirefoxDriver: firefox on XP (393b2e37-c628-4efe-87a7-0daf2e2aeddb)] -> xpath: //input[@placeholder='Email Id']]
+2018-07-16 18:59:15 INFO  SignUp:57 - Entered password = 123456789 and object is : [[FirefoxDriver: firefox on XP (393b2e37-c628-4efe-87a7-0daf2e2aeddb)] -> xpath: //input[@type='password' and @placeholder='Password']]
+2018-07-16 18:59:15 INFO  SignUp:61 - Entered password = 123456789 and object is : [[FirefoxDriver: firefox on XP (393b2e37-c628-4efe-87a7-0daf2e2aeddb)] -> xpath: //input[@type='password' and @placeholder='Confirm Password']]
+2018-07-16 18:59:15 INFO  TestBase:159 - Page Is loaded.
+2018-07-16 18:59:16 INFO  SignUp:66 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (393b2e37-c628-4efe-87a7-0daf2e2aeddb)] -> xpath: //button[@type='submit']/span/span]
+2018-07-16 18:59:21 INFO  TestBase:159 - Page Is loaded.
+2018-07-16 18:59:21 INFO  TC004_VerifySignUpwithValidCredential:62 - ================ Finished passwordMismach Test 
+2018-07-16 18:59:21 INFO  TC004_VerifySignUpwithValidCredential:25 - ================ Starting verifySignUpWithInValidCredential Test 
+2018-07-16 18:59:21 INFO  TestBase:159 - Page Is loaded.
+2018-07-16 18:59:21 INFO  SignUp:53 - Entered Email = suraj.kakode@fincash.com and object is : [[FirefoxDriver: firefox on XP (393b2e37-c628-4efe-87a7-0daf2e2aeddb)] -> xpath: //input[@placeholder='Email Id']]
+2018-07-16 18:59:21 INFO  SignUp:57 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (393b2e37-c628-4efe-87a7-0daf2e2aeddb)] -> xpath: //input[@type='password' and @placeholder='Password']]
+2018-07-16 18:59:21 INFO  SignUp:61 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (393b2e37-c628-4efe-87a7-0daf2e2aeddb)] -> xpath: //input[@type='password' and @placeholder='Confirm Password']]
+2018-07-16 18:59:21 INFO  TestBase:159 - Page Is loaded.
+2018-07-16 18:59:22 INFO  SignUp:66 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (393b2e37-c628-4efe-87a7-0daf2e2aeddb)] -> xpath: //button[@type='submit']/span/span]
+2018-07-16 18:59:27 INFO  TestBase:159 - Page Is loaded.
+2018-07-16 18:59:27 INFO  TC004_VerifySignUpwithValidCredential:33 - ================ Finished verifySignUpWithInValidCredential Test 
+2018-07-16 18:59:27 INFO  TC004_VerifySignUpwithValidCredential:69 - ================ Starting verifySignUpWithValidCredential Test 
+2018-07-16 18:59:27 INFO  TestBase:159 - Page Is loaded.
+2018-07-16 18:59:28 INFO  SignUp:53 - Entered Email = suraj.kakode616@fincash.com and object is : [[FirefoxDriver: firefox on XP (393b2e37-c628-4efe-87a7-0daf2e2aeddb)] -> xpath: //input[@placeholder='Email Id']]
+2018-07-16 18:59:28 INFO  SignUp:57 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (393b2e37-c628-4efe-87a7-0daf2e2aeddb)] -> xpath: //input[@type='password' and @placeholder='Password']]
+2018-07-16 18:59:28 INFO  SignUp:61 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (393b2e37-c628-4efe-87a7-0daf2e2aeddb)] -> xpath: //input[@type='password' and @placeholder='Confirm Password']]
+2018-07-16 18:59:28 INFO  TestBase:159 - Page Is loaded.
+2018-07-16 18:59:28 INFO  SignUp:66 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (393b2e37-c628-4efe-87a7-0daf2e2aeddb)] -> xpath: //button[@type='submit']/span/span]
+2018-07-16 18:59:33 INFO  TestBase:159 - Page Is loaded.
+2018-07-16 18:59:33 INFO  Retry:33 - Retrying test verifySignUpWithValidCredential with status FAILURE for the 1 time(s).
+2018-07-16 18:59:33 INFO  TC004_VerifySignUpwithValidCredential:69 - ================ Starting verifySignUpWithValidCredential Test 
+2018-07-16 18:59:34 INFO  TestBase:159 - Page Is loaded.
+2018-07-16 18:59:34 INFO  SignUp:53 - Entered Email = suraj.kakode616@fincash.com and object is : [[FirefoxDriver: firefox on XP (393b2e37-c628-4efe-87a7-0daf2e2aeddb)] -> xpath: //input[@placeholder='Email Id']]
+2018-07-16 18:59:34 INFO  SignUp:57 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (393b2e37-c628-4efe-87a7-0daf2e2aeddb)] -> xpath: //input[@type='password' and @placeholder='Password']]
+2018-07-16 18:59:34 INFO  SignUp:61 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (393b2e37-c628-4efe-87a7-0daf2e2aeddb)] -> xpath: //input[@type='password' and @placeholder='Confirm Password']]
+2018-07-16 18:59:34 INFO  TestBase:159 - Page Is loaded.
+2018-07-16 18:59:34 INFO  SignUp:66 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (393b2e37-c628-4efe-87a7-0daf2e2aeddb)] -> xpath: //button[@type='submit']/span/span]
+2018-07-16 18:59:39 INFO  TestBase:159 - Page Is loaded.
+2018-07-16 18:59:39 INFO  Retry:33 - Retrying test verifySignUpWithValidCredential with status FAILURE for the 2 time(s).
+2018-07-16 18:59:39 INFO  TC004_VerifySignUpwithValidCredential:69 - ================ Starting verifySignUpWithValidCredential Test 
+2018-07-16 18:59:40 INFO  TestBase:159 - Page Is loaded.
+2018-07-16 18:59:40 INFO  SignUp:53 - Entered Email = suraj.kakode616@fincash.com and object is : [[FirefoxDriver: firefox on XP (393b2e37-c628-4efe-87a7-0daf2e2aeddb)] -> xpath: //input[@placeholder='Email Id']]
+2018-07-16 18:59:40 INFO  SignUp:57 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (393b2e37-c628-4efe-87a7-0daf2e2aeddb)] -> xpath: //input[@type='password' and @placeholder='Password']]
+2018-07-16 18:59:40 INFO  SignUp:61 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (393b2e37-c628-4efe-87a7-0daf2e2aeddb)] -> xpath: //input[@type='password' and @placeholder='Confirm Password']]
+2018-07-16 18:59:40 INFO  TestBase:159 - Page Is loaded.
+2018-07-16 18:59:40 INFO  SignUp:66 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (393b2e37-c628-4efe-87a7-0daf2e2aeddb)] -> xpath: //button[@type='submit']/span/span]
+2018-07-16 18:59:45 INFO  TestBase:159 - Page Is loaded.
+2018-07-16 18:59:45 INFO  Retry:33 - Retrying test verifySignUpWithValidCredential with status FAILURE for the 3 time(s).
+2018-07-16 18:59:45 INFO  TC004_VerifySignUpwithValidCredential:69 - ================ Starting verifySignUpWithValidCredential Test 
+2018-07-16 18:59:46 INFO  TestBase:159 - Page Is loaded.
+2018-07-16 18:59:46 INFO  SignUp:53 - Entered Email = suraj.kakode616@fincash.com and object is : [[FirefoxDriver: firefox on XP (393b2e37-c628-4efe-87a7-0daf2e2aeddb)] -> xpath: //input[@placeholder='Email Id']]
+2018-07-16 18:59:46 INFO  SignUp:57 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (393b2e37-c628-4efe-87a7-0daf2e2aeddb)] -> xpath: //input[@type='password' and @placeholder='Password']]
+2018-07-16 18:59:46 INFO  SignUp:61 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (393b2e37-c628-4efe-87a7-0daf2e2aeddb)] -> xpath: //input[@type='password' and @placeholder='Confirm Password']]
+2018-07-16 18:59:46 INFO  TestBase:159 - Page Is loaded.
+2018-07-16 18:59:47 INFO  SignUp:66 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (393b2e37-c628-4efe-87a7-0daf2e2aeddb)] -> xpath: //button[@type='submit']/span/span]
+2018-07-16 18:59:52 INFO  TestBase:159 - Page Is loaded.
+2018-07-16 18:59:53 INFO  TestBase:88 - Creating the object of org.openqa.selenium.support.events.EventFiringWebDriver@16c58f5
+2018-07-16 18:59:56 INFO  TestBase:113 - Navigating to : https://api.fincash.com
+2018-07-16 18:59:59 INFO  LogIn:52 - Entered Email = suraj.kakode621@fincash.com and object is : [[FirefoxDriver: firefox on XP (8047d452-4ed6-4345-a853-8c5d115d2e3d)] -> css selector: input[placeholder='Email Id']]
+2018-07-16 18:59:59 INFO  LogIn:56 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (8047d452-4ed6-4345-a853-8c5d115d2e3d)] -> css selector: input[type=password][placeholder='Password']]
+2018-07-16 19:00:00 INFO  LogIn:59 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (8047d452-4ed6-4345-a853-8c5d115d2e3d)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-07-16 19:00:05 INFO  KYC:65 - clicking on : +91 [IND]
+2018-07-16 19:00:06 INFO  KYC:65 - clicking on : +93 [AFG]
+2018-07-16 19:00:07 INFO  KYC:65 - clicking on : +358 [ALA]
+2018-07-16 19:00:08 INFO  KYC:65 - clicking on : +355 [ALB]
+2018-07-16 19:00:09 INFO  KYC:65 - clicking on : +213 [DZA]
+2018-07-16 19:00:10 INFO  KYC:65 - clicking on : +91 [IND]
+2018-07-16 19:00:10 INFO  KYC:74 - mobile number filled with 8892430031
+2018-07-16 19:00:10 INFO  KYC:77 - clicked on Send OTP button
+2018-07-16 19:00:10 INFO  KYC:81 - inside accept
+2018-07-16 19:00:11 INFO  KYC:85 - clicked on Yes button
+2018-07-16 19:00:22 INFO  Retry:33 - Retrying test changePan with status FAILURE for the 1 time(s).
+2018-07-16 19:00:32 INFO  Retry:33 - Retrying test changePan with status FAILURE for the 2 time(s).
+2018-07-16 19:00:42 INFO  Retry:33 - Retrying test changePan with status FAILURE for the 3 time(s).
+2018-07-16 19:01:02 INFO  KYC:121 - Clicked on No button and the object is : [[FirefoxDriver: firefox on XP (8047d452-4ed6-4345-a853-8c5d115d2e3d)] -> xpath: //div/a[@class='no-button']]
+2018-07-16 19:01:02 INFO  Retry:33 - Retrying test proceedToReg with status FAILURE for the 1 time(s).
+2018-07-16 19:01:12 INFO  Retry:33 - Retrying test proceedToReg with status FAILURE for the 2 time(s).
+2018-07-16 19:01:22 INFO  Retry:33 - Retrying test proceedToReg with status FAILURE for the 3 time(s).
+2018-07-16 19:01:32 INFO  TestBase:263 - browser closed
+2018-07-16 19:01:33 INFO  TestBase:88 - Creating the object of org.openqa.selenium.support.events.EventFiringWebDriver@1b93fa8
+2018-07-16 19:01:35 INFO  TestBase:113 - Navigating to : https://api.fincash.com
+2018-07-16 19:01:39 INFO  LogIn:52 - Entered Email = suraj.kakode533@fincash.com and object is : [[FirefoxDriver: firefox on XP (92a58219-a1be-49ee-b923-de742f35b9f2)] -> css selector: input[placeholder='Email Id']]
+2018-07-16 19:01:39 INFO  LogIn:56 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (92a58219-a1be-49ee-b923-de742f35b9f2)] -> css selector: input[type=password][placeholder='Password']]
+2018-07-16 19:01:40 INFO  LogIn:59 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (92a58219-a1be-49ee-b923-de742f35b9f2)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-07-16 19:01:59 INFO  Registration:173 - Entered First Middle last And the object is : [[FirefoxDriver: firefox on XP (92a58219-a1be-49ee-b923-de742f35b9f2)] -> xpath: //input[@placeholder='Name (As on PAN card)']]
+2018-07-16 19:01:59 INFO  Registration:177 - Entered father full name And the object is : [[FirefoxDriver: firefox on XP (92a58219-a1be-49ee-b923-de742f35b9f2)] -> xpath: //input[@placeholder='Father/Spouse Name']]
+2018-07-16 19:02:00 INFO  Registration:181 - Entered mother full name And the object is : [[FirefoxDriver: firefox on XP (92a58219-a1be-49ee-b923-de742f35b9f2)] -> xpath: //input[@placeholder='Mother Name']]
+2018-07-16 19:02:00 INFO  Registration:188 - Entered 18/02/1990 And the object is : [[FirefoxDriver: firefox on XP (92a58219-a1be-49ee-b923-de742f35b9f2)] -> xpath: //input[@placeholder='Date of Birth(dd/mm/yyyy)']]
+2018-07-16 19:02:00 INFO  Registration:310 - Individual
+2018-07-16 19:02:00 INFO  Registration:310 - NRI - NRE
+2018-07-16 19:02:00 INFO  Registration:310 - NRI - NRO
+2018-07-16 19:02:00 INFO  Registration:311 - Option NRI - NRE is selected 
+2018-07-16 19:02:01 INFO  Registration:271 - Radio button Other is enabled =true
+2018-07-16 19:02:01 INFO  Registration:271 - Radio button Female is enabled =true
+2018-07-16 19:02:02 INFO  Registration:285 - Clicked on submit button.
+2018-07-16 19:02:02 INFO  Registration:298 - Below are the Error/s on Page
+2018-07-16 19:02:02 INFO  Registration:299 - Please provide date of birth
+2018-07-16 19:02:02 INFO  TC006_registration:46 - Form submitted : false
+2018-07-16 19:02:02 INFO  Registration:298 - Below are the Error/s on Page
+2018-07-16 19:02:02 INFO  Registration:299 - Please provide date of birth
+2018-07-16 19:02:02 INFO  Retry:33 - Retrying test setRegistration with status FAILURE for the 1 time(s).
+2018-07-16 19:02:12 INFO  Retry:33 - Retrying test setRegistration with status FAILURE for the 2 time(s).
+2018-07-16 19:02:22 INFO  Retry:33 - Retrying test setRegistration with status FAILURE for the 3 time(s).
+2018-07-16 19:02:35 INFO  TestBase:88 - Creating the object of org.openqa.selenium.support.events.EventFiringWebDriver@a20101
+2018-07-16 19:02:38 INFO  TestBase:113 - Navigating to : https://api.fincash.com
+2018-07-16 19:02:41 INFO  LogIn:52 - Entered Email = suraj.kakode533@fincash.com and object is : [[FirefoxDriver: firefox on XP (77b54e6d-b74c-405b-9c1d-54e43cab87f6)] -> css selector: input[placeholder='Email Id']]
+2018-07-16 19:02:41 INFO  LogIn:56 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (77b54e6d-b74c-405b-9c1d-54e43cab87f6)] -> css selector: input[type=password][placeholder='Password']]
+2018-07-16 19:02:42 INFO  LogIn:59 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (77b54e6d-b74c-405b-9c1d-54e43cab87f6)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-07-16 19:03:01 INFO  Registration:318 - Residential or Business
+2018-07-16 19:03:01 INFO  Registration:318 - Residential
+2018-07-16 19:03:01 INFO  Registration:318 - Business
+2018-07-16 19:03:01 INFO  Registration:318 - Registered Office
+2018-07-16 19:03:01 INFO  Registration:318 - Unspecified
+2018-07-16 19:03:01 INFO  Registration:319 - Option Business is selected 
+2018-07-16 19:03:02 INFO  AddressDetails:46 - Entered address line 1 And the object is : [[FirefoxDriver: firefox on XP (77b54e6d-b74c-405b-9c1d-54e43cab87f6)] -> xpath: //input[@placeholder='Address line 1']]
+2018-07-16 19:03:02 INFO  AddressDetails:50 - Entered address line 2 And the object is : [[FirefoxDriver: firefox on XP (77b54e6d-b74c-405b-9c1d-54e43cab87f6)] -> xpath: //input[@placeholder='Address line 2']]
+2018-07-16 19:03:02 INFO  AddressDetails:54 - Entered 123456 And the object is : [[FirefoxDriver: firefox on XP (77b54e6d-b74c-405b-9c1d-54e43cab87f6)] -> xpath: //input[@placeholder='Pin Code']]
+2018-07-16 19:03:02 INFO  AddressDetails:58 - Entered landmark And the object is : [[FirefoxDriver: firefox on XP (77b54e6d-b74c-405b-9c1d-54e43cab87f6)] -> xpath: //input[@placeholder='Near landmark']]
+2018-07-16 19:03:02 INFO  AddressDetails:62 - Entered city And the object is : [[FirefoxDriver: firefox on XP (77b54e6d-b74c-405b-9c1d-54e43cab87f6)] -> xpath: //input[@placeholder='City']]
+2018-07-16 19:03:03 INFO  AddressDetails:66 - Entered District And the object is : [[FirefoxDriver: firefox on XP (77b54e6d-b74c-405b-9c1d-54e43cab87f6)] -> xpath: //input[@placeholder='District']]
+2018-07-16 19:03:03 INFO  Registration:326 - Andaman & Nicobar
+2018-07-16 19:03:03 INFO  Registration:326 - Andhra Pradesh
+2018-07-16 19:03:03 INFO  Registration:326 - Arunachal Pradesh
+2018-07-16 19:03:03 INFO  Registration:326 - Assam
+2018-07-16 19:03:03 INFO  Registration:326 - Bihar
+2018-07-16 19:03:03 INFO  Registration:326 - Chandigarh
+2018-07-16 19:03:03 INFO  Registration:326 - Chhattisgarh
+2018-07-16 19:03:03 INFO  Registration:326 - Dadra and Nagar Haveli
+2018-07-16 19:03:03 INFO  Registration:326 - Daman and Diu
+2018-07-16 19:03:03 INFO  Registration:326 - New Delhi
+2018-07-16 19:03:03 INFO  Registration:326 - Goa
+2018-07-16 19:03:03 INFO  Registration:326 - Gujarat
+2018-07-16 19:03:03 INFO  Registration:326 - Haryana
+2018-07-16 19:03:03 INFO  Registration:326 - Himachal Pradesh
+2018-07-16 19:03:03 INFO  Registration:326 - Jammu & Kashmir
+2018-07-16 19:03:03 INFO  Registration:326 - Jharkhand
+2018-07-16 19:03:03 INFO  Registration:326 - Karnataka
+2018-07-16 19:03:03 INFO  Registration:326 - Kerala
+2018-07-16 19:03:03 INFO  Registration:326 - Lakshadweep
+2018-07-16 19:03:03 INFO  Registration:326 - Madhya Pradesh
+2018-07-16 19:03:03 INFO  Registration:326 - Maharashtra
+2018-07-16 19:03:03 INFO  Registration:326 - Manipur
+2018-07-16 19:03:03 INFO  Registration:326 - Meghalaya
+2018-07-16 19:03:03 INFO  Registration:326 - Mizoram
+2018-07-16 19:03:03 INFO  Registration:326 - Nagaland
+2018-07-16 19:03:03 INFO  Registration:326 - Orissa
+2018-07-16 19:03:03 INFO  Registration:326 - Pondicherry
+2018-07-16 19:03:03 INFO  Registration:326 - Punjab
+2018-07-16 19:03:03 INFO  Registration:326 - Rajasthan
+2018-07-16 19:03:03 INFO  Registration:326 - Sikkim
+2018-07-16 19:03:03 INFO  Registration:326 - Tamil Nadu
+2018-07-16 19:03:03 INFO  Registration:326 - Telengana
+2018-07-16 19:03:03 INFO  Registration:326 - Tripura
+2018-07-16 19:03:03 INFO  Registration:326 - Uttar Pradesh
+2018-07-16 19:03:03 INFO  Registration:326 - Uttarakhand
+2018-07-16 19:03:03 INFO  Registration:326 - West Bengal
+2018-07-16 19:03:03 INFO  Registration:327 - Option Chandigarh is selected 
+2018-07-16 19:03:04 INFO  Registration:334 - India
+2018-07-16 19:03:04 INFO  Registration:335 - Option India is selected 
+2018-07-16 19:03:04 INFO  Registration:285 - Clicked on submit button.
+2018-07-16 19:03:07 INFO  TestBase:88 - Creating the object of org.openqa.selenium.support.events.EventFiringWebDriver@55299e
+2018-07-16 19:03:09 INFO  TestBase:113 - Navigating to : https://api.fincash.com
+2018-07-16 19:03:13 INFO  LogIn:52 - Entered Email = suraj.kakode533@fincash.com and object is : [[FirefoxDriver: firefox on XP (c04b5811-5e1b-4afe-92ee-185232b17af8)] -> css selector: input[placeholder='Email Id']]
+2018-07-16 19:03:13 INFO  LogIn:56 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (c04b5811-5e1b-4afe-92ee-185232b17af8)] -> css selector: input[type=password][placeholder='Password']]
+2018-07-16 19:03:13 INFO  LogIn:59 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (c04b5811-5e1b-4afe-92ee-185232b17af8)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-07-16 19:03:33 INFO  Registration:195 - Entered Account Holder name And the object is : [[FirefoxDriver: firefox on XP (c04b5811-5e1b-4afe-92ee-185232b17af8)] -> xpath: //input[@placeholder='Name as on Cheque Book']]
+2018-07-16 19:03:33 INFO  Registration:199 - Entered 987654321098 And the object is : [[FirefoxDriver: firefox on XP (c04b5811-5e1b-4afe-92ee-185232b17af8)] -> xpath: //input[@placeholder='Bank Account Number']]
+2018-07-16 19:03:33 INFO  Registration:203 - Entered 987654321098 And the object is : [[FirefoxDriver: firefox on XP (c04b5811-5e1b-4afe-92ee-185232b17af8)] -> xpath: //input[@placeholder='Confirm Bank Account Number']]
+2018-07-16 19:03:36 INFO  Registration:353 - BANK OF BARODA-VASHI BRANCH-BARB0VASHIX
+2018-07-16 19:03:36 INFO  Registration:353 - HDFC BANK-VASHI - APMC NAVI MUMBAI-HDFC0000829
+2018-07-16 19:03:36 INFO  Registration:353 - DENA BANK-VASHI NAVI MUMBAI-BKDN0470658
+2018-07-16 19:03:36 INFO  Registration:353 - STATE BANK OF INDIA-VASHI SECTOR 14-SBIN0015285
+2018-07-16 19:03:36 INFO  Registration:353 - ICICI BANK LIMITED-VASHI-ICIC0000419
+2018-07-16 19:03:36 INFO  Registration:353 - BANK OF INDIA-VASHI-BKID0000089
+2018-07-16 19:03:36 INFO  Registration:353 - CITI BANK-VASHI-CITI0000038
+2018-07-16 19:03:36 INFO  Registration:353 - CORPORATION BANK-TURBHE - VASHI-CORP0000439
+2018-07-16 19:03:36 INFO  Registration:353 - AXIS BANK-VASHI-UTIB0000072
+2018-07-16 19:03:36 INFO  Registration:353 - AXIS BANK-VASHI APMC-UTIB0001840
+2018-07-16 19:03:36 INFO  Registration:353 - ANDHRA BANK-VASHI-ANDB0000627
+2018-07-16 19:03:36 INFO  Registration:353 - DCB BANK LIMITED-VASHI-DCBL0000030
+2018-07-16 19:03:36 INFO  Registration:353 - FEDERAL BANK-MUMBAI VASHI-FDRL0001369
+2018-07-16 19:03:36 INFO  Registration:353 - AXIS BANK-VASHI-UTIB0002775
+2018-07-16 19:03:36 INFO  Registration:353 - BANDHAN BANK LIMITED-VASHI-BDBL0001534
+2018-07-16 19:03:36 INFO  Registration:354 - Option HDFC BANK-VASHI - APMC NAVI MUMBAI-HDFC0000829 is selected 
+2018-07-16 19:03:37 INFO  Registration:285 - Clicked on submit button.
+2018-07-16 19:03:39 INFO  TestBase:88 - Creating the object of org.openqa.selenium.support.events.EventFiringWebDriver@125b795
+2018-07-16 19:03:42 INFO  TestBase:113 - Navigating to : https://api.fincash.com
+2018-07-16 19:03:46 INFO  LogIn:52 - Entered Email = suraj.kakode533@fincash.com and object is : [[FirefoxDriver: firefox on XP (defa5be3-ffd3-4a02-8efb-b429bdad3655)] -> css selector: input[placeholder='Email Id']]
+2018-07-16 19:03:46 INFO  LogIn:56 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (defa5be3-ffd3-4a02-8efb-b429bdad3655)] -> css selector: input[type=password][placeholder='Password']]
+2018-07-16 19:03:46 INFO  LogIn:59 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (defa5be3-ffd3-4a02-8efb-b429bdad3655)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-07-16 19:04:06 INFO  Registration:366 - < 1L
+2018-07-16 19:04:06 INFO  Registration:366 - 1L - 2.5L
+2018-07-16 19:04:06 INFO  Registration:366 - 2.5L - 5L
+2018-07-16 19:04:06 INFO  Registration:366 - 5L - 10L
+2018-07-16 19:04:06 INFO  Registration:366 - 10L - 25L
+2018-07-16 19:04:06 INFO  Registration:366 - 25L - 1Cr
+2018-07-16 19:04:06 INFO  Registration:366 - > 1Cr
+2018-07-16 19:04:06 INFO  Registration:367 - Option 2.5L - 5L is selected 
+2018-07-16 19:04:07 INFO  Registration:375 - Agriculturist
+2018-07-16 19:04:07 INFO  Registration:375 - Business
+2018-07-16 19:04:07 INFO  Registration:375 - Doctor
+2018-07-16 19:04:07 INFO  Registration:375 - Forex Dealer
+2018-07-16 19:04:07 INFO  Registration:375 - Government Service
+2018-07-16 19:04:07 INFO  Registration:375 - Housewife
+2018-07-16 19:04:07 INFO  Registration:375 - Others
+2018-07-16 19:04:07 INFO  Registration:375 - Private Sector Service
+2018-07-16 19:04:07 INFO  Registration:375 - Professional
+2018-07-16 19:04:07 INFO  Registration:375 - Public Sector Service
+2018-07-16 19:04:07 INFO  Registration:375 - Retired
+2018-07-16 19:04:07 INFO  Registration:375 - Service
+2018-07-16 19:04:07 INFO  Registration:375 - Student
+2018-07-16 19:04:07 INFO  Registration:375 - Unknown / Not Applicable
+2018-07-16 19:04:07 INFO  Registration:376 - Option Doctor is selected 
+2018-07-16 19:04:07 INFO  Registration:384 - Salary
+2018-07-16 19:04:07 INFO  Registration:384 - Business Income
+2018-07-16 19:04:08 INFO  Registration:384 - Gift
+2018-07-16 19:04:08 INFO  Registration:384 - Ancestral Property
+2018-07-16 19:04:08 INFO  Registration:384 - Rental Income
+2018-07-16 19:04:08 INFO  Registration:384 - Prize Money
+2018-07-16 19:04:08 INFO  Registration:384 - Royalty
+2018-07-16 19:04:08 INFO  Registration:384 - Others
+2018-07-16 19:04:08 INFO  Registration:385 - Option Gift is selected 
+2018-07-16 19:04:08 INFO  Registration:393 - India
+2018-07-16 19:04:08 INFO  Registration:393 - Afghanistan
+2018-07-16 19:04:08 INFO  Registration:393 - Aland Islands
+2018-07-16 19:04:08 INFO  Registration:393 - Albania
+2018-07-16 19:04:08 INFO  Registration:393 - Algeria
+2018-07-16 19:04:08 INFO  Registration:393 - American Samoa
+2018-07-16 19:04:08 INFO  Registration:393 - Andorra
+2018-07-16 19:04:08 INFO  Registration:393 - Angola
+2018-07-16 19:04:08 INFO  Registration:393 - Anguilla
+2018-07-16 19:04:08 INFO  Registration:393 - Antarctica
+2018-07-16 19:04:08 INFO  Registration:393 - Antigua And Barbuda
+2018-07-16 19:04:08 INFO  Registration:393 - Argentina
+2018-07-16 19:04:08 INFO  Registration:393 - Armenia
+2018-07-16 19:04:08 INFO  Registration:393 - Aruba
+2018-07-16 19:04:08 INFO  Registration:393 - Australia
+2018-07-16 19:04:09 INFO  Registration:393 - Austria
+2018-07-16 19:04:09 INFO  Registration:393 - Azerbaijan
+2018-07-16 19:04:09 INFO  Registration:393 - Bahamas
+2018-07-16 19:04:09 INFO  Registration:393 - Bahrain
+2018-07-16 19:04:09 INFO  Registration:393 - Bangladesh
+2018-07-16 19:04:09 INFO  Registration:393 - Barbados
+2018-07-16 19:04:09 INFO  Registration:393 - Belarus
+2018-07-16 19:04:09 INFO  Registration:393 - Belgium
+2018-07-16 19:04:09 INFO  Registration:393 - Belize
+2018-07-16 19:04:09 INFO  Registration:393 - Benin
+2018-07-16 19:04:09 INFO  Registration:393 - Bermuda
+2018-07-16 19:04:09 INFO  Registration:393 - Bhutan
+2018-07-16 19:04:09 INFO  Registration:393 - Bolivia
+2018-07-16 19:04:09 INFO  Registration:393 - Bonaire Sint Eustatius And Saba
+2018-07-16 19:04:09 INFO  Registration:393 - Bosnia And Herzegovina
+2018-07-16 19:04:09 INFO  Registration:393 - Botswana
+2018-07-16 19:04:09 INFO  Registration:393 - Bouvet Island
+2018-07-16 19:04:09 INFO  Registration:393 - Brazil
+2018-07-16 19:04:09 INFO  Registration:393 - British Indian Ocean Territory
+2018-07-16 19:04:09 INFO  Registration:393 - Brunei Darussalam
+2018-07-16 19:04:09 INFO  Registration:393 - Bulgaria
+2018-07-16 19:04:09 INFO  Registration:393 - Burkina Faso
+2018-07-16 19:04:09 INFO  Registration:393 - Burundi
+2018-07-16 19:04:09 INFO  Registration:393 - Cambodia
+2018-07-16 19:04:09 INFO  Registration:393 - Cameroon
+2018-07-16 19:04:09 INFO  Registration:393 - Canada
+2018-07-16 19:04:09 INFO  Registration:393 - Cape Verde
+2018-07-16 19:04:09 INFO  Registration:393 - Cayman Islands
+2018-07-16 19:04:09 INFO  Registration:393 - Central African Republic
+2018-07-16 19:04:09 INFO  Registration:393 - Chad
+2018-07-16 19:04:09 INFO  Registration:393 - Chile
+2018-07-16 19:04:09 INFO  Registration:393 - China
+2018-07-16 19:04:09 INFO  Registration:393 - Christmas Island
+2018-07-16 19:04:09 INFO  Registration:393 - Cocos (Keeling) Islands
+2018-07-16 19:04:09 INFO  Registration:393 - Colombia
+2018-07-16 19:04:09 INFO  Registration:393 - Comoros
+2018-07-16 19:04:09 INFO  Registration:393 - Congo
+2018-07-16 19:04:09 INFO  Registration:393 - Congo The Democratic Republic Of
+2018-07-16 19:04:09 INFO  Registration:393 - Cook Islands
+2018-07-16 19:04:09 INFO  Registration:393 - Costa Rica
+2018-07-16 19:04:09 INFO  Registration:393 - Cote D'ivoire
+2018-07-16 19:04:09 INFO  Registration:393 - Croatia
+2018-07-16 19:04:09 INFO  Registration:393 - Cuba
+2018-07-16 19:04:09 INFO  Registration:393 - Curacao
+2018-07-16 19:04:09 INFO  Registration:393 - Cyprus
+2018-07-16 19:04:09 INFO  Registration:393 - Czech Republic
+2018-07-16 19:04:09 INFO  Registration:393 - Denmark
+2018-07-16 19:04:09 INFO  Registration:393 - Djibouti
+2018-07-16 19:04:09 INFO  Registration:393 - Dominica
+2018-07-16 19:04:09 INFO  Registration:393 - Dominican Republic
+2018-07-16 19:04:09 INFO  Registration:393 - Ecuador
+2018-07-16 19:04:09 INFO  Registration:393 - Egypt
+2018-07-16 19:04:09 INFO  Registration:393 - El Salvador
+2018-07-16 19:04:09 INFO  Registration:393 - Equatorial Guinea
+2018-07-16 19:04:09 INFO  Registration:393 - Eritrea
+2018-07-16 19:04:09 INFO  Registration:393 - Estonia
+2018-07-16 19:04:09 INFO  Registration:393 - Ethiopia
+2018-07-16 19:04:09 INFO  Registration:393 - Falkland Islands (Malvinas)
+2018-07-16 19:04:09 INFO  Registration:393 - Faroe Islands
+2018-07-16 19:04:09 INFO  Registration:393 - Fiji
+2018-07-16 19:04:09 INFO  Registration:393 - Finland
+2018-07-16 19:04:09 INFO  Registration:393 - France
+2018-07-16 19:04:09 INFO  Registration:393 - French Guiana
+2018-07-16 19:04:09 INFO  Registration:393 - French Polynesia
+2018-07-16 19:04:09 INFO  Registration:393 - French Southern Territories
+2018-07-16 19:04:09 INFO  Registration:393 - Gabon
+2018-07-16 19:04:09 INFO  Registration:393 - Gambia
+2018-07-16 19:04:09 INFO  Registration:393 - Georgia
+2018-07-16 19:04:09 INFO  Registration:393 - Germany
+2018-07-16 19:04:09 INFO  Registration:393 - Ghana
+2018-07-16 19:04:09 INFO  Registration:393 - Gibraltar
+2018-07-16 19:04:09 INFO  Registration:393 - Greece
+2018-07-16 19:04:09 INFO  Registration:393 - Greenland
+2018-07-16 19:04:09 INFO  Registration:393 - Grenada
+2018-07-16 19:04:09 INFO  Registration:393 - Guadeloupe
+2018-07-16 19:04:09 INFO  Registration:393 - Guam
+2018-07-16 19:04:09 INFO  Registration:393 - Guatemala
+2018-07-16 19:04:09 INFO  Registration:393 - Guernsey
+2018-07-16 19:04:09 INFO  Registration:393 - Guinea
+2018-07-16 19:04:09 INFO  Registration:393 - Guinea-Bissau
+2018-07-16 19:04:09 INFO  Registration:393 - Guyana
+2018-07-16 19:04:09 INFO  Registration:393 - Haiti
+2018-07-16 19:04:09 INFO  Registration:393 - Heard Island And McDonald Island
+2018-07-16 19:04:09 INFO  Registration:393 - Honduras
+2018-07-16 19:04:09 INFO  Registration:393 - Hong Kong
+2018-07-16 19:04:09 INFO  Registration:393 - Hungary
+2018-07-16 19:04:09 INFO  Registration:393 - Iceland
+2018-07-16 19:04:09 INFO  Registration:393 - Indonesia
+2018-07-16 19:04:09 INFO  Registration:393 - Iran, Islamic Republic Of
+2018-07-16 19:04:09 INFO  Registration:393 - Iraq
+2018-07-16 19:04:09 INFO  Registration:393 - Ireland
+2018-07-16 19:04:09 INFO  Registration:393 - Isle Of Man
+2018-07-16 19:04:09 INFO  Registration:393 - Israel
+2018-07-16 19:04:09 INFO  Registration:393 - Italy
+2018-07-16 19:04:09 INFO  Registration:393 - Jamaica
+2018-07-16 19:04:09 INFO  Registration:393 - Japan
+2018-07-16 19:04:09 INFO  Registration:393 - Jersey
+2018-07-16 19:04:09 INFO  Registration:393 - Jordan
+2018-07-16 19:04:09 INFO  Registration:393 - Kazakhstan
+2018-07-16 19:04:09 INFO  Registration:393 - Kenya
+2018-07-16 19:04:09 INFO  Registration:393 - Kiribati
+2018-07-16 19:04:09 INFO  Registration:393 - Korea, Democratic Peoples Republ
+2018-07-16 19:04:09 INFO  Registration:393 - Korea, Republic Of
+2018-07-16 19:04:09 INFO  Registration:393 - Kuwait
+2018-07-16 19:04:09 INFO  Registration:393 - Kyrgyzstan
+2018-07-16 19:04:09 INFO  Registration:393 - Lao Peoples Democratic Republic
+2018-07-16 19:04:10 INFO  Registration:393 - Latvia
+2018-07-16 19:04:10 INFO  Registration:393 - Lebanon
+2018-07-16 19:04:10 INFO  Registration:393 - Lesotho
+2018-07-16 19:04:10 INFO  Registration:393 - Liberia
+2018-07-16 19:04:10 INFO  Registration:393 - Libyan Arab Jamahiriya
+2018-07-16 19:04:10 INFO  Registration:393 - Liechtenstein
+2018-07-16 19:04:10 INFO  Registration:393 - Lithuania
+2018-07-16 19:04:10 INFO  Registration:393 - Luxembourg
+2018-07-16 19:04:10 INFO  Registration:393 - Macao
+2018-07-16 19:04:10 INFO  Registration:393 - Macedonia, The Former Yugoslav R
+2018-07-16 19:04:10 INFO  Registration:393 - Madagascar
+2018-07-16 19:04:10 INFO  Registration:393 - Malawi
+2018-07-16 19:04:10 INFO  Registration:393 - Malaysia
+2018-07-16 19:04:10 INFO  Registration:393 - Maldives
+2018-07-16 19:04:10 INFO  Registration:393 - Mali
+2018-07-16 19:04:10 INFO  Registration:393 - Malta
+2018-07-16 19:04:10 INFO  Registration:393 - Marshall Islands
+2018-07-16 19:04:10 INFO  Registration:393 - Martinique
+2018-07-16 19:04:10 INFO  Registration:393 - Mauritania
+2018-07-16 19:04:10 INFO  Registration:393 - Mauritius
+2018-07-16 19:04:10 INFO  Registration:393 - Mayotte
+2018-07-16 19:04:10 INFO  Registration:393 - Mexico
+2018-07-16 19:04:10 INFO  Registration:393 - Micronesia, Federated States Of
+2018-07-16 19:04:10 INFO  Registration:393 - Moldova, Republic Of
+2018-07-16 19:04:10 INFO  Registration:393 - Monaco
+2018-07-16 19:04:10 INFO  Registration:393 - Mongolia
+2018-07-16 19:04:10 INFO  Registration:393 - Montenegro
+2018-07-16 19:04:10 INFO  Registration:393 - Montserrat
+2018-07-16 19:04:10 INFO  Registration:393 - Morocco
+2018-07-16 19:04:10 INFO  Registration:393 - Mozambique
+2018-07-16 19:04:10 INFO  Registration:393 - Myanmar
+2018-07-16 19:04:10 INFO  Registration:393 - Namibia
+2018-07-16 19:04:10 INFO  Registration:393 - Nauru
+2018-07-16 19:04:10 INFO  Registration:393 - Nepal
+2018-07-16 19:04:10 INFO  Registration:393 - Netherlands
+2018-07-16 19:04:10 INFO  Registration:393 - Netherlands Antilles
+2018-07-16 19:04:10 INFO  Registration:393 - New Caledonia
+2018-07-16 19:04:10 INFO  Registration:393 - New Zealand
+2018-07-16 19:04:10 INFO  Registration:393 - Nicaragua
+2018-07-16 19:04:10 INFO  Registration:393 - Niger
+2018-07-16 19:04:10 INFO  Registration:393 - Nigeria
+2018-07-16 19:04:10 INFO  Registration:393 - Niue
+2018-07-16 19:04:10 INFO  Registration:393 - Norfolk Island
+2018-07-16 19:04:10 INFO  Registration:393 - Northern Mariana Islands
+2018-07-16 19:04:10 INFO  Registration:393 - Norway
+2018-07-16 19:04:10 INFO  Registration:393 - Oman
+2018-07-16 19:04:10 INFO  Registration:393 - Pakistan
+2018-07-16 19:04:10 INFO  Registration:393 - Palau
+2018-07-16 19:04:10 INFO  Registration:393 - Palestinian Territory, Occupied
+2018-07-16 19:04:10 INFO  Registration:393 - Panama
+2018-07-16 19:04:10 INFO  Registration:393 - Papua New Guinea
+2018-07-16 19:04:10 INFO  Registration:393 - Paraguay
+2018-07-16 19:04:10 INFO  Registration:393 - Peru
+2018-07-16 19:04:10 INFO  Registration:393 - Philippines
+2018-07-16 19:04:10 INFO  Registration:393 - Pitcairn
+2018-07-16 19:04:10 INFO  Registration:393 - Poland
+2018-07-16 19:04:10 INFO  Registration:393 - Portugal
+2018-07-16 19:04:10 INFO  Registration:393 - Puerto Rico
+2018-07-16 19:04:10 INFO  Registration:393 - Qatar
+2018-07-16 19:04:10 INFO  Registration:393 - Reunion Island
+2018-07-16 19:04:10 INFO  Registration:393 - Romania
+2018-07-16 19:04:10 INFO  Registration:393 - Russian Federation
+2018-07-16 19:04:10 INFO  Registration:393 - Rwanda
+2018-07-16 19:04:10 INFO  Registration:393 - Saint Barthelemy
+2018-07-16 19:04:10 INFO  Registration:393 - Saint Helena, Ascension And Tris
+2018-07-16 19:04:10 INFO  Registration:393 - Saint Kitts And Nevis
+2018-07-16 19:04:10 INFO  Registration:393 - Saint Lucia
+2018-07-16 19:04:10 INFO  Registration:393 - Saint Martin
+2018-07-16 19:04:10 INFO  Registration:393 - Saint Pierre And Miquelon
+2018-07-16 19:04:10 INFO  Registration:393 - Saint Vincent And The Grenadines
+2018-07-16 19:04:10 INFO  Registration:393 - Samoa
+2018-07-16 19:04:10 INFO  Registration:393 - San Marino
+2018-07-16 19:04:10 INFO  Registration:393 - Sao Tome And Principe
+2018-07-16 19:04:10 INFO  Registration:393 - Saudi Arabia
+2018-07-16 19:04:10 INFO  Registration:393 - Senegal
+2018-07-16 19:04:10 INFO  Registration:393 - Serbia
+2018-07-16 19:04:10 INFO  Registration:393 - Seychelles
+2018-07-16 19:04:10 INFO  Registration:393 - Sierra Leone
+2018-07-16 19:04:10 INFO  Registration:393 - Singapore
+2018-07-16 19:04:10 INFO  Registration:393 - Sint Maarten (Dutch Part)
+2018-07-16 19:04:10 INFO  Registration:393 - Slovakia
+2018-07-16 19:04:10 INFO  Registration:393 - Slovenia
+2018-07-16 19:04:10 INFO  Registration:393 - Solomon Islands
+2018-07-16 19:04:10 INFO  Registration:393 - Somalia
+2018-07-16 19:04:10 INFO  Registration:393 - South Africa
+2018-07-16 19:04:10 INFO  Registration:393 - South Georgia And The South Sand
+2018-07-16 19:04:10 INFO  Registration:393 - South Sudan
+2018-07-16 19:04:10 INFO  Registration:393 - Spain
+2018-07-16 19:04:10 INFO  Registration:393 - Sri Lanka
+2018-07-16 19:04:10 INFO  Registration:393 - Sudan
+2018-07-16 19:04:10 INFO  Registration:393 - Suriname
+2018-07-16 19:04:10 INFO  Registration:393 - Svalbard And Jan Mayen Islands
+2018-07-16 19:04:10 INFO  Registration:393 - Swaziland
+2018-07-16 19:04:10 INFO  Registration:393 - Sweden
+2018-07-16 19:04:10 INFO  Registration:393 - Switzerland
+2018-07-16 19:04:10 INFO  Registration:393 - Syrian Arab Republic
+2018-07-16 19:04:10 INFO  Registration:393 - Taiwan, Province Of China
+2018-07-16 19:04:10 INFO  Registration:393 - Tajikistan
+2018-07-16 19:04:10 INFO  Registration:393 - Tanzania, United Republic Of
+2018-07-16 19:04:10 INFO  Registration:393 - Thailand
+2018-07-16 19:04:10 INFO  Registration:393 - Timor-Leste
+2018-07-16 19:04:10 INFO  Registration:393 - Togo
+2018-07-16 19:04:10 INFO  Registration:393 - Tokelau
+2018-07-16 19:04:10 INFO  Registration:393 - Tonga
+2018-07-16 19:04:10 INFO  Registration:393 - Trinidad And Tobago
+2018-07-16 19:04:10 INFO  Registration:393 - Tunisia
+2018-07-16 19:04:10 INFO  Registration:393 - Turkey
+2018-07-16 19:04:10 INFO  Registration:393 - Turkmenistan
+2018-07-16 19:04:10 INFO  Registration:393 - Turks And Caicos Islands
+2018-07-16 19:04:10 INFO  Registration:393 - Tuvalu
+2018-07-16 19:04:11 INFO  Registration:393 - Uganda
+2018-07-16 19:04:11 INFO  Registration:393 - Ukraine
+2018-07-16 19:04:11 INFO  Registration:393 - United Arab Emirates
+2018-07-16 19:04:11 INFO  Registration:393 - United Kingdom
+2018-07-16 19:04:11 INFO  Registration:393 - United States
+2018-07-16 19:04:11 INFO  Registration:393 - United States Minor Outlying Isl
+2018-07-16 19:04:11 INFO  Registration:393 - Uruguay
+2018-07-16 19:04:11 INFO  Registration:393 - Uzbekistan
+2018-07-16 19:04:11 INFO  Registration:393 - Vanuatu
+2018-07-16 19:04:11 INFO  Registration:393 - Vatican City State
+2018-07-16 19:04:11 INFO  Registration:393 - Venezuela, Bolivarian Republic O
+2018-07-16 19:04:11 INFO  Registration:393 - Viet Nam
+2018-07-16 19:04:11 INFO  Registration:393 - Virgin Islands, British
+2018-07-16 19:04:11 INFO  Registration:393 - Virgin Islands, U.S.
+2018-07-16 19:04:11 INFO  Registration:393 - Wallis And Futuna
+2018-07-16 19:04:11 INFO  Registration:393 - Western Sahara
+2018-07-16 19:04:11 INFO  Registration:393 - Yemen
+2018-07-16 19:04:11 INFO  Registration:393 - Zambia
+2018-07-16 19:04:11 INFO  Registration:393 - Zimbabwe
+2018-07-16 19:04:11 INFO  Registration:394 - Option Aland Islands is selected 
+2018-07-16 19:04:12 INFO  Registration:401 - India
+2018-07-16 19:04:12 INFO  Registration:401 - Afghanistan
+2018-07-16 19:04:12 INFO  Registration:401 - Aland Islands
+2018-07-16 19:04:12 INFO  Registration:401 - Albania
+2018-07-16 19:04:12 INFO  Registration:401 - Algeria
+2018-07-16 19:04:12 INFO  Registration:401 - American Samoa
+2018-07-16 19:04:12 INFO  Registration:401 - Andorra
+2018-07-16 19:04:12 INFO  Registration:401 - Angola
+2018-07-16 19:04:12 INFO  Registration:401 - Anguilla
+2018-07-16 19:04:12 INFO  Registration:401 - Antarctica
+2018-07-16 19:04:12 INFO  Registration:401 - Antigua And Barbuda
+2018-07-16 19:04:12 INFO  Registration:401 - Argentina
+2018-07-16 19:04:12 INFO  Registration:401 - Armenia
+2018-07-16 19:04:12 INFO  Registration:401 - Aruba
+2018-07-16 19:04:12 INFO  Registration:401 - Australia
+2018-07-16 19:04:12 INFO  Registration:401 - Austria
+2018-07-16 19:04:12 INFO  Registration:401 - Azerbaijan
+2018-07-16 19:04:12 INFO  Registration:401 - Bahamas
+2018-07-16 19:04:12 INFO  Registration:401 - Bahrain
+2018-07-16 19:04:12 INFO  Registration:401 - Bangladesh
+2018-07-16 19:04:12 INFO  Registration:401 - Barbados
+2018-07-16 19:04:12 INFO  Registration:401 - Belarus
+2018-07-16 19:04:12 INFO  Registration:401 - Belgium
+2018-07-16 19:04:12 INFO  Registration:401 - Belize
+2018-07-16 19:04:12 INFO  Registration:401 - Benin
+2018-07-16 19:04:12 INFO  Registration:401 - Bermuda
+2018-07-16 19:04:12 INFO  Registration:401 - Bhutan
+2018-07-16 19:04:12 INFO  Registration:401 - Bolivia
+2018-07-16 19:04:12 INFO  Registration:401 - Bonaire Sint Eustatius And Saba
+2018-07-16 19:04:12 INFO  Registration:401 - Bosnia And Herzegovina
+2018-07-16 19:04:12 INFO  Registration:401 - Botswana
+2018-07-16 19:04:12 INFO  Registration:401 - Bouvet Island
+2018-07-16 19:04:12 INFO  Registration:401 - Brazil
+2018-07-16 19:04:12 INFO  Registration:401 - British Indian Ocean Territory
+2018-07-16 19:04:12 INFO  Registration:401 - Brunei Darussalam
+2018-07-16 19:04:12 INFO  Registration:401 - Bulgaria
+2018-07-16 19:04:12 INFO  Registration:401 - Burkina Faso
+2018-07-16 19:04:12 INFO  Registration:401 - Burundi
+2018-07-16 19:04:12 INFO  Registration:401 - Cambodia
+2018-07-16 19:04:12 INFO  Registration:401 - Cameroon
+2018-07-16 19:04:12 INFO  Registration:401 - Canada
+2018-07-16 19:04:12 INFO  Registration:401 - Cape Verde
+2018-07-16 19:04:12 INFO  Registration:401 - Cayman Islands
+2018-07-16 19:04:12 INFO  Registration:401 - Central African Republic
+2018-07-16 19:04:12 INFO  Registration:401 - Chad
+2018-07-16 19:04:12 INFO  Registration:401 - Chile
+2018-07-16 19:04:12 INFO  Registration:401 - China
+2018-07-16 19:04:12 INFO  Registration:401 - Christmas Island
+2018-07-16 19:04:12 INFO  Registration:401 - Cocos (Keeling) Islands
+2018-07-16 19:04:12 INFO  Registration:401 - Colombia
+2018-07-16 19:04:12 INFO  Registration:401 - Comoros
+2018-07-16 19:04:12 INFO  Registration:401 - Congo
+2018-07-16 19:04:12 INFO  Registration:401 - Congo The Democratic Republic Of
+2018-07-16 19:04:12 INFO  Registration:401 - Cook Islands
+2018-07-16 19:04:12 INFO  Registration:401 - Costa Rica
+2018-07-16 19:04:12 INFO  Registration:401 - Cote D'ivoire
+2018-07-16 19:04:12 INFO  Registration:401 - Croatia
+2018-07-16 19:04:12 INFO  Registration:401 - Cuba
+2018-07-16 19:04:12 INFO  Registration:401 - Curacao
+2018-07-16 19:04:12 INFO  Registration:401 - Cyprus
+2018-07-16 19:04:12 INFO  Registration:401 - Czech Republic
+2018-07-16 19:04:12 INFO  Registration:401 - Denmark
+2018-07-16 19:04:12 INFO  Registration:401 - Djibouti
+2018-07-16 19:04:12 INFO  Registration:401 - Dominica
+2018-07-16 19:04:12 INFO  Registration:401 - Dominican Republic
+2018-07-16 19:04:12 INFO  Registration:401 - Ecuador
+2018-07-16 19:04:12 INFO  Registration:401 - Egypt
+2018-07-16 19:04:12 INFO  Registration:401 - El Salvador
+2018-07-16 19:04:12 INFO  Registration:401 - Equatorial Guinea
+2018-07-16 19:04:12 INFO  Registration:401 - Eritrea
+2018-07-16 19:04:12 INFO  Registration:401 - Estonia
+2018-07-16 19:04:12 INFO  Registration:401 - Ethiopia
+2018-07-16 19:04:12 INFO  Registration:401 - Falkland Islands (Malvinas)
+2018-07-16 19:04:12 INFO  Registration:401 - Faroe Islands
+2018-07-16 19:04:12 INFO  Registration:401 - Fiji
+2018-07-16 19:04:12 INFO  Registration:401 - Finland
+2018-07-16 19:04:12 INFO  Registration:401 - France
+2018-07-16 19:04:12 INFO  Registration:401 - French Guiana
+2018-07-16 19:04:12 INFO  Registration:401 - French Polynesia
+2018-07-16 19:04:12 INFO  Registration:401 - French Southern Territories
+2018-07-16 19:04:12 INFO  Registration:401 - Gabon
+2018-07-16 19:04:12 INFO  Registration:401 - Gambia
+2018-07-16 19:04:12 INFO  Registration:401 - Georgia
+2018-07-16 19:04:12 INFO  Registration:401 - Germany
+2018-07-16 19:04:13 INFO  Registration:401 - Ghana
+2018-07-16 19:04:13 INFO  Registration:401 - Gibraltar
+2018-07-16 19:04:13 INFO  Registration:401 - Greece
+2018-07-16 19:04:13 INFO  Registration:401 - Greenland
+2018-07-16 19:04:13 INFO  Registration:401 - Grenada
+2018-07-16 19:04:13 INFO  Registration:401 - Guadeloupe
+2018-07-16 19:04:13 INFO  Registration:401 - Guam
+2018-07-16 19:04:13 INFO  Registration:401 - Guatemala
+2018-07-16 19:04:13 INFO  Registration:401 - Guernsey
+2018-07-16 19:04:13 INFO  Registration:401 - Guinea
+2018-07-16 19:04:13 INFO  Registration:401 - Guinea-Bissau
+2018-07-16 19:04:13 INFO  Registration:401 - Guyana
+2018-07-16 19:04:13 INFO  Registration:401 - Haiti
+2018-07-16 19:04:13 INFO  Registration:401 - Heard Island And McDonald Island
+2018-07-16 19:04:13 INFO  Registration:401 - Honduras
+2018-07-16 19:04:13 INFO  Registration:401 - Hong Kong
+2018-07-16 19:04:13 INFO  Registration:401 - Hungary
+2018-07-16 19:04:13 INFO  Registration:401 - Iceland
+2018-07-16 19:04:13 INFO  Registration:401 - Indonesia
+2018-07-16 19:04:13 INFO  Registration:401 - Iran, Islamic Republic Of
+2018-07-16 19:04:13 INFO  Registration:401 - Iraq
+2018-07-16 19:04:13 INFO  Registration:401 - Ireland
+2018-07-16 19:04:13 INFO  Registration:401 - Isle Of Man
+2018-07-16 19:04:13 INFO  Registration:401 - Israel
+2018-07-16 19:04:13 INFO  Registration:401 - Italy
+2018-07-16 19:04:13 INFO  Registration:401 - Jamaica
+2018-07-16 19:04:13 INFO  Registration:401 - Japan
+2018-07-16 19:04:13 INFO  Registration:401 - Jersey
+2018-07-16 19:04:13 INFO  Registration:401 - Jordan
+2018-07-16 19:04:13 INFO  Registration:401 - Kazakhstan
+2018-07-16 19:04:13 INFO  Registration:401 - Kenya
+2018-07-16 19:04:13 INFO  Registration:401 - Kiribati
+2018-07-16 19:04:13 INFO  Registration:401 - Korea, Democratic Peoples Republ
+2018-07-16 19:04:13 INFO  Registration:401 - Korea, Republic Of
+2018-07-16 19:04:13 INFO  Registration:401 - Kuwait
+2018-07-16 19:04:13 INFO  Registration:401 - Kyrgyzstan
+2018-07-16 19:04:13 INFO  Registration:401 - Lao Peoples Democratic Republic
+2018-07-16 19:04:13 INFO  Registration:401 - Latvia
+2018-07-16 19:04:13 INFO  Registration:401 - Lebanon
+2018-07-16 19:04:13 INFO  Registration:401 - Lesotho
+2018-07-16 19:04:13 INFO  Registration:401 - Liberia
+2018-07-16 19:04:13 INFO  Registration:401 - Libyan Arab Jamahiriya
+2018-07-16 19:04:13 INFO  Registration:401 - Liechtenstein
+2018-07-16 19:04:13 INFO  Registration:401 - Lithuania
+2018-07-16 19:04:13 INFO  Registration:401 - Luxembourg
+2018-07-16 19:04:13 INFO  Registration:401 - Macao
+2018-07-16 19:04:13 INFO  Registration:401 - Macedonia, The Former Yugoslav R
+2018-07-16 19:04:13 INFO  Registration:401 - Madagascar
+2018-07-16 19:04:13 INFO  Registration:401 - Malawi
+2018-07-16 19:04:13 INFO  Registration:401 - Malaysia
+2018-07-16 19:04:13 INFO  Registration:401 - Maldives
+2018-07-16 19:04:13 INFO  Registration:401 - Mali
+2018-07-16 19:04:13 INFO  Registration:401 - Malta
+2018-07-16 19:04:13 INFO  Registration:401 - Marshall Islands
+2018-07-16 19:04:13 INFO  Registration:401 - Martinique
+2018-07-16 19:04:13 INFO  Registration:401 - Mauritania
+2018-07-16 19:04:13 INFO  Registration:401 - Mauritius
+2018-07-16 19:04:13 INFO  Registration:401 - Mayotte
+2018-07-16 19:04:13 INFO  Registration:401 - Mexico
+2018-07-16 19:04:13 INFO  Registration:401 - Micronesia, Federated States Of
+2018-07-16 19:04:13 INFO  Registration:401 - Moldova, Republic Of
+2018-07-16 19:04:13 INFO  Registration:401 - Monaco
+2018-07-16 19:04:13 INFO  Registration:401 - Mongolia
+2018-07-16 19:04:13 INFO  Registration:401 - Montenegro
+2018-07-16 19:04:13 INFO  Registration:401 - Montserrat
+2018-07-16 19:04:13 INFO  Registration:401 - Morocco
+2018-07-16 19:04:13 INFO  Registration:401 - Mozambique
+2018-07-16 19:04:13 INFO  Registration:401 - Myanmar
+2018-07-16 19:04:13 INFO  Registration:401 - Namibia
+2018-07-16 19:04:13 INFO  Registration:401 - Nauru
+2018-07-16 19:04:13 INFO  Registration:401 - Nepal
+2018-07-16 19:04:13 INFO  Registration:401 - Netherlands
+2018-07-16 19:04:13 INFO  Registration:401 - Netherlands Antilles
+2018-07-16 19:04:13 INFO  Registration:401 - New Caledonia
+2018-07-16 19:04:13 INFO  Registration:401 - New Zealand
+2018-07-16 19:04:13 INFO  Registration:401 - Nicaragua
+2018-07-16 19:04:13 INFO  Registration:401 - Niger
+2018-07-16 19:04:13 INFO  Registration:401 - Nigeria
+2018-07-16 19:04:13 INFO  Registration:401 - Niue
+2018-07-16 19:04:13 INFO  Registration:401 - Norfolk Island
+2018-07-16 19:04:13 INFO  Registration:401 - Northern Mariana Islands
+2018-07-16 19:04:13 INFO  Registration:401 - Norway
+2018-07-16 19:04:13 INFO  Registration:401 - Oman
+2018-07-16 19:04:13 INFO  Registration:401 - Pakistan
+2018-07-16 19:04:13 INFO  Registration:401 - Palau
+2018-07-16 19:04:13 INFO  Registration:401 - Palestinian Territory, Occupied
+2018-07-16 19:04:13 INFO  Registration:401 - Panama
+2018-07-16 19:04:13 INFO  Registration:401 - Papua New Guinea
+2018-07-16 19:04:13 INFO  Registration:401 - Paraguay
+2018-07-16 19:04:13 INFO  Registration:401 - Peru
+2018-07-16 19:04:13 INFO  Registration:401 - Philippines
+2018-07-16 19:04:13 INFO  Registration:401 - Pitcairn
+2018-07-16 19:04:13 INFO  Registration:401 - Poland
+2018-07-16 19:04:13 INFO  Registration:401 - Portugal
+2018-07-16 19:04:13 INFO  Registration:401 - Puerto Rico
+2018-07-16 19:04:13 INFO  Registration:401 - Qatar
+2018-07-16 19:04:13 INFO  Registration:401 - Reunion Island
+2018-07-16 19:04:13 INFO  Registration:401 - Romania
+2018-07-16 19:04:13 INFO  Registration:401 - Russian Federation
+2018-07-16 19:04:13 INFO  Registration:401 - Rwanda
+2018-07-16 19:04:13 INFO  Registration:401 - Saint Barthelemy
+2018-07-16 19:04:13 INFO  Registration:401 - Saint Helena, Ascension And Tris
+2018-07-16 19:04:13 INFO  Registration:401 - Saint Kitts And Nevis
+2018-07-16 19:04:13 INFO  Registration:401 - Saint Lucia
+2018-07-16 19:04:13 INFO  Registration:401 - Saint Martin
+2018-07-16 19:04:13 INFO  Registration:401 - Saint Pierre And Miquelon
+2018-07-16 19:04:13 INFO  Registration:401 - Saint Vincent And The Grenadines
+2018-07-16 19:04:13 INFO  Registration:401 - Samoa
+2018-07-16 19:04:13 INFO  Registration:401 - San Marino
+2018-07-16 19:04:13 INFO  Registration:401 - Sao Tome And Principe
+2018-07-16 19:04:13 INFO  Registration:401 - Saudi Arabia
+2018-07-16 19:04:13 INFO  Registration:401 - Senegal
+2018-07-16 19:04:13 INFO  Registration:401 - Serbia
+2018-07-16 19:04:14 INFO  Registration:401 - Seychelles
+2018-07-16 19:04:14 INFO  Registration:401 - Sierra Leone
+2018-07-16 19:04:14 INFO  Registration:401 - Singapore
+2018-07-16 19:04:14 INFO  Registration:401 - Sint Maarten (Dutch Part)
+2018-07-16 19:04:14 INFO  Registration:401 - Slovakia
+2018-07-16 19:04:14 INFO  Registration:401 - Slovenia
+2018-07-16 19:04:14 INFO  Registration:401 - Solomon Islands
+2018-07-16 19:04:14 INFO  Registration:401 - Somalia
+2018-07-16 19:04:14 INFO  Registration:401 - South Africa
+2018-07-16 19:04:14 INFO  Registration:401 - South Georgia And The South Sand
+2018-07-16 19:04:14 INFO  Registration:401 - South Sudan
+2018-07-16 19:04:14 INFO  Registration:401 - Spain
+2018-07-16 19:04:14 INFO  Registration:401 - Sri Lanka
+2018-07-16 19:04:14 INFO  Registration:401 - Sudan
+2018-07-16 19:04:14 INFO  Registration:401 - Suriname
+2018-07-16 19:04:14 INFO  Registration:401 - Svalbard And Jan Mayen Islands
+2018-07-16 19:04:14 INFO  Registration:401 - Swaziland
+2018-07-16 19:04:14 INFO  Registration:401 - Sweden
+2018-07-16 19:04:14 INFO  Registration:401 - Switzerland
+2018-07-16 19:04:14 INFO  Registration:401 - Syrian Arab Republic
+2018-07-16 19:04:14 INFO  Registration:401 - Taiwan, Province Of China
+2018-07-16 19:04:14 INFO  Registration:401 - Tajikistan
+2018-07-16 19:04:14 INFO  Registration:401 - Tanzania, United Republic Of
+2018-07-16 19:04:14 INFO  Registration:401 - Thailand
+2018-07-16 19:04:14 INFO  Registration:401 - Timor-Leste
+2018-07-16 19:04:14 INFO  Registration:401 - Togo
+2018-07-16 19:04:14 INFO  Registration:401 - Tokelau
+2018-07-16 19:04:14 INFO  Registration:401 - Tonga
+2018-07-16 19:04:14 INFO  Registration:401 - Trinidad And Tobago
+2018-07-16 19:04:14 INFO  Registration:401 - Tunisia
+2018-07-16 19:04:14 INFO  Registration:401 - Turkey
+2018-07-16 19:04:14 INFO  Registration:401 - Turkmenistan
+2018-07-16 19:04:14 INFO  Registration:401 - Turks And Caicos Islands
+2018-07-16 19:04:14 INFO  Registration:401 - Tuvalu
+2018-07-16 19:04:14 INFO  Registration:401 - Uganda
+2018-07-16 19:04:14 INFO  Registration:401 - Ukraine
+2018-07-16 19:04:14 INFO  Registration:401 - United Arab Emirates
+2018-07-16 19:04:14 INFO  Registration:401 - United Kingdom
+2018-07-16 19:04:14 INFO  Registration:401 - United States
+2018-07-16 19:04:14 INFO  Registration:401 - United States Minor Outlying Isl
+2018-07-16 19:04:14 INFO  Registration:401 - Uruguay
+2018-07-16 19:04:14 INFO  Registration:401 - Uzbekistan
+2018-07-16 19:04:14 INFO  Registration:401 - Vanuatu
+2018-07-16 19:04:14 INFO  Registration:401 - Vatican City State
+2018-07-16 19:04:14 INFO  Registration:401 - Venezuela, Bolivarian Republic O
+2018-07-16 19:04:14 INFO  Registration:401 - Viet Nam
+2018-07-16 19:04:14 INFO  Registration:401 - Virgin Islands, British
+2018-07-16 19:04:14 INFO  Registration:401 - Virgin Islands, U.S.
+2018-07-16 19:04:14 INFO  Registration:401 - Wallis And Futuna
+2018-07-16 19:04:14 INFO  Registration:401 - Western Sahara
+2018-07-16 19:04:14 INFO  Registration:401 - Yemen
+2018-07-16 19:04:14 INFO  Registration:401 - Zambia
+2018-07-16 19:04:14 INFO  Registration:401 - Zimbabwe
+2018-07-16 19:04:14 INFO  Registration:402 - Option Aland Islands is selected 
+2018-07-16 19:04:15 INFO  Registration:210 - Entered birth city And the object is : [[FirefoxDriver: firefox on XP (defa5be3-ffd3-4a02-8efb-b429bdad3655)] -> xpath: //input[@placeholder='Birth City']]
+2018-07-16 19:04:16 INFO  Registration:409 - India
+2018-07-16 19:04:16 INFO  Registration:409 - Afghanistan
+2018-07-16 19:04:16 INFO  Registration:409 - Aland Islands
+2018-07-16 19:04:16 INFO  Registration:409 - Albania
+2018-07-16 19:04:16 INFO  Registration:409 - Algeria
+2018-07-16 19:04:16 INFO  Registration:409 - American Samoa
+2018-07-16 19:04:16 INFO  Registration:409 - Andorra
+2018-07-16 19:04:16 INFO  Registration:409 - Angola
+2018-07-16 19:04:16 INFO  Registration:409 - Anguilla
+2018-07-16 19:04:16 INFO  Registration:409 - Antarctica
+2018-07-16 19:04:16 INFO  Registration:409 - Antigua And Barbuda
+2018-07-16 19:04:16 INFO  Registration:409 - Argentina
+2018-07-16 19:04:16 INFO  Registration:409 - Armenia
+2018-07-16 19:04:16 INFO  Registration:409 - Aruba
+2018-07-16 19:04:16 INFO  Registration:409 - Australia
+2018-07-16 19:04:16 INFO  Registration:409 - Austria
+2018-07-16 19:04:16 INFO  Registration:409 - Azerbaijan
+2018-07-16 19:04:16 INFO  Registration:409 - Bahamas
+2018-07-16 19:04:16 INFO  Registration:409 - Bahrain
+2018-07-16 19:04:16 INFO  Registration:409 - Bangladesh
+2018-07-16 19:04:16 INFO  Registration:409 - Barbados
+2018-07-16 19:04:16 INFO  Registration:409 - Belarus
+2018-07-16 19:04:16 INFO  Registration:409 - Belgium
+2018-07-16 19:04:16 INFO  Registration:409 - Belize
+2018-07-16 19:04:16 INFO  Registration:409 - Benin
+2018-07-16 19:04:16 INFO  Registration:409 - Bermuda
+2018-07-16 19:04:16 INFO  Registration:409 - Bhutan
+2018-07-16 19:04:16 INFO  Registration:409 - Bolivia
+2018-07-16 19:04:16 INFO  Registration:409 - Bonaire Sint Eustatius And Saba
+2018-07-16 19:04:16 INFO  Registration:409 - Bosnia And Herzegovina
+2018-07-16 19:04:16 INFO  Registration:409 - Botswana
+2018-07-16 19:04:16 INFO  Registration:409 - Bouvet Island
+2018-07-16 19:04:16 INFO  Registration:409 - Brazil
+2018-07-16 19:04:16 INFO  Registration:409 - British Indian Ocean Territory
+2018-07-16 19:04:16 INFO  Registration:409 - Brunei Darussalam
+2018-07-16 19:04:16 INFO  Registration:409 - Bulgaria
+2018-07-16 19:04:16 INFO  Registration:409 - Burkina Faso
+2018-07-16 19:04:16 INFO  Registration:409 - Burundi
+2018-07-16 19:04:16 INFO  Registration:409 - Cambodia
+2018-07-16 19:04:16 INFO  Registration:409 - Cameroon
+2018-07-16 19:04:16 INFO  Registration:409 - Canada
+2018-07-16 19:04:16 INFO  Registration:409 - Cape Verde
+2018-07-16 19:04:16 INFO  Registration:409 - Cayman Islands
+2018-07-16 19:04:16 INFO  Registration:409 - Central African Republic
+2018-07-16 19:04:16 INFO  Registration:409 - Chad
+2018-07-16 19:04:16 INFO  Registration:409 - Chile
+2018-07-16 19:04:16 INFO  Registration:409 - China
+2018-07-16 19:04:16 INFO  Registration:409 - Christmas Island
+2018-07-16 19:04:16 INFO  Registration:409 - Cocos (Keeling) Islands
+2018-07-16 19:04:16 INFO  Registration:409 - Colombia
+2018-07-16 19:04:16 INFO  Registration:409 - Comoros
+2018-07-16 19:04:16 INFO  Registration:409 - Congo
+2018-07-16 19:04:16 INFO  Registration:409 - Congo The Democratic Republic Of
+2018-07-16 19:04:16 INFO  Registration:409 - Cook Islands
+2018-07-16 19:04:16 INFO  Registration:409 - Costa Rica
+2018-07-16 19:04:16 INFO  Registration:409 - Cote D'ivoire
+2018-07-16 19:04:16 INFO  Registration:409 - Croatia
+2018-07-16 19:04:16 INFO  Registration:409 - Cuba
+2018-07-16 19:04:16 INFO  Registration:409 - Curacao
+2018-07-16 19:04:16 INFO  Registration:409 - Cyprus
+2018-07-16 19:04:16 INFO  Registration:409 - Czech Republic
+2018-07-16 19:04:16 INFO  Registration:409 - Denmark
+2018-07-16 19:04:16 INFO  Registration:409 - Djibouti
+2018-07-16 19:04:16 INFO  Registration:409 - Dominica
+2018-07-16 19:04:16 INFO  Registration:409 - Dominican Republic
+2018-07-16 19:04:16 INFO  Registration:409 - Ecuador
+2018-07-16 19:04:16 INFO  Registration:409 - Egypt
+2018-07-16 19:04:16 INFO  Registration:409 - El Salvador
+2018-07-16 19:04:16 INFO  Registration:409 - Equatorial Guinea
+2018-07-16 19:04:16 INFO  Registration:409 - Eritrea
+2018-07-16 19:04:16 INFO  Registration:409 - Estonia
+2018-07-16 19:04:16 INFO  Registration:409 - Ethiopia
+2018-07-16 19:04:16 INFO  Registration:409 - Falkland Islands (Malvinas)
+2018-07-16 19:04:16 INFO  Registration:409 - Faroe Islands
+2018-07-16 19:04:16 INFO  Registration:409 - Fiji
+2018-07-16 19:04:16 INFO  Registration:409 - Finland
+2018-07-16 19:04:16 INFO  Registration:409 - France
+2018-07-16 19:04:16 INFO  Registration:409 - French Guiana
+2018-07-16 19:04:16 INFO  Registration:409 - French Polynesia
+2018-07-16 19:04:16 INFO  Registration:409 - French Southern Territories
+2018-07-16 19:04:16 INFO  Registration:409 - Gabon
+2018-07-16 19:04:16 INFO  Registration:409 - Gambia
+2018-07-16 19:04:16 INFO  Registration:409 - Georgia
+2018-07-16 19:04:16 INFO  Registration:409 - Germany
+2018-07-16 19:04:16 INFO  Registration:409 - Ghana
+2018-07-16 19:04:16 INFO  Registration:409 - Gibraltar
+2018-07-16 19:04:16 INFO  Registration:409 - Greece
+2018-07-16 19:04:16 INFO  Registration:409 - Greenland
+2018-07-16 19:04:16 INFO  Registration:409 - Grenada
+2018-07-16 19:04:16 INFO  Registration:409 - Guadeloupe
+2018-07-16 19:04:16 INFO  Registration:409 - Guam
+2018-07-16 19:04:16 INFO  Registration:409 - Guatemala
+2018-07-16 19:04:16 INFO  Registration:409 - Guernsey
+2018-07-16 19:04:16 INFO  Registration:409 - Guinea
+2018-07-16 19:04:16 INFO  Registration:409 - Guinea-Bissau
+2018-07-16 19:04:16 INFO  Registration:409 - Guyana
+2018-07-16 19:04:16 INFO  Registration:409 - Haiti
+2018-07-16 19:04:16 INFO  Registration:409 - Heard Island And McDonald Island
+2018-07-16 19:04:16 INFO  Registration:409 - Honduras
+2018-07-16 19:04:16 INFO  Registration:409 - Hong Kong
+2018-07-16 19:04:16 INFO  Registration:409 - Hungary
+2018-07-16 19:04:16 INFO  Registration:409 - Iceland
+2018-07-16 19:04:16 INFO  Registration:409 - Indonesia
+2018-07-16 19:04:16 INFO  Registration:409 - Iran, Islamic Republic Of
+2018-07-16 19:04:16 INFO  Registration:409 - Iraq
+2018-07-16 19:04:16 INFO  Registration:409 - Ireland
+2018-07-16 19:04:16 INFO  Registration:409 - Isle Of Man
+2018-07-16 19:04:16 INFO  Registration:409 - Israel
+2018-07-16 19:04:17 INFO  Registration:409 - Italy
+2018-07-16 19:04:17 INFO  Registration:409 - Jamaica
+2018-07-16 19:04:17 INFO  Registration:409 - Japan
+2018-07-16 19:04:17 INFO  Registration:409 - Jersey
+2018-07-16 19:04:17 INFO  Registration:409 - Jordan
+2018-07-16 19:04:17 INFO  Registration:409 - Kazakhstan
+2018-07-16 19:04:17 INFO  Registration:409 - Kenya
+2018-07-16 19:04:17 INFO  Registration:409 - Kiribati
+2018-07-16 19:04:17 INFO  Registration:409 - Korea, Democratic Peoples Republ
+2018-07-16 19:04:17 INFO  Registration:409 - Korea, Republic Of
+2018-07-16 19:04:17 INFO  Registration:409 - Kuwait
+2018-07-16 19:04:17 INFO  Registration:409 - Kyrgyzstan
+2018-07-16 19:04:17 INFO  Registration:409 - Lao Peoples Democratic Republic
+2018-07-16 19:04:17 INFO  Registration:409 - Latvia
+2018-07-16 19:04:17 INFO  Registration:409 - Lebanon
+2018-07-16 19:04:17 INFO  Registration:409 - Lesotho
+2018-07-16 19:04:17 INFO  Registration:409 - Liberia
+2018-07-16 19:04:17 INFO  Registration:409 - Libyan Arab Jamahiriya
+2018-07-16 19:04:17 INFO  Registration:409 - Liechtenstein
+2018-07-16 19:04:17 INFO  Registration:409 - Lithuania
+2018-07-16 19:04:17 INFO  Registration:409 - Luxembourg
+2018-07-16 19:04:17 INFO  Registration:409 - Macao
+2018-07-16 19:04:17 INFO  Registration:409 - Macedonia, The Former Yugoslav R
+2018-07-16 19:04:17 INFO  Registration:409 - Madagascar
+2018-07-16 19:04:17 INFO  Registration:409 - Malawi
+2018-07-16 19:04:17 INFO  Registration:409 - Malaysia
+2018-07-16 19:04:17 INFO  Registration:409 - Maldives
+2018-07-16 19:04:17 INFO  Registration:409 - Mali
+2018-07-16 19:04:17 INFO  Registration:409 - Malta
+2018-07-16 19:04:17 INFO  Registration:409 - Marshall Islands
+2018-07-16 19:04:17 INFO  Registration:409 - Martinique
+2018-07-16 19:04:17 INFO  Registration:409 - Mauritania
+2018-07-16 19:04:17 INFO  Registration:409 - Mauritius
+2018-07-16 19:04:17 INFO  Registration:409 - Mayotte
+2018-07-16 19:04:17 INFO  Registration:409 - Mexico
+2018-07-16 19:04:17 INFO  Registration:409 - Micronesia, Federated States Of
+2018-07-16 19:04:17 INFO  Registration:409 - Moldova, Republic Of
+2018-07-16 19:04:17 INFO  Registration:409 - Monaco
+2018-07-16 19:04:17 INFO  Registration:409 - Mongolia
+2018-07-16 19:04:17 INFO  Registration:409 - Montenegro
+2018-07-16 19:04:17 INFO  Registration:409 - Montserrat
+2018-07-16 19:04:17 INFO  Registration:409 - Morocco
+2018-07-16 19:04:17 INFO  Registration:409 - Mozambique
+2018-07-16 19:04:17 INFO  Registration:409 - Myanmar
+2018-07-16 19:04:17 INFO  Registration:409 - Namibia
+2018-07-16 19:04:17 INFO  Registration:409 - Nauru
+2018-07-16 19:04:17 INFO  Registration:409 - Nepal
+2018-07-16 19:04:17 INFO  Registration:409 - Netherlands
+2018-07-16 19:04:17 INFO  Registration:409 - Netherlands Antilles
+2018-07-16 19:04:17 INFO  Registration:409 - New Caledonia
+2018-07-16 19:04:17 INFO  Registration:409 - New Zealand
+2018-07-16 19:04:17 INFO  Registration:409 - Nicaragua
+2018-07-16 19:04:17 INFO  Registration:409 - Niger
+2018-07-16 19:04:17 INFO  Registration:409 - Nigeria
+2018-07-16 19:04:17 INFO  Registration:409 - Niue
+2018-07-16 19:04:17 INFO  Registration:409 - Norfolk Island
+2018-07-16 19:04:17 INFO  Registration:409 - Northern Mariana Islands
+2018-07-16 19:04:17 INFO  Registration:409 - Norway
+2018-07-16 19:04:17 INFO  Registration:409 - Oman
+2018-07-16 19:04:17 INFO  Registration:409 - Pakistan
+2018-07-16 19:04:17 INFO  Registration:409 - Palau
+2018-07-16 19:04:17 INFO  Registration:409 - Palestinian Territory, Occupied
+2018-07-16 19:04:17 INFO  Registration:409 - Panama
+2018-07-16 19:04:17 INFO  Registration:409 - Papua New Guinea
+2018-07-16 19:04:17 INFO  Registration:409 - Paraguay
+2018-07-16 19:04:17 INFO  Registration:409 - Peru
+2018-07-16 19:04:17 INFO  Registration:409 - Philippines
+2018-07-16 19:04:17 INFO  Registration:409 - Pitcairn
+2018-07-16 19:04:17 INFO  Registration:409 - Poland
+2018-07-16 19:04:17 INFO  Registration:409 - Portugal
+2018-07-16 19:04:17 INFO  Registration:409 - Puerto Rico
+2018-07-16 19:04:17 INFO  Registration:409 - Qatar
+2018-07-16 19:04:17 INFO  Registration:409 - Reunion Island
+2018-07-16 19:04:17 INFO  Registration:409 - Romania
+2018-07-16 19:04:17 INFO  Registration:409 - Russian Federation
+2018-07-16 19:04:17 INFO  Registration:409 - Rwanda
+2018-07-16 19:04:17 INFO  Registration:409 - Saint Barthelemy
+2018-07-16 19:04:17 INFO  Registration:409 - Saint Helena, Ascension And Tris
+2018-07-16 19:04:17 INFO  Registration:409 - Saint Kitts And Nevis
+2018-07-16 19:04:17 INFO  Registration:409 - Saint Lucia
+2018-07-16 19:04:17 INFO  Registration:409 - Saint Martin
+2018-07-16 19:04:17 INFO  Registration:409 - Saint Pierre And Miquelon
+2018-07-16 19:04:17 INFO  Registration:409 - Saint Vincent And The Grenadines
+2018-07-16 19:04:17 INFO  Registration:409 - Samoa
+2018-07-16 19:04:17 INFO  Registration:409 - San Marino
+2018-07-16 19:04:17 INFO  Registration:409 - Sao Tome And Principe
+2018-07-16 19:04:17 INFO  Registration:409 - Saudi Arabia
+2018-07-16 19:04:17 INFO  Registration:409 - Senegal
+2018-07-16 19:04:17 INFO  Registration:409 - Serbia
+2018-07-16 19:04:17 INFO  Registration:409 - Seychelles
+2018-07-16 19:04:17 INFO  Registration:409 - Sierra Leone
+2018-07-16 19:04:17 INFO  Registration:409 - Singapore
+2018-07-16 19:04:17 INFO  Registration:409 - Sint Maarten (Dutch Part)
+2018-07-16 19:04:17 INFO  Registration:409 - Slovakia
+2018-07-16 19:04:17 INFO  Registration:409 - Slovenia
+2018-07-16 19:04:17 INFO  Registration:409 - Solomon Islands
+2018-07-16 19:04:17 INFO  Registration:409 - Somalia
+2018-07-16 19:04:17 INFO  Registration:409 - South Africa
+2018-07-16 19:04:17 INFO  Registration:409 - South Georgia And The South Sand
+2018-07-16 19:04:17 INFO  Registration:409 - South Sudan
+2018-07-16 19:04:17 INFO  Registration:409 - Spain
+2018-07-16 19:04:17 INFO  Registration:409 - Sri Lanka
+2018-07-16 19:04:17 INFO  Registration:409 - Sudan
+2018-07-16 19:04:17 INFO  Registration:409 - Suriname
+2018-07-16 19:04:17 INFO  Registration:409 - Svalbard And Jan Mayen Islands
+2018-07-16 19:04:17 INFO  Registration:409 - Swaziland
+2018-07-16 19:04:17 INFO  Registration:409 - Sweden
+2018-07-16 19:04:17 INFO  Registration:409 - Switzerland
+2018-07-16 19:04:17 INFO  Registration:409 - Syrian Arab Republic
+2018-07-16 19:04:17 INFO  Registration:409 - Taiwan, Province Of China
+2018-07-16 19:04:17 INFO  Registration:409 - Tajikistan
+2018-07-16 19:04:17 INFO  Registration:409 - Tanzania, United Republic Of
+2018-07-16 19:04:17 INFO  Registration:409 - Thailand
+2018-07-16 19:04:17 INFO  Registration:409 - Timor-Leste
+2018-07-16 19:04:17 INFO  Registration:409 - Togo
+2018-07-16 19:04:17 INFO  Registration:409 - Tokelau
+2018-07-16 19:04:17 INFO  Registration:409 - Tonga
+2018-07-16 19:04:17 INFO  Registration:409 - Trinidad And Tobago
+2018-07-16 19:04:18 INFO  Registration:409 - Tunisia
+2018-07-16 19:04:18 INFO  Registration:409 - Turkey
+2018-07-16 19:04:18 INFO  Registration:409 - Turkmenistan
+2018-07-16 19:04:18 INFO  Registration:409 - Turks And Caicos Islands
+2018-07-16 19:04:18 INFO  Registration:409 - Tuvalu
+2018-07-16 19:04:18 INFO  Registration:409 - Uganda
+2018-07-16 19:04:18 INFO  Registration:409 - Ukraine
+2018-07-16 19:04:18 INFO  Registration:409 - United Arab Emirates
+2018-07-16 19:04:18 INFO  Registration:409 - United Kingdom
+2018-07-16 19:04:18 INFO  Registration:409 - United States
+2018-07-16 19:04:18 INFO  Registration:409 - United States Minor Outlying Isl
+2018-07-16 19:04:18 INFO  Registration:409 - Uruguay
+2018-07-16 19:04:18 INFO  Registration:409 - Uzbekistan
+2018-07-16 19:04:18 INFO  Registration:409 - Vanuatu
+2018-07-16 19:04:18 INFO  Registration:409 - Vatican City State
+2018-07-16 19:04:18 INFO  Registration:409 - Venezuela, Bolivarian Republic O
+2018-07-16 19:04:18 INFO  Registration:409 - Viet Nam
+2018-07-16 19:04:18 INFO  Registration:409 - Virgin Islands, British
+2018-07-16 19:04:18 INFO  Registration:409 - Virgin Islands, U.S.
+2018-07-16 19:04:18 INFO  Registration:409 - Wallis And Futuna
+2018-07-16 19:04:18 INFO  Registration:409 - Western Sahara
+2018-07-16 19:04:18 INFO  Registration:409 - Yemen
+2018-07-16 19:04:18 INFO  Registration:409 - Zambia
+2018-07-16 19:04:18 INFO  Registration:409 - Zimbabwe
+2018-07-16 19:04:18 INFO  Registration:410 - Option Aland Islands is selected 
+2018-07-16 19:04:19 INFO  Registration:271 - Radio button No is enabled =true
+2018-07-16 19:04:19 INFO  Registration:271 - Radio button No is enabled =true
+2018-07-16 19:04:19 INFO  Registration:285 - Clicked on submit button.
+2018-07-16 19:04:21 INFO  TestBase:88 - Creating the object of org.openqa.selenium.support.events.EventFiringWebDriver@17cf65c
+2018-07-16 19:04:24 INFO  TestBase:113 - Navigating to : https://api.fincash.com
+2018-07-16 19:04:28 INFO  LogIn:52 - Entered Email = suraj.kakode533@fincash.com and object is : [[FirefoxDriver: firefox on XP (e9af1a32-5dc7-48f7-99d0-2890124eb57d)] -> css selector: input[placeholder='Email Id']]
+2018-07-16 19:04:28 INFO  LogIn:56 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (e9af1a32-5dc7-48f7-99d0-2890124eb57d)] -> css selector: input[type=password][placeholder='Password']]
+2018-07-16 19:04:28 INFO  LogIn:59 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (e9af1a32-5dc7-48f7-99d0-2890124eb57d)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-07-16 19:04:48 INFO  Registration:217 - Entered Nominee name And the object is : [[FirefoxDriver: firefox on XP (e9af1a32-5dc7-48f7-99d0-2890124eb57d)] -> xpath: //input[@placeholder='Nominee Name']]
+2018-07-16 19:04:48 INFO  Registration:417 - Brother
+2018-07-16 19:04:48 INFO  Registration:417 - Brother in Law
+2018-07-16 19:04:48 INFO  Registration:417 - Daughter
+2018-07-16 19:04:48 INFO  Registration:417 - Daughter in Law
+2018-07-16 19:04:49 INFO  Registration:417 - Father
+2018-07-16 19:04:49 INFO  Registration:417 - Father in Law
+2018-07-16 19:04:49 INFO  Registration:417 - Grand Daughter
+2018-07-16 19:04:49 INFO  Registration:417 - Grand Father
+2018-07-16 19:04:49 INFO  Registration:417 - Grand Mother
+2018-07-16 19:04:49 INFO  Registration:417 - Grand Son
+2018-07-16 19:04:49 INFO  Registration:417 - Maternal Uncle
+2018-07-16 19:04:49 INFO  Registration:417 - Mother
+2018-07-16 19:04:49 INFO  Registration:417 - Mother in Law
+2018-07-16 19:04:49 INFO  Registration:417 - Nephew
+2018-07-16 19:04:49 INFO  Registration:417 - Niece
+2018-07-16 19:04:49 INFO  Registration:417 - Paternal Uncle
+2018-07-16 19:04:49 INFO  Registration:417 - Sister
+2018-07-16 19:04:49 INFO  Registration:417 - Sister in Law
+2018-07-16 19:04:49 INFO  Registration:417 - Son
+2018-07-16 19:04:49 INFO  Registration:417 - Son in Law
+2018-07-16 19:04:49 INFO  Registration:417 - Spouse
+2018-07-16 19:04:49 INFO  Registration:418 - Option Daughter is selected 
+2018-07-16 19:04:49 INFO  Registration:285 - Clicked on submit button.
+2018-07-16 19:04:49 INFO  Registration:226 - Check Box  is selected =false
+2018-07-16 19:04:50 INFO  Registration:228 - Check Box  is selected =false
+2018-07-16 19:05:00 INFO  Registration:293 - No Error/s on Page
+2018-07-16 19:05:00 INFO  TC006_registration:44 - Form submitted : true
+2018-07-16 19:05:10 INFO  Registration:293 - No Error/s on Page
+2018-07-16 19:05:12 INFO  TestBase:88 - Creating the object of org.openqa.selenium.support.events.EventFiringWebDriver@f59913
+2018-07-16 19:05:15 INFO  TestBase:113 - Navigating to : https://api.fincash.com
+2018-07-16 19:05:18 INFO  LogIn:52 - Entered Email = suraj.kakode533@fincash.com and object is : [[FirefoxDriver: firefox on XP (3c88f5a6-14fd-40ca-9ba7-af20033c088f)] -> css selector: input[placeholder='Email Id']]
+2018-07-16 19:05:19 INFO  LogIn:56 - Entered password = kakode92 and object is : [[FirefoxDriver: firefox on XP (3c88f5a6-14fd-40ca-9ba7-af20033c088f)] -> css selector: input[type=password][placeholder='Password']]
+2018-07-16 19:05:19 INFO  LogIn:59 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (3c88f5a6-14fd-40ca-9ba7-af20033c088f)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-07-16 19:05:26 INFO  DocumentUpload:95 - waiting for column
+2018-07-16 19:05:27 INFO  DocumentUpload:98 - uploading file :D:\Testimonials.JPG
+2018-07-16 19:05:27 INFO  DocumentUpload:110 - uploading file :D:\Testimonials.JPG
+2018-07-16 19:05:28 INFO  DocumentUpload:124 - uploading file :D:\Testimonials.JPG
+2018-07-16 19:05:38 ERROR DocumentUpload:166 - org.openqa.selenium.NoSuchElementException: Unable to locate element: //mat-select[@id='mat-select-2']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'FINCASH-TECH6', ip: '10.1.0.37', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_141'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 14092, moz:profile: C:\Users\Fincash\AppData\Lo..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 3c88f5a6-14fd-40ca-9ba7-af20033c088f
+*** Element info: {Using=xpath, value=//mat-select[@id='mat-select-2']}
+org.openqa.selenium.NoSuchElementException: Unable to locate element: //mat-select[@id='mat-select-2']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'FINCASH-TECH6', ip: '10.1.0.37', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_141'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 14092, moz:profile: C:\Users\Fincash\AppData\Lo..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 3c88f5a6-14fd-40ca-9ba7-af20033c088f
+*** Element info: {Using=xpath, value=//mat-select[@id='mat-select-2']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy9.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:186)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy13.click(Unknown Source)
+	at com.fincash.uiActions.DocumentUpload.uploadProofOfIndianAddress(DocumentUpload.java:157)
+	at DocumentUpload.TC011_UploadAllDocument.uploadDocument(TC011_UploadAllDocument.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+2018-07-16 19:05:48 ERROR DocumentUpload:200 - org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@id='passport11']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'FINCASH-TECH6', ip: '10.1.0.37', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_141'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 14092, moz:profile: C:\Users\Fincash\AppData\Lo..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 3c88f5a6-14fd-40ca-9ba7-af20033c088f
+*** Element info: {Using=xpath, value=//input[@id='passport11']}
+org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@id='passport11']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'FINCASH-TECH6', ip: '10.1.0.37', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_141'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 14092, moz:profile: C:\Users\Fincash\AppData\Lo..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 3c88f5a6-14fd-40ca-9ba7-af20033c088f
+*** Element info: {Using=xpath, value=//input[@id='passport11']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy9.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:186)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy13.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:51)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:477)
+	at sun.reflect.GeneratedMethodAccessor20.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy9.executeScript(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.executeScript(EventFiringWebDriver.java:215)
+	at com.fincash.uiActions.DocumentUpload.showElement(DocumentUpload.java:88)
+	at com.fincash.uiActions.DocumentUpload.uploadPassport(DocumentUpload.java:196)
+	at DocumentUpload.TC011_UploadAllDocument.uploadDocument(TC011_UploadAllDocument.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+2018-07-16 19:05:48 INFO  DocumentUpload:231 - uploading file :D:\Testimonials.JPG
+2018-07-16 19:05:49 INFO  DocumentUpload:249 - uploading file :D:\Testimonials.JPG
+2018-07-16 19:05:50 INFO  Complete:30 - Your Fincash registration is complete
+2018-07-16 19:05:51 INFO  TestBase:263 - browser closed
+2018-07-17 18:19:04 INFO  ExploreFunds:39 - List size is : 10 
+2018-07-17 18:19:05 INFO  LogIn:52 - Entered Email = b0pawan@gmail.com and object is : [[FirefoxDriver: firefox on XP (2772021a-b219-4bda-bd88-0412ea85c537)] -> css selector: input[placeholder='Email Id']]
+2018-07-17 18:19:06 INFO  LogIn:56 - Entered password = asusW3jus and object is : [[FirefoxDriver: firefox on XP (2772021a-b219-4bda-bd88-0412ea85c537)] -> css selector: input[type=password][placeholder='Password']]
+2018-07-17 18:19:06 INFO  LogIn:59 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (2772021a-b219-4bda-bd88-0412ea85c537)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-07-17 18:19:06 INFO  TestBase:263 - browser closed
+2018-07-17 18:19:49 INFO  ExploreFunds:39 - List size is : 10 
+2018-07-17 18:19:52 INFO  LogIn:52 - Entered Email = b0pawan@gmail.com and object is : [[FirefoxDriver: firefox on XP (def294ac-5a3c-4f34-9329-ca0fade4e08a)] -> css selector: input[placeholder='Email Id']]
+2018-07-17 18:19:52 INFO  LogIn:56 - Entered password = asusW3jus and object is : [[FirefoxDriver: firefox on XP (def294ac-5a3c-4f34-9329-ca0fade4e08a)] -> css selector: input[type=password][placeholder='Password']]
+2018-07-17 18:19:52 INFO  LogIn:59 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (def294ac-5a3c-4f34-9329-ca0fade4e08a)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-07-17 18:19:52 INFO  TestBase:263 - browser closed
+2018-07-18 16:04:10 INFO  ExploreFunds:39 - List size is : 10 
+2018-07-18 16:04:13 INFO  LogIn:52 - Entered Email = b0pawan@gmail.com and object is : [[FirefoxDriver: firefox on XP (1d409322-1cd8-49de-8d8e-a178d3f7a72f)] -> css selector: input[placeholder='Email Id']]
+2018-07-18 16:04:13 INFO  LogIn:56 - Entered password = asusW3jus and object is : [[FirefoxDriver: firefox on XP (1d409322-1cd8-49de-8d8e-a178d3f7a72f)] -> css selector: input[type=password][placeholder='Password']]
+2018-07-18 16:04:13 INFO  LogIn:59 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (1d409322-1cd8-49de-8d8e-a178d3f7a72f)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-07-18 16:04:13 INFO  TestBase:263 - browser closed
+2018-07-31 19:09:54 INFO  ExploreFunds:39 - List size is : 10 
+2018-07-31 19:10:14 INFO  TestBase:263 - browser closed
+2018-07-31 19:34:35 INFO  ExploreFunds:39 - List size is : 0 
+2018-07-31 19:34:40 INFO  TestBase:263 - browser closed
+2018-07-31 19:34:59 INFO  ExploreFunds:39 - List size is : 10 
+2018-07-31 19:35:10 INFO  TestBase:263 - browser closed
+2018-07-31 19:36:05 INFO  ExploreFunds:39 - List size is : 10 
+2018-07-31 19:36:15 INFO  TestBase:263 - browser closed
+2018-07-31 19:37:13 INFO  ExploreFunds:39 - List size is : 10 
+2018-07-31 19:37:13 INFO  Snackbar:31 - SnackBar appeared
+2018-07-31 19:37:24 INFO  TestBase:263 - browser closed
+2018-07-31 19:40:00 INFO  ExploreFunds:39 - List size is : 10 
+2018-07-31 19:40:00 INFO  Snackbar:31 - SnackBar appeared
+2018-07-31 19:40:02 INFO  TestBase:263 - browser closed
+2018-07-31 20:01:39 INFO  ExploreFunds:39 - List size is : 10 
+2018-07-31 20:01:40 INFO  Snackbar:39 - SnackBar appeared
+2018-07-31 20:01:40 INFO  Snackbar:58 - Fund successfully added to cart!
+Checkout
+2018-07-31 20:01:40 INFO  Snackbar:39 - SnackBar appeared
+2018-07-31 20:01:50 INFO  TestBase:263 - browser closed
+2018-07-31 20:05:57 INFO  ExploreFunds:39 - List size is : 10 
+2018-07-31 20:05:57 INFO  Snackbar:39 - SnackBar appeared
+2018-07-31 20:05:57 INFO  Snackbar:59 - Fund successfully added to cart!
+Checkout
+2018-07-31 20:05:57 INFO  Snackbar:39 - SnackBar appeared
+2018-07-31 20:05:57 INFO  Snackbar:51 - Checkout
+2018-07-31 20:05:59 INFO  TestBase:263 - browser closed
+2018-07-31 20:08:38 INFO  ExploreFunds:39 - List size is : 10 
+2018-07-31 20:08:38 INFO  Snackbar:58 - message on snackbar is : Fund successfully added to cart!
+Checkout
+2018-07-31 20:08:38 INFO  Snackbar:50 - clicking on : Checkout
+2018-07-31 20:08:40 INFO  TestBase:263 - browser closed
+2018-07-31 20:12:33 INFO  ExploreFunds:39 - List size is : 10 
+2018-07-31 20:12:33 INFO  Snackbar:58 - message on snackbar is : Fund successfully added to cart!
+Checkout
+2018-07-31 20:12:33 INFO  Snackbar:50 - clicking on : Checkout
+2018-07-31 20:12:35 INFO  TestBase:263 - browser closed
+2018-07-31 20:14:11 INFO  ExploreFunds:39 - List size is : 10 
+2018-07-31 20:14:11 INFO  Snackbar:58 - message on snackbar is : Fund successfully added to cart!
+Checkout
+2018-07-31 20:14:11 INFO  Snackbar:50 - clicking on : Checkout
+2018-07-31 20:14:12 INFO  TestBase:263 - browser closed
+2018-07-31 20:15:49 INFO  ExploreFunds:39 - List size is : 10 
+2018-07-31 20:15:49 INFO  Snackbar:58 - message on snackbar is : Fund successfully added to cart!
+Checkout
+2018-07-31 20:15:50 INFO  Snackbar:50 - clicking on : Checkout
+2018-07-31 20:15:56 INFO  LogIn:52 - Entered Email = b0pawan@gmail.com and object is : [[FirefoxDriver: firefox on XP (c43a21d7-496e-442d-ac4a-6de2f90da039)] -> xpath: //input[@placeholder='Email Id']]
+2018-07-31 20:15:56 INFO  LogIn:56 - Entered password = asusW3jus and object is : [[FirefoxDriver: firefox on XP (c43a21d7-496e-442d-ac4a-6de2f90da039)] -> css selector: input[type=password][placeholder='Password']]
+2018-07-31 20:15:56 INFO  LogIn:59 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (c43a21d7-496e-442d-ac4a-6de2f90da039)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-07-31 20:15:56 INFO  TestBase:263 - browser closed
+2018-07-31 20:17:55 INFO  ExploreFunds:39 - List size is : 10 
+2018-07-31 20:17:55 INFO  Snackbar:58 - message on snackbar is : Fund successfully added to cart!
+Checkout
+2018-07-31 20:17:55 INFO  Snackbar:50 - clicking on : Checkout
+2018-07-31 20:17:57 INFO  TestBase:263 - browser closed
+2018-07-31 20:19:51 INFO  ExploreFunds:39 - List size is : 10 
+2018-07-31 20:19:51 INFO  Snackbar:58 - message on snackbar is : Fund successfully added to cart!
+Checkout
+2018-07-31 20:19:51 INFO  Snackbar:50 - clicking on : Checkout
+2018-07-31 20:19:53 INFO  LogIn:52 - Entered Email = b0pawan@gmail.com and object is : [[FirefoxDriver: firefox on XP (d8a03212-b376-4171-88de-39ca4359efbf)] -> xpath: //input[@placeholder='Email Id']]
+2018-07-31 20:19:53 INFO  LogIn:56 - Entered password = asusW3jus and object is : [[FirefoxDriver: firefox on XP (d8a03212-b376-4171-88de-39ca4359efbf)] -> css selector: input[type=password][placeholder='Password']]
+2018-07-31 20:19:53 INFO  LogIn:59 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (d8a03212-b376-4171-88de-39ca4359efbf)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-07-31 20:19:53 INFO  TestBase:263 - browser closed
+2018-08-01 17:28:31 INFO  ExploreFunds:39 - List size is : 10 
+2018-08-01 17:28:31 INFO  Snackbar:58 - message on snackbar is : Fund successfully added to cart!
+Checkout
+2018-08-01 17:28:31 INFO  Snackbar:50 - clicking on : Checkout
+2018-08-01 17:28:33 INFO  LogIn:52 - Entered Email = b0pawan@gmail.com and object is : [[FirefoxDriver: firefox on XP (26c78034-44a6-40cd-b4a7-3f40c0ebe459)] -> xpath: //input[@placeholder='Email Id']]
+2018-08-01 17:28:33 INFO  LogIn:56 - Entered password = asusW3jus and object is : [[FirefoxDriver: firefox on XP (26c78034-44a6-40cd-b4a7-3f40c0ebe459)] -> css selector: input[type=password][placeholder='Password']]
+2018-08-01 17:28:33 INFO  LogIn:59 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (26c78034-44a6-40cd-b4a7-3f40c0ebe459)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-08-01 17:28:33 INFO  TestBase:263 - browser closed
+2018-08-01 17:48:22 INFO  ExploreFunds:39 - List size is : 10 
+2018-08-01 17:48:22 INFO  Snackbar:58 - message on snackbar is : Fund successfully added to cart!
+Checkout
+2018-08-01 17:48:22 INFO  Snackbar:50 - clicking on : Checkout
+2018-08-01 17:48:24 INFO  TestBase:263 - browser closed
+2018-08-01 17:49:10 INFO  ExploreFunds:39 - List size is : 10 
+2018-08-01 17:49:10 INFO  Snackbar:58 - message on snackbar is : Fund successfully added to cart!
+Checkout
+2018-08-01 17:49:11 INFO  Snackbar:50 - clicking on : Checkout
+2018-08-01 17:49:12 INFO  TestBase:263 - browser closed
+2018-08-01 17:51:51 INFO  ExploreFunds:39 - List size is : 10 
+2018-08-01 17:51:51 INFO  Snackbar:58 - message on snackbar is : Fund successfully added to cart!
+Checkout
+2018-08-01 17:51:52 INFO  Snackbar:50 - clicking on : Checkout
+2018-08-01 17:51:53 INFO  LogIn:52 - Entered Email = b0pawan@gmail.com and object is : [[FirefoxDriver: firefox on XP (9186e7f7-66ce-4572-a54c-94ac1617cf7b)] -> xpath: //input[@placeholder='Email Id']]
+2018-08-01 17:51:53 INFO  LogIn:56 - Entered password = asusW3jus and object is : [[FirefoxDriver: firefox on XP (9186e7f7-66ce-4572-a54c-94ac1617cf7b)] -> css selector: input[type=password][placeholder='Password']]
+2018-08-01 17:51:54 INFO  LogIn:59 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (9186e7f7-66ce-4572-a54c-94ac1617cf7b)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-08-01 17:51:54 INFO  TestBase:263 - browser closed
+2018-08-01 17:55:35 INFO  ExploreFunds:39 - List size is : 10 
+2018-08-01 17:55:35 INFO  Snackbar:58 - message on snackbar is : Fund successfully added to cart!
+Checkout
+2018-08-01 17:55:35 INFO  Snackbar:50 - clicking on : Checkout
+2018-08-01 17:55:37 INFO  TestBase:263 - browser closed
+2018-08-01 17:59:59 INFO  ExploreFunds:39 - List size is : 10 
+2018-08-01 17:59:59 INFO  Snackbar:58 - message on snackbar is : Fund successfully added to cart!
+Checkout
+2018-08-01 17:59:59 INFO  Snackbar:50 - clicking on : Checkout
+2018-08-01 18:00:01 INFO  LogIn:52 - Entered Email = b0pawan@gmail.com and object is : [[FirefoxDriver: firefox on XP (9a0c1785-2c3b-4931-bb3d-db7eae7085fe)] -> xpath: //input[@placeholder='Email Id']]
+2018-08-01 18:00:01 INFO  LogIn:56 - Entered password = asusW3jus and object is : [[FirefoxDriver: firefox on XP (9a0c1785-2c3b-4931-bb3d-db7eae7085fe)] -> css selector: input[type=password][placeholder='Password']]
+2018-08-01 18:00:01 INFO  LogIn:59 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (9a0c1785-2c3b-4931-bb3d-db7eae7085fe)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-08-01 18:00:02 INFO  TestBase:263 - browser closed
+2018-08-01 18:03:02 INFO  ExploreFunds:39 - List size is : 10 
+2018-08-01 18:03:02 INFO  Snackbar:58 - message on snackbar is : Fund successfully added to cart!
+Checkout
+2018-08-01 18:03:02 INFO  Snackbar:50 - clicking on : Checkout
+2018-08-01 18:03:04 INFO  LogIn:52 - Entered Email = b0pawan@gmail.com and object is : [[FirefoxDriver: firefox on XP (0eebed96-eda6-4393-976f-445c99eb6033)] -> xpath: //input[@placeholder='Email Id']]
+2018-08-01 18:03:04 INFO  LogIn:56 - Entered password = asusW3jus and object is : [[FirefoxDriver: firefox on XP (0eebed96-eda6-4393-976f-445c99eb6033)] -> css selector: input[type=password][placeholder='Password']]
+2018-08-01 18:03:04 INFO  LogIn:59 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (0eebed96-eda6-4393-976f-445c99eb6033)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-08-01 18:04:26 INFO  InvestmentDetails:36 - clicked on proceed button
+2018-08-01 18:05:20 INFO  TestBase:263 - browser closed
+2018-08-01 18:07:06 INFO  ExploreFunds:39 - List size is : 10 
+2018-08-01 18:07:06 INFO  Snackbar:58 - message on snackbar is : Fund successfully added to cart!
+Checkout
+2018-08-01 18:07:06 INFO  Snackbar:50 - clicking on : Checkout
+2018-08-01 18:07:07 INFO  TestBase:263 - browser closed
+2018-08-01 18:07:30 INFO  ExploreFunds:39 - List size is : 10 
+2018-08-01 18:07:30 INFO  Snackbar:58 - message on snackbar is : Fund successfully added to cart!
+Checkout
+2018-08-01 18:07:30 INFO  Snackbar:50 - clicking on : Checkout
+2018-08-01 18:07:32 INFO  TestBase:263 - browser closed
+2018-08-01 18:11:21 INFO  ExploreFunds:39 - List size is : 10 
+2018-08-01 18:11:21 INFO  Snackbar:58 - message on snackbar is : Fund successfully added to cart!
+Checkout
+2018-08-01 18:11:21 INFO  Snackbar:50 - clicking on : Checkout
+2018-08-01 18:11:22 INFO  LogIn:56 - Entered Email = b0pawan@gmail.com and object is : [[FirefoxDriver: firefox on XP (0b452a16-0466-4b01-a9ca-c4ef0ab32fb4)] -> xpath: //input[@placeholder='Email Id']]
+2018-08-01 18:11:23 INFO  LogIn:60 - Entered password = asusW3jus and object is : [[FirefoxDriver: firefox on XP (0b452a16-0466-4b01-a9ca-c4ef0ab32fb4)] -> css selector: input[type=password][placeholder='Password']]
+2018-08-01 18:11:23 INFO  LogIn:63 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (0b452a16-0466-4b01-a9ca-c4ef0ab32fb4)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-08-01 18:11:24 INFO  InvestmentDetails:36 - clicked on proceed button
+2018-08-01 18:11:24 INFO  TestBase:263 - browser closed
+2018-08-01 18:16:44 INFO  ExploreFunds:39 - List size is : 10 
+2018-08-01 18:16:44 INFO  Snackbar:58 - message on snackbar is : Fund successfully added to cart!
+Checkout
+2018-08-01 18:16:44 INFO  Snackbar:50 - clicking on : Checkout
+2018-08-01 18:16:46 INFO  LogIn:56 - Entered Email = b0pawan@gmail.com and object is : [[FirefoxDriver: firefox on XP (d002e1cb-596b-4ba2-87e0-d2b8237f6250)] -> xpath: //input[@placeholder='Email Id']]
+2018-08-01 18:16:46 INFO  LogIn:60 - Entered password = asusW3jus and object is : [[FirefoxDriver: firefox on XP (d002e1cb-596b-4ba2-87e0-d2b8237f6250)] -> css selector: input[type=password][placeholder='Password']]
+2018-08-01 18:16:46 INFO  LogIn:63 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (d002e1cb-596b-4ba2-87e0-d2b8237f6250)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-08-01 18:16:47 INFO  InvestmentDetails:39 - clicked on proceed button
+2018-08-01 18:16:47 INFO  TestBase:263 - browser closed
+2018-08-01 18:19:40 INFO  ExploreFunds:39 - List size is : 10 
+2018-08-01 18:19:40 INFO  Snackbar:58 - message on snackbar is : Fund successfully added to cart!
+Checkout
+2018-08-01 18:19:40 INFO  Snackbar:50 - clicking on : Checkout
+2018-08-01 18:19:42 INFO  LogIn:56 - Entered Email = b0pawan@gmail.com and object is : [[FirefoxDriver: firefox on XP (f478e8c6-0b11-4976-a77b-6a0df8c0dda4)] -> xpath: //input[@placeholder='Email Id']]
+2018-08-01 18:19:42 INFO  LogIn:60 - Entered password = asusW3jus and object is : [[FirefoxDriver: firefox on XP (f478e8c6-0b11-4976-a77b-6a0df8c0dda4)] -> css selector: input[type=password][placeholder='Password']]
+2018-08-01 18:19:42 INFO  LogIn:63 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (f478e8c6-0b11-4976-a77b-6a0df8c0dda4)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-08-01 18:19:44 INFO  InvestmentDetails:40 - clicked on proceed button
+2018-08-01 18:19:44 INFO  TestBase:263 - browser closed
+2018-08-01 18:27:31 INFO  ExploreFunds:39 - List size is : 10 
+2018-08-01 18:27:31 INFO  Snackbar:58 - message on snackbar is : Fund successfully added to cart!
+Checkout
+2018-08-01 18:27:31 INFO  Snackbar:50 - clicking on : Checkout
+2018-08-01 18:27:33 INFO  LogIn:56 - Entered Email = b0pawan@gmail.com and object is : [[FirefoxDriver: firefox on XP (604c39a8-d7f2-4027-8657-891ad84e8bb6)] -> xpath: //input[@placeholder='Email Id']]
+2018-08-01 18:27:33 INFO  LogIn:60 - Entered password = asusW3jus and object is : [[FirefoxDriver: firefox on XP (604c39a8-d7f2-4027-8657-891ad84e8bb6)] -> css selector: input[type=password][placeholder='Password']]
+2018-08-01 18:27:33 INFO  LogIn:63 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (604c39a8-d7f2-4027-8657-891ad84e8bb6)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-08-01 18:27:36 INFO  InvestmentDetails:40 - clicked on proceed button
+2018-08-01 18:27:36 INFO  TestBase:263 - browser closed
+2018-08-01 18:28:36 INFO  ExploreFunds:39 - List size is : 10 
+2018-08-01 18:28:37 INFO  Snackbar:58 - message on snackbar is : Fund successfully added to cart!
+Checkout
+2018-08-01 18:28:37 INFO  Snackbar:50 - clicking on : Checkout
+2018-08-01 18:28:38 INFO  LogIn:56 - Entered Email = b0pawan@gmail.com and object is : [[FirefoxDriver: firefox on XP (1853590c-be16-4fb1-9b85-f077d5bf2072)] -> xpath: //input[@placeholder='Email Id']]
+2018-08-01 18:28:38 INFO  LogIn:60 - Entered password = asusW3jus and object is : [[FirefoxDriver: firefox on XP (1853590c-be16-4fb1-9b85-f077d5bf2072)] -> css selector: input[type=password][placeholder='Password']]
+2018-08-01 18:28:39 INFO  LogIn:63 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (1853590c-be16-4fb1-9b85-f077d5bf2072)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-08-01 18:28:44 INFO  InvestmentDetails:40 - clicked on proceed button
+2018-08-01 18:28:44 INFO  TestBase:263 - browser closed
+2018-08-01 18:32:10 INFO  TestBase:263 - browser closed
+2018-08-01 18:32:47 INFO  ExploreFunds:39 - List size is : 10 
+2018-08-01 18:32:47 INFO  Snackbar:58 - message on snackbar is : Fund successfully added to cart!
+Checkout
+2018-08-01 18:32:47 INFO  Snackbar:50 - clicking on : Checkout
+2018-08-01 18:32:49 INFO  LogIn:56 - Entered Email = b0pawan@gmail.com and object is : [[FirefoxDriver: firefox on XP (a3a2e09f-7635-4ba1-8096-7c1cfd48d2c8)] -> xpath: //input[@placeholder='Email Id']]
+2018-08-01 18:32:49 INFO  LogIn:60 - Entered password = asusW3jus and object is : [[FirefoxDriver: firefox on XP (a3a2e09f-7635-4ba1-8096-7c1cfd48d2c8)] -> css selector: input[type=password][placeholder='Password']]
+2018-08-01 18:32:50 INFO  LogIn:63 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (a3a2e09f-7635-4ba1-8096-7c1cfd48d2c8)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-08-01 18:32:52 INFO  InvestmentDetails:42 - clicked on proceed button
+2018-08-01 18:32:52 INFO  TestBase:263 - browser closed
+2018-08-01 19:55:06 INFO  ExploreFunds:39 - List size is : 10 
+2018-08-01 19:55:06 INFO  Snackbar:58 - message on snackbar is : Fund successfully added to cart!
+Checkout
+2018-08-01 19:55:07 INFO  Snackbar:50 - clicking on : Checkout
+2018-08-01 19:55:08 INFO  LogIn:56 - Entered Email = b0pawan@gmail.com and object is : [[FirefoxDriver: firefox on XP (3344a374-0b54-4c02-bff8-64b45650bcb0)] -> xpath: //input[@placeholder='Email Id']]
+2018-08-01 19:55:09 INFO  LogIn:60 - Entered password = asusW3jus and object is : [[FirefoxDriver: firefox on XP (3344a374-0b54-4c02-bff8-64b45650bcb0)] -> css selector: input[type=password][placeholder='Password']]
+2018-08-01 19:55:09 INFO  LogIn:63 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (3344a374-0b54-4c02-bff8-64b45650bcb0)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-08-01 19:55:11 INFO  InvestmentDetails:39 - true
+2018-08-01 19:55:11 INFO  InvestmentDetails:41 - clicked on proceed button
+2018-08-01 19:55:12 INFO  InvestmentSummary:51 - false
+2018-08-01 19:55:12 INFO  InvestmentSummary:53 - clicked on checkbox and the status is :false
+2018-08-01 19:55:12 INFO  InvestmentSummary:39 - true
+2018-08-01 19:55:12 INFO  InvestmentSummary:44 - clicked on radio Button 
+2018-08-01 19:55:12 INFO  TestBase:263 - browser closed
+2018-08-01 20:11:24 INFO  ExploreFunds:39 - List size is : 10 
+2018-08-01 20:11:24 INFO  Snackbar:58 - message on snackbar is : Fund successfully added to cart!
+Checkout
+2018-08-01 20:11:24 INFO  Snackbar:50 - clicking on : Checkout
+2018-08-01 20:11:25 INFO  LogIn:56 - Entered Email = b0pawan@gmail.com and object is : [[FirefoxDriver: firefox on XP (44b0a212-4eaa-4ce9-8b7a-18f2ac3e4f18)] -> xpath: //input[@placeholder='Email Id']]
+2018-08-01 20:11:26 INFO  LogIn:60 - Entered password = asusW3jus and object is : [[FirefoxDriver: firefox on XP (44b0a212-4eaa-4ce9-8b7a-18f2ac3e4f18)] -> css selector: input[type=password][placeholder='Password']]
+2018-08-01 20:11:26 INFO  LogIn:63 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (44b0a212-4eaa-4ce9-8b7a-18f2ac3e4f18)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-08-01 20:11:27 INFO  InvestmentDetails:39 - true
+2018-08-01 20:11:28 INFO  InvestmentDetails:41 - clicked on proceed button
+2018-08-01 20:11:28 INFO  InvestmentSummary:54 - false
+2018-08-01 20:11:28 INFO  InvestmentSummary:56 - clicked on checkbox and the status is :false
+2018-08-01 20:11:28 INFO  InvestmentSummary:42 - true
+2018-08-01 20:11:29 INFO  InvestmentSummary:47 - clicked on radio Button 
+2018-08-01 20:11:32 INFO  TestBase:263 - browser closed
+2018-08-01 20:16:22 INFO  ExploreFunds:39 - List size is : 10 
+2018-08-01 20:16:22 INFO  Snackbar:58 - message on snackbar is : Fund successfully added to cart!
+Checkout
+2018-08-01 20:16:22 INFO  Snackbar:50 - clicking on : Checkout
+2018-08-01 20:16:24 INFO  TestBase:263 - browser closed
+2018-08-01 20:16:55 INFO  ExploreFunds:39 - List size is : 10 
+2018-08-01 20:16:55 INFO  Snackbar:58 - message on snackbar is : Fund successfully added to cart!
+Checkout
+2018-08-01 20:16:55 INFO  Snackbar:50 - clicking on : Checkout
+2018-08-01 20:16:57 INFO  LogIn:56 - Entered Email = b0pawan@gmail.com and object is : [[FirefoxDriver: firefox on XP (b7db62ac-4d4e-4ea0-94c3-f4c7051eb806)] -> xpath: //input[@placeholder='Email Id']]
+2018-08-01 20:16:57 INFO  LogIn:60 - Entered password = asusW3jus and object is : [[FirefoxDriver: firefox on XP (b7db62ac-4d4e-4ea0-94c3-f4c7051eb806)] -> css selector: input[type=password][placeholder='Password']]
+2018-08-01 20:16:57 INFO  LogIn:63 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (b7db62ac-4d4e-4ea0-94c3-f4c7051eb806)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-08-01 20:16:59 INFO  InvestmentDetails:39 - true
+2018-08-01 20:16:59 INFO  InvestmentDetails:41 - clicked on proceed button
+2018-08-01 20:16:59 INFO  InvestmentSummary:54 - false
+2018-08-01 20:17:00 INFO  InvestmentSummary:56 - clicked on checkbox and the status is :false
+2018-08-01 20:17:00 INFO  InvestmentSummary:42 - true
+2018-08-01 20:17:00 INFO  InvestmentSummary:47 - clicked on radio Button 
+2018-08-01 20:17:03 INFO  TestBase:263 - browser closed
+2018-08-10 19:05:32 INFO  ExploreFunds:39 - List size is : 10 
+2018-08-10 19:05:32 INFO  Snackbar:58 - message on snackbar is : Fund successfully added to cart!
+Checkout
+2018-08-10 19:05:32 INFO  Snackbar:50 - clicking on : Checkout
+2018-08-10 19:05:35 INFO  LogIn:56 - Entered Email = b0pawan@gmail.com and object is : [[FirefoxDriver: firefox on XP (a3f2e74c-d117-4369-974e-c9c0a86afce1)] -> xpath: //input[@placeholder='Email Id']]
+2018-08-10 19:05:35 INFO  LogIn:60 - Entered password = asusW3jus and object is : [[FirefoxDriver: firefox on XP (a3f2e74c-d117-4369-974e-c9c0a86afce1)] -> css selector: input[type=password][placeholder='Password']]
+2018-08-10 19:05:35 INFO  LogIn:63 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (a3f2e74c-d117-4369-974e-c9c0a86afce1)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-08-10 19:05:37 INFO  InvestmentDetails:39 - true
+2018-08-10 19:05:38 INFO  InvestmentDetails:41 - clicked on proceed button
+2018-08-10 19:05:38 INFO  InvestmentSummary:60 - false
+2018-08-10 19:05:38 INFO  InvestmentSummary:62 - clicked on checkbox and the status is :false
+2018-08-10 19:05:38 INFO  InvestmentSummary:48 - true
+2018-08-10 19:05:39 INFO  InvestmentSummary:53 - clicked on radio Button 
+2018-08-10 19:05:41 INFO  TestBase:263 - browser closed
+2018-08-13 14:27:51 INFO  ExploreFunds:39 - List size is : 10 
+2018-08-13 14:27:51 INFO  Snackbar:58 - message on snackbar is : Fund successfully added to cart!
+Checkout
+2018-08-13 14:27:51 INFO  Snackbar:50 - clicking on : Checkout
+2018-08-13 14:27:53 INFO  LogIn:56 - Entered Email = b0pawan@gmail.com and object is : [[FirefoxDriver: firefox on XP (3e84bc7c-ecaa-4a0d-9867-403b5130ffbe)] -> xpath: //input[@placeholder='Email Id']]
+2018-08-13 14:27:53 INFO  LogIn:60 - Entered password = asusW3jus and object is : [[FirefoxDriver: firefox on XP (3e84bc7c-ecaa-4a0d-9867-403b5130ffbe)] -> css selector: input[type=password][placeholder='Password']]
+2018-08-13 14:27:53 INFO  LogIn:63 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (3e84bc7c-ecaa-4a0d-9867-403b5130ffbe)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-08-13 14:27:55 INFO  InvestmentDetails:39 - true
+2018-08-13 14:27:55 INFO  InvestmentDetails:41 - clicked on proceed button
+2018-08-13 14:27:56 INFO  InvestmentSummary:60 - false
+2018-08-13 14:27:56 INFO  InvestmentSummary:62 - clicked on checkbox and the status is :false
+2018-08-13 14:27:56 INFO  InvestmentSummary:48 - true
+2018-08-13 14:27:56 INFO  InvestmentSummary:53 - clicked on radio Button 
+2018-08-13 14:27:59 INFO  TestBase:263 - browser closed
+2018-08-13 14:33:21 INFO  ExploreFunds:39 - List size is : 10 
+2018-08-13 14:33:21 INFO  Snackbar:58 - message on snackbar is : Fund successfully added to cart!
+Checkout
+2018-08-13 14:33:21 INFO  Snackbar:50 - clicking on : Checkout
+2018-08-13 14:33:23 INFO  LogIn:56 - Entered Email = b0pawan@gmail.com and object is : [[FirefoxDriver: firefox on XP (248efebb-74d3-4374-8d50-72f744e59183)] -> xpath: //input[@placeholder='Email Id']]
+2018-08-13 14:33:23 INFO  LogIn:60 - Entered password = asusW3jus and object is : [[FirefoxDriver: firefox on XP (248efebb-74d3-4374-8d50-72f744e59183)] -> css selector: input[type=password][placeholder='Password']]
+2018-08-13 14:33:24 INFO  LogIn:63 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (248efebb-74d3-4374-8d50-72f744e59183)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-08-13 14:33:26 INFO  InvestmentDetails:39 - true
+2018-08-13 14:33:26 INFO  InvestmentDetails:41 - clicked on proceed button
+2018-08-13 14:33:26 INFO  InvestmentSummary:60 - false
+2018-08-13 14:33:27 INFO  InvestmentSummary:62 - clicked on checkbox and the status is :false
+2018-08-13 14:33:27 INFO  InvestmentSummary:48 - true
+2018-08-13 14:33:27 INFO  InvestmentSummary:53 - clicked on radio Button 
+2018-08-13 14:33:32 INFO  TestBase:263 - browser closed
+2018-08-13 14:52:02 INFO  ExploreFunds:39 - List size is : 10 
+2018-08-13 14:52:02 INFO  Snackbar:58 - message on snackbar is : Fund successfully added to cart!
+Checkout
+2018-08-13 14:52:02 INFO  Snackbar:50 - clicking on : Checkout
+2018-08-13 14:52:03 INFO  LogIn:56 - Entered Email = b0pawan@gmail.com and object is : [[FirefoxDriver: firefox on XP (9ec8ed5b-afa1-438e-8253-3bd56a7f8f7a)] -> xpath: //input[@placeholder='Email Id']]
+2018-08-13 14:52:04 INFO  LogIn:60 - Entered password = asusW3jus and object is : [[FirefoxDriver: firefox on XP (9ec8ed5b-afa1-438e-8253-3bd56a7f8f7a)] -> css selector: input[type=password][placeholder='Password']]
+2018-08-13 14:52:04 INFO  LogIn:63 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (9ec8ed5b-afa1-438e-8253-3bd56a7f8f7a)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-08-13 14:52:06 INFO  InvestmentDetails:39 - true
+2018-08-13 14:52:06 INFO  InvestmentDetails:41 - clicked on proceed button
+2018-08-13 14:52:07 INFO  InvestmentSummary:60 - false
+2018-08-13 14:52:07 INFO  InvestmentSummary:62 - clicked on checkbox and the status is :false
+2018-08-13 14:52:07 INFO  InvestmentSummary:48 - true
+2018-08-13 14:52:07 INFO  InvestmentSummary:53 - clicked on radio Button 
+2018-08-13 14:52:14 INFO  TestBase:263 - browser closed
+2018-08-13 15:32:58 INFO  ExploreFunds:39 - List size is : 10 
+2018-08-13 15:32:58 INFO  Snackbar:58 - message on snackbar is : Fund successfully added to cart!
+Checkout
+2018-08-13 15:32:58 INFO  Snackbar:50 - clicking on : Checkout
+2018-08-13 15:33:00 INFO  LogIn:56 - Entered Email = b0pawan@gmail.com and object is : [[FirefoxDriver: firefox on XP (3cb9faba-186c-4790-8bdd-45c91bd382fe)] -> xpath: //input[@placeholder='Email Id']]
+2018-08-13 15:33:00 INFO  LogIn:60 - Entered password = asusW3jus and object is : [[FirefoxDriver: firefox on XP (3cb9faba-186c-4790-8bdd-45c91bd382fe)] -> css selector: input[type=password][placeholder='Password']]
+2018-08-13 15:33:01 INFO  LogIn:63 - Submitted form and object is :  [[FirefoxDriver: firefox on XP (3cb9faba-186c-4790-8bdd-45c91bd382fe)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-08-13 15:33:03 INFO  InvestmentDetails:39 - true
+2018-08-13 15:33:03 INFO  InvestmentDetails:41 - clicked on proceed button
+2018-08-13 15:33:04 INFO  InvestmentSummary:60 - false
+2018-08-13 15:33:04 INFO  InvestmentSummary:62 - clicked on checkbox and the status is :false
+2018-08-13 15:33:04 INFO  InvestmentSummary:48 - true
+2018-08-13 15:33:04 INFO  InvestmentSummary:53 - clicked on radio Button 
+2018-08-13 15:33:13 INFO  TestBase:263 - browser closed
