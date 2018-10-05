@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25742b93-2272-4530-9f23-d26f679b5e0d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fincash/locatorWriting/SampleXpath.java" afterPath="$PROJECT_DIR$/src/main/java/com/fincash/locatorWriting/SampleXpath.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Experiment/Learn.java" afterPath="$PROJECT_DIR$/src/test/java/Experiment/Learn.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -65,7 +64,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/Experiment/Learn.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="624">
-              <caret line="26" column="8" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+              <caret line="26" column="10" lean-forward="false" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -1268,7 +1267,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/Experiment/Learn.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="624">
-          <caret line="26" column="8" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+          <caret line="26" column="10" lean-forward="false" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
           <folding />
         </state>
       </provider>
