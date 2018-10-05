@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="25742b93-2272-4530-9f23-d26f679b5e0d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fincash/locatorWriting/SampleXpath.java" afterPath="$PROJECT_DIR$/src/main/java/com/fincash/locatorWriting/SampleXpath.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Experiment/Learn.java" afterPath="$PROJECT_DIR$/src/test/java/Experiment/Learn.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,16 +21,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="TestNG.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestNG.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="15" column="50" lean-forward="false" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LogIn.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fincash/uiActions/LogIn.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -60,11 +51,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SampleXpath.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SampleXpath.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fincash/locatorWriting/SampleXpath.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="29" column="54" lean-forward="false" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
+            <state relative-caret-position="600">
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Learn.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Experiment/Learn.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="624">
+              <caret line="26" column="8" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -201,10 +202,10 @@
         <option value="$PROJECT_DIR$/src/test/java/Registration/TC006_registration.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fincash/config/properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/fincash/uiActions/Registration.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Experiment/Learn.java" />
         <option value="$PROJECT_DIR$/src/test/java/login/TC002_VerifyLoginWithValidCredential.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fincash/testBase/TestBase.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fincash/locatorWriting/SampleXpath.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Experiment/Learn.java" />
       </list>
     </option>
   </component>
@@ -215,7 +216,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -334,6 +335,27 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="fincash" type="462c0819:PsiDirectoryNode" />
               <item name="uiActions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fincash_E2E_Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fincash_E2E_Automation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fincash_E2E_Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fincash_E2E_Automation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fincash_E2E_Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fincash_E2E_Automation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Experiment" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -807,7 +829,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -981,13 +1003,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8856">
           <caret line="381" column="24" lean-forward="false" selection-start-line="381" selection-start-column="24" selection-end-line="381" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Experiment/Learn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="62" lean-forward="false" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
         </state>
       </provider>
     </entry>
@@ -1244,8 +1259,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fincash/locatorWriting/SampleXpath.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="29" column="54" lean-forward="false" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
+        <state relative-caret-position="600">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Experiment/Learn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="26" column="8" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
           <folding />
         </state>
       </provider>

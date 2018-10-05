@@ -25,8 +25,4 @@ public class SampleXpath extends TestBase{
 
      */
 
-    public void cclickonproducts(String product) {
-        //button[contains(text(),'Women') and area-expended ='true' ]/following-sibling::ul/child::li/child::a[contains(text(),'"+product+"')]
-        driver.findElement(By.xpath("//button[contains(text(),'Women') and area-expended ='true' ]/following-sibling::ul/child::li/child::a[contains(text(),'"+product+"')]")).click();
-    }
 }
