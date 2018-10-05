@@ -2,32 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25742b93-2272-4530-9f23-d26f679b5e0d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Drivers/chromedriver_win32 (1).zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Drivers/chromedriver_win32 (1)/chromedriver.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Drivers/geckodriver-v0.21.0-win64.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Drivers/geckodriver-v0.21.0-win64/geckodriver.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fincash/uiActions/TitleMeta.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Experiment/TitleMetaCheck.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/login/TC003_FooterlinkTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/signUp/TC004_VerifySignUpwithValidCredential.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/siteFlow/TC001_OrderFlow.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/siteFlow/TC002_KYCDoneRegistration.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/login/TC002_VerifyLoginWithValidCredential.class" afterPath="$PROJECT_DIR$/target/test-classes/login/TC002_VerifyLoginWithValidCredential.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/automation.out" afterPath="$PROJECT_DIR$/automation.out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fincash/config/properties" afterPath="$PROJECT_DIR$/src/main/java/com/fincash/config/properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fincash/locatorWriting/SampleXpath.java" afterPath="$PROJECT_DIR$/src/main/java/com/fincash/locatorWriting/SampleXpath.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fincash/testBase/TestBase.java" afterPath="$PROJECT_DIR$/src/main/java/com/fincash/testBase/TestBase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fincash/uiActions/BseStarMf.java" afterPath="$PROJECT_DIR$/src/main/java/com/fincash/uiActions/BseStarMf.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fincash/uiActions/Header.java" afterPath="$PROJECT_DIR$/src/main/java/com/fincash/uiActions/Header.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fincash/uiActions/Registration.java" afterPath="$PROJECT_DIR$/src/main/java/com/fincash/uiActions/Registration.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Experiment/HeaderTest.java" afterPath="$PROJECT_DIR$/src/test/java/Experiment/HeaderTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Registration/TC006_registration.java" afterPath="$PROJECT_DIR$/src/test/java/Registration/TC006_registration.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Registration/TC007_AddressDetails.java" afterPath="$PROJECT_DIR$/src/test/java/Registration/TC007_AddressDetails.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Registration/TC008_BankAccount.java" afterPath="$PROJECT_DIR$/src/test/java/Registration/TC008_BankAccount.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Registration/TC009_Fatca.java" afterPath="$PROJECT_DIR$/src/test/java/Registration/TC009_Fatca.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Registration/TC010_Nominee.java" afterPath="$PROJECT_DIR$/src/test/java/Registration/TC010_Nominee.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/login/TC002_VerifyLoginWithValidCredential.java" afterPath="$PROJECT_DIR$/src/test/java/login/TC002_VerifyLoginWithValidCredential.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,16 +20,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="27" column="24" lean-forward="false" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TestNG.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestNG.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -85,11 +50,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Listener.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Listener.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fincash/customListener/Listener.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="418">
               <caret line="65" column="43" lean-forward="true" selection-start-line="65" selection-start-column="43" selection-end-line="65" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SampleXpath.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fincash/locatorWriting/SampleXpath.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="672">
+              <caret line="29" column="54" lean-forward="false" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -227,9 +202,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/fincash/config/properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/fincash/uiActions/Registration.java" />
         <option value="$PROJECT_DIR$/src/test/java/Experiment/Learn.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fincash/locatorWriting/SampleXpath.java" />
         <option value="$PROJECT_DIR$/src/test/java/login/TC002_VerifyLoginWithValidCredential.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fincash/testBase/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fincash/locatorWriting/SampleXpath.java" />
       </list>
     </option>
   </component>
@@ -332,6 +307,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="fincash" type="462c0819:PsiDirectoryNode" />
               <item name="excelReader" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fincash_E2E_Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fincash_E2E_Automation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="fincash" type="462c0819:PsiDirectoryNode" />
+              <item name="locatorWriting" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Fincash_E2E_Automation" type="b2602c69:ProjectViewProjectNode" />
@@ -1171,13 +1155,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fincash/locatorWriting/SampleXpath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="23" column="48" lean-forward="false" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="648">
@@ -1261,6 +1238,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="65" column="43" lean-forward="true" selection-start-line="65" selection-start-column="43" selection-end-line="65" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fincash/locatorWriting/SampleXpath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="29" column="54" lean-forward="false" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
           <folding />
         </state>
       </provider>
