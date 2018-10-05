@@ -12,6 +12,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
+import java.util.NoSuchElementException;
 
 public class Registration extends AddressDetails{
     public static final Logger log = Logger.getLogger(Registration.class.getName());
@@ -136,9 +137,11 @@ public class Registration extends AddressDetails{
     public WebElement proceedToUploadOnMobile;
 
 
-    public void navigateToRegistrationPage() throws InterruptedException {
-        Thread.sleep(5000);
+    public void navigateToRegistrationPage() {
         driver.get(TestBase.url+"/registration");
+        WebDriverWait wait = new WebDriverWait(driver,50);
+        wait.until(ExpectedConditions.invisibilityOfElementLocated(By.tagName("mat-dialog-container")));
+
     }
     public void openForm(String formName)
     {
@@ -146,23 +149,68 @@ public class Registration extends AddressDetails{
         driver.findElement(By.xpath("//"+formName+"-section/div")).click();
     }
 
+    public boolean isOpen(String section)
+    {
+        try {
+            WebElement form = driver.findElement(By.xpath("//"+section+"//mat-icon[contains(text(),'expand_less')]"));
+
+            if(form.isDisplayed())
+                return true;
+            else return false;
+        } catch (org.openqa.selenium.NoSuchElementException e) {
+            return false;
+        }
+
+
+    }
     public void openForm(int formNameNo) throws InterruptedException {
         /* formName : basic, kyc, bank, other, nominee*/
 
-        WebDriverWait wait = new WebDriverWait(driver,50);
-        wait.until(ExpectedConditions.invisibilityOfElementLocated(By.tagName("mat-dialog-container")));
+
+        new WebDriverWait(driver,10).until(ExpectedConditions.elementToBeClickable(form1));
+        String section="";
 
         if (formNameNo==1)
-            form1.click();
+        {
+            section="basic-section";
+            if(isOpen(section)==false)
+            {
+                form1.click();
+            }
+        }
         else if (formNameNo==2){
-            form2.click();//    //span[contains(text(),'Address Details')]
+            section="kyc-section";
+            if(isOpen(section)==false)
+            {
+                form2.click();
+            }
           }
         else if (formNameNo==3)
-            form3.click();
+        {
+            section="bank-section";
+            if(isOpen(section)==false)
+            {
+                form3.click();
+            }
+        }
         else if (formNameNo==4)
-            form4.click();
+        {
+            section="other-section";
+            if(isOpen(section)==false)
+            {
+                form4.click();
+            }
+        }
+
         else if (formNameNo==5)
-            form5.click();
+        {
+            section="nominee-section";
+            if(isOpen(section)==false)
+            {
+                form5.click();
+            }
+        }
+
     }
 
 
@@ -194,6 +242,7 @@ public class Registration extends AddressDetails{
         this.holderName.sendKeys(holderName);
         log.info("Entered "+holderName+" And the object is : "+this.holderName);
 
+        new WebDriverWait(driver,5).until(ExpectedConditions.elementToBeClickable(this.accountNumber));
         this.accountNumber.clear();
         this.accountNumber.sendKeys(accountNumber);
         log.info("Entered "+accountNumber+" And the object is : "+this.accountNumber);
@@ -371,6 +420,7 @@ public class Registration extends AddressDetails{
     } public void setOccupation(int no){
         /*  for
            */
+        new WebDriverWait(driver,5).until(ExpectedConditions.invisibilityOfElementLocated(By.tagName("mat-option")));
         occupation.click();
         Option.forEach(s -> log.info(s.getText()));
         log.info("Option "+Option.get(no).getText() +" is selected ");
@@ -380,6 +430,7 @@ public class Registration extends AddressDetails{
     } public void setSourceOfWealth(int no){
         /*  for
            */
+        new WebDriverWait(driver,5).until(ExpectedConditions.invisibilityOfElementLocated(By.tagName("mat-option")));
         sourceOfWealth.click();
         Option.forEach(s -> log.info(s.getText()));
         log.info("Option "+Option.get(no).getText() +" is selected ");

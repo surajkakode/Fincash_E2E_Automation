@@ -7,6 +7,7 @@ import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 public class TC002_VerifyLoginWithValidCredential extends TestBase{
@@ -21,16 +22,25 @@ public class TC002_VerifyLoginWithValidCredential extends TestBase{
     {
         init();
     }
-    @Test
-    public void verifyLoginWithValidCredential() throws InterruptedException {
+
+    @DataProvider(name = "Authentication")
+    public static Object[][] credentials() {
+
+        return new Object[][] { { "suraj.kakode@fincash.com", "kakode92" }, { "b0pawan@gmail.com", "asusW3jus" }};
+
+    }
+
+    @Test(dataProvider = "Authentication")
+    public void verifyLoginWithValidCredential(String email, String password) throws InterruptedException {
 
         log.info("================ Starting verifyLoginWithValidCredential Test ");
 
         header = new Header(driver);
-        header.clickOnHeaderButton(header.login);        logIn = new LogIn(driver);
-        logIn.loginToApplication("suraj.kakode@fincash.com","kakode92");
-        Thread.sleep(5000);
+        header.clickOnHeaderButton(header.login);
+        logIn = new LogIn(driver);
+        logIn.loginToApplication(email,password);
         Assert.assertEquals(logIn.isLoginSuccess(),true);
+        header.logout();
         log.info("================ Finished verifyLoginWithValidCredential Test ");
     }
 

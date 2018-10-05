@@ -40,5 +40,6 @@ public class BseStarMf {
         txtUTRNo.sendKeys("dummyUTRNO");
 
         submit.click();
+        log.info(" UTR no submited and clicked on submit button");
     }
 }

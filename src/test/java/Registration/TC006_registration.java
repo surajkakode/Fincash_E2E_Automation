@@ -15,7 +15,7 @@ public class TC006_registration extends TestBase {
     public static final Logger log = Logger.getLogger(TC006_registration.class.getName());
     Header header;
     Registration registration;
-
+    LogIn logIn;
     @BeforeTest
     public void setup()
     {
@@ -32,8 +32,9 @@ public class TC006_registration extends TestBase {
     public void setRegistration() throws InterruptedException {
         header = new Header(driver);
         header.clickOnHeaderButton(header.login);
-        LogIn logIn = new LogIn(driver);
+        logIn = new LogIn(driver);
         logIn.loginToApplication("suraj.kakode533@fincash.com","kakode92");
+        header.waitForLogin();
         registration = new Registration(driver);
         registration.navigateToRegistrationPage();
         registration.openForm(1);

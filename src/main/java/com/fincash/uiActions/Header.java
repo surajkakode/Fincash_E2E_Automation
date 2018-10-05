@@ -95,11 +95,12 @@ public class Header {
         driver.findElement(By.xpath("//div[@class='mat-menu-content']//a[contains(text(),'"+buttonName+"')] ")).click();
     }
 
-    public void clickOnLogout()
+    public void logout()
     {
         new WebDriverWait(driver,5).until(ExpectedConditions.visibilityOf(accountButton));
         accountButton.click();
         new WebDriverWait(driver,5).until(ExpectedConditions.visibilityOf(logout));
+        new WebDriverWait(driver,5).until(ExpectedConditions.elementToBeClickable(logout));
         logout.click();
     }
 
@@ -122,6 +123,16 @@ public class Header {
     public void clickOnCart()
     {   new WebDriverWait(driver,5).until(ExpectedConditions.visibilityOf(cart));
         cart.click();
+    }
+
+    public boolean isLoggedIn()
+    {
+       return this.accountButton.isDisplayed();
+    }
+
+    public void waitForLogin()
+    {
+        new WebDriverWait(driver,30).until(ExpectedConditions.elementToBeClickable(this.accountButton));
     }
 
 }

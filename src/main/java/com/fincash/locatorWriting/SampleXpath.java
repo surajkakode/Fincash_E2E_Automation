@@ -17,6 +17,11 @@ public class SampleXpath extends TestBase{
     /* printing list object
 
        listObject.forEach(s -> log.info(s.getText()));
+     \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+        -- 2nd highest order amount query
+       select * from
+        (select * from FCSOT order by SOTORDERAMOUNT desc limit 2)As anyName
+            order by SOTORDERAMOUNT asc limit 1;
 
      */
 }

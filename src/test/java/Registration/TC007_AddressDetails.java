@@ -33,6 +33,7 @@ public class TC007_AddressDetails extends TestBase {
         header.clickOnHeaderButton(header.login);
         LogIn logIn = new LogIn(driver);
         logIn.loginToApplication("suraj.kakode533@fincash.com","kakode92");
+        header.waitForLogin();
         registration = new Registration(driver);
         registration.navigateToRegistrationPage();
         registration.openForm(2);

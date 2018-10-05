@@ -13,7 +13,6 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestResult;
@@ -49,7 +48,7 @@ public class TestBase {
     public ITestResult result;
 
 
-    public void loadData() throws IOException {
+    public void loadConfigFile() throws IOException {
         try {
             File file= new File(System.getProperty("user.dir")+"\\src\\main\\java\\com\\fincash\\config\\properties");
             FileInputStream fileInputStream = new FileInputStream(file);
@@ -67,7 +66,7 @@ public class TestBase {
     public void init()
     {
         try {
-            loadData();
+            loadConfigFile();
         } catch (IOException e) {
             e.printStackTrace();
         }

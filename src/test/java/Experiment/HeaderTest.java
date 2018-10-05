@@ -32,7 +32,7 @@ public class HeaderTest extends TestBase {
         LogIn logIn = new LogIn(driver);
 
         logIn.loginToApplication("suraj.kakode533@fincash.com","kakode92");
-        header.clickOnLogout();
+        header.logout();
         header.SearchFund("sbi blue chip");
 
         header.clickOnHeaderButton(header.calculators);
