@@ -24,5 +24,4 @@ public class SampleXpath extends TestBase{
             order by SOTORDERAMOUNT asc limit 1;
 
      */
-
 }

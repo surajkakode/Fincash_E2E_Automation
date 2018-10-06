@@ -22,7 +22,4 @@ public class Learn {
 
 
     }
-
-    public void clickonproducts(String product) {
-        hi }
 }

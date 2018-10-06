@@ -33292,3 +33292,144 @@ Checkout
 2018-08-28 14:52:58 INFO  LogIn:56 - Entered Email = suraj.kakode@fincash.com and object is : [[ChromeDriver: chrome on XP (99148a5cc7433fcc37116f183a5a9fb7)] -> xpath: //input[@placeholder='Email Id']]
 2018-08-28 14:52:58 INFO  LogIn:60 - Entered password = kakode92w and object is : [[ChromeDriver: chrome on XP (99148a5cc7433fcc37116f183a5a9fb7)] -> css selector: input[type=password][placeholder='Password']]
 2018-08-28 14:52:58 INFO  LogIn:63 - Submitted form and object is :  [[ChromeDriver: chrome on XP (99148a5cc7433fcc37116f183a5a9fb7)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-10-06 15:04:33 INFO  TC001_VerifyLoginWithInvalidCredential:28 - ================ Starting nullCredential Test 
+2018-10-06 15:04:33 INFO  LogIn:56 - Entered Email =  and object is : [[ChromeDriver: chrome on XP (5920f5622bc61cc6dca0fc44c5e25fbb)] -> xpath: //input[@placeholder='Email Id']]
+2018-10-06 15:04:33 INFO  LogIn:60 - Entered password =  and object is : [[ChromeDriver: chrome on XP (5920f5622bc61cc6dca0fc44c5e25fbb)] -> css selector: input[type=password][placeholder='Password']]
+2018-10-06 15:04:34 INFO  LogIn:63 - Submitted form and object is :  [[ChromeDriver: chrome on XP (5920f5622bc61cc6dca0fc44c5e25fbb)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-10-06 15:04:39 INFO  TC001_VerifyLoginWithInvalidCredential:36 - ================ Finished nullCredential Test 
+2018-10-06 15:06:19 INFO  TC001_VerifyLoginWithInvalidCredential:28 - ================ Starting nullCredential Test 
+2018-10-06 15:06:20 INFO  LogIn:56 - Entered Email =  and object is : [[ChromeDriver: chrome on XP (cf95028903c8df6434129b2fea09a7a7)] -> xpath: //input[@placeholder='Email Id']]
+2018-10-06 15:06:20 INFO  LogIn:60 - Entered password =  and object is : [[ChromeDriver: chrome on XP (cf95028903c8df6434129b2fea09a7a7)] -> css selector: input[type=password][placeholder='Password']]
+2018-10-06 15:06:20 INFO  LogIn:63 - Submitted form and object is :  [[ChromeDriver: chrome on XP (cf95028903c8df6434129b2fea09a7a7)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-10-06 15:06:25 INFO  TC001_VerifyLoginWithInvalidCredential:36 - ================ Finished nullCredential Test 
+2018-10-06 15:06:25 INFO  TestBase:262 - browser closed
+2018-10-06 15:08:49 INFO  TestBase:98 - Creating the object of null
+2018-10-06 15:08:52 INFO  TestBase:112 - Navigating to : https://api.fincash.com
+2018-10-06 15:08:57 INFO  TC001_VerifyLoginWithInvalidCredential:28 - ================ Starting nullCredential Test 
+2018-10-06 15:08:57 INFO  LogIn:56 - Entered Email =  and object is : [[ChromeDriver: chrome on XP (926583fe17a9fb88ba2e2d25a8914850)] -> xpath: //input[@placeholder='Email Id']]
+2018-10-06 15:08:58 INFO  LogIn:60 - Entered password =  and object is : [[ChromeDriver: chrome on XP (926583fe17a9fb88ba2e2d25a8914850)] -> css selector: input[type=password][placeholder='Password']]
+2018-10-06 15:08:58 INFO  LogIn:63 - Submitted form and object is :  [[ChromeDriver: chrome on XP (926583fe17a9fb88ba2e2d25a8914850)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-10-06 15:09:03 INFO  TC001_VerifyLoginWithInvalidCredential:36 - ================ Finished nullCredential Test 
+2018-10-06 15:20:43 INFO  TestBase:98 - Creating the object of null
+2018-10-06 15:20:46 INFO  TestBase:112 - Navigating to : https://api.fincash.com
+2018-10-06 15:20:51 INFO  TC001_VerifyLoginWithInvalidCredential:28 - ================ Starting nullCredential Test 
+2018-10-06 15:20:52 INFO  LogIn:56 - Entered Email =  and object is : [[ChromeDriver: chrome on XP (cdeee892f16364336a58ec5ee5be53f8)] -> xpath: //input[@placeholder='Email Id']]
+2018-10-06 15:20:52 INFO  LogIn:60 - Entered password =  and object is : [[ChromeDriver: chrome on XP (cdeee892f16364336a58ec5ee5be53f8)] -> css selector: input[type=password][placeholder='Password']]
+2018-10-06 15:20:52 INFO  LogIn:63 - Submitted form and object is :  [[ChromeDriver: chrome on XP (cdeee892f16364336a58ec5ee5be53f8)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-10-06 15:20:57 INFO  TC001_VerifyLoginWithInvalidCredential:36 - ================ Finished nullCredential Test 
+2018-10-06 15:23:20 INFO  TestBase:98 - Creating the object of null
+2018-10-06 15:23:23 INFO  TestBase:112 - Navigating to : https://api.fincash.com
+2018-10-06 15:23:28 INFO  TC001_VerifyLoginWithInvalidCredential:28 - ================ Starting nullCredential Test 
+2018-10-06 15:23:28 INFO  LogIn:56 - Entered Email =  and object is : [[ChromeDriver: chrome on XP (b1ec6f60199cdb6e7aacd8a7ddfcae0a)] -> xpath: //input[@placeholder='Email Id']]
+2018-10-06 15:23:29 INFO  LogIn:60 - Entered password =  and object is : [[ChromeDriver: chrome on XP (b1ec6f60199cdb6e7aacd8a7ddfcae0a)] -> css selector: input[type=password][placeholder='Password']]
+2018-10-06 15:23:29 INFO  LogIn:63 - Submitted form and object is :  [[ChromeDriver: chrome on XP (b1ec6f60199cdb6e7aacd8a7ddfcae0a)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-10-06 15:23:34 INFO  TC001_VerifyLoginWithInvalidCredential:36 - ================ Finished nullCredential Test 
+2018-10-06 15:25:46 INFO  TestBase:98 - Creating the object of null
+2018-10-06 15:25:49 INFO  TestBase:112 - Navigating to : https://api.fincash.com
+2018-10-06 15:25:54 INFO  TC001_VerifyLoginWithInvalidCredential:28 - ================ Starting nullCredential Test 
+2018-10-06 15:25:55 INFO  LogIn:56 - Entered Email =  and object is : [[ChromeDriver: chrome on XP (34fd3ea29eadff8f114ef89f34994c44)] -> xpath: //input[@placeholder='Email Id']]
+2018-10-06 15:25:55 INFO  LogIn:60 - Entered password =  and object is : [[ChromeDriver: chrome on XP (34fd3ea29eadff8f114ef89f34994c44)] -> css selector: input[type=password][placeholder='Password']]
+2018-10-06 15:25:55 INFO  LogIn:63 - Submitted form and object is :  [[ChromeDriver: chrome on XP (34fd3ea29eadff8f114ef89f34994c44)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-10-06 15:26:00 INFO  TC001_VerifyLoginWithInvalidCredential:36 - ================ Finished nullCredential Test 
+2018-10-06 15:27:46 INFO  TestBase:98 - Creating the object of null
+2018-10-06 15:27:49 INFO  TestBase:112 - Navigating to : https://api.fincash.com
+2018-10-06 15:27:53 INFO  TC001_VerifyLoginWithInvalidCredential:28 - ================ Starting nullCredential Test 
+2018-10-06 15:27:54 INFO  LogIn:56 - Entered Email =  and object is : [[ChromeDriver: chrome on XP (12ad6c31cb5491e3906d3cc6f36bb468)] -> xpath: //input[@placeholder='Email Id']]
+2018-10-06 15:27:55 INFO  LogIn:60 - Entered password =  and object is : [[ChromeDriver: chrome on XP (12ad6c31cb5491e3906d3cc6f36bb468)] -> css selector: input[type=password][placeholder='Password']]
+2018-10-06 15:27:55 INFO  LogIn:63 - Submitted form and object is :  [[ChromeDriver: chrome on XP (12ad6c31cb5491e3906d3cc6f36bb468)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-10-06 15:28:00 INFO  TC001_VerifyLoginWithInvalidCredential:36 - ================ Finished nullCredential Test 
+2018-10-06 15:35:46 INFO  TestBase:98 - Creating the object of null
+2018-10-06 15:35:49 INFO  TestBase:112 - Navigating to : https://api.fincash.com
+2018-10-06 15:35:54 INFO  TC001_VerifyLoginWithInvalidCredential:28 - ================ Starting nullCredential Test 
+2018-10-06 15:35:55 INFO  LogIn:56 - Entered Email =  and object is : [[ChromeDriver: chrome on XP (e220083fd5dbb21ab152cc8af248f046)] -> xpath: //input[@placeholder='Email Id']]
+2018-10-06 15:35:55 INFO  LogIn:60 - Entered password =  and object is : [[ChromeDriver: chrome on XP (e220083fd5dbb21ab152cc8af248f046)] -> css selector: input[type=password][placeholder='Password']]
+2018-10-06 15:35:55 INFO  LogIn:63 - Submitted form and object is :  [[ChromeDriver: chrome on XP (e220083fd5dbb21ab152cc8af248f046)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-10-06 15:36:00 INFO  TC001_VerifyLoginWithInvalidCredential:36 - ================ Finished nullCredential Test 
+2018-10-06 15:39:33 INFO  TC001_VerifyLoginWithInvalidCredential:28 - ================ Starting nullCredential Test 
+2018-10-06 15:39:34 INFO  LogIn:56 - Entered Email =  and object is : [[ChromeDriver: chrome on XP (adb75392b1523af2a8a51f080d36cb2c)] -> xpath: //input[@placeholder='Email Id']]
+2018-10-06 15:39:34 INFO  LogIn:60 - Entered password =  and object is : [[ChromeDriver: chrome on XP (adb75392b1523af2a8a51f080d36cb2c)] -> css selector: input[type=password][placeholder='Password']]
+2018-10-06 15:39:34 INFO  LogIn:63 - Submitted form and object is :  [[ChromeDriver: chrome on XP (adb75392b1523af2a8a51f080d36cb2c)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-10-06 15:39:39 INFO  TC001_VerifyLoginWithInvalidCredential:36 - ================ Finished nullCredential Test 
+2018-10-06 15:40:04 INFO  TC001_VerifyLoginWithInvalidCredential:28 - ================ Starting nullCredential Test 
+2018-10-06 15:40:04 INFO  LogIn:56 - Entered Email =  and object is : [[ChromeDriver: chrome on XP (1a4bce54952384c759785b8a59e93619)] -> xpath: //input[@placeholder='Email Id']]
+2018-10-06 15:40:04 INFO  LogIn:60 - Entered password =  and object is : [[ChromeDriver: chrome on XP (1a4bce54952384c759785b8a59e93619)] -> css selector: input[type=password][placeholder='Password']]
+2018-10-06 15:40:04 INFO  LogIn:63 - Submitted form and object is :  [[ChromeDriver: chrome on XP (1a4bce54952384c759785b8a59e93619)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-10-06 15:40:09 INFO  TC001_VerifyLoginWithInvalidCredential:36 - ================ Finished nullCredential Test 
+2018-10-06 15:43:09 INFO  TC001_VerifyLoginWithInvalidCredential:28 - ================ Starting nullCredential Test 
+2018-10-06 15:43:10 INFO  LogIn:56 - Entered Email =  and object is : [[ChromeDriver: chrome on XP (c5c5fc0e0ed6306bf4b3d743e15491ed)] -> xpath: //input[@placeholder='Email Id']]
+2018-10-06 15:43:10 INFO  LogIn:60 - Entered password =  and object is : [[ChromeDriver: chrome on XP (c5c5fc0e0ed6306bf4b3d743e15491ed)] -> css selector: input[type=password][placeholder='Password']]
+2018-10-06 15:43:10 INFO  LogIn:63 - Submitted form and object is :  [[ChromeDriver: chrome on XP (c5c5fc0e0ed6306bf4b3d743e15491ed)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-10-06 15:43:15 INFO  TC001_VerifyLoginWithInvalidCredential:36 - ================ Finished nullCredential Test 
+2018-10-06 15:51:27 INFO  TC001_VerifyLoginWithInvalidCredential:28 - ================ Starting nullCredential Test 
+2018-10-06 15:51:28 INFO  LogIn:56 - Entered Email =  and object is : [[ChromeDriver: chrome on XP (1e923da2f3321467935ac4450e6a0b6b)] -> xpath: //input[@placeholder='Email Id']]
+2018-10-06 15:51:28 INFO  LogIn:60 - Entered password =  and object is : [[ChromeDriver: chrome on XP (1e923da2f3321467935ac4450e6a0b6b)] -> css selector: input[type=password][placeholder='Password']]
+2018-10-06 15:51:28 INFO  LogIn:63 - Submitted form and object is :  [[ChromeDriver: chrome on XP (1e923da2f3321467935ac4450e6a0b6b)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-10-06 15:51:33 INFO  TC001_VerifyLoginWithInvalidCredential:36 - ================ Finished nullCredential Test 
+2018-10-06 15:55:03 INFO  TC001_VerifyLoginWithInvalidCredential:28 - ================ Starting nullCredential Test 
+2018-10-06 15:55:04 INFO  LogIn:56 - Entered Email =  and object is : [[ChromeDriver: chrome on XP (a6930a8071613f00266b1405b1bf9609)] -> xpath: //input[@placeholder='Email Id']]
+2018-10-06 15:55:04 INFO  LogIn:60 - Entered password =  and object is : [[ChromeDriver: chrome on XP (a6930a8071613f00266b1405b1bf9609)] -> css selector: input[type=password][placeholder='Password']]
+2018-10-06 15:55:04 INFO  LogIn:63 - Submitted form and object is :  [[ChromeDriver: chrome on XP (a6930a8071613f00266b1405b1bf9609)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-10-06 15:55:09 INFO  TC001_VerifyLoginWithInvalidCredential:36 - ================ Finished nullCredential Test 
+2018-10-06 16:01:53 INFO  TC001_VerifyLoginWithInvalidCredential:28 - ================ Starting nullCredential Test 
+2018-10-06 16:01:54 INFO  LogIn:56 - Entered Email =  and object is : [[ChromeDriver: chrome on XP (ae7e711bb238150f04f8315cee820be9)] -> xpath: //input[@placeholder='Email Id']]
+2018-10-06 16:01:54 INFO  LogIn:60 - Entered password =  and object is : [[ChromeDriver: chrome on XP (ae7e711bb238150f04f8315cee820be9)] -> css selector: input[type=password][placeholder='Password']]
+2018-10-06 16:01:54 INFO  LogIn:63 - Submitted form and object is :  [[ChromeDriver: chrome on XP (ae7e711bb238150f04f8315cee820be9)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-10-06 16:01:59 INFO  TC001_VerifyLoginWithInvalidCredential:36 - ================ Finished nullCredential Test 
+2018-10-06 16:04:25 INFO  TC001_VerifyLoginWithInvalidCredential:28 - ================ Starting nullCredential Test 
+2018-10-06 16:04:35 INFO  Retry:33 - Retrying test nullCredential with status FAILURE for the 1 time(s).
+2018-10-06 16:06:17 INFO  TC001_VerifyLoginWithInvalidCredential:28 - ================ Starting nullCredential Test 
+2018-10-06 16:06:27 INFO  Retry:33 - Retrying test nullCredential with status FAILURE for the 2 time(s).
+2018-10-06 16:07:01 INFO  TC001_VerifyLoginWithInvalidCredential:28 - ================ Starting nullCredential Test 
+2018-10-06 16:07:02 INFO  LogIn:56 - Entered Email =  and object is : [[ChromeDriver: chrome on XP (c10145eaf8c2f048bcab0fc60eebd777)] -> xpath: //input[@placeholder='Email Id']]
+2018-10-06 16:07:02 INFO  LogIn:60 - Entered password =  and object is : [[ChromeDriver: chrome on XP (c10145eaf8c2f048bcab0fc60eebd777)] -> css selector: input[type=password][placeholder='Password']]
+2018-10-06 16:07:02 INFO  LogIn:63 - Submitted form and object is :  [[ChromeDriver: chrome on XP (c10145eaf8c2f048bcab0fc60eebd777)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-10-06 16:07:07 INFO  TC001_VerifyLoginWithInvalidCredential:36 - ================ Finished nullCredential Test 
+2018-10-06 16:08:44 INFO  TC001_VerifyLoginWithInvalidCredential:28 - ================ Starting nullCredential Test 
+2018-10-06 16:08:45 INFO  LogIn:56 - Entered Email =  and object is : [[ChromeDriver: chrome on XP (4df9174d1c84da2f8eac068b28f48382)] -> xpath: //input[@placeholder='Email Id']]
+2018-10-06 16:08:45 INFO  LogIn:60 - Entered password =  and object is : [[ChromeDriver: chrome on XP (4df9174d1c84da2f8eac068b28f48382)] -> css selector: input[type=password][placeholder='Password']]
+2018-10-06 16:08:45 INFO  LogIn:63 - Submitted form and object is :  [[ChromeDriver: chrome on XP (4df9174d1c84da2f8eac068b28f48382)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-10-06 16:08:50 INFO  TC001_VerifyLoginWithInvalidCredential:36 - ================ Finished nullCredential Test 
+2018-10-06 16:10:31 INFO  TC001_VerifyLoginWithInvalidCredential:28 - ================ Starting nullCredential Test 
+2018-10-06 16:10:43 INFO  LogIn:56 - Entered Email =  and object is : [[ChromeDriver: chrome on XP (366f16a27ad4b5b4a68c0cedf91bf6ea)] -> xpath: //input[@placeholder='Email Id']]
+2018-10-06 16:10:43 INFO  LogIn:60 - Entered password =  and object is : [[ChromeDriver: chrome on XP (366f16a27ad4b5b4a68c0cedf91bf6ea)] -> css selector: input[type=password][placeholder='Password']]
+2018-10-06 16:10:43 INFO  LogIn:63 - Submitted form and object is :  [[ChromeDriver: chrome on XP (366f16a27ad4b5b4a68c0cedf91bf6ea)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-10-06 16:12:27 INFO  TC001_VerifyLoginWithInvalidCredential:36 - ================ Finished nullCredential Test 
+2018-10-06 16:14:41 INFO  TC001_VerifyLoginWithInvalidCredential:28 - ================ Starting nullCredential Test 
+2018-10-06 16:14:45 INFO  LogIn:56 - Entered Email =  and object is : [[ChromeDriver: chrome on XP (66a18266be6d2bcef83a7a560ca49161)] -> xpath: //input[@placeholder='Email Id']]
+2018-10-06 16:14:45 INFO  LogIn:60 - Entered password =  and object is : [[ChromeDriver: chrome on XP (66a18266be6d2bcef83a7a560ca49161)] -> css selector: input[type=password][placeholder='Password']]
+2018-10-06 16:14:45 INFO  LogIn:63 - Submitted form and object is :  [[ChromeDriver: chrome on XP (66a18266be6d2bcef83a7a560ca49161)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-10-06 16:14:56 INFO  TC001_VerifyLoginWithInvalidCredential:36 - ================ Finished nullCredential Test 
+2018-10-06 16:25:08 INFO  TC001_VerifyLoginWithInvalidCredential:28 - ================ Starting nullCredential Test 
+2018-10-06 16:25:09 INFO  LogIn:56 - Entered Email =  and object is : [[ChromeDriver: chrome on XP (1b3ce2597eb0e5e085dfa518bf3aac04)] -> xpath: //input[@placeholder='Email Id']]
+2018-10-06 16:25:09 INFO  LogIn:60 - Entered password =  and object is : [[ChromeDriver: chrome on XP (1b3ce2597eb0e5e085dfa518bf3aac04)] -> css selector: input[type=password][placeholder='Password']]
+2018-10-06 16:25:09 INFO  LogIn:63 - Submitted form and object is :  [[ChromeDriver: chrome on XP (1b3ce2597eb0e5e085dfa518bf3aac04)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-10-06 16:25:14 INFO  TC001_VerifyLoginWithInvalidCredential:36 - ================ Finished nullCredential Test 
+2018-10-06 16:25:14 INFO  TC001_VerifyLoginWithInvalidCredential:41 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-10-06 16:25:14 INFO  LogIn:56 - Entered Email = suraj.kakode@fincaswh.com and object is : [[ChromeDriver: chrome on XP (1b3ce2597eb0e5e085dfa518bf3aac04)] -> xpath: //input[@placeholder='Email Id']]
+2018-10-06 16:25:14 INFO  LogIn:60 - Entered password = kakode922 and object is : [[ChromeDriver: chrome on XP (1b3ce2597eb0e5e085dfa518bf3aac04)] -> css selector: input[type=password][placeholder='Password']]
+2018-10-06 16:25:15 INFO  LogIn:63 - Submitted form and object is :  [[ChromeDriver: chrome on XP (1b3ce2597eb0e5e085dfa518bf3aac04)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-10-06 16:25:20 INFO  TC001_VerifyLoginWithInvalidCredential:49 - ================ Finished verifyLoginWithInValidCredential Test 
+2018-10-06 16:25:20 INFO  TC001_VerifyLoginWithInvalidCredential:55 - ================ Starting verifyLoginWithValidCredential Test 
+2018-10-06 16:25:20 INFO  LogIn:56 - Entered Email = suraj.kakode@fincash.com and object is : [[ChromeDriver: chrome on XP (1b3ce2597eb0e5e085dfa518bf3aac04)] -> xpath: //input[@placeholder='Email Id']]
+2018-10-06 16:25:20 INFO  LogIn:60 - Entered password = kakode92w and object is : [[ChromeDriver: chrome on XP (1b3ce2597eb0e5e085dfa518bf3aac04)] -> css selector: input[type=password][placeholder='Password']]
+2018-10-06 16:25:20 INFO  LogIn:63 - Submitted form and object is :  [[ChromeDriver: chrome on XP (1b3ce2597eb0e5e085dfa518bf3aac04)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-10-06 16:27:44 INFO  TC001_VerifyLoginWithInvalidCredential:28 - ================ Starting nullCredential Test 
+2018-10-06 16:27:51 INFO  LogIn:56 - Entered Email =  and object is : [[ChromeDriver: chrome on XP (7d0bdac38b10fb12d4c39211ace815be)] -> xpath: //input[@placeholder='Email Id']]
+2018-10-06 16:27:51 INFO  LogIn:60 - Entered password =  and object is : [[ChromeDriver: chrome on XP (7d0bdac38b10fb12d4c39211ace815be)] -> css selector: input[type=password][placeholder='Password']]
+2018-10-06 16:27:51 INFO  LogIn:63 - Submitted form and object is :  [[ChromeDriver: chrome on XP (7d0bdac38b10fb12d4c39211ace815be)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-10-06 16:28:07 INFO  TC001_VerifyLoginWithInvalidCredential:36 - ================ Finished nullCredential Test 
+2018-10-06 16:29:05 INFO  TC001_VerifyLoginWithInvalidCredential:41 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-10-06 16:29:35 INFO  LogIn:56 - Entered Email = suraj.kakode@fincaswh.com and object is : [[ChromeDriver: chrome on XP (7d0bdac38b10fb12d4c39211ace815be)] -> xpath: //input[@placeholder='Email Id']]
+2018-10-06 16:29:35 INFO  LogIn:60 - Entered password = kakode922 and object is : [[ChromeDriver: chrome on XP (7d0bdac38b10fb12d4c39211ace815be)] -> css selector: input[type=password][placeholder='Password']]
+2018-10-06 16:29:35 INFO  LogIn:63 - Submitted form and object is :  [[ChromeDriver: chrome on XP (7d0bdac38b10fb12d4c39211ace815be)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-10-06 16:29:46 INFO  TC001_VerifyLoginWithInvalidCredential:49 - ================ Finished verifyLoginWithInValidCredential Test 
+2018-10-06 16:31:24 INFO  TC001_VerifyLoginWithInvalidCredential:55 - ================ Starting verifyLoginWithValidCredential Test 
+2018-10-06 16:31:33 INFO  LogIn:56 - Entered Email = suraj.kakode@fincash.com and object is : [[ChromeDriver: chrome on XP (7d0bdac38b10fb12d4c39211ace815be)] -> xpath: //input[@placeholder='Email Id']]
+2018-10-06 16:31:33 INFO  LogIn:60 - Entered password = kakode92w and object is : [[ChromeDriver: chrome on XP (7d0bdac38b10fb12d4c39211ace815be)] -> css selector: input[type=password][placeholder='Password']]
+2018-10-06 16:31:33 INFO  LogIn:63 - Submitted form and object is :  [[ChromeDriver: chrome on XP (7d0bdac38b10fb12d4c39211ace815be)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-10-06 16:53:40 INFO  TC001_VerifyLoginWithInvalidCredential:29 - ================ Starting nullCredential Test 
+2018-10-06 16:53:40 INFO  LogIn:56 - Entered Email =  and object is : [[ChromeDriver: chrome on XP (6dd2831d919e12d7037f8bc0fd4ec3ee)] -> xpath: //input[@placeholder='Email Id']]
+2018-10-06 16:53:40 INFO  LogIn:60 - Entered password =  and object is : [[ChromeDriver: chrome on XP (6dd2831d919e12d7037f8bc0fd4ec3ee)] -> css selector: input[type=password][placeholder='Password']]
+2018-10-06 16:53:40 INFO  LogIn:63 - Submitted form and object is :  [[ChromeDriver: chrome on XP (6dd2831d919e12d7037f8bc0fd4ec3ee)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-10-06 16:53:46 INFO  TC001_VerifyLoginWithInvalidCredential:37 - ================ Finished nullCredential Test 
+2018-10-06 16:53:46 INFO  TestBase:262 - browser closed
