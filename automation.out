@@ -33433,3 +33433,102 @@ Checkout
 2018-10-06 16:53:40 INFO  LogIn:63 - Submitted form and object is :  [[ChromeDriver: chrome on XP (6dd2831d919e12d7037f8bc0fd4ec3ee)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
 2018-10-06 16:53:46 INFO  TC001_VerifyLoginWithInvalidCredential:37 - ================ Finished nullCredential Test 
 2018-10-06 16:53:46 INFO  TestBase:262 - browser closed
+2018-10-06 17:55:23 INFO  TC001_VerifyLoginWithInvalidCredential:28 - ================ Starting nullCredential Test 
+2018-10-06 17:55:24 INFO  LogIn:56 - Entered Email =  and object is : [[ChromeDriver: chrome on XP (9cc6e00cc57371e13bb467c5c88cc7cb)] -> xpath: //input[@placeholder='Email Id']]
+2018-10-06 17:55:24 INFO  LogIn:60 - Entered password =  and object is : [[ChromeDriver: chrome on XP (9cc6e00cc57371e13bb467c5c88cc7cb)] -> css selector: input[type=password][placeholder='Password']]
+2018-10-06 17:55:24 INFO  LogIn:63 - Submitted form and object is :  [[ChromeDriver: chrome on XP (9cc6e00cc57371e13bb467c5c88cc7cb)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-10-06 17:55:29 INFO  TC001_VerifyLoginWithInvalidCredential:36 - ================ Finished nullCredential Test 
+2018-10-06 17:55:29 INFO  TC001_VerifyLoginWithInvalidCredential:41 - ================ Starting verifyLoginWithInValidCredential Test 
+2018-10-06 17:55:30 INFO  LogIn:56 - Entered Email = suraj.kakode@fincaswh.com and object is : [[ChromeDriver: chrome on XP (9cc6e00cc57371e13bb467c5c88cc7cb)] -> xpath: //input[@placeholder='Email Id']]
+2018-10-06 17:55:30 INFO  LogIn:60 - Entered password = kakode922 and object is : [[ChromeDriver: chrome on XP (9cc6e00cc57371e13bb467c5c88cc7cb)] -> css selector: input[type=password][placeholder='Password']]
+2018-10-06 17:55:30 INFO  LogIn:63 - Submitted form and object is :  [[ChromeDriver: chrome on XP (9cc6e00cc57371e13bb467c5c88cc7cb)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-10-06 17:55:35 INFO  TC001_VerifyLoginWithInvalidCredential:49 - ================ Finished verifyLoginWithInValidCredential Test 
+2018-10-06 17:55:35 INFO  TC001_VerifyLoginWithInvalidCredential:55 - ================ Starting verifyLoginWithValidCredential Test 
+2018-10-06 17:55:36 INFO  LogIn:56 - Entered Email = suraj.kakode@fincash.com and object is : [[ChromeDriver: chrome on XP (9cc6e00cc57371e13bb467c5c88cc7cb)] -> xpath: //input[@placeholder='Email Id']]
+2018-10-06 17:55:36 INFO  LogIn:60 - Entered password = kakode92w and object is : [[ChromeDriver: chrome on XP (9cc6e00cc57371e13bb467c5c88cc7cb)] -> css selector: input[type=password][placeholder='Password']]
+2018-10-06 17:55:36 INFO  LogIn:63 - Submitted form and object is :  [[ChromeDriver: chrome on XP (9cc6e00cc57371e13bb467c5c88cc7cb)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-10-06 17:55:41 INFO  Retry:33 - Retrying test verifyLoginWithValidCredential with status FAILURE for the 1 time(s).
+2018-10-06 17:55:41 INFO  TC001_VerifyLoginWithInvalidCredential:55 - ================ Starting verifyLoginWithValidCredential Test 
+2018-10-06 17:55:41 INFO  LogIn:56 - Entered Email = suraj.kakode@fincash.com and object is : [[ChromeDriver: chrome on XP (9cc6e00cc57371e13bb467c5c88cc7cb)] -> xpath: //input[@placeholder='Email Id']]
+2018-10-06 17:55:41 INFO  LogIn:60 - Entered password = kakode92w and object is : [[ChromeDriver: chrome on XP (9cc6e00cc57371e13bb467c5c88cc7cb)] -> css selector: input[type=password][placeholder='Password']]
+2018-10-06 17:55:42 INFO  LogIn:63 - Submitted form and object is :  [[ChromeDriver: chrome on XP (9cc6e00cc57371e13bb467c5c88cc7cb)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-10-06 17:55:47 INFO  Retry:33 - Retrying test verifyLoginWithValidCredential with status FAILURE for the 2 time(s).
+2018-10-06 17:55:47 INFO  TC001_VerifyLoginWithInvalidCredential:55 - ================ Starting verifyLoginWithValidCredential Test 
+2018-10-06 17:55:47 INFO  LogIn:56 - Entered Email = suraj.kakode@fincash.com and object is : [[ChromeDriver: chrome on XP (9cc6e00cc57371e13bb467c5c88cc7cb)] -> xpath: //input[@placeholder='Email Id']]
+2018-10-06 17:55:47 INFO  LogIn:60 - Entered password = kakode92w and object is : [[ChromeDriver: chrome on XP (9cc6e00cc57371e13bb467c5c88cc7cb)] -> css selector: input[type=password][placeholder='Password']]
+2018-10-06 17:55:47 INFO  LogIn:63 - Submitted form and object is :  [[ChromeDriver: chrome on XP (9cc6e00cc57371e13bb467c5c88cc7cb)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-10-06 17:55:52 INFO  Retry:33 - Retrying test verifyLoginWithValidCredential with status FAILURE for the 3 time(s).
+2018-10-06 17:55:52 INFO  TC001_VerifyLoginWithInvalidCredential:55 - ================ Starting verifyLoginWithValidCredential Test 
+2018-10-06 17:55:52 INFO  LogIn:56 - Entered Email = suraj.kakode@fincash.com and object is : [[ChromeDriver: chrome on XP (9cc6e00cc57371e13bb467c5c88cc7cb)] -> xpath: //input[@placeholder='Email Id']]
+2018-10-06 17:55:53 INFO  LogIn:60 - Entered password = kakode92w and object is : [[ChromeDriver: chrome on XP (9cc6e00cc57371e13bb467c5c88cc7cb)] -> css selector: input[type=password][placeholder='Password']]
+2018-10-06 17:55:53 INFO  LogIn:63 - Submitted form and object is :  [[ChromeDriver: chrome on XP (9cc6e00cc57371e13bb467c5c88cc7cb)] -> xpath: //text()[contains(.,'LOGIN')]/ancestor::button[1]]
+2018-10-06 17:55:58 INFO  TestBase:262 - browser closed
+2018-10-06 17:55:59 INFO  TestBase:98 - Creating the object of org.openqa.selenium.support.events.EventFiringWebDriver@ce9668
+2018-10-06 17:56:02 INFO  TestBase:112 - Navigating to : https://api.fincash.com
+2018-10-06 17:56:08 INFO  TC004_VerifySignUpwithValidCredential:41 - ================ Starting nullCredential Test 
+2018-10-06 17:56:09 INFO  TestBase:158 - Page Is loaded.
+2018-10-06 17:56:09 INFO  SignUp:53 - Entered Email =   and object is : [[ChromeDriver: chrome on XP (da1ea4787df29604f36f65ff56b059ed)] -> xpath: //input[@placeholder='Email Id']]
+2018-10-06 17:56:09 INFO  SignUp:57 - Entered password =   and object is : [[ChromeDriver: chrome on XP (da1ea4787df29604f36f65ff56b059ed)] -> xpath: //input[@type='password' and @placeholder='Password']]
+2018-10-06 17:56:09 INFO  SignUp:61 - Entered password =   and object is : [[ChromeDriver: chrome on XP (da1ea4787df29604f36f65ff56b059ed)] -> xpath: //input[@type='password' and @placeholder='Confirm Password']]
+2018-10-06 17:56:09 INFO  TestBase:158 - Page Is loaded.
+2018-10-06 17:56:10 INFO  SignUp:66 - Submitted form and object is :  [[ChromeDriver: chrome on XP (da1ea4787df29604f36f65ff56b059ed)] -> xpath: //button[@type='submit']/span/span]
+2018-10-06 17:56:15 INFO  TestBase:158 - Page Is loaded.
+2018-10-06 17:56:15 INFO  TC004_VerifySignUpwithValidCredential:48 - ================ Finished nullCredential Test 
+2018-10-06 17:56:15 INFO  TC004_VerifySignUpwithValidCredential:55 - ================ Starting passwordMismach Test 
+2018-10-06 17:56:15 INFO  TestBase:158 - Page Is loaded.
+2018-10-06 17:56:15 INFO  SignUp:53 - Entered Email = suraj.kakode1001@fincash.com and object is : [[ChromeDriver: chrome on XP (da1ea4787df29604f36f65ff56b059ed)] -> xpath: //input[@placeholder='Email Id']]
+2018-10-06 17:56:15 INFO  SignUp:57 - Entered password = 123456789 and object is : [[ChromeDriver: chrome on XP (da1ea4787df29604f36f65ff56b059ed)] -> xpath: //input[@type='password' and @placeholder='Password']]
+2018-10-06 17:56:16 INFO  SignUp:61 - Entered password = 123456789 and object is : [[ChromeDriver: chrome on XP (da1ea4787df29604f36f65ff56b059ed)] -> xpath: //input[@type='password' and @placeholder='Confirm Password']]
+2018-10-06 17:56:16 INFO  TestBase:158 - Page Is loaded.
+2018-10-06 17:56:16 INFO  SignUp:66 - Submitted form and object is :  [[ChromeDriver: chrome on XP (da1ea4787df29604f36f65ff56b059ed)] -> xpath: //button[@type='submit']/span/span]
+2018-10-06 17:56:21 INFO  TestBase:158 - Page Is loaded.
+2018-10-06 17:56:21 INFO  TC004_VerifySignUpwithValidCredential:62 - ================ Finished passwordMismach Test 
+2018-10-06 17:56:21 INFO  TC004_VerifySignUpwithValidCredential:25 - ================ Starting verifySignUpWithInValidCredential Test 
+2018-10-06 17:56:21 INFO  TestBase:158 - Page Is loaded.
+2018-10-06 17:56:21 INFO  SignUp:53 - Entered Email = suraj.kakode@fincash.com and object is : [[ChromeDriver: chrome on XP (da1ea4787df29604f36f65ff56b059ed)] -> xpath: //input[@placeholder='Email Id']]
+2018-10-06 17:56:22 INFO  SignUp:57 - Entered password = kakode92 and object is : [[ChromeDriver: chrome on XP (da1ea4787df29604f36f65ff56b059ed)] -> xpath: //input[@type='password' and @placeholder='Password']]
+2018-10-06 17:56:22 INFO  SignUp:61 - Entered password = kakode92 and object is : [[ChromeDriver: chrome on XP (da1ea4787df29604f36f65ff56b059ed)] -> xpath: //input[@type='password' and @placeholder='Confirm Password']]
+2018-10-06 17:56:22 INFO  TestBase:158 - Page Is loaded.
+2018-10-06 17:56:22 INFO  SignUp:66 - Submitted form and object is :  [[ChromeDriver: chrome on XP (da1ea4787df29604f36f65ff56b059ed)] -> xpath: //button[@type='submit']/span/span]
+2018-10-06 17:56:27 INFO  TestBase:158 - Page Is loaded.
+2018-10-06 17:56:27 INFO  TC004_VerifySignUpwithValidCredential:33 - ================ Finished verifySignUpWithInValidCredential Test 
+2018-10-06 17:56:27 INFO  TC004_VerifySignUpwithValidCredential:69 - ================ Starting verifySignUpWithValidCredential Test 
+2018-10-06 17:56:27 INFO  TestBase:158 - Page Is loaded.
+2018-10-06 17:56:28 INFO  SignUp:53 - Entered Email = suraj.kakode616@fincash.com and object is : [[ChromeDriver: chrome on XP (da1ea4787df29604f36f65ff56b059ed)] -> xpath: //input[@placeholder='Email Id']]
+2018-10-06 17:56:28 INFO  SignUp:57 - Entered password = kakode92 and object is : [[ChromeDriver: chrome on XP (da1ea4787df29604f36f65ff56b059ed)] -> xpath: //input[@type='password' and @placeholder='Password']]
+2018-10-06 17:56:28 INFO  SignUp:61 - Entered password = kakode92 and object is : [[ChromeDriver: chrome on XP (da1ea4787df29604f36f65ff56b059ed)] -> xpath: //input[@type='password' and @placeholder='Confirm Password']]
+2018-10-06 17:56:28 INFO  TestBase:158 - Page Is loaded.
+2018-10-06 17:56:28 INFO  SignUp:66 - Submitted form and object is :  [[ChromeDriver: chrome on XP (da1ea4787df29604f36f65ff56b059ed)] -> xpath: //button[@type='submit']/span/span]
+2018-10-06 17:56:33 INFO  TestBase:158 - Page Is loaded.
+2018-10-06 17:56:33 INFO  Retry:33 - Retrying test verifySignUpWithValidCredential with status FAILURE for the 1 time(s).
+2018-10-06 17:56:33 INFO  TC004_VerifySignUpwithValidCredential:69 - ================ Starting verifySignUpWithValidCredential Test 
+2018-10-06 17:56:33 INFO  TestBase:158 - Page Is loaded.
+2018-10-06 17:56:33 INFO  SignUp:53 - Entered Email = suraj.kakode616@fincash.com and object is : [[ChromeDriver: chrome on XP (da1ea4787df29604f36f65ff56b059ed)] -> xpath: //input[@placeholder='Email Id']]
+2018-10-06 17:56:33 INFO  SignUp:57 - Entered password = kakode92 and object is : [[ChromeDriver: chrome on XP (da1ea4787df29604f36f65ff56b059ed)] -> xpath: //input[@type='password' and @placeholder='Password']]
+2018-10-06 17:56:34 INFO  SignUp:61 - Entered password = kakode92 and object is : [[ChromeDriver: chrome on XP (da1ea4787df29604f36f65ff56b059ed)] -> xpath: //input[@type='password' and @placeholder='Confirm Password']]
+2018-10-06 17:56:34 INFO  TestBase:158 - Page Is loaded.
+2018-10-06 17:56:34 INFO  SignUp:66 - Submitted form and object is :  [[ChromeDriver: chrome on XP (da1ea4787df29604f36f65ff56b059ed)] -> xpath: //button[@type='submit']/span/span]
+2018-10-06 17:56:39 INFO  TestBase:158 - Page Is loaded.
+2018-10-06 17:56:39 INFO  Retry:33 - Retrying test verifySignUpWithValidCredential with status FAILURE for the 2 time(s).
+2018-10-06 17:56:39 INFO  TC004_VerifySignUpwithValidCredential:69 - ================ Starting verifySignUpWithValidCredential Test 
+2018-10-06 17:56:39 INFO  TestBase:158 - Page Is loaded.
+2018-10-06 17:56:39 INFO  SignUp:53 - Entered Email = suraj.kakode616@fincash.com and object is : [[ChromeDriver: chrome on XP (da1ea4787df29604f36f65ff56b059ed)] -> xpath: //input[@placeholder='Email Id']]
+2018-10-06 17:56:39 INFO  SignUp:57 - Entered password = kakode92 and object is : [[ChromeDriver: chrome on XP (da1ea4787df29604f36f65ff56b059ed)] -> xpath: //input[@type='password' and @placeholder='Password']]
+2018-10-06 17:56:39 INFO  SignUp:61 - Entered password = kakode92 and object is : [[ChromeDriver: chrome on XP (da1ea4787df29604f36f65ff56b059ed)] -> xpath: //input[@type='password' and @placeholder='Confirm Password']]
+2018-10-06 17:56:39 INFO  TestBase:158 - Page Is loaded.
+2018-10-06 17:56:40 INFO  SignUp:66 - Submitted form and object is :  [[ChromeDriver: chrome on XP (da1ea4787df29604f36f65ff56b059ed)] -> xpath: //button[@type='submit']/span/span]
+2018-10-06 17:56:45 INFO  TestBase:158 - Page Is loaded.
+2018-10-06 17:56:45 INFO  Retry:33 - Retrying test verifySignUpWithValidCredential with status FAILURE for the 3 time(s).
+2018-10-06 17:56:45 INFO  TC004_VerifySignUpwithValidCredential:69 - ================ Starting verifySignUpWithValidCredential Test 
+2018-10-06 17:56:45 INFO  TestBase:158 - Page Is loaded.
+2018-10-06 17:56:45 INFO  SignUp:53 - Entered Email = suraj.kakode616@fincash.com and object is : [[ChromeDriver: chrome on XP (da1ea4787df29604f36f65ff56b059ed)] -> xpath: //input[@placeholder='Email Id']]
+2018-10-06 17:56:45 INFO  SignUp:57 - Entered password = kakode92 and object is : [[ChromeDriver: chrome on XP (da1ea4787df29604f36f65ff56b059ed)] -> xpath: //input[@type='password' and @placeholder='Password']]
+2018-10-06 17:56:45 INFO  SignUp:61 - Entered password = kakode92 and object is : [[ChromeDriver: chrome on XP (da1ea4787df29604f36f65ff56b059ed)] -> xpath: //input[@type='password' and @placeholder='Confirm Password']]
+2018-10-06 17:56:45 INFO  TestBase:158 - Page Is loaded.
+2018-10-06 17:56:45 INFO  SignUp:66 - Submitted form and object is :  [[ChromeDriver: chrome on XP (da1ea4787df29604f36f65ff56b059ed)] -> xpath: //button[@type='submit']/span/span]
+2018-10-06 17:56:50 INFO  TestBase:158 - Page Is loaded.
+2018-10-06 17:56:52 INFO  TestBase:98 - Creating the object of org.openqa.selenium.support.events.EventFiringWebDriver@1c32e4f
+2018-10-06 17:56:55 INFO  TestBase:112 - Navigating to : https://api.fincash.com
+2018-10-06 17:56:57 INFO  Retry:33 - Retrying test clickOnEachCountry with status FAILURE for the 1 time(s).
+2018-10-06 17:56:57 INFO  Retry:33 - Retrying test clickOnEachCountry with status FAILURE for the 2 time(s).
+2018-10-06 17:56:57 INFO  Retry:33 - Retrying test clickOnEachCountry with status FAILURE for the 3 time(s).

@@ -56,7 +56,7 @@ public class TC001_VerifyLoginWithInvalidCredential extends TestBase {
         header = new Header(driver);
         header.clickOnHeaderButton(header.login);
         logIn = new LogIn(driver);
-        logIn.loginToApplication("suraj.kakode@fincash.com","kakode92w");
+        logIn.loginToApplication("suraj.kakode@fincash.com","kakode92");
         Thread.sleep(5000);
         Assert.assertEquals(logIn.isLoginSuccess(),true);
         log.info("================ Finished verifyLoginWithValidCredential Test ");

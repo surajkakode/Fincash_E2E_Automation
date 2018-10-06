@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25742b93-2272-4530-9f23-d26f679b5e0d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/login/TC004_VerifySocialLogin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/automation.out" afterPath="$PROJECT_DIR$/automation.out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fincash/locatorWriting/SampleXpath.java" afterPath="$PROJECT_DIR$/src/main/java/com/fincash/locatorWriting/SampleXpath.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Experiment/Learn.java" afterPath="$PROJECT_DIR$/src/test/java/Experiment/Learn.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/login/TC001_VerifyLoginWithInvalidCredential.java" afterPath="$PROJECT_DIR$/src/test/java/login/TC001_VerifyLoginWithInvalidCredential.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,8 +23,8 @@
       <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fincash/testBase/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1464">
-              <caret line="89" column="12" lean-forward="false" selection-start-line="89" selection-start-column="12" selection-end-line="89" selection-end-column="12" />
+            <state relative-caret-position="-85">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding>
                 <element signature="e#9482#9483#0" expanded="true" />
                 <element signature="e#9515#9516#0" expanded="true" />
@@ -49,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TC001_VerifyLoginWithInvalidCredential.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TC001_VerifyLoginWithInvalidCredential.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/login/TC001_VerifyLoginWithInvalidCredential.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="67" column="23" lean-forward="false" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
+            <state relative-caret-position="109">
+              <caret line="58" column="69" lean-forward="false" selection-start-line="58" selection-start-column="69" selection-end-line="58" selection-end-column="69" />
               <folding>
                 <element signature="e#530#531#0" expanded="true" />
                 <element signature="e#552#553#0" expanded="true" />
@@ -72,7 +68,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TC004_VerifySocialLogin.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TC004_VerifySocialLogin.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/login/TC004_VerifySocialLogin.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="96">
@@ -191,7 +187,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/fincash/uiActions/ExploreFunds.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fincash/uiActions/Cart.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fincash/uiActions/Homepage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/login/TC001_VerifyLoginWithInvalidCredential.java" />
         <option value="$PROJECT_DIR$/src/test/java/signUp/TC004_VerifySignUpwithValidCredential.java" />
         <option value="$PROJECT_DIR$/src/test/java/KYC/TC005_verifyMobileNumber.java" />
         <option value="$PROJECT_DIR$/src/test/java/DocumentUpload/TC001_nullDocument.java" />
@@ -222,6 +217,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/fincash/locatorWriting/SampleXpath.java" />
         <option value="$PROJECT_DIR$/src/test/java/login/TC002_VerifyLoginWithValidCredential.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fincash/testBase/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/login/TC001_VerifyLoginWithInvalidCredential.java" />
       </list>
     </option>
   </component>
@@ -232,7 +228,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -861,7 +857,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1180,19 +1176,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fincash/testBase/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1464">
-          <caret line="89" column="12" lean-forward="false" selection-start-line="89" selection-start-column="12" selection-end-line="89" selection-end-column="12" />
-          <folding>
-            <element signature="e#9482#9483#0" expanded="true" />
-            <element signature="e#9515#9516#0" expanded="true" />
-            <element signature="e#9772#9773#0" expanded="true" />
-            <element signature="e#9802#9803#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fincash/uiActions/Complete.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -1293,17 +1276,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/login/TC001_VerifyLoginWithInvalidCredential.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="67" column="23" lean-forward="false" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
-          <folding>
-            <element signature="e#530#531#0" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.13.1/testng-6.13.1.jar!/org/testng/internal/MethodInvocationHelper.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
@@ -1333,6 +1305,30 @@
         <state relative-caret-position="96">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fincash/testBase/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="e#9482#9483#0" expanded="true" />
+            <element signature="e#9515#9516#0" expanded="true" />
+            <element signature="e#9772#9773#0" expanded="true" />
+            <element signature="e#9802#9803#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/login/TC001_VerifyLoginWithInvalidCredential.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="58" column="69" lean-forward="false" selection-start-line="58" selection-start-column="69" selection-end-line="58" selection-end-column="69" />
+          <folding>
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
